@@ -13,13 +13,16 @@ import pytest
 def test_fallback_signal_catching():
     """
     Launches the fallback listener as a subprocess,
-    sends it a SIGUSR1 signal, and confirms expected output.
+    sends it a SIGINT signal (Ctrl+C equivalent on Windows),
+    and confirms expected output.
     """
     script_path = os.path.join(os.path.dirname(__file__), "main.py")
     process = subprocess.Popen([sys.executable, script_path], stdout=subprocess.PIPE, stderr=subprocess.PIPE)
 
     time.sleep(1)  # Give time to initialize and enter signal pause
-    os.kill(process.pid, signal.SIGUSR1)  # Send fallback signal
+
+    # Send fallback signal
+    os.kill(process.pid, signal.SIGINT)
 
     stdout, stderr = process.communicate(timeout=5)
     output = stdout.decode()

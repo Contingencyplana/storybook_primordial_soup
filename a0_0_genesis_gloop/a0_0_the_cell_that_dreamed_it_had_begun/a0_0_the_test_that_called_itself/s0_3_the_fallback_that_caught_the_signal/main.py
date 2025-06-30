@@ -11,11 +11,11 @@ This closes the stanza for a0_0_the_test_that_called_itself.
 import logging
 import signal
 import sys
+import time
 
 logger = logging.getLogger("primordial_soup.fallback_handler")
 logger.setLevel(logging.INFO)
 
-# Simulated flag to indicate a fallback was triggered
 fallback_triggered = False
 
 def handle_fallback_signal(signum, frame):
@@ -27,13 +27,15 @@ def handle_fallback_signal(signum, frame):
 def listen_for_fallback():
     """
     Register signal handler and wait for a signal.
-    In real systems, this might catch SIGTERM or a custom signal.
+    On Windows, uses a polling loop instead of signal.pause().
     """
     logger.info("Initializing fallback listener...")
-    signal.signal(signal.SIGUSR1, handle_fallback_signal)
+    signal.signal(signal.SIGINT, handle_fallback_signal)
     logger.info("Waiting for fallback signal...")
+
     try:
-        signal.pause()  # Wait indefinitely for signal
+        while not fallback_triggered:
+            time.sleep(0.1)
     except KeyboardInterrupt:
         logger.warning("Interrupted manually.")
     finally:
