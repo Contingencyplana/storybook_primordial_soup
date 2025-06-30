@@ -29,7 +29,7 @@ def handle_fallback_signal(signum, frame):
     global fallback_triggered
     fallback_triggered = True
     logger.info(f"Fallback triggered by signal: {signum}")
-    
+
 def listen_for_fallback(simulate=False):
     """
     Register signal handler and wait for fallback signal.
@@ -39,7 +39,6 @@ def listen_for_fallback(simulate=False):
 
     if simulate:
         handle_fallback_signal(signum="SIMULATED", frame=None)
-        return
 
     signal.signal(signal.SIGINT, handle_fallback_signal)
     logger.info("Waiting for fallback signal...")
@@ -58,4 +57,3 @@ def listen_for_fallback(simulate=False):
 if __name__ == "__main__":
     simulate = "--simulate-fallback" in sys.argv
     listen_for_fallback(simulate=simulate)
-
