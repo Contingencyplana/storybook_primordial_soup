@@ -31,12 +31,17 @@ def handle_fallback_signal(signum, frame):
     logger.info(f"Fallback triggered by signal: {signum}")
     sys.exit(0)
 
-def listen_for_fallback():
+def listen_for_fallback(simulate=False):
     """
-    Register signal handler and wait for a signal.
-    On Windows, uses a polling loop instead of signal.pause().
+    Register signal handler and wait for fallback signal.
+    If simulate=True, trigger fallback manually (used for testing).
     """
     logger.info("Initializing fallback listener...")
+
+    if simulate:
+        handle_fallback_signal(signum="SIMULATED", frame=None)
+        return
+
     signal.signal(signal.SIGINT, handle_fallback_signal)
     logger.info("Waiting for fallback signal...")
 
@@ -52,4 +57,6 @@ def listen_for_fallback():
             logger.info("Fallback executed successfully.")
 
 if __name__ == "__main__":
-    listen_for_fallback()
+    simulate = "--simulate-fallback" in sys.argv
+    listen_for_fallback(simulate=simulate)
+
