@@ -2,23 +2,17 @@
 # 🛡️ Recursive Test Interface – Trace Stall Detection Variant
 # For: s0_2_the_trace_that_failed_to_return
 
-"""
-This test confirms the trace reaches the expected recursion depth
-and simulates failure to return. We don't allow the infinite loop to run,
-but we verify the behavior up to the hang point using a patched time.sleep.
-"""
+import sys
+import os
+sys.path.insert(0, os.path.abspath(os.path.dirname(__file__)))
 
 import pytest
 import logging
 
-from unittest import mock
-from importlib import reload
-
 @pytest.mark.timeout(10)
 def test_recursive_trace_behavior(monkeypatch, caplog):
-    import s0_2_the_trace_that_failed_to_return.main as target
+    import main as target
 
-    # Patch time.sleep to raise an exception after the warning is logged
     def fake_sleep(seconds):
         raise InterruptedError("Simulated hang interrupt")
 
