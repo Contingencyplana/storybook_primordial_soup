@@ -50,7 +50,8 @@ def test_interface():
             sys.exit()
 
         else:
-            print("❌ Invalid key. Use L, R, or Esc.\n")
+            print("❓ Your orders do not make sense, Commander.")
+            print("Please press L (left), R (right), or ESC (retreat).\n")
 
 if __name__ == "__main__":
     test_interface()
