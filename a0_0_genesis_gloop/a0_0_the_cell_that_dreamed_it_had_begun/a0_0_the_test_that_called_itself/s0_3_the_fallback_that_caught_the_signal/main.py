@@ -13,8 +13,15 @@ import signal
 import sys
 import time
 
+# Set up logger
 logger = logging.getLogger("primordial_soup.fallback_handler")
 logger.setLevel(logging.INFO)
+
+# Ensure log messages go to stdout so subprocess can capture them
+handler = logging.StreamHandler(sys.stdout)
+formatter = logging.Formatter('%(message)s')
+handler.setFormatter(formatter)
+logger.addHandler(handler)
 
 fallback_triggered = False
 
