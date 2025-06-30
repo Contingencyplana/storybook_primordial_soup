@@ -29,8 +29,7 @@ def handle_fallback_signal(signum, frame):
     global fallback_triggered
     fallback_triggered = True
     logger.info(f"Fallback triggered by signal: {signum}")
-    sys.exit(0)
-
+    
 def listen_for_fallback(simulate=False):
     """
     Register signal handler and wait for fallback signal.
