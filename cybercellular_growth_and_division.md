@@ -38,9 +38,9 @@ Both Cybercells are now **half-grown** — each holding a full recursive seed.
 Each Cybercell now matures toward **full growth**, forming:
 
 - **1A**: Nearly all of a new Primary Function  
-- **1B**: A new Primary Division Stanza  
+- **1B**: A new Primary Cybercellular Division Stanza  
 - **2A**: Nearly all of a new Secondary Function  
-- **2B**: A new Secondary Division Stanza
+- **2B**: A new Secondary Cybercellular Division Stanza
 
 ---
 
