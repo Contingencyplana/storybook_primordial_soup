@@ -95,12 +95,12 @@ Your codebase is a civilization.
 
 ## 📈 Development-to-Play Transition Curve
 
-| Phase | Input Type                        | Output Type                        | Tools Used                      |
-|-------|-----------------------------------|------------------------------------|---------------------------------|
-| 1. VSC Era | Manual file edits                 | Manual markdown                    | VSC, ChatGPT                    |
-| 2. Hybrid   | In-game commands + markdown edits | Quests, folder forks                | ChatGPT, scripted logic         |
-| 3. Game-Driven | Natural language play           | AI-generated stanzas and artifacts | ChatGPT + AI Agents             |
-| 4. Co-Creation | Player input                    | World evolution                    | Game shell, markdown interface  |
+| Phase          | Input Type                        | Output Type                        | Tools Used                      |
+|----------------|-----------------------------------|------------------------------------|---------------------------------|
+| 1. VSC Era     | Manual file edits                 | Manual markdown                    | VSC, ChatGPT                    |
+| 2. Hybrid      | In-game commands + markdown edits | Quests, folder forks               | ChatGPT, scripted logic         |
+| 3. Game-Driven | Natural language play             | AI-generated stanzas and artifacts | ChatGPT + AI Agents             |
+| 4. Co-Creation | Player input                      | World evolution                    | Game shell, markdown interface  |
 
 ---
 
