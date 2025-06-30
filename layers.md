@@ -11,7 +11,7 @@
 ---
 
 ## Layer 1 — Cybercell Generation  
-- A recursive stanza containing four cybercells  
+- Either a recursive stanza containing four cybercells (Genesis Gloop) or one, two, four, etc. stanzas 
 - Examples: `a0_0_genesis_gloop`, `a1_1_`, `a2_1_`  
 - Note: `genesis_gloop` contains **three generations** (1–3)
 
@@ -25,7 +25,7 @@
 ---
 
 ## Layer 3 — Minigame  
-- A stanza within the cybercell  
+- A line of poetry, within a stanza, within a cybercell  
 - Composed of four recursive tests, quests, or functions  
 - Example: `a0_0_the_test_that_called_itself`
 

@@ -21,7 +21,7 @@ These minigames are indistinguishable from narrative gameplay to the player, but
 
 ## 📜 Design Principle
 
-> Every minigame is a stanza. Some stanzas test story.  
+> Every minigame is a line of poetry within a stanza (4 lines of poetry). Some stanzas test story.  
 > These stanzas test the **storyteller**.
 
 ---

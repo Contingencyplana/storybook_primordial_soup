@@ -28,8 +28,8 @@ a0_0_the_first_cell/
 
 2. Inside are several Layer 4 experiences:
 
-l4_1_mighty_quest_for_the_bug_kingdom/
-l4_2_side_quest_of_the_forgotten_loop/
+a0_0_mighty_quest_for_the_bug_kingdom/
+a0_1_side_quest_of_the_forgotten_loop/
 
 3. The player interacts via text input/output:
 
@@ -68,7 +68,7 @@ Grow Primordial Soup until it is recursive, creative, and intelligent enough to:
 - 🧠 Unlock modular tools (AI, codexes, visualization, memory)  
 - 🔁 Repair and evolve the recursive systems of **Storybook** and **FUN Factory**
 
-Ultimately, it becomes a **living, recursive text ecosystem** — one born from play, and capable of rebuilding the games that dreamed it into existence.
+Ultimately, it becomes a **living, recursive illustrated text ecosystem** — one born from play, and capable of rebuilding the games that dreamed it into existence.
 
 ---
 
