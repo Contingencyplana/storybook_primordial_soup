@@ -7,12 +7,12 @@
 
 ## 📜 Purpose
 
-This stanza line represents the **first recursive test structure** in Primordial Soup.  
+The first stanza line (`s0_0_the_assertion_of_first_contact`) initiated the **recursive test structure** in Primordial Soup.  
 It is not a metaphor — it is the recursion.  
 It does not simulate the system — it is the system.  
 It tests itself.
 
-This line begins the **self-validating poetic recursion** that all future minigames may inherit.
+This taskmap continues the **self-validating poetic recursion** that all future minigames may inherit.
 
 ---
 
@@ -26,7 +26,8 @@ Each stanza line in this minigame contains two files:
 | `test.py` | A battlefield test node that simulates input and reports outcomes. |
 
 The `test.py` file:
-- Prompts the player with `L`, `R`, or `Escape`,
+- May prompt the player with `L`, `R`, or `Escape`,
+- Or simulate these choices automatically depending on configuration,
 - Calls and executes either:
   - This line’s `main.py`, or
   - The next stanza line’s `main.py`,
@@ -61,14 +62,26 @@ All minigames may clone or evolve this format.
 
 ## 📂 Poetry Line Folder Structure
 
-a0_0_the_test_that_called_itself/ 
-├── __init__.md                     # Initialization logic for the minigame (optional)
-├── taskmap.md                      # Taskmap for the minigame (this file)
-└── s0_0_the_assertion_of_first_contact/
-    ├── __init__.py                 # Python init (optional)
-    ├── main.py                     # Playable Y-node
-    ├── subtaskmap.md               # Line-specific notes (optional)
-    └── test.py                     # Interactive test interface (L/R/Escape)
+a0_0_the_test_that_called_itself/  
+├── __init__.md                     # Initialization logic for the minigame (optional)  
+├── taskmap.md                      # Taskmap for the minigame (this file)  
+├── s0_0_the_assertion_of_first_contact/  
+│   ├── __init__.py                 # Python init (optional)  
+│   ├── main.py                     # Playable Y-node  
+│   ├── subtaskmap.md               # Line-specific notes (optional)  
+│   └── test.py                     # Interactive test interface (L/R/Escape)  
+└── ...                             # Additional stanza lines follow this format  
+
+---
+
+## 📖 Current Stanza Plan
+
+| Line | Folder | Title |
+|------|--------|-------|
+| s0_0 | s0_0_the_assertion_of_first_contact | The Test That Called Itself |
+| s0_1 | s0_1_the_loop_that_tested_closure | [TBD] |
+| s0_2 | s0_2_the_trace_that_returned_wrong | [TBD] |
+| s0_3 | s0_3_the_fallback_that_caught_the_signal | [TBD] |
 
 ---
 
