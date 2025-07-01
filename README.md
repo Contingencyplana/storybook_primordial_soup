@@ -27,7 +27,7 @@ It learns from the way you build it.
 ## 🧠 How to Begin
 
 1. Enter the first cybercell: [`a0_0_the_cell_that_dreamed_it_had_begun`](./a0_0_genesis_gloop/a0_0_the_cell_that_dreamed_it_had_begun/)
-2. Play a minigame (e.g., **The Bug That Wore a Crown**)
+2. Play a minigame (e.g., **The Assertion of First Contact**)
 3. Respond in markdown — your thoughts are the agents of recursion
 4. When the cell is ready, it will divide
 

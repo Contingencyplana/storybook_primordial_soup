@@ -8,7 +8,7 @@
 ## 📖 Concept Summary
 
 Primordial Soup begins as a single recursive seed:  
-a lone folder (`a0_0_the_first_cell/`) containing a few text-based adventures.
+a lone folder (`a0_0_the_first_cell/`) or First Cybercell, containing a dozen or so text-based grand adventures and mighty quests.
 
 Players — starting with the creator — interact with these minimal games by feeding them input, exploring output, solving quests, and unlocking recursive events.
 
@@ -26,10 +26,10 @@ At full maturity, Primordial Soup becomes strong enough to repair the **Storyboo
 
 a0_0_the_first_cell/
 
-2. Inside are several Layer 4 experiences:
+2. Inside are several Layer 3 experiences:
 
-a0_0_mighty_quest_for_the_bug_kingdom/
-a0_1_side_quest_of_the_forgotten_loop/
+a0_0_the_test_that_called_itself  
+a0_1_mighty_quest_for_the_bug_kingdom/
 
 3. The player interacts via text input/output:
 
@@ -38,7 +38,7 @@ a0_1_side_quest_of_the_forgotten_loop/
 
 4. Once enough meaningful interaction occurs, the cell **divides** into two child cells:
 
-a0_1_second_cell/
+a0_1_second_cell/  
 a0_2_third_cell/
 
 The recursion continues.

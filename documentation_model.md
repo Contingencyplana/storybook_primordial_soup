@@ -17,7 +17,7 @@ It canonizes the minimalist, recursion-bound doctrine that governs how all desig
 
 | Layer   | Folder Type                                   | Documentation File   | Purpose                                                     |
 |---------|-----------------------------------------------|----------------------|-------------------------------------------------------------|
-| Layer 1 | Overarching                                   | `N/A`                | Orchestrating, pivotal and very widely assorted             |
+| Layer 1 | Game Root                                     | N/A                  | Holds core verse structure and orchestrates recursive spread    |
 | Layer 2 | Cybercell Generation (`a0_0_`, `a0_1_`, etc.) | `mirror_decision.md` | Logs key design↔gameplay mirror decisions                   |
 | Layer 3 | Individual Cybercell (`a0_0_`, `a0_1_`, etc.) | `roadmap.md`         | Tracks minigames, system activation, and division readiness |
 | Layer 4 | Minigame (quest or loop)                      | `taskmap.md`         | Links narrative gameplay to real dev/design tasks           |

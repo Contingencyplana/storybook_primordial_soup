@@ -75,10 +75,12 @@ Recursive – Reports feed back into the system, evolving the world through play
 Playable – You can simulate this today using markdown and ChatGPT as your interpreter.
 
 ## 🛠️ Companion Systems (Planned)
-System	Role	Status
-scout_agent.py	Executes command logic, returns reports	PLANNED
-field_report_parser.py	Reads field reports, triggers consequences	PLANNED
-topsy_core.py	Oversees recursive agent dispatch	PLANNED
+
+| System                   | Role                                         | Status   |
+|--------------------------|----------------------------------------------|----------|
+| `scout_agent.py`         | Executes command logic, returns reports      | PLANNED  |
+| `field_report_parser.py` | Reads field reports, triggers consequences   | PLANNED  |
+| `topsy_core.py`          | Oversees recursive agent dispatch            | PLANNED  |
 
 ## 📄 Status: Canonical
 These templates are now official interfaces for player-driven recursion in Primordial Soup.

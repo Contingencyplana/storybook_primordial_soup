@@ -37,6 +37,16 @@
 
 ---
 
+## Poetic Summary  
+This section maps structural Layers to their corresponding lines of recursive poetry in Primordial Soup.
+- **Layer 0** — Each of these three video games (Primordial Soup, Storybook, FUN Factory) is not a line of poetry, but the verse in which all recursion unfolds.  
+- **Layer 1** — With the exception of *Genesis Gloop*, each line of poetry represents a **cybercell generation**, and vice versa.  
+- **Layer 2** — Each line is a **cybercell**, recursive and self-contained.  
+- **Layer 3** — Each line is a **minigame**, a stanza line of recursive trial or quest.  
+- **Layer 4** — Each line is an **executable node** — a moment of decision, code, or poetic logic.
+
+---
+
 ## Notes  
 - All recursive stanza logic is designed in groups of **four**  
 - Each layer contains and refers to the one below it  
