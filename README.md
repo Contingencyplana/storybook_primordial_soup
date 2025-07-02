@@ -1,3 +1,5 @@
+<!-- Save to: storybook_primordial_soup/README.md -->
+
 # 🌌 Primordial Soup – A Recursive Game That Builds Itself
 
 ## 🧬 What Is This?

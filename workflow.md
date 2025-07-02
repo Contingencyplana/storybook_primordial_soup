@@ -1,4 +1,4 @@
-<!-- Save to: workflow.md -->
+<!-- Save to: storybook_primordial_soup/workflow.md -->
 
 # 🧩 Primordial Soup – Workflow Overview  
 *Recursive stanza-building, verification, and deployment flow*

@@ -1,3 +1,5 @@
+<!-- Save to: storybook_primordial_soup/layers.md -->
+
 # 🧭 Layer Definitions for Primordial Soup  
 ### Understanding Recursive Depth and File Structure
 
