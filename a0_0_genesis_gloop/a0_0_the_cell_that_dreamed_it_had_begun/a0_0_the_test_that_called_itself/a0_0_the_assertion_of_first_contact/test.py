@@ -38,7 +38,7 @@ def test_interface():
 
         elif key in [b'r', b'R']:
             print("\n➡️ Testing the next stanza line...")
-            success = load_and_run("s0_1_the_loop_that_tested_closure.main")
+            success = load_and_run("a0_1_the_loop_that_tested_closure.main")
             if not success:
                 print("❌ Your army suffers defeat and must retreat to this node...")
             else:
