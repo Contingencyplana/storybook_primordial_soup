@@ -1,4 +1,4 @@
-<!-- Save to: C:\Users\Admin\storybook_primordial_soup\primordial_soup_evolution.md -->
+<!-- Save to: storybook_primordial_soup/primordial_soup_evolution.md -->
 
 # 🔁 Primordial Soup Evolution Log  
 *A Recursive Roadmap from Game Construction to Living World*

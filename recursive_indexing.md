@@ -1,4 +1,4 @@
-<!-- Save to: recursive_indexing.md -->
+<!-- Save to: storybook_primordial_soup/recursive_indexing.md -->
 
 # 🧭 Recursive Indexing in Primordial Soup  
 *Stanza traversal, minigame mapping, and world self-discovery*

@@ -1,4 +1,4 @@
-<!-- Save to: future_proofing.md -->
+<!-- Save to: storybook_primordial_soup/future_proofing.md -->
 
 # 🌱 Future-Proofing Primordial Soup  
 *A design doctrine for recursion beyond the current stanza*
