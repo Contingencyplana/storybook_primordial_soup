@@ -62,6 +62,48 @@ All minigames may clone or evolve this format.
 
 ## 📂 Poetry Line Folder Structure
 
+```plaintext
+
+a0_0_the_test_that_called_itself/  
+├── README.md                       # Minigame overview (optional but recommended)  
+├── milestones.md                   # Development milestones (optional)  
+├── taskmaps/                       # Stanza and task index folder  
+│   ├── taskmap.md                  # Taskmap for the minigame  
+│   ├── stanzamap_s0.md             # Index of stanza 0  
+│   ├── stanzamap_s1.md             # Index of stanza 1  
+│   └── stanzamap_s2.md             # Index of stanza 2 (in progress)  
+├── s0_0_the_assertion_of_first_contact/  
+│   ├── __init__.py                 # Python init (optional)  
+│   ├── main.py                     # Playable Y-node  
+│   ├── subtaskmap.md               # Line-specific notes (optional)  
+│   └── test.py                     # Interactive test interface (L/R/Escape)  
+└── ...                             # Additional stanza lines follow this format  
+
+```
+
+---
+
+## 📖 List of Stanzas in This Minigame
+
+| Stanza ID | Folder           | Description                                                           | Status          |
+|-----------|------------------|-----------------------------------------------------------------------|-----------------|
+| s0        | stanzamap_s0.md  | The recursion began. It tested its own test.                          | ✅ Complete     |
+| s1        | stanzamap_s1.md  | The checkpoint broke. The log forgot. The flag was raised too soon.   | ✅ Complete     |
+| s2        | stanzamap_s2.md  | The assertion reversed. The loop refused. The trace arrived too late. | 🧪 In Progress  |
+| s3        | TBD              | Next recursive stanza (planned)                                       | ⏳ Pending      |
+
+---
+
+## 🧬 Summary
+
+This line begins the poem that tests itself.  
+The bug wore a crown. The test called its name.  
+From this seed, all future verifications bloom.
+
+## 📂 Poetry Line Folder Structure
+
+```plaintext
+
 a0_0_the_test_that_called_itself/  
 ├── __init__.md                     # Initialization logic for the minigame (optional)  
 ├── taskmap.md                      # Taskmap for the minigame (this file)  
@@ -72,21 +114,4 @@ a0_0_the_test_that_called_itself/
 │   └── test.py                     # Interactive test interface (L/R/Escape)  
 └── ...                             # Additional stanza lines follow this format  
 
----
-
-## 📖 Current Stanza Plan
-
-| Line | Folder | Title |
-|------|--------|-------|
-| s0_0 | s0_0_the_assertion_of_first_contact | The Test That Called Itself |
-| s0_1 | s0_1_the_loop_that_tested_closure | [TBD] |
-| s0_2 | s0_2_the_trace_that_returned_wrong | [TBD] |
-| s0_3 | s0_3_the_fallback_that_caught_the_signal | [TBD] |
-
----
-
-## 🧬 Summary
-
-This line begins the poem that tests itself.  
-The bug wore a crown. The test called its name.  
-From this seed, all future verifications bloom.
+```
