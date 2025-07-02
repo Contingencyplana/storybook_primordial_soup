@@ -5,6 +5,10 @@
 import importlib
 import msvcrt
 import sys
+import os
+
+# 🔧 Ensure sibling stanza folders can be imported
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 def load_and_run(module_path):
     try:

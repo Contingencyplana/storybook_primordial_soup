@@ -1,4 +1,4 @@
-# test.py
+# test_trace_behavior.py
 # 🛡️ Recursive Test Interface – Trace Stall Detection Variant
 # For: a0_2_the_trace_that_failed_to_return
 

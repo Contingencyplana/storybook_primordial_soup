@@ -5,15 +5,20 @@
 import importlib
 import msvcrt
 import sys
+import os
+
+# 🔧 Enable sibling stanza imports
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 def load_and_run(module_path):
     try:
         module = importlib.import_module(module_path)
-        if hasattr(module, "run_node"):
-            module.run_node()
-            return True
+        if hasattr(module, "loop_that_tests_closure"):
+            result = module.loop_that_tests_closure()
+            print(f"\n📊 Result: {'✅ Passed' if result else '❌ Failed'}")
+            return result
         else:
-            print(f"❌ No 'run_node()' function found in {module_path}")
+            print(f"❌ No 'loop_that_tests_closure()' function found in {module_path}")
             return False
     except Exception as e:
         print(f"❌ Error loading {module_path}: {e}")
@@ -38,7 +43,7 @@ def test_interface():
 
         elif key in [b'r', b'R']:
             print("\n➡️ Testing the next stanza line...")
-            success = load_and_run("s0_2_the_trace_that_failed_to_return.main")
+            success = load_and_run("a0_2_the_trace_that_failed_to_return.main")
             if not success:
                 print("❌ Your army suffers defeat and must retreat to this node...")
             else:

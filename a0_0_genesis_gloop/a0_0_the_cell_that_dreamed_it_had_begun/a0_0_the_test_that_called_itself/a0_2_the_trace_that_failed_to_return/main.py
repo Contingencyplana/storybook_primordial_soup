@@ -26,13 +26,12 @@ def recursive_trace(depth, max_depth):
     logger.info(f"Tracing depth {depth}/{max_depth}")
     if depth >= max_depth:
         logger.warning("Trace reached max depth and failed to return.")
-        # Simulate a hang or lost trace
         while True:
             time.sleep(1)
     else:
         return recursive_trace(depth + 1, max_depth)
 
-def begin_trace():
+def run_node():
     """
     Entry point for this stanza line. Launches the recursive trace.
     """
@@ -47,4 +46,4 @@ def begin_trace():
         logger.info("Trace sequence ended.")
 
 if __name__ == "__main__":
-    begin_trace()
+    run_node()
