@@ -18,14 +18,16 @@ It canonizes the minimalist, recursion-bound doctrine that governs how all desig
 
 ## 🧭 Layered Documentation Structure
 
-| Layer   | Folder Type | Documentation File | Purpose                                     |
-|---------|-------------|--------------------|---------------------------------------------|
-| Layer 1 | Game Root | N/A | Holds core verse structure and orchestrates recursive spread |
-| Layer 2 | Cybercell Generation (e.g., `a0_0_`, `a0_1_`, ...) | `mirror_decision.md` | Logs key design↔gameplay mirror decisions |
-| Layer 3 | Individual Cybercell (e.g., `a0_0_the_cell_`, ...) | `roadmap.md` | Tracks minigames, system activation, and division readiness |
-| Layer 4 | Minigame (quest or loop) | `taskmap.md` | Links narrative gameplay to real dev/design tasks |
-|         | Minigame Stanza (4 nodes) | `stanzamap_#.md` | Documents recursive stanza logic, node sequence, and hooks |
-| Layer 5 | Minigame Node (4 files) | `subtaskmap.md` | Captures logic behind node-specific gameplay or test decisions |
+| Layer   | Folder Type | Documentation File | Purpose |
+|---------|-------------|--------------------|---------|
+| Layer 0 | Game Root (`storybook_primordial_soup/`) | `README.md`, `milestones.md`, etc. | Defines core game structure and records major game-wide milestones (e.g., cybercell generations, phase transitions, workspace expansions). |
+| Layer 1 | Cybercell Generation (e.g., `a0_0_genesis_gloop/`) | `mirror_decision.md`, `README.md`, `milestones.md` | Logs foundational generation-level reflections and design↔gameplay splits. |
+|         | Generation Stanza (across 4 cybercells) | `mirrorstanza_#.md` | Records philosophical or poetic logic guiding generation-level mirror behavior. |
+| Layer 2 | Individual Cybercell (e.g., `a0_0_the_cell_.../`) | `roadmap.md`, `README.md`, `milestones.md` | Tracks minigame orchestration, recursion triggers, and cybercell division readiness. |
+|         | Cybercell Stanza (4 minigames) | `subroadmap_#.md` | Describes strategic development across minigames within the cybercell. |
+| Layer 3 | Minigame (e.g., `a0_0_the_test_that_called_itself/`) | `taskmap.md`, `README.md`, `milestones.md` | Links narrative gameplay to design and dev tasks. `README.md` and `milestones.md` are usually empty unless complexity requires detail. |
+|         | Minigame Stanza (4 nodes) | `stanzamap_#.md` | Documents recursive stanza logic, node sequencing, and test orchestration. |
+| Layer 4 | Minigame Node (4 files) | `subtaskmap.md` | Optional file capturing node-specific logic, fallback triggers, or test rationale. |
 
 All files must use **SHAGI-aligned markdown**, structured for both human and AI readability.  
 `subtaskmap.md` files are often intentionally left blank but exist as scaffolding for recursive growth.
@@ -34,11 +36,11 @@ All files must use **SHAGI-aligned markdown**, structured for both human and AI 
 
 ## ❌ Prohibited Structures
 
-| File Type | Status | Notes   |
-|-----------|--------|---------|
-| GDDs (Game Design Documents) | ❌ Not permitted | Design logic must live inside `roadmap.md` or `mirror_decision.md` |
-| GDJs (Game Development Journals) | ❌ Not permitted | Historical decisions are encoded within playable stanzas |
-| Appendices | ❌ Not permitted | No external meta-hierarchies; recursion must be self-contained |
+| File Type | Status | Notes |
+|-----------|--------|-------|
+| GDDs (Game Design Documents) | ❌ Not permitted | Design logic must live inside `roadmap.md` or `mirror_decision.md`. |
+| GDJs (Game Development Journals) | ❌ Not permitted | Historical decisions are encoded within playable stanzas. |
+| Appendices | ❌ Not permitted | No external meta-hierarchies; recursion must be self-contained. |
 
 ---
 
@@ -46,8 +48,8 @@ All files must use **SHAGI-aligned markdown**, structured for both human and AI 
 
 All future AI agents (e.g., `archivist.py`, `namer_agent.py`, `memory_ai`, etc.) must:
 
-- ✅ Read and write only **in-world markdown files**
-- ✅ Treat this file as the **source-of-truth for documentation practices**
+- ✅ Read and write only **in-world markdown files**  
+- ✅ Treat this file as the **source of truth** for documentation practices  
 - ❌ Avoid generating external docs unless explicitly tasked with producing a human-readable export
 
 ---
