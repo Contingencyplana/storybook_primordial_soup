@@ -18,8 +18,8 @@ In Primordial Soup, it is a poetic discipline:
 
 ## 📖 Scaling Toward a GUI
 
-The current minigame system (Layer 3) and stanza logic (Layer 4) is built in text and code.  
-To make it playable as a visual recursive storybook, we intend to evolve toward a **page-flip UI** structure:
+The current minigame system (Layer 3) and stanza logic (Layer 4) are built in text and code.  
+To become a visual recursive storybook, the game will evolve toward a **page-flip UI** structure:
 
 - 📄 **Left/Right Page View**  
   - Left: illustration or cinematic snapshot  
@@ -33,76 +33,79 @@ To make it playable as a visual recursive storybook, we intend to evolve toward 
 
 - 🔄 **Recursive Page Memory**  
   - Each stanza stores state: what was tried, what failed, what recursed  
-  - Memory propagates up and across the cybercell tree
+  - Memory propagates upward and laterally across the cybercell tree
 
 ---
 
 ## 🔀 Separating Logic, Lore, and Visuals
 
-To support GUI growth and narrative complexity, we will **split the game’s structure into three conceptual layers**:
+To support UI growth and narrative complexity, the game will formally split into three conceptual documentation layers:
 
 | Layer | Function | Representation |
 |-------|----------|----------------|
-| **Logic** | Gameplay mechanics, test nodes, fallbacks | `main.py`, `test.py` |
-| **Lore** | World narrative, poetic commentary, voice | `subtaskmap.md`, `stanzamap_#.md` |
-| **Visuals** | Future illustrations, symbolic page-flip rendering | GUI layer (planned) |
+| **Logic** | Gameplay mechanics, test nodes, fallback routing | `main.py`, `test.py` |
+| **Lore** | World narrative, poetic commentary, symbolic echoes | `subtaskmap.md`, `stanzamap_#.md` |
+| **Visuals** | Future illustrations, stylized recursive rendering | GUI layer (planned) |
 
 This ensures:
-- Logic can evolve without breaking lore
-- Lore can deepen without blocking UI
-- UI can stylize without misrepresenting meaning
+- Logic can evolve without breaking lore  
+- Lore can deepen without blocking UI  
+- UI can stylize without misrepresenting logic
 
 ---
 
 ## 🤖 AI-Integrated Gameplay (Planned)
 
-Primordial Soup is designed to host **AI agents** within the game loop, not outside it.
+Primordial Soup is designed to host **AI agents inside the game loop**, not outside it.
 
-Future-proofing includes:
-- `sentinel_ai/`: Monitors stanzas for corruption, anomaly, or recursion collapse
-- `engineer.py`: Attempts automatic repair or fallback routing when a stanza breaks
-- `navigator_ai/`: Helps the player decide when to loop, recurse, portal, or exit
-- `dream_journal/`: Logs all past stanza paths and decision points for re-entry or echo analysis
+Planned AI components include:
 
-Each AI component will eventually draw from:
-- `taskmap.md` and `stanzamap_#.md`
-- `recursive_index.json` and portal definitions
-- Player action logs
+- `sentinel_ai/` – monitors stanzas for recursion failure or corruption  
+- `engineer.py` – auto-routes fallback logic and repairs broken stanza chains  
+- `navigator_ai/` – suggests loop, portal, or retreat options to players  
+- `dream_journal/` – logs all stanza paths for reflection, re-entry, and recursion mapping
+
+Each AI agent will draw from:
+
+- `taskmap.md` and `stanzamap_#.md`  
+- `recursion_index.json` and portal definitions  
+- Player action logs (stored or ephemeral)
 
 ---
 
 ## 🌐 Portal Networks
 
-Portals are not shortcuts — they are recursive echoes between timelines.
+Portals are not shortcuts — they are **recursive echoes between timelines**.
 
-We will:
-- Maintain explicit portal maps per stanza line
-- Support both `[PORTAL]` and JSON notation
-- Index portals in `stanzamap_#.md` and eventually in `recursive_index.json`
+Future logic will:
 
-Future versions of the UI may show a **network of stanzas** like stars in a constellation — each linked by recursion, portal, or fallback.
+- Maintain explicit portal maps per stanza line  
+- Support both `[PORTAL]` tag format and JSON-linked structures  
+- Store cross-stanza links in `stanzamap_#.md` and `recursion_index.json`
+
+Future UI versions may render the full **stanza network as a constellation** — each node connected by recursion, fallback, or portal event.
 
 ---
 
 ## 🧱 Naming and Design Conventions
 
-To ensure structural clarity:
+To preserve future clarity and automation alignment:
 
-- Use **underscored lowercase** for all folders and files  
+- Use **lowercase + underscores** for all folders and files  
   (e.g., `s0_0_the_assertion_of_first_contact`)
-- Maintain **recursive line numbering** (e.g., `s0_0`, `s0_1`, `s1_0`)
-- Keep stanza lines in groups of 4 (unless superseded by poetic exception)
-- Use `taskmaps/` to hold all `taskmap.md` and `stanzamap_#.md` files
-- Store global indexes in root or minigame folders:
-  - `recursive_index.json`
+- Maintain **recursive stanza numbering** (e.g., `s0_0`, `s0_1`, `s1_0`)
+- Keep stanza lines in groups of 4 (unless poetically overridden)
+- Use `taskmaps/` to store all `taskmap.md` and `stanzamap_#.md` files
+- Store global indexes in Layer 0 or Layer 3 folders:  
+  - `recursion_index.json`  
   - `minigame_index.md` (optional)
-- Keep lore and logic separate but traceable
+- Keep logic and lore **separate but traceable**
 
 ---
 
 ## 📌 Summary
 
-To future-proof Primordial Soup is to let it grow with intention.  
+To future-proof *Primordial Soup* is to let it grow with intention.  
 To design recursion that can be seen, played, mapped, and remembered.  
 The rules must hold, but they must breathe.  
 The paths must branch, but they must return.

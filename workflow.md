@@ -76,10 +76,11 @@ After completing a stanza (4 nodes):
 
 ---
 
-## 📂 Folder Layout Example
+```plaintext
 
-```
 a0_0_the_test_that_called_itself/
+├── README.md
+├── milestones.md
 ├── taskmaps/
 │   ├── taskmap.md
 │   ├── stanzamap_s0.md
@@ -94,10 +95,13 @@ a0_0_the_test_that_called_itself/
 │   ├── main.py
 │   ├── test.py
 │   └── subtaskmap.md
-├── s0_2_...
-├── s0_3_...
+├── s0_2_the_trace_that_returned_wrong/
+│   └── ...
+├── s0_3_the_fallback_that_caught_the_signal/
+│   └── ...
 ├── s1_0_the_checkpoint_that_missed_the_mark/
 │   └── ...
+
 ```
 
 ---
