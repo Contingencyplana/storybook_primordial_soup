@@ -17,7 +17,6 @@ import time
 logger = logging.getLogger("primordial_soup.fallback_handler")
 logger.setLevel(logging.INFO)
 
-# Ensure log messages go to stdout so subprocess can capture them
 handler = logging.StreamHandler(sys.stdout)
 formatter = logging.Formatter('%(message)s')
 handler.setFormatter(formatter)
@@ -54,6 +53,12 @@ def listen_for_fallback(simulate=False):
         else:
             logger.info("Fallback executed successfully.")
 
-if __name__ == "__main__":
+def run_node():
+    """
+    Wrapper for internal test harness compatibility.
+    """
     simulate = "--simulate-fallback" in sys.argv
     listen_for_fallback(simulate=simulate)
+
+if __name__ == "__main__":
+    run_node()
