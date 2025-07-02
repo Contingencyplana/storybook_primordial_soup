@@ -1,4 +1,4 @@
-# s1_3_the_function_that_called_itself_wrong/test.py
+# a1_3_the_function_that_called_itself_wrong/test.py
 
 from main import recursive_caller
 

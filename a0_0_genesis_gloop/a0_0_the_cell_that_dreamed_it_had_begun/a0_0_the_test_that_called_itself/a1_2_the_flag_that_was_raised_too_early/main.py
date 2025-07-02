@@ -1,4 +1,4 @@
-# s1_2_the_flag_that_was_raised_too_early/main.py
+# a1_2_the_flag_that_was_raised_too_early/main.py
 
 def analyze_flag_trigger(event_log):
     """

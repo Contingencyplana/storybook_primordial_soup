@@ -10,10 +10,10 @@ class TestRecursiveAssertion(unittest.TestCase):
         result = recursive_assertion()
         self.assertFalse(result)
 
-    def test_truth_when_depth_is_zero(self):
-        """If recursion is skipped, the assertion should remain True."""
+    def test_always_false_even_when_not_recursed(self):
+        """Even at depth zero, the recursion undermines truth."""
         result = recursive_assertion(max_depth=0)
-        self.assertTrue(result)
+        self.assertFalse(result)  # ✅ Expected False — assertion unmade
 
 
 if __name__ == "__main__":

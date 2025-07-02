@@ -1,5 +1,5 @@
 # main.py
-# 🧩 s0_1_the_loop_that_tested_closure
+# 🧩 a0_1_the_loop_that_tested_closure
 # The second test that turned back upon itself
 
 def run_node():

@@ -1,5 +1,5 @@
 # main.py
-# 🧩 s0_2_the_trace_that_failed_to_return
+# 🧩 a0_2_the_trace_that_failed_to_return
 # The third test that reached too deep and never answered
 
 """

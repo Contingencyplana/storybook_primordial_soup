@@ -1,4 +1,4 @@
-# s1_3_the_function_that_called_itself_wrong/main.py
+# a1_3_the_function_that_called_itself_wrong/main.py
 
 def recursive_caller(n, max_depth=10):
     """

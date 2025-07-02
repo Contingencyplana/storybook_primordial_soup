@@ -1,5 +1,5 @@
 # main.py
-# 🧩 s0_3_the_fallback_that_caught_the_signal
+# 🧩 a0_3_the_fallback_that_caught_the_signal
 # The fourth test that knew what was missing, and caught it mid-collapse
 
 """

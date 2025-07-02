@@ -1,4 +1,4 @@
-# s1_1_the_logfile_that_forgot_its_past/main.py
+# a1_1_the_logfile_that_forgot_its_past/main.py
 
 def analyze_logfile(log_entries):
     """

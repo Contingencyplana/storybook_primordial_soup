@@ -1,6 +1,6 @@
 # test.py
 # 🛡️ Recursive Test Interface – Trace Stall Detection Variant
-# For: s0_2_the_trace_that_failed_to_return
+# For: a0_2_the_trace_that_failed_to_return
 
 import sys
 import os

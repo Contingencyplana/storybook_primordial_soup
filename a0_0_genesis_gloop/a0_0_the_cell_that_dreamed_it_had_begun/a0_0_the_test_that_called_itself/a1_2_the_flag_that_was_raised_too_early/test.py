@@ -1,4 +1,4 @@
-# s1_2_the_flag_that_was_raised_too_early/test.py
+# a1_2_the_flag_that_was_raised_too_early/test.py
 
 from main import analyze_flag_trigger
 

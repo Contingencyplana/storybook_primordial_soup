@@ -1,5 +1,5 @@
 # main.py
-# 🧩 s0_0_the_assertion_of_first_contact
+# 🧩 a0_0_the_assertion_of_first_contact
 # The first test that confirmed the cell could think
 
 def run_node():
