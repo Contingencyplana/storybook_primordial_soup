@@ -43,4 +43,3 @@ It likely hands off to the **next recursion stanza** or transitions control to t
 
 ## ✅ Status: Complete  
 Stanza `s1` has been fully tested and validated. All logic paths resolved without error.
-
