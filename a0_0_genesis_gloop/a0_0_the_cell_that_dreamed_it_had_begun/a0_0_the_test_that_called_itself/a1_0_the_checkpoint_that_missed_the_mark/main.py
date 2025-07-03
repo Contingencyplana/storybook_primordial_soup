@@ -1,13 +1,18 @@
 # s1_0_the_checkpoint_that_missed_the_mark/main.py
 
+from datetime import datetime, timezone
+
 def evaluate_checkpoint(input_signal):
     """
-    Evaluates whether the input signal passes the checkpoint test.
+    Evaluates whether the input signal passes the recursive checkpoint test.
 
     A valid signal must:
     - Be a dictionary
     - Contain a key "status"
     - Have "status" set to "ready"
+
+    If the checkpoint is missed, the function returns a failure message.
+    Timestamps are attached only to passed signals for recursive tracing.
 
     Returns:
         str: Result string describing the outcome.
@@ -21,7 +26,8 @@ def evaluate_checkpoint(input_signal):
     if input_signal["status"] != "ready":
         return f"Checkpoint failed: status was '{input_signal['status']}' not 'ready'."
 
-    return "Checkpoint passed: status is ready."
+    timestamp = datetime.now(timezone.utc).isoformat()
+    return f"Checkpoint passed: status is ready at {timestamp}."
 
 
 if __name__ == "__main__":

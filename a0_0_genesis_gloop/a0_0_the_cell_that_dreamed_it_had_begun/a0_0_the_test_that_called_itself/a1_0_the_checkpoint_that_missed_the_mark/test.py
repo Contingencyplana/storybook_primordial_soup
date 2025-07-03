@@ -8,7 +8,6 @@ def run_tests():
         ([], "Checkpoint failed: signal was not a dictionary."),
         ({}, "Checkpoint failed: 'status' key missing."),
         ({"status": "not_ready"}, "Checkpoint failed: status was 'not_ready' not 'ready'."),
-        ({"status": "ready"}, "Checkpoint passed: status is ready."),
     ]
 
     passed = 0
@@ -23,7 +22,18 @@ def run_tests():
             print(f"  Expected: {expected}")
             print(f"  Got: {result}")
 
-    print(f"\n{passed}/{len(tests)} tests passed.")
+    # Special case: test with "ready" status, expect timestamped output
+    final_input = {"status": "ready"}
+    final_result = evaluate_checkpoint(final_input)
+    if final_result.startswith("Checkpoint passed: status is ready at "):
+        print("Test 5: ✅ PASS")
+        passed += 1
+    else:
+        print("Test 5: ❌ FAIL")
+        print(f"  Input: {final_input}")
+        print(f"  Got: {final_result}")
+
+    print(f"\n{passed}/5 tests passed.")
 
 if __name__ == "__main__":
     run_tests()
