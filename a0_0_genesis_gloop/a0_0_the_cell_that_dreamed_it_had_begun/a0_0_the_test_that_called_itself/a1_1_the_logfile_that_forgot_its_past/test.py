@@ -4,15 +4,15 @@ from main import analyze_logfile
 
 def run_tests():
     tests = [
-        (None, "Log analysis failed: input was not a list."),
-        ([], "Log analysis failed: logfile is empty."),
-        ([{}], "Log analysis failed: entry missing 'timestamp' or 'event'."),
+        (None, "Log analysis failed: the record was not even a list. The past is unreadable."),
+        ([], "Log analysis failed: the logfile was empty. No memory remains."),
+        ([{}], "Log analysis failed: an entry was missing its temporal marker or purpose."),
         ([{"timestamp": 2, "event": "exec"}, {"timestamp": 1, "event": "init"}],
-         "Log analysis failed: timestamps are out of order."),
+         "Log analysis failed: chronological inconsistency detected. Time fractured."),
         ([{"timestamp": 1, "event": "exec"}],
-         "Log analysis failed: initialization event not found."),
+         "Log analysis failed: the initialization was forgotten. No trace of origin."),
         ([{"timestamp": 1, "event": "init"}],
-         "Log analysis passed: entries valid and initialization detected."),
+         "Log analysis passed: memory thread intact, origin event found."),
     ]
 
     passed = 0
