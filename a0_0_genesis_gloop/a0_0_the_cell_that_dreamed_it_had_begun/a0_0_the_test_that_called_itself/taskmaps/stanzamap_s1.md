@@ -16,27 +16,31 @@ It tracks stanza line logic, test results, poetic framing, and recursive flow be
 
 | Line | Folder Name                                 | Status     | Summary                                                      |
 |------|----------------------------------------------|------------|--------------------------------------------------------------|
-| s1_0 | `s1_0_the_checkpoint_that_missed_the_mark`   | ✅ Passed   | Validates signal readiness. Fails on missing or invalid keys. |
-| s1_1 | `s1_1_the_logfile_that_forgot_its_past`      | ✅ Passed   | Attempts to parse log data. Handles memory holes and legacy gaps. |
-| s1_2 | `s1_2_the_flag_that_was_raised_too_early`    | ✅ Passed   | Checks the timing of flags. Warns when a trigger comes too soon. |
-| s1_3 | `s1_3_the_function_that_called_itself_wrong` | ✅ Passed   | Detects recursive call anomalies. Tests function self-calls and corruption. |
+| s1_0 | `s1_0_the_checkpoint_that_missed_the_mark`   | ✅ Passed   | Validates signal readiness. Fails on missing or malformed keys. |
+| s1_1 | `s1_1_the_logfile_that_forgot_its_past`      | ✅ Passed   | Parses memory trails. Recovers from gaps and silent entries. |
+| s1_2 | `s1_2_the_flag_that_was_raised_too_early`    | ✅ Passed   | Verifies flag timing. Detects premature or uninitialized triggers. |
+| s1_3 | `s1_3_the_function_that_called_itself_wrong` | ✅ Passed   | Probes recursive anomalies. Logs trails of self-misreference. |
 
 ---
 
 ## 🧠 Observations
 
-- All nodes passed their tests cleanly.
-- This stanza explores **fragile triggers** and **misfired recursion**.
-- Offers insight into **signal validation**, **memory parsing**, and **self-referential logic bugs**.
+- All nodes passed cleanly, with no fallback invoked.
+- This stanza focuses on **fragile triggers**, **temporal misalignments**, and **recursive instability**.
+- It offers insight into:
+  - Signal integrity at the edge of readiness
+  - Memory parsing across initialization gaps
+  - Self-referential logic under stress
 
 ---
 
 ## 🌀 Fallbacks & Forward Paths
 
-No explicit fallbacks or portal branches defined in stanza `s1`.  
-Stanza likely hands off to the next recursion unit or minigame controller.
+No explicit fallbacks or portal branches were invoked within stanza `s1`.  
+It likely hands off to the **next recursion stanza** or transitions control to the **minigame spine**.
 
 ---
 
 ## ✅ Status: Complete  
-Stanza `s1` has completed all node logic and test validation.
+Stanza `s1` has been fully tested and validated. All logic paths resolved without error.
+
