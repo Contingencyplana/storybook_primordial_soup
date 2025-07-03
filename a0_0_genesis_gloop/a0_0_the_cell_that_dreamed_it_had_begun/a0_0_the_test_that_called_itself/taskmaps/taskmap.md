@@ -88,7 +88,7 @@ a0_0_the_test_that_called_itself/
 |-----------|--------------------|------------------------------------------------------------------------|----------------|
 | `s0`      | `stanzamap_s0.md`  | The recursion began. It tested its own test.                           | ✅ Complete     |
 | `s1`      | `stanzamap_s1.md`  | The checkpoint broke. The log forgot. The flag was raised too soon.    | ✅ Complete     |
-| `s2`      | `stanzamap_s2.md`  | The assertion reversed. The loop refused. The trace arrived too late.  | 🧪 In Progress  |
+| `s2`      | `stanzamap_s2.md`  | The assertion reversed. The loop refused. The trace arrived too late.  | ✅ Complete     |
 | `s3`      | _TBD_              | The next recursive stanza — not yet spoken                             | ⏳ Pending      |
 
 ---
