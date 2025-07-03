@@ -1,6 +1,6 @@
 <!-- Save to: a0_0_the_test_that_called_itself/taskmap.md -->
 
-# 🧩 Taskmap – Very Basic Test Functionality  
+# 🧩 Taskmap – Playable Very Basic Test Functionality  
 *The Test That Called Itself*
 
 ---
@@ -32,7 +32,7 @@ The `test.py` file:
   - This line’s `main.py`, or  
   - The next stanza line’s `main.py`,
 - Wraps results in a **📜 Report from the Field**,
-- Falls back to other test nodes on failure.
+- If recursion fails, it attempts fallback logic based on defined stanza lineage.
 
 ---
 
@@ -43,8 +43,8 @@ If a tested `main.py` file is **missing or broken**, `test.py` reports:
 > ❌ "Your army suffers defeat and must retreat..."
 
 It then:
-- Falls back to another test node (based on stanza logic),
-- Or marks the path as broken for repair.
+- Falls back recursively to a prior or sibling test node,
+- Or marks the path as broken and flags it for repair.
 
 ---
 
@@ -68,9 +68,12 @@ a0_0_the_test_that_called_itself/
 ├── milestones.md                   # Development milestones (optional)  
 ├── taskmaps/                       # Stanza and task index folder  
 │   ├── taskmap.md                  # Taskmap for the minigame (this file)  
-│   ├── stanzamap_s0.md             # Index of stanza 0  
-│   ├── stanzamap_s1.md             # Index of stanza 1  
-│   └── stanzamap_s2.md             # Index of stanza 2 (in progress)  
+│   ├── stanzamap_s0.md             # Index of stanza a0  
+│   ├── stanzamap_s1.md             # Index of stanza a1  
+│   ├── stanzamap_s2.md             # Index of stanza a2  
+│   ├── stanzamap_a0.md             # Index of stanza a3  
+│   ├── stanzamap_a1.md             # Index of stanza a4  
+│   └── stanzamap_a2.md             # Index of stanza a5  
 ├── s0_0_the_assertion_of_first_contact/  
 │   ├── __init__.py                 # Python init (optional)  
 │   ├── main.py                     # Playable Y-node (executes test logic)  
@@ -82,19 +85,21 @@ a0_0_the_test_that_called_itself/
 
 ---
 
-## 📖 List of Stanzas in This Minigame
+# 📖 List of Stanzas in This Minigame
 
-| Stanza ID | Index File         | Description                                                            | Status         |
-|-----------|--------------------|------------------------------------------------------------------------|----------------|
-| `s0`      | `stanzamap_s0.md`  | The recursion began. It tested its own test.                           | ✅ Complete     |
-| `s1`      | `stanzamap_s1.md`  | The checkpoint broke. The log forgot. The flag was raised too soon.    | ✅ Complete     |
-| `s2`      | `stanzamap_s2.md`  | The assertion reversed. The loop refused. The trace arrived too late.  | ✅ Complete     |
-| `s3`      | _TBD_              | The next recursive stanza — not yet spoken                             | ⏳ Pending      |
+| Stanza ID | Index File         | Description                                                            | Status          |
+|-----------|--------------------|------------------------------------------------------------------------|-----------------|
+| `a0`      | `stanzamap_s0.md`  | The recursion began. It tested its own test.                           | ✅ Complete     |
+| `a1`      | `stanzamap_s1.md`  | The checkpoint broke. The log forgot. The flag was raised too soon.    | ✅ Complete     |
+| `a2`      | `stanzamap_s2.md`  | The assertion reversed. The loop refused. The trace arrived too late.  | ✅ Complete     |
+| `a3`      | `stanzamap_a3.md`  | The assertion unmade itself. The loop would not close. Delay returned. | 🔄 In progress  |
+| `a4`      | `stanzamap_a4.md`  | The checkpoint missed. The retry vanished. The error went unlogged.    | ⏳ Pending      |
+| `a5`      | `stanzamap_a5.md`  | The fallback failed. The trace betrayed. The system called too late.   | ⏳ Pending      |
 
 ---
 
 ## 🧬 Summary
 
-This stanza line begins the poem that tests itself.
-The bug wore a crown. The test called its own name.
-From this seed, all future verifications bloom.
+This minigame begins the poem that tests itself.  
+The bug wore a crown. The test spoke its own name.  
+From this recursion, all future verifications bloom.  
