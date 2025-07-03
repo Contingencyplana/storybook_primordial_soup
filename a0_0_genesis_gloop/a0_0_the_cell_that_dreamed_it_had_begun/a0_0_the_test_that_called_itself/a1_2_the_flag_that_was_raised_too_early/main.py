@@ -2,35 +2,41 @@
 
 def analyze_flag_trigger(event_log):
     """
-    Analyzes an event log to determine if a flag was raised too early.
+    Analyzes a sequence of system events to detect premature flag signals.
 
-    A valid event log must:
-    - Be a list of strings
-    - Contain "init" before any "flag_raised" entries
+    Requirements:
+    - The event log must be a list of strings.
+    - "init" must precede any "flag_raised" events.
+
+    This logic detects whether a flag was raised before its foundation
+    — a signal cast before its system was ready.
 
     Returns:
-        str: Result string describing the anomaly or success.
+        str: Diagnostic message reflecting temporal alignment or anomaly.
     """
     if not isinstance(event_log, list):
-        return "Error: Event log must be a list."
+        return "Chronology error: event log is not a list. Timeline unreadable."
 
     if not all(isinstance(e, str) for e in event_log):
-        return "Error: Event log contains non-string entries."
+        return "Chronology error: non-string entry found. Signal integrity compromised."
 
     if "flag_raised" not in event_log:
-        return "No flag was raised."
+        return "No flag was raised in this cycle."
 
     flag_index = event_log.index("flag_raised")
+
     if "init" not in event_log:
-        return "Anomaly: flag was raised before initialization."
+        return "Temporal anomaly: flag raised with no initialization. Premature trigger."
+
     init_index = event_log.index("init")
 
     if flag_index < init_index:
-        return "Anomaly: flag was raised before init event."
-    return "Flag timing valid."
+        return "Temporal anomaly: flag raised before initialization sequence began."
 
+    return "Flag timing confirmed: initialization preceded flag."
+    
 
 if __name__ == "__main__":
-    # Example manual test
+    # Manual invocation example
     example_log = ["init", "data", "flag_raised"]
     print(analyze_flag_trigger(example_log))

@@ -4,13 +4,13 @@ from main import analyze_flag_trigger
 
 def run_tests():
     tests = [
-        (None, "Error: Event log must be a list."),
-        (["flag_raised", "init"], "Anomaly: flag was raised before init event."),
-        (["flag_raised"], "Anomaly: flag was raised before initialization."),
-        (["init", "flag_raised"], "Flag timing valid."),
-        (["data", "init", "flag_raised"], "Flag timing valid."),
-        (["data", "flag_raised"], "Anomaly: flag was raised before initialization."),
-        (["init", "data", "compute"], "No flag was raised."),
+        (None, "Chronology error: event log is not a list. Timeline unreadable."),
+        (["flag_raised", "init"], "Temporal anomaly: flag raised before initialization sequence began."),
+        (["flag_raised"], "Temporal anomaly: flag raised with no initialization. Premature trigger."),
+        (["init", "flag_raised"], "Flag timing confirmed: initialization preceded flag."),
+        (["data", "init", "flag_raised"], "Flag timing confirmed: initialization preceded flag."),
+        (["data", "flag_raised"], "Temporal anomaly: flag raised with no initialization. Premature trigger."),
+        (["init", "data", "compute"], "No flag was raised in this cycle."),
     ]
 
     passed = 0
