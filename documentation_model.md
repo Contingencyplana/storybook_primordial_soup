@@ -24,7 +24,7 @@ It canonizes the minimalist, recursion-bound doctrine that governs how all desig
 | Layer 1 | Cybercell Generation (e.g., `a0_0_genesis_gloop/`) | `mirror_decision.md`, `README.md`, `milestones.md` | Logs foundational generation-level reflections and design↔gameplay splits. |
 |         | Generation Stanza (across 4 cybercells) | `mirrorstanza_#.md` | Records philosophical or poetic logic guiding generation-level mirror behavior. |
 | Layer 2 | Individual Cybercell (e.g., `a0_0_the_cell_.../`) | `roadmap.md`, `README.md`, `milestones.md` | Tracks minigame orchestration, recursion triggers, and cybercell division readiness. |
-|         | Cybercell Stanza (4 minigames) | `subroadmap_#.md` | Describes strategic development across minigames within the cybercell. |
+|         | Cybercell Stanza (4 minigames) | `roadstanza_#.md` | Describes strategic development across minigames within the cybercell. |
 | Layer 3 | Minigame (e.g., `a0_0_the_test_that_called_itself/`) | `taskmap.md`, `README.md`, `milestones.md` | Links narrative gameplay to design and dev tasks. `README.md` and `milestones.md` are usually empty unless complexity requires detail. |
 |         | Minigame Stanza (4 nodes) | `stanzamap_#.md` | Documents recursive stanza logic, node sequencing, and test orchestration. |
 | Layer 4 | Minigame Node (4 files) | `subtaskmap.md` | Optional file capturing node-specific logic, fallback triggers, or test rationale. |
