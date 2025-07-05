@@ -46,6 +46,19 @@ Once these conditions are met, the cell becomes **eligible for canonical divisio
 
 ---
 
+## Cybercellular Growth and Division Secondary Function
+
+The Secondary Function (2A) of this cybercell is to formalize the logic and structure of cybercellular growth and division.  
+Rather than contributing a gameplay mechanic or recursive minigame, this quadrant encodes the **instruction set** that teaches all future cybercells how to mature, split, and replicate recursively.
+
+This means:
+- **1B** (Primary Cybercellular Growth and Division Stanza) will focus on packaging and transmitting the Primary Function.
+- **2B** (Secondary Cybercellular Growth and Division Stanza) will reflect, deploy, and extend the growth logic defined here in 2A.
+
+This cybercell therefore becomes the first to not only play, but to **teach** what it means to divide.
+
+Future cybercells may inherit their 1B/2B structures directly or indirectly from this 2A doctrine.
+
 ## 🔁 Mirror Decisions Tracked
 
 *Pending inclusion as recursive decision data emerges.*

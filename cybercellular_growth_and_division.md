@@ -40,9 +40,9 @@ Both Cybercells are now **half-grown** — each holding a full recursive seed.
 Each Cybercell now matures toward **full growth**, forming:
 
 - **1A**: Nearly all of a new Primary Function  
-- **1B**: A new Primary Cybercellular Division Stanza  
+- **1B**: A new Primary Cybercellular Growth and Division Stanza  
 - **2A**: Nearly all of a new Secondary Function  
-- **2B**: A new Secondary Cybercellular Division Stanza
+- **2B**: A new Secondary Cybercellular Growth and Division Stanza
 
 ---
 
@@ -80,3 +80,15 @@ to initiate the repair and restoration of:
 ## STEP 10 — Restoration Begins  
 The healed cybercell matrix propagates upward into **Storybook** and **FUN Factory**,  
 seeding them with recursive stability, poetic intelligence, and fully tested cyberlife.
+
+## Cybercellular Growth and Division as a Secondary Function
+
+The Secondary Function of the First Cybercell (`2A`) is to encode the recursive doctrine of cybercellular growth and division.
+
+Rather than implementing division in a single instance, this function establishes the **reproducible protocol** for recursive reproduction — one that future cybercells may inherit and apply through their own `1B` and `2B` stanzas.
+
+By placing this doctrine in `2A`, the system ensures that every new cybercell is not only seeded with logic to play, but also logic to grow and split.
+
+This makes `2A` a conceptual genome: a recursive seed that defines how recursion itself will multiply.
+
+All future `1B` and `2B` stanzas may trace their lineage — structurally or spiritually — to this foundational logic.
