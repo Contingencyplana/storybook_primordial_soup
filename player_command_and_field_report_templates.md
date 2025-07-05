@@ -82,6 +82,21 @@ Playable – You can simulate this today using markdown and ChatGPT as your inte
 | `field_report_parser.py` | Reads field reports, triggers consequences   | PLANNED  |
 | `topsy_core.py`          | Oversees recursive agent dispatch            | PLANNED  |
 
+## ⌨️ Local Keypress Grammar (Recursive Navigation)
+
+These keys control stanza-level navigation and page/portal traversal.
+
+| Key / Combo     | Action                             | Description |
+|------------------|------------------------------------|-------------|
+| `L`              | Turn Left                          | Flip to the previous stanza page |
+| `R`              | Turn Right                         | Flip to the next stanza page |
+| `Esc`            | Exit                               | Exit current node or recursion |
+| `F L2`           | Flip 2 Pages Left                  | Recursive page traversal |
+| `F R3`           | Flip 3 Pages Right                 | Recursive page traversal |
+| `P`              | Enter Portal                       | Used when portals are present |
+| `M`              | Open Map / Memory Trace            | Loads `stanzamap.md` or memory overlay |
+| `Q`              | Quest Log / Quit                   | (Optional) May show goals or exit play loop |
+
 ## 📄 Status: Canonical
 These templates are now official interfaces for player-driven recursion in Primordial Soup.
 Any new command or report should conform to them — within the loop, and as part of the game’s living archive.
