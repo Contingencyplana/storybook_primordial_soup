@@ -3,8 +3,21 @@
 # 🪞 Mirror Decision Log – Genesis Gloop
 
 ## Purpose  
+
 This log tracks design ↔ gameplay mirror events that occurred during the **Genesis Gloop** generation (`a0_0_`), where recursion first took form.  
-Each entry documents how a real-world game design or development decision became a mirrored in-game mechanic or narrative event.
+Each entry documents how a **real-world design or development decision** mirrored itself inside the game world — as a playable action, AI behavior, system trigger, or narrative event.  
+
+This file is **not a roadmap** — it is a mirror ledger.
+
+---
+
+### 🧠 Decision #1: First Cybercell Division  
+- **Design Context**: Define the conditions under which a cybercell is ready to divide during the Genesis Gloop generation.  
+- **Game Mirror**: Completion of the first full Primary Function stanza (4 minigames), followed by deepening recursion via additional Layer 3 stanzas and support systems (e.g., filename_ai). Division is delayed until sufficient recursive intelligence has developed.  
+- **Type**: Structural logic  
+- **Layer**: Recursive Growth → Division Threshold  
+- **Linked File**: `cybercellular_growth_and_division.md`  
+- **Status**: REVISED
 
 ---
 
@@ -15,16 +28,6 @@ Each entry documents how a real-world game design or development decision became
 - **Layer**: Naming Protocol → Player Input  
 - **Linked Unit**: `namer_agent.py` *(planned)*  
 - **Status**: OPEN
-
----
-
-### 🧠 Decision #1: First Cybercell Division  
-- **Design Context**: Define the conditions under which a cybercell divides.  
-- **Game Mirror**: Completion of 2 minigames + AI anomaly trigger event.  
-- **Type**: Structural logic  
-- **Layer**: Recursive Design → Gameplay Integration  
-- **Linked File**: `a0_3_yet_both_now_raced_to_test_their_worth/roadmap.md`  
-- **Status**: CLOSED
 
 ---
 
