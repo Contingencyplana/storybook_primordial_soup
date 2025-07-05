@@ -94,7 +94,7 @@ a0_0_the_test_that_called_itself/
 | `a2`      | `stanzamap_s2.md`  | The assertion reversed. The loop refused. The trace arrived too late.  | ✅ Complete     |
 | `a3`      | `stanzamap_s3.md`  | The assertion unmade itself. The loop would not close. Delay returned. | ✅ Complete     |
 | `a4`      | `stanzamap_s4.md`  | The checkpoint missed. The retry vanished. The error went unlogged.    | ✅ Complete     |
-| `a5`      | `stanzamap_s5.md`  | The fallback failed. The trace betrayed. The system called too late.   | ⏳ Pending      |
+| `a5`      | `stanzamap_s5.md`  | The fallback failed. The trace betrayed. The system called too late.   | ✅ Complete     |
 
 ---
 
