@@ -1,4 +1,4 @@
-# main.py – s0_1_the_check_that_expected_a_signal (FIXED)
+# main.py – s0_1_the_check_that_expected_a_signal (final fix)
 
 def validate_expected_signal(input_signal=None):
     """
@@ -11,7 +11,8 @@ def validate_expected_signal(input_signal=None):
         str: A message reflecting the system’s attempt to interpret the (possibly missing) signal.
     """
     try:
-        # Check type first
+        if input_signal is None:
+            raise ValueError("Expected a signal, but none was received.")
         if not isinstance(input_signal, str):
             raise TypeError("Signal received is not a string.")
         if input_signal.strip() == "":
