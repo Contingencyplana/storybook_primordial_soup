@@ -15,7 +15,7 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 | `a0_0_the_test_that_called_itself/`      | Very Basic Test Functionality             | Tier 1 (Manual)          | ✅ COMPLETE  |
 | `a0_1_mighty_quest_for_the_bug_kingdom/` | Patch logic detection & anomaly surfacing | Tier 1 (Manual)          | ACTIVE       |
 | `a0_2_side_quest_of_the_forgotten_loop/` | Loop recovery & reindexing                | Tier 1 (Manual)          | PLANNED      |
-| `a0_3_adventure_of_the_unasked_question/`| Quest stub generation                     | Tier 2 (Semi-Automated)  | PLANNED      |
+| `a0_3_adventure_of_the_unasked_question/`| Quest stub generation                     | Tier 2 (Semi-Automated)  | ✅ COMPLETE  |
 
 ---
 
@@ -37,7 +37,7 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 **Current Division Doctrine**:  
 - Division does **not occur** after a fixed number of minigames  
 - Instead, this cybercell must first complete:
-  - ✅ One fully recursive Primary Function stanza (1A)
+  - ✅ One fully recursive Primary Function stanza (1A) – **Fulfilled by `a0_3`**
   - ☐ Deepening of recursion via a second Layer 3 stanza
   - ☐ Activation or simulation of one supporting AI agent (e.g., `filename_ai`)
   - ☐ Manual confirmation of recursive readiness to divide
@@ -58,6 +58,8 @@ This means:
 This cybercell therefore becomes the first to not only play, but to **teach** what it means to divide.
 
 Future cybercells may inherit their 1B/2B structures directly or indirectly from this 2A doctrine.
+
+---
 
 ## 🔁 Mirror Decisions Tracked
 
