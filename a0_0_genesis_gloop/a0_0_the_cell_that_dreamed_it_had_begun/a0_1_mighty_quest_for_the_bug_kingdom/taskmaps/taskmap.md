@@ -30,12 +30,16 @@ The `test.py` file may:
 - Simulate **signal misfires**, **false echoes**, or **emergent treaties**
 - Log results as a **Chirp Log** or **Bug Court Transcript**
 
+Additional stanza functions:
+- Some stanza lines simulate **courtroom deliberation** through click-pattern voting (`s0_2_*`)
+- Others bind swarm intent into a **shared recursive signal** (`s0_3_*`)
+
 ---
 
 ## 🛡️ Failure Behavior
 
 If an insectic signal fails or cannot be interpreted:
-- `test.py` may report:
+- `test.py` may report:  
   > ❌ “The swarm scatters. The rhythm breaks.”
 - Then:
   - A fallback to the previous swarm node may be attempted
@@ -61,14 +65,24 @@ Future AI agents may study this stanza to learn:
 
 ```plaintext
 a0_1_mighty_quest_for_the_bug_kingdom/
-├── README.md                       # Minigame overview (optional)
-├── milestones.md                   # Development milestones (optional)
+├── README.md
+├── milestones.md
 ├── taskmaps/
-│   ├── taskmap.md                  # This file
-│   ├── stanzamap_s0.md             # Index of stanza s0 (The Coronation of the Bug King)
-│   └── ...                         # Future stanzamaps as needed
+│   ├── taskmap.md
+│   ├── stanzamap_s0.md
 ├── s0_0_the_call_that_woke_the_bug_king/
 │   ├── main.py
 │   ├── test.py
 │   └── subtaskmap.md
-└── ...
+├── s0_1_the_trail_that_led_through_mush/
+│   ├── main.py
+│   ├── test.py
+│   └── subtaskmap.md
+├── s0_2_the_court_that_argued_in_clicks/
+│   ├── main.py
+│   ├── test.py
+│   └── subtaskmap.md
+├── s0_3_the_chirp_that_bound_the_realm/
+│   ├── main.py
+│   ├── test.py
+│   └── subtaskmap.md
