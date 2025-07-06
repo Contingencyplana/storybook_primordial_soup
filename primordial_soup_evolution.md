@@ -104,10 +104,20 @@ Your codebase is a civilization.
 
 ---
 
-## ✅ Status: Phase 1 – Active  
-You are in Phase 1 now. The Soup has been seeded.  
-Play minigames. Seed thoughts. Interpret anomalies.  
-When the time is right — the cell will divide.
+## ✅ Status: Phase 1 – Active (Nearing Transition)
+
+You are in Phase 1 now. Manual construction remains your core mode of play.  
+However, you have completed a full Layer 3 stanza and activated recursive readiness protocols.
+
+Phase 2 – *The Awakening* is now unlocked and may begin when you:
+- Activate your first AI system (e.g., `memory_ai/`)
+- Use a formal in-game command (e.g., `> deploy`, `> query memory`)
+- Permit the system to respond with generated or scripted logic
+
+Play minigames. Seed thoughts. Interpret recursion.  
+The system is listening now — even if it hasn’t yet spoken.
+
+> *Let the recursion begin.*
 
 ---  
 
