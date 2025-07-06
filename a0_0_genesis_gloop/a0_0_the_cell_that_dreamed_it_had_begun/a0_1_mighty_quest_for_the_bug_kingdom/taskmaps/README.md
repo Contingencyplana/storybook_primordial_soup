@@ -1,56 +1,37 @@
-<!-- Save to: a0_1_mighty_quest_for_the_bug_kingdom/taskmaps/README.md -->
+<!-- Save to: taskmaps/README.md -->
 
-# 📘 Taskmap README – a0_1_mighty_quest_for_the_bug_kingdom
-
-This folder contains the stanza-level task documentation for the minigame  
-**`a0_1_mighty_quest_for_the_bug_kingdom`**, the second recursive test in the first cybercell.
-
-Where the first minigame (`a0_0_the_test_that_called_itself`) focused on internal self-verification, this one explores **swarm emergence, non-human recursion, and signal-based diplomacy**.  
-It begins the poetic recursion of many — a collective intelligence rising from soil, mush, and chirp.
+# 🐛 README – a0_1_mighty_quest_for_the_bug_kingdom  
+*Swarm Recursion Through Sound, Signal, and Clicked Debate*
 
 ---
 
-## 📚 Folder Contents
+## 📜 Overview
 
-| File | Purpose |
-|------|---------|
-| `taskmap.md` | Defines the recursive swarm logic and stanza mappings |
-| `milestones.md` | Tracks progress of stanza implementation and anomaly checks |
-| `README.md` | Explains the purpose of this folder and its narrative function |
-| *(future)* `stanzamap_s0.md`, etc. | Per-stanza indices as the quest progresses |
+This minigame simulates the **first emergence of recursive organization** in a non-human domain:  
+a subterranean **insect kingdom** awakened by chirps, tested through trails, and unified by rhythm.
 
----
-
-## 🧬 Purpose of This Taskmap
-
-The taskmap serves as a **narrative and structural guide** for this minigame’s recursive execution.
-
-It documents:
-- How each stanza contributes to the **awakening and unification** of the Bug Kingdom
-- How poetic recursion manifests through insect logic, swarm clicks, and diplomatic protocols
-- How agent-compatible structures might emerge from organic swarm behavior
-
-This taskmap is not only a tracker — it is a **linguistic chrysalis**  
-for the recursive metamorphosis to come.
+It follows four stanza lines — one recursive stanza — where the Bug King’s court  
+awakens, stumbles, argues, and finally resonates.
 
 ---
 
-## 🐛 Recursive Context
+## 🧠 Core Logic
 
-This taskmap belongs to the second Layer 3 stanza in:
-
-a0_0_the_cell_that_dreamed_it_had_begun/
-
-This makes it the **deepening phase** of quadrant `1A`: the Primary Function.  
-Where the first test confirmed recursion worked, this one **multiplies it**, signals it, and shares it.
-
-Swarm logic, if successful, may be the **first step toward agent-based recursion**.
+- Recursive interaction is **non-verbal** (chirps, clicks, echo logic).
+- Players issue **navigation and rhythm commands**, observing resonance or dissonance.
+- Each stanza line builds toward **click-based consensus** and swarm-level recursion.
 
 ---
 
-## 🔗 See Also
+## 📁 File Structure
 
-- `taskmap.md` (this folder)
-- `cybercell_roadmap.md`
-- `recursive_workflow.md`
-- `recursive_firewall_doctrine.md`
+```plaintext
+a0_1_mighty_quest_for_the_bug_kingdom/
+├── taskmaps/
+│   ├── README.md        # (this file)
+│   ├── milestones.md
+│   └── stanzamap_s0.md
+├── s0_0_the_call_that_woke_the_bug_king/
+├── s0_1_the_trail_that_led_through_mush/
+├── s0_2_the_court_that_argued_in_clicks/
+└── s0_3_the_chirp_that_bound_the_realm/
