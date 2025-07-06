@@ -1,4 +1,4 @@
-# main.py
+# Save to: s0_0_the_loop_that_almost_closed/main.py
 
 def incomplete_loop_detector(sequence):
     """
