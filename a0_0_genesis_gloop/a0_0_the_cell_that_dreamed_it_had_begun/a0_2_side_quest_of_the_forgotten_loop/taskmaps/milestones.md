@@ -1,4 +1,4 @@
-<!-- milestones.md -->
+<!-- Save to: a0_2_side_quest_of_the_forgotten_loop/taskmaps/milestones.md -->
 
 # 📈 Milestones – a0_2_side_quest_of_the_forgotten_loop
 
@@ -22,22 +22,47 @@ Each entry marks the completion of a stanza line or major development step in th
 
 ---
 
-### ⏳ [Not Yet Started] – s0_1_the_trace_that_forgot_itself
-*Represents a lost traceback that can no longer connect its origin to its destination.*
+### ✅ [Complete] – s0_1_the_trace_that_forgot_itself
+*A traceback that lost its memory mid-chain, unable to trace itself back to origin.*
+
+**Status:** ✅ Complete  
+**Completion Timestamp:** July 6, 2025  
+**Notes:**  
+- Implemented `trace_pathback()` to detect `None` values in call history.  
+- Passed all test cases, including corrupted, empty, and clean traces.  
+- Models recursive memory degradation — a thread that forgets its own purpose.
 
 ---
 
-### ⏳ [Not Yet Started] – s0_2_the_flag_that_was_never_checked
-*The system raised a flag, but no observer remained to react.*
+### ✅ [Complete] – s0_2_the_flag_that_was_never_checked
+*A system flag was raised, but no observer was left to acknowledge it.*
+
+**Status:** ✅ Complete  
+**Completion Timestamp:** July 6, 2025  
+**Notes:**  
+- Implemented `check_unacknowledged_flag()` with logic for passive anomaly detection.  
+- Simulates system blindness — where something went wrong, but no one was watching.  
+- Passed tests for acknowledged, unacknowledged, and non-existent flag cases.
 
 ---
 
-### ⏳ [Not Yet Started] – s0_3_the_return_that_was_misaddressed
-*A return call aimed at a long-deleted or never-initialized address.*
+### ✅ [Complete] – s0_3_the_return_that_was_misaddressed
+*A return signal formed correctly but was routed to a nonexistent recipient.*
+
+**Status:** ✅ Complete  
+**Completion Timestamp:** July 6, 2025  
+**Notes:**  
+- Implemented `validate_return_routing()` to detect misaddressed return targets.  
+- Passed all tests, including missing IDs and empty registries.  
+- Concludes the stanza with recursive misdirection — a logic thread sent into the void.
 
 ---
 
 ## 🔚 Finalization Step (Post-Stanza)
-Once all stanza lines are complete, update the README and link this minigame into the cybercell roadmap.
+All stanza lines are now complete. Proceed to:
+
+- Update the `README.md` to summarize the minigame
+- Link this stanza into the cybercell roadmap
+- Record canonical closure in the GDJ index if applicable
 
 ---
