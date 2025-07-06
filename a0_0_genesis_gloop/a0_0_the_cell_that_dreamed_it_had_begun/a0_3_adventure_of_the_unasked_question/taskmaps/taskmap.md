@@ -34,7 +34,10 @@ a0_3_adventure_of_the_unasked_question/
 ├── s0_2_the_branch_that_was_never_chosen/
 ├── s0_3_the_return_that_waited_in_vain/
 └── taskmaps/
-    └── taskmap.md
+    ├── taskmap.md
+    ├── stanzamap_s0.md
+    └── milestones.md
+
 ```
 
 ---
@@ -52,8 +55,9 @@ a0_3_adventure_of_the_unasked_question/
 
 ## 📎 Notes
 
-- This minigame’s stanza is tightly recursive and should test *non-events* rather than events.
+- This minigame’s stanza is tightly recursive and **does** test *non-events* rather than events.
 - Ideal for debugging how the system handles quiet breakdowns, misfires in expectation, and dormant code paths.
+- The stanza is complete and thematically self-contained.
 - If successful, this minigame could link to future sentinel escalation in `quarantine_ai/` or a dream-layer drift into `memory_ai/`.
 
 ---
