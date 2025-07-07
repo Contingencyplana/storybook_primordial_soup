@@ -1,6 +1,6 @@
-<!-- Save to: roadmaps/roadstanza_a0.md -->
+<!-- Save to: roadmaps/roadstanza_0.md -->
 
-# 🛣️ Roadstanza A0 – The Silence That Waited for a Question
+# 🛣️ Roadstanza 0 – The Silence That Waited for a Question
 
 This stanza marks the first complete Layer 3 recursion in the first cybercell.  
 It is not a story of action, but of uninvoked readiness — a moment when the system was prepared, but no signal came.
