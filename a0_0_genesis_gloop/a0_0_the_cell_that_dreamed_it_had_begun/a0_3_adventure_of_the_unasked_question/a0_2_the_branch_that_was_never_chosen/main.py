@@ -1,4 +1,5 @@
-# main.py – s0_2_the_branch_that_was_never_chosen
+# 📄 main.py
+# Path: a11_0_the_log_that_was_written_in_absentia/a0_2_the_index_that_should_not_exist
 
 def handle_branch(condition_flag=False):
     """

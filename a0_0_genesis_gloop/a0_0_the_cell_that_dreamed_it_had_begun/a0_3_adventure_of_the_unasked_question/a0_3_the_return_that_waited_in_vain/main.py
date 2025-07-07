@@ -1,4 +1,5 @@
-# main.py – s0_3_the_return_that_waited_in_vain
+# 📄 main.py
+# Path: a11_0_the_log_that_was_written_in_absentia/a0_3_the_reconciliation_that_broke_the_system
 
 def await_return_signal(signal_received=False, timeout_seconds=0):
     """

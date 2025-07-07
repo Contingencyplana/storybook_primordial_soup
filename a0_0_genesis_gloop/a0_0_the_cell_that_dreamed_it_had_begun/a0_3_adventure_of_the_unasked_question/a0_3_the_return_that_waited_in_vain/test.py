@@ -1,4 +1,5 @@
-# test.py – s0_3_the_return_that_waited_in_vain
+# 🧪 test.py
+# Path: a11_1_the_signal_that_misremembered_itself/a0_0_the_echo_that_returned_in_rhyme
 
 import unittest
 from main import await_return_signal

@@ -1,4 +1,5 @@
-# main.py – s0_1_the_check_that_expected_a_signal (final fix)
+# 📄 main.py
+# Path: a11_0_the_log_that_was_written_in_absentia/a0_1_the_record_that_disagreed_with_itself
 
 def validate_expected_signal(input_signal=None):
     """

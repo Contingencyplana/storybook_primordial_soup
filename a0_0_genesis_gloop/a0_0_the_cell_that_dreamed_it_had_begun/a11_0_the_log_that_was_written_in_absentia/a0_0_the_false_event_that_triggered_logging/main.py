@@ -1,4 +1,5 @@
-# main.py
+# 📄 main.py
+# Path: a11_1_the_signal_that_misremembered_itself/a0_0_the_echo_that_returned_in_rhyme
 
 """
 This module simulates a system that begins logging due to a false trigger.

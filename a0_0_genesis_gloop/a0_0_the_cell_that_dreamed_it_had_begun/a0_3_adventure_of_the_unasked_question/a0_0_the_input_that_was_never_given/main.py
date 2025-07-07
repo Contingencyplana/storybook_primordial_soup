@@ -1,4 +1,5 @@
-# main.py – s0_0_the_input_that_was_never_given
+# 📄 main.py
+# Path: a11_0_the_log_that_was_written_in_absentia/a0_0_the_false_event_that_triggered_logging
 
 def await_input(input_signal=None):
     """
