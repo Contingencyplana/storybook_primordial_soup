@@ -1,11 +1,11 @@
 # main.py
 
-import random
+import string
 
 def rhyme_echo(input_signal):
     """
     Returns the input signal transformed into a rhyming or poetic variant.
-    This models a signal that 'misremembers' itself — not wrong, but stylized.
+    Preserves punctuation and capitalization while stylizing certain words.
     """
     rhyming_variants = {
         "hello": "fellow",
@@ -16,16 +16,24 @@ def rhyme_echo(input_signal):
         "ask": "mask",
         "truth": "youth",
         "log": "fog",
+        "fast": "last",
     }
 
-    words = input_signal.strip().lower().split()
-    rhymed = []
+    def stylize_word(word):
+        stripped = word.strip(string.punctuation)
+        lower = stripped.lower()
+        rhyme = rhyming_variants.get(lower, stripped)
 
-    for word in words:
-        if word in rhyming_variants:
-            rhymed.append(rhyming_variants[word])
-        else:
-            rhymed.append(word)
+        # Preserve original capitalization
+        if stripped.istitle():
+            rhyme = rhyme.capitalize()
+        elif stripped.isupper():
+            rhyme = rhyme.upper()
 
-    poetic_line = " ".join(rhymed)
-    return poetic_line
+        # Reattach trailing punctuation
+        trailing = word[len(stripped):]
+        return rhyme + trailing
+
+    words = input_signal.split()
+    rhymed_words = [stylize_word(w) for w in words]
+    return " ".join(rhymed_words)
