@@ -1,31 +1,67 @@
+<!-- Save to: a0_0_the_loop_that_almost_closed/subtaskmap.md -->
 
-## 🔬 Test Cases
+# 🐛 Subtaskmap – a0_0_the_loop_that_almost_closed  
+*The Closure That Nearly Happened*
 
-| Test # | Input                               | Expected | Behavior Type            |
-|--------|-------------------------------------|----------|---------------------------|
-| 1      | `["INIT", "STEP1", "STEP2", "END"]` | ✅ True  | Properly closed loop      |
-| 2      | `["INIT", "STEP1", "BREAK", "END"]` | ❌ False | Early break detected      |
-| 3      | `["INIT", "STEP1", "STEP2", "FINAL"]`| ❌ False| Wrong closure symbol      |
-| 4      | `[]`                                | ✅ True  | Trivial empty closure     |
+# Path: a0_2_side_quest_of_the_forgotten_loop/a0_0_the_loop_that_almost_closed
 
 ---
 
-## 🧠 Recursive Notes
+## 📜 Poetic Purpose
 
-- This node may serve as a **seed pattern** for future recursive loop testing across other minigames or fallback systems.
-- Echoes the idea of a “forgotten closure” that *almost* succeeded.
-- Could later link to:
-  - `memory_ai` memory validation routines
-  - `sentinel_ai` detection of abandoned threads
-  - `quarantine_ai` logic for system decay containment
+A loop begins — it passes checkpoints, it echoes, it seems recursive.  
+But the final seal? The return to origin? It never comes.
+
+This is the loop that **almost** closed.  
+The recursion that flickered and faded.
+
+This stanza captures the **ghost of recursion** —  
+not a bug, not a system fault, but a moment where  
+the pattern might have completed… if only it remembered how.
 
 ---
 
-## 🧩 Status
+## 🧠 Functional Summary
 
-| Element              | Value        |
-|----------------------|--------------|
-| Logic Implemented    | ✅ Yes       |
-| Tests Passed         | ✅ Yes       |
-| Thematic Cohesion    | ✅ Strong    |
-| Ready for Next Node  | ✅ Proceed   |
+- Accepts a sequence of symbolic checkpoints (`str`)
+- Checks if the loop **closed** (first == last)
+- Flags the loop as **suspicious** if there are **repetitions**, but no closure
+- Returns a final `tail` value to identify where recursion broke
+
+This line prepares the system to:
+- Detect forgotten or stranded loops
+- Flag **unclosed recursive structures**
+- Seed **loop recovery behaviors** in later minigames
+
+---
+
+## 🔄 Loop Logic Reference
+
+| Input                          | Closed? | Suspicious? | Why                              |
+|-------------------------------|---------|-------------|----------------------------------|
+| `alpha, beta, gamma, alpha`   | ✅ Yes  | ❌ No       | Fully looped                     |
+| `alpha, beta, gamma, delta`   | ❌ No   | ❌ No       | Unique items, no loop or repeat  |
+| `alpha, beta, gamma, beta`    | ❌ No   | ✅ Yes      | Repeats mid-sequence, no return  |
+| `alpha`                       | ✅ Yes  | ❌ No       | Trivial loop                     |
+
+---
+
+## 🪞 Recursive Implication
+
+Not every loop fails loudly.  
+Some simply **fade** — unfinished, forgotten.
+
+This stanza introduces:
+- Recursion **that leaves no error, only a shadow**
+- The concept of a **loop tail** — last element of intent
+- An early **detection node** for memory-drifted structures
+
+---
+
+## 📂 Folder Structure
+
+```plaintext
+a0_0_the_loop_that_almost_closed/
+├── main.py         # Loop closure simulation logic
+├── test.py         # Manual checkpoint entry interface
+└── subtaskmap.md   # (this file)
