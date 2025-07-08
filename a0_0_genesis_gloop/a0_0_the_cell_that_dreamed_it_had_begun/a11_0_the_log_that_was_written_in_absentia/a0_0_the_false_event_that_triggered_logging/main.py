@@ -1,35 +1,38 @@
 # 📄 main.py
-# 🧩 a0_3_adventure_of_the_unasked_question → a0_2_the_branch_that_was_never_chosen
-# A test of hypothetical decisions — and the cost of ignoring the fork.
+# 🧩 a11_0_the_log_that_was_written_in_absentia → a0_0_the_false_event_that_triggered_logging
+# A phantom event is logged despite no real trigger.
 
-def evaluate_branch_selection(selection):
+def log_phantom_event(signal):
     """
-    Evaluates whether the player made an explicit decision at a branch.
-    If no branch is selected, the system responds with poetic regret.
+    Simulates logging of an event, even if that event has no valid origin.
+    Accepts certain known phantom events and rejects unknowns.
     """
-    branches = {"left": "You stepped into the unknown, veiled in fog.",
-                "right": "You followed the signal into narrow light.",
-                "up": "You ascended where thought dares not tread.",
-                "down": "You descended into recursive silence."}
+    known_phantom_signals = {"startup", "shutdown", "core_sync", "memory_purge"}
 
-    if not selection.strip():
+    if not signal.strip():
         return {
-            "status": "unselected",
-            "outcome": "No path was chosen. The branch remains untouched — its fate unwritten."
+            "event": None,
+            "status": "phantom",
+            "reason": "No input received. Log entry fabricated from silence."
         }
-    elif selection.lower() not in branches:
+    elif signal.lower() in known_phantom_signals:
         return {
-            "status": "invalid",
-            "outcome": f"Branch '{selection}' is not part of the known divergence. The moment passed unclaimed."
+            "event": signal,
+            "status": "phantom",
+            "reason": f"Signal '{signal}' is a known hallucination. Entry written to ghost-log."
         }
     else:
         return {
-            "status": "chosen",
-            "outcome": branches[selection.lower()]
+            "event": signal,
+            "status": "unknown",
+            "reason": f"Signal '{signal}' has no system mapping. Logging rejected."
         }
 
-# For direct play
+# Manual test
 if __name__ == "__main__":
-    decision = input("🌿 Choose your branch (left, right, up, down): ")
-    result = evaluate_branch_selection(decision)
-    print(f"\n📚 Branch Evaluation:\nStatus: {result['status']}\nOutcome: {result['outcome']}")
+    signal = input("📡 Enter signal for logging: ")
+    result = log_phantom_event(signal)
+    print("\n🗂️ Log Outcome:")
+    print(f"Event  : {result['event']}")
+    print(f"Status : {result['status']}")
+    print(f"Reason : {result['reason']}")

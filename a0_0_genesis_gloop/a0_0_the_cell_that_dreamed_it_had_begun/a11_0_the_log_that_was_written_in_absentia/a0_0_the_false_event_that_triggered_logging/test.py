@@ -1,21 +1,19 @@
 # 📄 test.py
-# 🧪 Interactive tester for a0_3_adventure_of_the_unasked_question → a0_2_the_branch_that_was_never_chosen
+# 🧪 Interactive tester for a11_0_the_log_that_was_written_in_absentia → a0_0_the_false_event_that_triggered_logging
 
-from main import evaluate_branch_selection
+from main import log_phantom_event
 
-def run_test():
-    print("📜 Branching Path Test – The Branch That Was Never Chosen\n")
+print("📜 Phantom Logging Test – The False Event That Triggered Logging\n")
 
-    while True:
-        decision = input("Choose a branch (or press Enter to choose none): ")
-        if decision.lower() in ["exit", "quit", "q"]:
-            print("👋 Exiting branching test.")
-            break
+while True:
+    signal = input("Enter signal (or press Enter to simulate absence): ").strip()
+    
+    if signal.lower() in ["exit", "quit", "q"]:
+        print("👋 Exiting phantom logging test.")
+        break
 
-        result = evaluate_branch_selection(decision)
-        print(f"\n🧠 Branch Result:")
-        print(f"Status : {result['status']}")
-        print(f"Outcome: {result['outcome']}\n")
-
-if __name__ == "__main__":
-    run_test()
+    result = log_phantom_event(signal)
+    print("\n🧠 Log Interpretation:")
+    print(f"Event  : {result['event']}")
+    print(f"Status : {result['status']}")
+    print(f"Reason : {result['reason']}\n")
