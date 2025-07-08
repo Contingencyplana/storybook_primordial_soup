@@ -1,4 +1,6 @@
-# Save as: test.py
+# 📄 test.py
+# 🧪 Memory Conflict Test – a11_0_the_log_that_was_written_in_absentia → a0_1_the_record_that_disagreed_with_itself
+# Simulates contradictory logs of a single event. Can the system resolve the split?
 
 from main import evaluate_record
 

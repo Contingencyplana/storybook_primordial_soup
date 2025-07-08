@@ -1,4 +1,6 @@
-# Save as: main.py
+# 📄 main.py
+# 🧩 a11_0_the_log_that_was_written_in_absentia → a0_1_the_record_that_disagreed_with_itself
+# Two memories diverged. The system must choose between them — or admit both are flawed.
 
 def evaluate_record(event_log):
     """
