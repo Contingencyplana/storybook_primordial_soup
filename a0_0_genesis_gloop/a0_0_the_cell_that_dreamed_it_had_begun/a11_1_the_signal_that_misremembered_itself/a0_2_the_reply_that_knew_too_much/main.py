@@ -13,3 +13,4 @@ def detect_unauthorized_knowledge(prompt, reply):
     # Unauthorized knowledge = reply contains keywords not in prompt
     unauthorized = reply_keywords - prompt_keywords
     return unauthorized
+ 
