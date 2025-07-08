@@ -1,6 +1,6 @@
-<!-- Save to: taskmaps/stanzamap_s0.md -->
+<!-- Save to: a0_3_adventure_of_the_unasked_question/taskmaps/stanzamap_0.md -->
 
-# 🌀 Stanzamap – s0 · The Silence That Waited for a Question
+# 🌀 Stanzamap – 0 - The Silence That Waited for a Question
 
 This stanza explores a recursive logic sequence in which input is absent, validation is presumptive, a branch lies dormant, and a return handler waits indefinitely. It is the silence **within** the system — structured, logical, recursive — but unfulfilled.
 

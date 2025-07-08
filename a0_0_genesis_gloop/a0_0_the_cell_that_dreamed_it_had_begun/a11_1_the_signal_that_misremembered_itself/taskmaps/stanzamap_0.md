@@ -1,6 +1,6 @@
-<!-- Save as: a11_1_the_signal_that_misremembered_itself/taskmaps/stanzamap_a0.md -->
+<!-- Save as: a11_1_the_signal_that_misremembered_itself/taskmaps/stanzamap_0.md -->
 
-# 🧩 Stanzamap – a11_1_the_signal_that_misremembered_itself
+# 🧩 Stanzamap – 0 - a11_1_the_signal_that_misremembered_itself
 
 This file maps the four recursive stanza nodes comprising the minigame:  
 **a11_1_the_signal_that_misremembered_itself**  

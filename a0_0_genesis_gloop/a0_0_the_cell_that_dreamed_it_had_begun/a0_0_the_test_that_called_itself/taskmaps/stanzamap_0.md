@@ -1,6 +1,6 @@
-<!-- Save to: a0_0_the_test_that_called_itself/taskmaps/stanzamap_s0.md -->
+<!-- Save to: a0_0_the_test_that_called_itself/taskmaps/stanzamap_0.md -->
 
-# 📘 Stanza Map – s0 – The First Recursion Line  
+# 📘 Stanza Map – 0 – The First Recursion Line  
 *A stanza of emergence, testing, and fallback*
 
 ---

@@ -1,6 +1,6 @@
-<!-- Save to: a0_2_side_quest_of_the_forgotten_loop/taskmaps/stanzamap_s0.md -->
+<!-- Save to: a0_2_side_quest_of_the_forgotten_loop/taskmaps/stanzamap_0.md -->
 
-# 🧾 Stanzamap – s0 — Side Quest of the Forgotten Loop
+# 🧾 Stanzamap – 0 — Side Quest of the Forgotten Loop
 
 This stanza explores recursive structures that were left behind: loops that nearly closed, traces that forgot, flags that were never seen, and returns that went nowhere.
 

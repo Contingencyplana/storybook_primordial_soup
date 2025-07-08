@@ -1,6 +1,6 @@
-<!-- Save to: taskmaps/stanzamap_s2.md -->
+<!-- Save to: a0_0_the_test_that_called_itself/taskmaps/stanzamap_2.md -->
 
-# 🧩 Stanzamap – s2  
+# 🧩 Stanzamap – 2  
 *The Third Recursive Stanza: Echoes of Collapse*
 
 ---

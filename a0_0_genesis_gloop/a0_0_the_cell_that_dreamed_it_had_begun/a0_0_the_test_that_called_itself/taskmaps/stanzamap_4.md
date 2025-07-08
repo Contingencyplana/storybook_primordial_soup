@@ -1,6 +1,6 @@
-<!-- Save to: taskmaps/stanzamap_s4.md -->
+<!-- Save to: a0_0_the_test_that_called_itself/taskmaps/stanzamap_4.md -->
 
-# 🧩 Stanzamap – s4  
+# 🧩 Stanzamap – 4  
 *The Fifth Recursive Stanza: Where Recognition Fails, and Failure Is Rebranded*
 
 ---

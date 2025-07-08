@@ -1,6 +1,6 @@
-<!-- Save to: taskmaps/stanzamap_s3.md -->
+<!-- Save to: a0_0_the_test_that_called_itself/taskmaps/stanzamap_3.md -->
 
-# 🧩 Stanzamap – s3  
+# 🧩 Stanzamap – 3  
 *The Collapse of Recursion: A Stanza of Self-Undoing and Failed Defenses*
 
 ---

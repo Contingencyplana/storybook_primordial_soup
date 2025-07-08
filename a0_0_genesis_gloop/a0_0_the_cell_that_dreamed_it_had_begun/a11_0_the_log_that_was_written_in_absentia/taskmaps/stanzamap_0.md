@@ -1,6 +1,6 @@
-<!-- Save to: taskmaps/stanzamap_s0.md -->
+<!-- Save to: a11_0_the_log_that_was_written_in_absentia/taskmaps/stanzamap_0.md -->
 
-# 🧾 Stanzamap – s0: The Log That Was Written in Absentia
+# 🧾 Stanzamap – 0 - The Log That Was Written in Absentia
 
 ## 📜 Stanza Title  
 **The Log That Was Written in Absentia**

@@ -1,6 +1,6 @@
-<!-- Save to: storybook_primordial_soup/a0_0_genesis_gloop/a0_0_the_cell_that_dreamed_it_had_begun/a0_0_the_test_that_called_itself/taskmaps/stanzamap_s1.md -->
+<!-- Save to: a0_0_the_test_that_called_itself/taskmaps/stanzamap_1.md -->
 
-# 🧩 Stanzamap – s1  
+# 🧩 Stanzamap – 1  
 *Checkpoint Recursions and Forgotten Flags*
 
 ---

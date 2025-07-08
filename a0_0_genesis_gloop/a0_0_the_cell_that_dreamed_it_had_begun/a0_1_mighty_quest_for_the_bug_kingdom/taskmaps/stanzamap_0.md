@@ -1,6 +1,6 @@
-<!-- Save to: a0_1_mighty_quest_for_the_bug_kingdom/taskmaps/stanzamap_s0.md -->
+<!-- Save to: a0_1_mighty_quest_for_the_bug_kingdom/taskmaps/stanzamap_0.md -->
 
-# 🐛 Stanzamap – s0: The Coronation of the Bug King  
+# 🐛 Stanzamap – 0: The Coronation of the Bug King  
 *Minigame: a0_1_mighty_quest_for_the_bug_kingdom*
 
 This is the first stanza of the Bug Kingdom arc.  
