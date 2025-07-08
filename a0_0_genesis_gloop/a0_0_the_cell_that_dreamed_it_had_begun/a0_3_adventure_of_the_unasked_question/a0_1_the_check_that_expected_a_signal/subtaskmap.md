@@ -1,4 +1,5 @@
-<!-- Save as: subtaskmap.md -->
+<!-- Save to: a0_3_adventure_of_the_unasked_question/a0_1_the_check_that_expected_a_signal/subtaskmap.md -->
+
 # 🧭 Subtaskmap – a0_1_the_check_that_expected_a_signal
 
 ## 🧩 Stanza Line: The Check That Expected a Signal  
