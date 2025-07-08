@@ -1,4 +1,6 @@
-# test.py
+# 🧪 test.py – Echo Test Interface
+# Interactive console that simulates recursive message return.
+# Messages entered are transformed into rhymed echoes by the system.
 
 from main import return_rhymed_echo
 

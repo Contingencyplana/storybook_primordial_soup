@@ -1,4 +1,6 @@
-# main.py
+# 🌀 main.py – The Echo That Returned in Rhyme
+# This file defines the logic for transforming an incoming message
+# into a rhymed echo — not as corruption, but as semantic drift through cadence.
 
 import random
 
