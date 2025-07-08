@@ -62,5 +62,3 @@ a0_3_adventure_of_the_unasked_question/
 
 ---
 
-Linked entries in:  
-<!-- Mirror decision log placeholder. Will link to mirror_decision.md references once active. -->
