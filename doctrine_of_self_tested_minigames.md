@@ -28,22 +28,22 @@ These minigames are indistinguishable from narrative gameplay to the player, but
 
 ## 🧠 Core Functions of a Self-Tested Minigame
 
-| Function | Description |
-|---------|-------------|
-| 🧪 Node Testing | Simulate player decisions (L/R), ensure nodes execute and respond. |
-| 🔄 Loop Verification | Validate proper resolution of recursive loops. |
-| 🚨 Anomaly Reporting | Detect unexpected output, unreachable states, or logic drift. |
+| Function            | Description                                                                 |
+|---------------------|-----------------------------------------------------------------------------|
+| 🧪 Node Testing      | Simulate player decisions (L/R), ensure nodes execute and respond.          |
+| 🔄 Loop Verification | Validate proper resolution of recursive loops.                              |
+| 🚨 Anomaly Reporting | Detect unexpected output, unreachable states, or logic drift.               |
 | 🧬 Structural Integrity | Confirm the path tree links stanzas without disconnection or contradiction. |
-| 🛠️ Patch Suggestion | Flag broken recursion chains for `engineer.py` or player-based manual fixes. |
+| 🛠️ Patch Suggestion  | Flag broken recursion chains for `engineer.py` or player-based manual fixes. |
 
 ---
 
 ## 🌀 Example Titles of Self-Tested Minigames
 
-- *The Bug That Called a Bug*
-- *The Mirror With One Missing Face*
-- *The Anomaly That Nested Itself*
-- *The Forgotten Branch That Was Never Called*
+- *The Bug That Called a Bug*  
+- *The Mirror With One Missing Face*  
+- *The Anomaly That Nested Itself*  
+- *The Forgotten Branch That Was Never Called*  
 - *Test_Of_Test_That_Became_True*
 
 ---
@@ -52,19 +52,35 @@ These minigames are indistinguishable from narrative gameplay to the player, but
 
 Place such minigames in clearly marked branches like:
 
+```plaintext
 a0_3_recursive_integrity_test/
 a0_4_loop_closure_dream/
 a0_5_bug_that_broke_the_bug/
+```
 
-Each still conforms to the Y-node system.
+Each minigame still conforms to the Y-node stanza structure —
+four recursive lines inside, each fully testable.
+
+---
+
+## 🧩 Temporary Conventions During Early Construction
+
+To streamline early development:
+
+- All Python files use simple headers (`# main.py`, `# test.py`)
+- Docstrings and comments may be sparse; logic takes priority
+- Poetic-technical clarity is favored over full completeness
+- `archivist_ai` will normalize structure in a later recursion
+
+These simplifications are intentional and accepted.
 
 ---
 
 ## 🧭 Roadmap
 
-- [ ] Define naming convention for test minigames
-- [ ] Link test stanzas to anomaly_report.md
-- [ ] Grant `sentinel_ai` and `engineer.py` authority to trigger these recursively
+- [ ] Define naming convention for test minigames  
+- [ ] Link test stanzas to anomaly_report.md  
+- [ ] Grant `sentinel_ai` and `engineer.py` authority to trigger these recursively  
 - [ ] Permit players to become testers through disguised questlines
 
 ---
