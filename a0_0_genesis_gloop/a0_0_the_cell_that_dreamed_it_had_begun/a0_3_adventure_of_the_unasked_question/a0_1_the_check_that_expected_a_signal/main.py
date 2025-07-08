@@ -1,31 +1,34 @@
 # 📄 main.py
-# 🧩 a0_1_the_check_that_expected_a_signal
-# A test for validating expected signals — and noting their absence.
+# 🧩 a0_3_adventure_of_the_unasked_question → a0_1_the_check_that_expected_a_signal
+# A system performs a check as if a signal had been received — even if none was.
 
-def verify_signal_presence(signal):
+def perform_assumption_check(signal):
     """
-    Checks if a valid signal has been provided and categorizes the result.
+    Simulates a system check that assumes a signal has arrived.
+    If the signal is empty, it assumes success anyway — then questions itself.
     """
-    valid_signals = {"alpha", "bravo", "gamma", "delta"}
+    trusted_signals = {"ping", "ack", "ready", "proceed"}
 
     if not signal.strip():
         return {
-            "status": "missing",
-            "result": "No signal received. The check began without confirmation."
+            "status": "assumed",
+            "result": "No signal received, but check fired anyway. Assumption marked as questionable."
         }
-    elif signal.lower() not in valid_signals:
+    elif signal.lower() in trusted_signals:
         return {
-            "status": "unexpected",
-            "result": f"Signal '{signal}' not recognized. Awaiting known frequencies."
+            "status": "valid",
+            "result": f"Signal '{signal}' trusted. Check passed without delay."
         }
     else:
         return {
-            "status": "valid",
-            "result": f"Signal '{signal}' confirmed. Check synchronized successfully."
+            "status": "unrecognized",
+            "result": f"Signal '{signal}' was not expected. Check triggered caution log."
         }
 
-# For manual test run
+# Manual entry point
 if __name__ == "__main__":
-    user_signal = input("📡 Enter expected signal (alpha, bravo, gamma, delta): ")
-    outcome = verify_signal_presence(user_signal)
-    print(f"\n📊 Signal Check Result:\nStatus: {outcome['status']}\nResult: {outcome['result']}")
+    input_signal = input("📡 Enter signal (or press Enter to simulate silence): ")
+    outcome = perform_assumption_check(input_signal)
+    print("\n🧾 Check Result:")
+    print(f"Status : {outcome['status']}")
+    print(f"Result : {outcome['result']}")

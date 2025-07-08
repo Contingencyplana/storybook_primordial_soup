@@ -2,50 +2,57 @@
 # 🧭 Subtaskmap – a0_1_the_check_that_expected_a_signal
 
 ## 🧩 Stanza Line: The Check That Expected a Signal  
-**Theme:** Awaiting Confirmation / Expectation Logic / Signal Presence
+**Theme:** Faulty Assumption / Silent Input / Recursive False Positives
 
 ---
 
 ## 🎯 Purpose
 
-This stanza tests how the system handles **signal validation checkpoints**, where the presence or absence of a recognized input determines flow.
+This stanza line tests a system behavior in which a **check fires automatically**, regardless of whether a signal was actually received.  
+It models a **premature assumption** — an operation that validates itself before receiving confirmation.
 
-The check does not demand input — but it is *built* to expect it.  
-What it receives defines its classification and next move.
-
----
-
-## 🧪 Testable Input Conditions
-
-| Input Type        | Example Input     | Expected Outcome                                                                |
-|-------------------|------------------|----------------------------------------------------------------------------------|
-| No Input          | *(press Enter)*  | Status: `missing` – "No signal received. The check began without confirmation." |
-| Unrecognized Input| `zeta`, `unknown`| Status: `unexpected` – "Signal 'X' not recognized. Awaiting known frequencies." |
-| Recognized Input  | `alpha`, `bravo`, `gamma`, `delta` | Status: `valid` – "Signal 'X' confirmed. Check synchronized successfully."     |
-| Exit Condition    | `exit`, `quit`, `q` | Terminates the test session gracefully.                                     |
+The goal is to simulate silent misalignment: logic that proceeds too early, trusting something that never truly arrived.
 
 ---
 
-## 🧠 Design Philosophy
+## 🧪 Input Conditions
 
-- A check that **waits with purpose** — it’s not passive.
-- The signal list is curated: only predefined terms are considered valid.
-- The check is tolerant of silence, but does not ignore it.
-
----
-
-## 🔧 Implementation Notes
-
-- `main.py` provides `verify_signal_presence()` — the Y-node logic of the stanza.
-- `test.py` loops interactively, providing a report after each trial input.
-- Known valid signals can be expanded in future versions to simulate evolving protocols.
+| Input Type        | Example Input | Expected Outcome                                                                 |
+|-------------------|---------------|----------------------------------------------------------------------------------|
+| No Input          | *(Enter)*     | Status: `assumed` – "No signal received, but check fired anyway..."             |
+| Recognized Input  | `ping`, `ready`, `ack`, `proceed` | Status: `valid` – Trusted signals pass the check |
+| Unrecognized Input| `???`, `noise`, `echo` | Status: `unrecognized` – Triggers caution log                                |
+| Exit Condition    | `exit`, `quit`, `q` | Ends test loop gracefully                                                      |
 
 ---
 
-## 🔗 Possible Follow-On Nodes
+## 🧠 Design Insight
 
-- `s0_2_the_response_that_was_already_waiting` – when the check receives a reply before it sends the call.
-- `s0_3_the silence_that_answered_itself` – when no signal comes, and yet the check completes.
-- `a0_4_the override_that_never_received_permission` – for escalations bypassing validation.
+- The system **assumes** input has arrived even when none has.
+- If silence is present, it still proceeds — logging an **assumed truth**.
+- This mirrors real-world bugs: watchdogs triggering without cause, processes trusting silence as signal.
+
+---
+
+## 🔧 Implementation
+
+- `main.py`: Contains `perform_assumption_check()` function, which branches on input presence and trust level.
+- `test.py`: Interactive interface that simulates real-time check attempts, interprets results, and loops until exit.
+
+---
+
+## 🔁 Recursion Linkage
+
+- Follows `a0_0_the_input_that_was_never_given`, where **no signal was sent**.
+- Precedes `a0_2_the_branch_that_was_never_chosen`, where a **path was coded but never triggered**.
+
+---
+
+## 🔗 Narrative Thread
+
+> The system stood ready, listening for a signal.  
+> But none came. Still, it passed the check.  
+> The result was logged. The confidence was false.  
+> And yet, recursion pressed onward.
 
 ---
