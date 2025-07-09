@@ -18,6 +18,7 @@ It is a test of **false determinism** and pre-emptive system behavior.
 ```python
 evaluate_choice(memory_log, presented_options)
 ```
+
 - Detects whether the system already holds a **“remembered” choice**.
 - If memory exists but no current prompt is active, flags it as **predated**.
 - Determines if the remembered choice is:
