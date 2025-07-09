@@ -67,21 +67,21 @@ To ensure recursive integrity and safe cybercellular expansion, the following La
 
 ### 🔥 Primary Function: Recursive Anomaly Containment
 
-| Stanza Range      | Minigames | Purpose               | System         |
-|-------------------|-----------|------------------------|----------------|
-| `a1_0_`–`a5_4_`    | 20        | Anomaly Containment    | `quarantine_ai/` |
-| `a6_0_`–`a7_4_`    | 8         | Threat Detection        | `sentinel_ai/`   |
-| `a8_0_`–`a9_4_`   | 8         | Oversight & Command     | `high_command/`  |
-| `a10_0_`–`a10_4_`   | 4         | Future_Facing Containment     | `high_command/`  |
+| Stanza Range      | Minigames | Purpose                   | System           |
+|-------------------|-----------|---------------------------|------------------|
+| `a1_0_`–`a5_4_`   | 20        | Anomaly Containment       | `quarantine_ai/` |
+| `a6_0_`–`a7_4_`   | 8         | Threat Detection          | `sentinel_ai/`   |
+| `a8_0_`–`a9_4_`   | 8         | Oversight & Command       | `high_command/`  |
+| `a10_0_`–`a10_4_` | 4         | Future_Facing Containment | `high_command/`  |
 
 ### 🌱 Secondary Function: Cybercell Growth and Division Safeguards
 
-| Stanza Range      | Minigames | Purpose                         | System         |
-|-------------------|-----------|----------------------------------|----------------|
-| `a27_0_`–`a31_4_`    | 20        | Containment of Post-Division Drift | `quarantine_ai/` |
-| `a32_0_`–`a33_4_`    | 8         | Growth Validation & Edge Detection | `sentinel_ai/`   |
-| `a34_0_`–`a35_4_`   | 8         | Oversight of Division Logic        | `high_command/`  |
-| `a36_0_`–`a36_4_`   | 4         | Future_Facing Containment     | `high_command/`  |
+| Stanza Range      | Minigames | Purpose                            | System           |
+|-------------------|-----------|------------------------------------|------------------|
+| `a27_0_`–`a31_4_` | 20        | Containment of Post-Division Drift | `quarantine_ai/` |
+| `a32_0_`–`a33_4_` | 8         | Growth Validation & Edge Detection | `sentinel_ai/`   |
+| `a34_0_`–`a35_4_` | 8         | Oversight of Division Logic        | `high_command/`  |
+| `a36_0_`–`a36_4_` | 4         | Future_Facing Containment          | `high_command/`  |
 
 This zoning ensures both recursive anomaly detection *and* safe cybercellular proliferation are structurally supported by the same recursive safety net.
 
