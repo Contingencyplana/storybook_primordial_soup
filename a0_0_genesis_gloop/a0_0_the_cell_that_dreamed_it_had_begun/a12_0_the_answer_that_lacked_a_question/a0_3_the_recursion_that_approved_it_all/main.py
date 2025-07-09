@@ -36,4 +36,6 @@ if __name__ == "__main__":
     result = recursive_approval_pass()
     print("🧠 Recursive System Approval Summary:")
     for key, value in result.items():
-        if isinstance(value
+        if isinstance(value, list):
+            print(f"{key}:")
+            f
