@@ -1,4 +1,5 @@
 # test.py
+
 """
 🔍 Test – The Recursion That Approved It All
 Runs the recursive self-validation loop and prints its confirmation chain.
