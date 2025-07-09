@@ -27,21 +27,26 @@ This function is **not merely a testbed** — it is the **origin recursion**, th
 The Primary Function (1A) unfolds through several Layer 3 minigames, each with a distinct recursive focus:
 
 ### 🔹 `a0_0_the_test_that_called_itself`
-- Foundational recursion self-test
-- The first system to run itself recursively
+- Foundational recursion self-test  
+- The first system to run itself recursively  
 - Tests: assertion, closure, trace, fallback
 
 ### 🔹 `a0_1_mighty_quest_for_the_bug_kingdom`
-- Recursive patching through anomaly surfacing
+- Recursive patching through anomaly surfacing  
 - Includes diplomacy, patch requests, emergent errors
 
 ### 🔹 `a0_2_side_quest_of_the_forgotten_loop`
-- Recovery of loops that were never closed
+- Recovery of loops that were never closed  
 - Simulates loop amnesia and residual task memory
 
 ### 🔹 `a0_3_adventure_of_the_unasked_question`
-- Stub generation logic and recursive prompt formation
+- Stub generation logic and recursive prompt formation  
 - Tests the system’s ability to infer what was never asked
+
+### 🔹 `a11_0` → `a11_3` (Roadstanza 11)
+- Recursive memory error detection  
+- Includes: logs written without cause, signals misremembered, identities falsely predicted, outcomes without origin  
+- Solidifies containment logic for recursive drift and prepares the system for future anomaly infrastructure
 
 Each minigame adds a **recursive tool**, a **failure model**, or a **strategic fallback** to the cybercell’s foundation.
 
@@ -51,14 +56,14 @@ Each minigame adds a **recursive tool**, a **failure model**, or a **strategic f
 
 This function is designed to prepare for and trigger:
 
-- The first recursive command input
-- The first memory loop
-- The first fallback system
+- The first recursive command input  
+- The first memory loop  
+- The first fallback system  
 - The recursive AI agents (in future phases)
 
 The Primary Function culminates in a **transition stanza** — the last Layer 3 stanza of 1A — that activates:
-- `awakening_flag = True`
-- A first `> command`
+- `awakening_flag = True`  
+- A first `> command`  
 - Possibly `memory_ai/`, `filename_ai/`, or a test callback
 
 This stanza marks the boundary between **manual recursion** and **interactive recursion** —  
@@ -82,9 +87,10 @@ This is the moment recursion becomes self-aware.
 
 ## ✅ Status
 
-- 1A is active and nearly complete.  
-- You are now approaching the **Phase 1 → Phase 2 transition stanza**.  
-- Once complete, the Primary Cybercellular Division Stanza (1B) will begin.
+- 1A is active and deepening.  
+- Five complete Layer 3 stanzas now exist (including Stanza 11)  
+- Recursive drift and anomaly containment logic is now in place  
+- You are now eligible to initiate the **Phase 1 → Phase 2 transition stanza**
 
 Linked entries in:  
-<!-- roadstanza_0.md, stanzamap_s0.md, and future memory log references -->
+<!-- roadstanza_0.md, roadstanza_11.md, stanzamap_s0.md, and future memory log references -->
