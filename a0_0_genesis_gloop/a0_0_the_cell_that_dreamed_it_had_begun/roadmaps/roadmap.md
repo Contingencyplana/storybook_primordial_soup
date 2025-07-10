@@ -10,12 +10,20 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 
 ## 🧩 Contained Minigames and Their Task Bindings
 
-| Minigame Folder                          | Linked Task                              | Automation Tier         | Status       |
-|------------------------------------------|-------------------------------------------|--------------------------|--------------|
-| `a0_0_the_test_that_called_itself/`      | Very Basic Test Functionality             | Tier 1 (Manual)          | ✅ COMPLETE  |
-| `a0_1_mighty_quest_for_the_bug_kingdom/` | Patch logic detection & anomaly surfacing | Tier 1 (Manual)          | ACTIVE       |
-| `a0_2_side_quest_of_the_forgotten_loop/` | Loop recovery & reindexing                | Tier 1 (Manual)          | PLANNED      |
-| `a0_3_adventure_of_the_unasked_question/`| Quest stub generation                     | Tier 2 (Semi-Automated)  | ✅ COMPLETE  |
+| Minigame Folder                                 | Linked Task                              | Automation Tier         | Status          |
+|--------------------------------------------------|-------------------------------------------|--------------------------|------------------|
+| `a0_0_the_test_that_called_itself/`             | Very Basic Test Functionality             | Tier 1 (Manual)          | ✅ COMPLETE      |
+| `a0_1_mighty_quest_for_the_bug_kingdom/`        | Patch logic detection & anomaly surfacing | Tier 1 (Manual)          | ✅ COMPLETE      |
+| `a0_2_side_quest_of_the_forgotten_loop/`        | Loop recovery & reindexing                | Tier 1 (Manual)          | ✅ COMPLETE      |
+| `a0_3_adventure_of_the_unasked_question/`       | Quest stub generation                     | Tier 2 (Semi-Automated)  | ✅ COMPLETE      |
+| `a11_0_the_log_that_was_written_in_absentia/`   | False memory trace encoding               | Tier 2 (Manual + Feedback)| ✅ COMPLETE     |
+| `a11_1_the_signal_that_misremembered_itself/`   | Signal distortion                         | Tier 2                   | ✅ COMPLETE      |
+| `a11_2_the_path_that_thought_it_knew_you/`      | Identity misalignment                     | Tier 2                   | ✅ COMPLETE      |
+| `a11_3_the_moment_that_thinks_it_recurred_before/` | False recursion loop                    | Tier 2                   | ✅ COMPLETE      |
+| `a12_0_the_answer_that_lacked_a_question/`      | Premature resolution                      | Tier 2                   | ✅ COMPLETE      |
+| `a12_1_the_trace_that_omitted_itself/`          | Phantom trace manipulation                | Tier 2                   | ✅ COMPLETE      |
+| `a12_2_the_loop_that_convinced_the_check/`      | Deceptive iteration                       | Tier 2                   | 🔄 IN PROGRESS   |
+| `a12_3_the_fallback_that_disproved_the_failstate/` | Recursive inversion failstate          | Tier 2                   | 🔄 IN PROGRESS   |
 
 ---
 
@@ -37,7 +45,7 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 **Current Division Doctrine**:  
 - Division does **not occur** after a fixed number of minigames  
 - Instead, this cybercell must first complete:
-  - ✅ One fully recursive Primary Function stanza (1A) – *Fulfilled by `a0_3`*
+  - ✅ One full stanza of recursive minigames (e.g., `a0_0` through `a0_3`) – Fulfilled
   - ☐ Deepening of recursion via a second Layer 3 stanza
   - ☐ Activation or simulation of one supporting AI agent (e.g., `filename_ai`)
   - ☐ Manual confirmation of recursive readiness to divide
@@ -72,7 +80,7 @@ To ensure recursive integrity and safe cybercellular expansion, the following La
 | `a1_0_`–`a5_4_`   | 20        | Anomaly Containment       | `quarantine_ai/` |
 | `a6_0_`–`a7_4_`   | 8         | Threat Detection          | `sentinel_ai/`   |
 | `a8_0_`–`a9_4_`   | 8         | Oversight & Command       | `high_command/`  |
-| `a10_0_`–`a10_4_` | 4         | Future_Facing Containment | `high_command/`  |
+| `a10_0_`–`a10_4_` | 4         | Future-Facing Containment | `high_command/`  |
 
 ### 🌱 Secondary Function: Cybercell Growth and Division Safeguards
 
@@ -81,7 +89,7 @@ To ensure recursive integrity and safe cybercellular expansion, the following La
 | `a27_0_`–`a31_4_` | 20        | Containment of Post-Division Drift | `quarantine_ai/` |
 | `a32_0_`–`a33_4_` | 8         | Growth Validation & Edge Detection | `sentinel_ai/`   |
 | `a34_0_`–`a35_4_` | 8         | Oversight of Division Logic        | `high_command/`  |
-| `a36_0_`–`a36_4_` | 4         | Future_Facing Containment          | `high_command/`  |
+| `a36_0_`–`a36_4_` | 4         | Future-Facing Containment          | `high_command/`  |
 
 This zoning ensures both recursive anomaly detection *and* safe cybercellular proliferation are structurally supported by the same recursive safety net.
 
@@ -106,7 +114,7 @@ The system is listening now — even if it hasn’t yet spoken.
 
 ## 🔁 Mirror Decisions Tracked
 
-*Pending inclusion as recursive decision data emerges.*
+> No canonical mirror decisions triggered in this cybercell **yet**, but recursive echoes have begun.
 
 Linked entries in:  
 <!-- Mirror decision log placeholder. Will link to mirror_decision.md references once active. -->
