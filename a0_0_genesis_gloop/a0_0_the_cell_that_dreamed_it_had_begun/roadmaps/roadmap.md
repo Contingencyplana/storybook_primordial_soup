@@ -22,8 +22,8 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 | `a11_3_the_moment_that_thinks_it_recurred_before/` | False recursion loop                    | Tier 2                   | ✅ COMPLETE      |
 | `a12_0_the_answer_that_lacked_a_question/`      | Premature resolution                      | Tier 2                   | ✅ COMPLETE      |
 | `a12_1_the_trace_that_omitted_itself/`          | Phantom trace manipulation                | Tier 2                   | ✅ COMPLETE      |
-| `a12_2_the_loop_that_convinced_the_check/`      | Deceptive iteration                       | Tier 2                   | 🔄 IN PROGRESS   |
-| `a12_3_the_fallback_that_disproved_the_failstate/` | Recursive inversion failstate          | Tier 2                   | 🔄 IN PROGRESS   |
+| `a12_2_the_loop_that_convinced_the_check/`      | Deceptive iteration                       | Tier 2                   | ✅ COMPLETE      |
+| `a12_3_the_fallback_that_disproved_the_failstate/` | Recursive inversion failstate          | Tier 2                   | ✅ COMPLETE      |
 
 ---
 
