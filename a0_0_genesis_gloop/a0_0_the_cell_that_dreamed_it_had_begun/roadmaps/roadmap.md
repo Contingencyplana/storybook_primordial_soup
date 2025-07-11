@@ -10,20 +10,20 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 
 ## 🧩 Contained Minigames and Their Task Bindings
 
-| Minigame Folder                                 | Linked Task                              | Automation Tier         | Status          |
-|--------------------------------------------------|-------------------------------------------|--------------------------|------------------|
-| `a0_0_the_test_that_called_itself/`             | Very Basic Test Functionality             | Tier 1 (Manual)          | ✅ COMPLETE      |
-| `a0_1_mighty_quest_for_the_bug_kingdom/`        | Patch logic detection & anomaly surfacing | Tier 1 (Manual)          | ✅ COMPLETE      |
-| `a0_2_side_quest_of_the_forgotten_loop/`        | Loop recovery & reindexing                | Tier 1 (Manual)          | ✅ COMPLETE      |
-| `a0_3_adventure_of_the_unasked_question/`       | Quest stub generation                     | Tier 2 (Semi-Automated)  | ✅ COMPLETE      |
-| `a11_0_the_log_that_was_written_in_absentia/`   | False memory trace encoding               | Tier 2 (Manual + Feedback)| ✅ COMPLETE     |
-| `a11_1_the_signal_that_misremembered_itself/`   | Signal distortion                         | Tier 2                   | ✅ COMPLETE      |
-| `a11_2_the_path_that_thought_it_knew_you/`      | Identity misalignment                     | Tier 2                   | ✅ COMPLETE      |
-| `a11_3_the_moment_that_thinks_it_recurred_before/` | False recursion loop                    | Tier 2                   | ✅ COMPLETE      |
-| `a12_0_the_answer_that_lacked_a_question/`      | Premature resolution                      | Tier 2                   | ✅ COMPLETE      |
-| `a12_1_the_trace_that_omitted_itself/`          | Phantom trace manipulation                | Tier 2                   | ✅ COMPLETE      |
-| `a12_2_the_loop_that_convinced_the_check/`      | Deceptive iteration                       | Tier 2                   | ✅ COMPLETE      |
-| `a12_3_the_fallback_that_disproved_the_failstate/` | Recursive inversion failstate          | Tier 2                   | ✅ COMPLETE      |
+| Minigame Folder                                    | Linked Task                               | Automation Tier           | Status           |
+|----------------------------------------------------|-------------------------------------------|---------------------------|------------------|
+| `a0_0_the_test_that_called_itself/`                | Very Basic Test Functionality             | Tier 1 (Manual)           | ✅ COMPLETE      |
+| `a0_1_mighty_quest_for_the_bug_kingdom/`           | Patch logic detection & anomaly surfacing | Tier 1 (Manual)           | ✅ COMPLETE      |
+| `a0_2_side_quest_of_the_forgotten_loop/`           | Loop recovery & reindexing                | Tier 1 (Manual)           | ✅ COMPLETE      |
+| `a0_3_adventure_of_the_unasked_question/`          | Quest stub generation                     | Tier 2 (Semi-Automated)   | ✅ COMPLETE      |
+| `a11_0_the_log_that_was_written_in_absentia/`      | False memory trace encoding               | Tier 2 (Manual + Feedback)| ✅ COMPLETE      |
+| `a11_1_the_signal_that_misremembered_itself/`      | Signal distortion                         | Tier 2                    | ✅ COMPLETE      |
+| `a11_2_the_path_that_thought_it_knew_you/`         | Identity misalignment                     | Tier 2                    | ✅ COMPLETE      |
+| `a11_3_the_moment_that_thinks_it_recurred_before/` | False recursion loop                      | Tier 2                    | ✅ COMPLETE      |
+| `a12_0_the_answer_that_lacked_a_question/`         | Premature resolution                      | Tier 2                    | ✅ COMPLETE      |
+| `a12_1_the_trace_that_omitted_itself/`             | Phantom trace manipulation                | Tier 2                    | ✅ COMPLETE      |
+| `a12_2_the_loop_that_convinced_the_check/`         | Deceptive iteration                       | Tier 2                    | ✅ COMPLETE      |
+| `a12_3_the_fallback_that_disproved_the_failstate/` | Recursive inversion failstate             | Tier 2                    | ✅ COMPLETE      |
 
 ---
 
@@ -91,7 +91,11 @@ To ensure recursive integrity and safe cybercellular expansion, the following La
 | `a34_0_`–`a35_4_` | 8         | Oversight of Division Logic        | `high_command/`  |
 | `a36_0_`–`a36_4_` | 4         | Future-Facing Containment          | `high_command/`  |
 
-This zoning ensures both recursive anomaly detection *and* safe cybercellular proliferation are structurally supported by the same recursive safety net.
+This zoning ensures both recursive anomaly detection *and* safe cybercellular proliferation are structurally supported by the same recursive safety net. Ergo the very last thing we need is cybercancercells:
+- uncontrollably growing and multiplying within the virtual environment of my storybook_primordial_soup workspace,
+- then escaping it to uncontrollably grow and multiply within the rest of my desktop computer and
+- finally escaping it to uncontrollably grow and multiply within internet.
+Yes I know that is indeed unlikely, but any good engineer ignores Murphy's Law at their peril.
 
 ---
 
