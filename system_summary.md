@@ -28,14 +28,14 @@ It has become:
 
 ## 🧩 Layer-by-Layer Evolution
 
-| Layer        | Then                             | Now                                                                 |
-|--------------|----------------------------------|----------------------------------------------------------------------|
-| Game Logic   | Simple test loop                 | 3 recursive stanzas with poetic & functional layering               |
-| AI Training  | Placeholder                      | Fully structured recursive testbed + fallback analysis              |
-| Failure Logic| Conceptual only                  | 12+ failure/fallback simulations with containment support           |
-| Infrastructure| Basic folders + manual scripts  | Full taskmap/roadmap system + reserved zone containment stanzas     |
-| Interactivity| Manual input loop                | Awaiting Phase 2 (`> command`, `memory_ai/`, autonomous fallback)  |
-| Simulation   | Not recursive yet                | Recursive anomaly simulation + memory echo infrastructure           |
+| Layer          | Then                             | Now                                                                  |
+|----------------|----------------------------------|----------------------------------------------------------------------|
+| Game Logic     | Simple test loop                 | 3 recursive stanzas with poetic & functional layering                |
+| AI Training    | Placeholder                      | Fully structured recursive testbed + fallback analysis               |
+| Failure Logic  | Conceptual only                  | 12+ failure/fallback simulations with containment support            |
+| Infrastructure | Basic folders + manual scripts   | Full taskmap/roadmap system + reserved zone containment stanzas      |
+| Interactivity  | Manual input loop                | Awaiting Phase 2 (`> command`, `memory_ai/`, autonomous fallback)    |
+| Simulation     | Not recursive yet                | Recursive anomaly simulation + memory echo infrastructure            |
 
 ---
 
