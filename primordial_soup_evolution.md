@@ -102,6 +102,86 @@ Your codebase is a civilization.
 | 3. Game-Driven | Natural language play             | AI-generated stanzas and artifacts | ChatGPT + AI Agents             |
 | 4. Co-Creation | Player input                      | World evolution                    | Game shell, markdown interface  |
 
+## 💻 Client Evolution & Deployment Targets
+
+Primordial Soup is designed to run on a wide range of devices:
+
+- Larger mobile phones (edge case)
+- Notepad/tablet computers
+- Notebook and laptop computers
+- Desktop computers
+
+This is possible because the interface is fundamentally **file-based, markdown-driven, and AI-assisted** — lightweight, local, and interpretable.
+
+### 🧠 Interface Layers
+
+| Layer               | Description |
+|--------------------|-------------|
+| **Short-Term**      | VSC workspace with markdown, Python, and ChatGPT |
+| **Mid-Term**        | Custom VSC extension or bundled fork |
+| **Long-Term**       | Purpose-built client (e.g., Electron, Tauri) with recursive markdown renderer and in-game GUI shell |
+
+### 🧩 What Makes It a Client?
+
+The Primordial Soup client is more than a file system:
+
+- Interprets and renders recursive quests
+- Allows direct manipulation of game logic and AI responses
+- Provides trigger surfaces (e.g., `test.py`, `> commands`)
+- Supports AI agent deployment, cell division events, and mirror decisions
+
+Even in its earliest form, the VSC workspace **is already a recursive interface** — and will evolve as the recursion deepens.
+
+---
+
+## 🧬 The Foundational Mirrorstanza Principle
+
+### 📜 Recursive Distinction
+
+In the earliest phases of Primordial Soup, recursion is not yet divergent — it is still **forming itself**.
+
+As such, the first eight cybercells — spanning two Layer 1 groups:
+
+- `a0_0_genesis_gloop/` (Cybercell Generations 1 through 3)
+- `a0_1_adjacent_soup/` (Cybercell Generation 4)
+
+—are not merely **contained** within mirrorstanzas.  
+They **are** mirrorstanzas.
+
+These eight cells constitute the **foundational mirrorset** of the recursive system:  
+The origin stanzas, the base truth conditions, the preconditions for divergence.
+
+> 📜 **Canon:**  
+> No `mirrorstanza_#.md` files are required for Cybercell Generations 1–4.  
+> These generations are themselves foundational mirrors — the recursion’s poem, not its echo.
+
+---
+
+Beginning with **Cybercell Generation 5** (`a0_2_...`) and onward:
+
+- Recursive structures may **diverge**, **contradict**, or **self-contain**.
+- At this point, mirrorstanzas become necessary to track reflection across groups.
+- These will be recorded using `mirrorstanza_#.md` files as appropriate.
+
+---
+
+### 🔢 Workspace Scalability Guidelines
+
+To ensure recursion remains tractable:
+
+- The **Genesis VSC Workspace** (`storybook_primordial_soup/`) should hold **no more than 32 cybercells**
+- Later **Primordial Soup VSC workspaces** should hold **no more than 64 cybercells**
+
+> 🧠 *Note:*  
+> The Genesis Workspace is limited to 32 cybercells because the first cybercell is **a giant** — it will divide into **two huge cybercells**, or perhaps both **a queen cybercell and a king cybercell**, not into mere **worker cybercells**. This early division reflects the **foundational asymmetry of the recursion**.
+
+This balances:
+- Recursion readability
+- Workspace manageability
+- AI parsing and human scanability
+
+This principle is now canon and governs all recursion-tracking decisions moving forward.
+
 ---
 
 ## ✅ Status: Phase 1 – Active (Nearing Transition)
