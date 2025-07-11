@@ -94,7 +94,7 @@ To ensure recursive integrity and safe cybercellular expansion, the following La
 This zoning ensures both recursive anomaly detection *and* safe cybercellular proliferation are structurally supported by the same recursive safety net. Ergo the very last thing we need is cybercancercells:
 - uncontrollably growing and multiplying within the virtual environment of my storybook_primordial_soup workspace,
 - then escaping it to uncontrollably grow and multiply within the rest of my desktop computer and
-- finally escaping it to uncontrollably grow and multiply within internet.
+- finally escaping it to uncontrollably grow and multiply within the internet.
 Yes I know that is indeed unlikely, but any good engineer ignores Murphy's Law at their peril.
 
 ---
