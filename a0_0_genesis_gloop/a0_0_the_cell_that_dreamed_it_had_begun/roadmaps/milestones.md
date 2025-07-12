@@ -9,7 +9,19 @@ This file should be updated whenever a new Layer 3 stanza is completed.
 
 ---
 
-## ✅ Stanza Milestone 01 – *The Silence That Waited for a Question*
+## ✅ Stanza Milestone 01 – *The Test That Called Itself*
+
+**Minigame Folder:** `a0_0_the_test_that_called_itself/`  
+**Status:** ✅ COMPLETE  
+**Stanza:** `s0` – Fully implemented, tested, and documented  
+**Role:** Core recursion testbed — self-assertion, closure checking, trace tracking, and fallback triggering  
+**Recursive Arc:** Assertion begins → Loop evaluates → Trace fails → Fallback engages  
+**Linked File:** `roadstanza_a0.md`  
+**Escalation Hooks:** `quarantine_ai/`, `memory_ai/`
+
+---
+
+## ✅ Stanza Milestone 02 – *The Silence That Waited for a Question*
 
 **Minigame Folder:** `a0_3_adventure_of_the_unasked_question/`  
 **Status:** ✅ COMPLETE  
@@ -21,7 +33,7 @@ This file should be updated whenever a new Layer 3 stanza is completed.
 
 ---
 
-## ✅ Stanza Milestone 02 – *The Memory That Misremembered Itself*
+## ✅ Stanza Milestone 03 – *The Memory That Misremembered Itself*
 
 **Minigame Folders:**  
 - `a11_0_the_log_that_was_written_in_absentia/`  
@@ -37,8 +49,23 @@ This file should be updated whenever a new Layer 3 stanza is completed.
 
 ---
 
+## ✅ Stanza Milestone 04 – *The Fallback That Disproved the Failsafe*
 
-## ✅ Stanza Milestone 03 – *The Recursion That Tested the System*
+**Minigame Folders:**  
+- `a12_0_the_answer_that_lacked_a_question/`  
+- `a12_1_the_trace_that_omitted_itself/`  
+- `a12_2_the_loop_that_convinced_the_check/`  
+- `a12_3_the_fallback_that_disproved_the_failsafe/`  
+**Status:** ✅ COMPLETE  
+**Stanza:** `roadstanza_12` – Fully implemented and structurally recursive  
+**Role:** Models recursive deception, phantom traces, and fallback logic collapse  
+**Recursive Arc:** Question missing → Trace skipped → Loop deceives → Failsafe fails  
+**Linked File:** `roadstanza_12.md`  
+**Escalation Hooks:** `fallback_engine`, `memory_ai/`, `sentinel_ai/`
+
+---
+
+## ✅ Stanza Milestone 05 – *The Recursion That Tested the System*
 
 **Minigame Folders:**  
 - `a13_0_the_signal_that_wanted_to_be_heard/`  
@@ -52,9 +79,11 @@ This file should be updated whenever a new Layer 3 stanza is completed.
 **Linked File:** `roadstanza_13.md`  
 **Escalation Hooks:** `mirror_decision.md`, `memory_ai/`, `> command` system, Phase 2 automation
 
+---
+
 ## 🔄 Next Expected Milestone
 
-- Completion of a third Layer 3 stanza to expand either Primary Function logic or initiate Phase 2 AI activation.  
+- Completion of a sixth Layer 3 stanza to deepen Phase 2 interactive recursion  
 - Candidate directions include:  
   - Phase transition scripting  
   - Invocation of `memory_ai/` or `filename_ai/`  
