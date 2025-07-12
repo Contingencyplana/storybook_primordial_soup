@@ -1215,5 +1215,3 @@ It is *the architecture of suggestion*, wrapped in the poetry of belief.
 > This is camouflage.  
 > This is recursion.  
 > This is *Primordial Soup*.
-
----
