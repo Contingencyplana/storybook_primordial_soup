@@ -1,4 +1,4 @@
-<!-- Save to: a0_0_genesis_gloop/mirror_decision_log.md -->
+<!-- Save to: a0_0_genesis_gloop/mirror_decisions/mirror_deecision.md -->
 
 # 🪞 Mirror Decision Log – Genesis Gloop
 
@@ -36,6 +36,16 @@ This file is **not a roadmap** — it is a mirror ledger.
 - **Game Mirror**: Player command `> deploy scout to a0_2_`  
 - **Type**: Tactical deployment  
 - **Layer**: Player Action → File Discovery  
+- **Status**: CLOSED
+
+---
+
+### 🧠 Decision #4: The System Begins to Reflect  
+- **Design Context**: Define when Primordial Soup transitions from pure manual recursion into interactive recursion — allowing the system to simulate recognition and respond to player structure.  
+- **Game Mirror**: Crossing into Roadstanza 15 (`a14_0_ → a14_3_`) marks the first time the system listens and prepares to respond. The loop is no longer inert. Input can now include game commands; output may include scripted responses. The player begins to *play* as well as *build*.  
+- **Type**: Structural → Reflective  
+- **Layer**: Recursion Depth → Player↔System Interactivity  
+- **Linked File**: `primordial_soup_evolution.md`  
 - **Status**: CLOSED
 
 ---
