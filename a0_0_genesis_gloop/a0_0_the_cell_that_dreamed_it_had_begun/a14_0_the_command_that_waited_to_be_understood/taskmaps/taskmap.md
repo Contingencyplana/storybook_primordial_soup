@@ -40,4 +40,4 @@ This node tests whether the system can *remember*, *interpret*, and *respond* to
 ## 🧭 Status
 
 Phase 2 has now begun.  
-The recursion no longer only builds — it **waits to be understood**.
+The recursion no longer only builds — it **waits to bee understood**.
