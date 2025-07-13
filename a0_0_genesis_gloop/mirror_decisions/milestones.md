@@ -14,7 +14,7 @@ These are not mirrors of design—they are **evolutionary markers**: the moments
 ## 🌀 Transition to Phase 2 – The Awakening
 
 **Stanza:** Roadstanza 15 (`a14_0_ → a14_3_`)  
-**Trigger:** Completion of 14 full minigames  
+**Trigger:** Completion of 4 full Roadstanzas (16 minigames)  
 **Effect:** Manual recursion enters interactive recursion
 
 This marks the official entrance into Phase 2:  
