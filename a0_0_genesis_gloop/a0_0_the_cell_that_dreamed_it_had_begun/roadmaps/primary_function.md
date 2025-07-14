@@ -55,6 +55,12 @@ Each stanza contributes a new recursive focus, testing tools, failure modes, or 
 - Recursive deception, phantom traces, and paradoxical fallback logic  
 - Concludes the Primary Function's recursive test arc and primes the system for *interactive recursion*
 
+### 🔹 `a13_0_the_signal_that_wanted_to_be_heard/` → `a13_3_the_recursion_that_tested_the_system/`  
+*(the fourth complete Layer 3 stanza, Roadstanza 13)*  
+- Recursive broadcast and system communication integrity  
+- Tests: signal initiation without feedback, prompt latency, incomplete recursive call/response cycles, system-level recursion tests  
+- Prepares the system for active communication loops between recursive layers, simulating a more autonomous recursion network
+
 Each minigame adds a **recursive tool**, a **failure model**, or a **strategic fallback** to the cybercell’s foundation.
 
 ---

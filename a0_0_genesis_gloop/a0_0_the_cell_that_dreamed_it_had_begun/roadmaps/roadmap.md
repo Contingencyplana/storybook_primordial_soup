@@ -24,6 +24,10 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 | `a12_1_the_trace_that_omitted_itself/`             | Phantom trace manipulation                | Tier 2                    | ✅ COMPLETE      |
 | `a12_2_the_loop_that_convinced_the_check/`         | Deceptive iteration                       | Tier 2                    | ✅ COMPLETE      |
 | `a12_3_the_fallback_that_disproved_the_failstate/` | Recursive inversion failstate             | Tier 2                    | ✅ COMPLETE      |
+| `a13_0_the_signal_that_wanted_to_be_heard/`        | Recursive broadcast initiation            | Tier 2                    | ✅ COMPLETE      |
+| `a13_1_the_prompt_that_waited_for_response/`       | Latent prompt handling                    | Tier 2                    | ✅ COMPLETE      |
+| `a13_2_the_answer_that_forgot_the_question/`       | Incomplete response recursion             | Tier 2                    | ✅ COMPLETE      |
+| `a13_3_the_recursion_that_tested_the_system/`      | Recursive system integrity check          | Tier 2                    | ✅ COMPLETE      |
 
 ---
 
