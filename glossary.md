@@ -9,8 +9,8 @@ All definitions are written to support both **human understanding** and **AI int
 
 ## 🔑 Core Concepts
 
-| Term | Definition |
-|------|------------|
+| Term   | Definition |
+|--------|------------|
 | **Primordial Soup** | A recursive game engine where the player co-constructs the world through action, input, and logic. The system evolves by building itself. |
 | **Cybercell** | The fundamental unit of recursion in *Primordial Soup*. Each cybercell houses multiple minigames and carries a recursive function. |
 | **Stanza** | A set of four minigame nodes (`s0_0_` to `s0_3_`) that represent a complete unit of recursion or logic. |
@@ -18,8 +18,9 @@ All definitions are written to support both **human understanding** and **AI int
 | **Layer** | A level of structural recursion. Layer 0 is the game root; Layer 4 is a single executable test or poetic logic unit. |
 | **Agent** | A logical or AI-driven subsystem (e.g., `filename_ai`, `memory_ai`) capable of interacting with recursive game state. |
 | **Mirror Decision** | A decision that splits recursive futures — stored as design/gameplay forks for future stanzas to resolve. |
+| **Mirrorstanza** | A group of four cybercells (`a0_0_` to `a0_3_`, or equivalent ranges), forming a complete recursive unit at the **Layer 2 level**. Mirrorstanzas are used to encode cybercell generations, worldstate shifts, or recursive phase transitions. Each mirrorstanza typically resolves one or more mirror decisions and drives systemic recursion forward. |
 | **Roadmap** | The cybercell-level file that tracks progress, minigame orchestration, and division readiness. |
-| **Roadstanza** | A Layer 2 documentation file that defines strategic logic or orchestration across multiple minigames. |
+| **Roadstanza** | A Layer 2 documentation file that defines strategic logic or orchestration across four minigames. |
 | **Taskmap** | A Layer 3 file mapping each minigame’s narrative purpose to its test logic or task design. |
 | **Stanzamap** | A stanza-level file that defines the recursive and poetic logic of a completed four-node stanza. |
 | **Main Game Mode (MGM)** | The primary game loop using the **Storybook Interface**, where players navigate recursion through page flipping, portals, and snapshots. |
