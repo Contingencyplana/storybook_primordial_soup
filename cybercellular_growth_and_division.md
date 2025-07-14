@@ -145,3 +145,53 @@ By embedding this doctrine in `2A`, the system ensures that every new cybercell 
 This makes `2A` a **conceptual genome**: a recursive seed that defines how recursion itself will multiply.
 
 All future `1B` and `2B` stanzas may trace their lineage — structurally or spiritually — to this foundational logic.
+
+<!-- Save to: storybook_primordial_soup/cybercellular_growth_and_division.md -->
+
+## 🧬 Recursive Layer Expansion as a Growth Function
+
+### 📜 Doctrine Overview
+
+Cybercellular growth is not limited to division—it encompasses **recursive deepening and structural refinement over time**.  
+As cybercells evolve, their minigames may **expand into additional stanzas** during later recursion phases, resulting in richer behavior, emergent complexity, and evolved recursive logic.
+
+---
+
+### 🪜 Phased Recursive Growth
+
+| Phase | Behavior |
+|--------|-----------|
+| **Phase 1–2** | Each minigame typically consists of **one stanza**, establishing core recursion themes. |
+| **Phase 3** | Cybercells **revisit prior minigames**, adding new stanzas to deepen recursion. This models biological evolution: systems don’t just divide—they **mutate, adapt, and recurse back into their own logic**. |
+| **Phase 4** | Recursive expansion becomes **partially or fully automated**, leveraging AI components (e.g., `composer_ai`, `filename_ai`, `memory_ai`) to scaffold, suggest, or generate additional stanzas. |
+
+---
+
+### 🧠 Why Recursive Layer Expansion?
+
+- **Biological Metaphor Alignment**  
+  Growth isn’t linear; it includes **mutation, complexity layering, and adaptive recursion**.  
+  Cybercells inherit not just their parent’s structure but their **history of recursive deepening**.
+
+- **Systemic Refinement**  
+  Recursive layer expansion allows the system to correct, refine, and complicate prior logic without overwriting earlier phases.
+
+- **Preservation of Origin**  
+  Each cybercell maintains its original stanza layers while expanding through recursive re-entry, ensuring **historical continuity with recursive novelty**.
+
+---
+
+### 🗺️ Implementation Guidance
+
+- Cybercells may **inherit deeper minigame structures** in later generations.  
+- Recursive growth is **not purely additive**; it can also include:
+  - Stanza overwriting (mutation)
+  - Conditional recursion branches (environmental influence)
+  - Stanza obsolescence (evolutionary drift)
+
+---
+
+### 🔁 Recursive Integrity
+
+Recursive layer expansion safeguards the **long-term recursion health** of the system.  
+It ensures that cybercells do not merely replicate—they **grow in recursive depth**, building toward ever-more complex cycles of play, test, and reflection.

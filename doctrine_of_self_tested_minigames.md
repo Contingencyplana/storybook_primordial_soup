@@ -132,6 +132,62 @@ not to spoil the illusion, but to **test whether it still stands**.
 
 ---
 
+<!-- Save to: storybook_primordial_soup/doctrine_of_self_tested_minigames.md -->
+
+## 🔁 Recursive Re-Entry and Stanza Expansion Doctrine
+
+### 📜 Principle
+
+Self-tested minigames are not static.  
+Each minigame is designed to support **recursive re-entry**—the act of revisiting completed minigames in later phases to **add new stanzas, test new conditions, or encode emergent behaviors**.
+
+---
+
+### 🪜 Recursive Expansion Model
+
+| Phase | Minigame Behavior |
+|--------|------------------|
+| **Phase 1–2** | Single-stanza minigames establish baseline recursion logic. |
+| **Phase 3** | Minigames undergo **recursive expansion**—additional stanzas are appended to deepen, complicate, or mutate the initial logic. |
+| **Phase 4** | AI systems assist in **automatic stanza expansion**, using anomaly logs, recursive triggers, or user-defined constraints. |
+
+---
+
+### 🧠 Why Recursive Re-Entry?
+
+- **Living Systems**  
+  Minigames are treated as **living recursive entities** that grow alongside the system—not as closed units.
+
+- **Recursive Auditing**  
+  Revisiting minigames ensures **recursive audit loops** are active, allowing for emergent behavior testing, edge case exploration, and evolution of fallback strategies.
+
+- **Efficiency Through Automation**  
+  Over time, recursive re-entry will shift from manual to AI-assisted, reducing development overhead while maintaining **recursive integrity**.
+
+---
+
+### 🛠️ Implementation Guidelines
+
+- Each minigame should include **clear points for re-entry and stanza expansion**.
+- Revisions may include:
+  - New fallback loops  
+  - Recursive deception mechanisms  
+  - Multi-layered authority checks  
+  - Emergent interaction systems
+
+- Stanza expansions should preserve:
+  - Original logic (as historical record)  
+  - Expanded logic (as recursive evolution)
+
+---
+
+### 🔁 Summary
+
+This doctrine ensures that **minigame recursion is iterative and continuous**, aligning with the system's broader recursive growth model.  
+Minigames **test themselves recursively over time**, adapting to new recursion layers while retaining their original state for reflection and comparison.
+
+---
+
 ## 🧬 Closing Thought
 
 > *To play is to test.  
@@ -142,4 +198,3 @@ not to spoil the illusion, but to **test whether it still stands**.
 > *The test that fails wisely  
 > is wiser than the test  
 > that hides its failure.*
-
