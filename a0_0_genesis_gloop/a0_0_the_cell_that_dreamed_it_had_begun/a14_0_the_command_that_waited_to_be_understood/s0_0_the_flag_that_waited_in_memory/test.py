@@ -5,22 +5,22 @@ import unittest
 from main import DormantFlag
 
 class TestDormantFlag(unittest.TestCase):
-    def test_no_flag(self):
+    def test_flag_none(self):
         df = DormantFlag()
-        result = df.check_flag()
+        result = df.process_flag()
         self.assertEqual(result, "dormant")
 
-    def test_awaken_flag(self):
+    def test_flag_awaken(self):
         df = DormantFlag()
         df.set_flag("awaken")
-        result = df.check_flag()
+        result = df.process_flag()
         self.assertEqual(result, "resolved")
 
-    def test_unknown_flag(self):
+    def test_flag_unknown(self):
         df = DormantFlag()
-        df.set_flag("sleep")
-        result = df.check_flag()
-        self.assertEqual(result, "unknown_flag")
+        df.set_flag("hibernate")
+        result = df.process_flag()
+        self.assertEqual(result, "unknown")
 
 if __name__ == "__main__":
     unittest.main()
