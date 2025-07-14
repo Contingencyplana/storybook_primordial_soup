@@ -19,6 +19,9 @@ All acronyms are formatted to be **SHAGI-compliant** — short, interpretable, a
 | GDD | Game Design Document *(prohibited in-world)* |
 | GDJ | Game Development Journal *(prohibited in-world)* |
 | MD | Markdown (e.g., `.md` files in this project) |
+| MGM | Main Game Mode *(Storybook Interface)* |
+| AGM | Ancillary Game Modes *(Modular Extensions)* |
+| RML | Recursive Memory Logging |
 | OS | Operating System |
 | PVE | Player vs. Environment |
 | README | Reference Entry About Documentation, Metadata, & Environment *(in-universe backronym)* |

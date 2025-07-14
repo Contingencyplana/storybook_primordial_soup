@@ -22,6 +22,14 @@ All definitions are written to support both **human understanding** and **AI int
 | **Roadstanza** | A Layer 2 documentation file that defines strategic logic or orchestration across multiple minigames. |
 | **Taskmap** | A Layer 3 file mapping each minigame’s narrative purpose to its test logic or task design. |
 | **Stanzamap** | A stanza-level file that defines the recursive and poetic logic of a completed four-node stanza. |
+| **Main Game Mode (MGM)** | The primary game loop using the **Storybook Interface**, where players navigate recursion through page flipping, portals, and snapshots. |
+| **Ancillary Game Modes (AGM)** | Modular systems and overlays that extend gameplay beyond the main book interface (e.g., swarm views, anomaly dashboards). |
+| **Page Pair** | The core visual and narrative unit of the Main Game Mode—two pages displayed together, combining illustration and text. |
+| **Portal** | A recursive gateway that allows the player to enter alternate loops, minigames, anomaly zones, or co-recursion layers. |
+| **Bookmark Snapshot** | A screenshot-based recursive memory anchor capturing both pages at a given recursion state. |
+| **Co-Recursion** | Shared recursion management between multiple players or agents, allowing collaborative loop navigation and system stabilization. |
+| **Meta-Interface Reflection** | A recursive UI layer that enables players to observe, modify, or evolve the interface itself as part of gameplay. |
+| **Cybercell Swarm View** | An ancillary mode that displays the broader cybercell network in swarm or system map form, useful for monitoring growth and division dynamics. |
 
 ---
 
