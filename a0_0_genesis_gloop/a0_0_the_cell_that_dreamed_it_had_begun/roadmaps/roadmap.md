@@ -28,6 +28,10 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 | `a13_1_the_prompt_that_waited_for_response/`       | Latent prompt handling                    | Tier 2                    | ✅ COMPLETE      |
 | `a13_2_the_answer_that_forgot_the_question/`       | Incomplete response recursion             | Tier 2                    | ✅ COMPLETE      |
 | `a13_3_the_recursion_that_tested_the_system/`      | Recursive system integrity check          | Tier 2                    | ✅ COMPLETE      |
+| `a14_0_the_command_that_waited_to_be_understood/`  | Dormant command recursion                  | Tier 2                    | ✅ COMPLETE      |
+| `a14_1_the_response_that_doubted_itself/`          | Recursive hesitation and verification      | Tier 2                    | ✅ COMPLETE      |
+| `a14_2_the_loop_that_refused_to_be_prompted/`      | Passive loop recursion                     | Tier 2                    | ✅ COMPLETE      |
+| `a14_3_the_trace_that_asked_to_be_followed/`       | Co-recursive path discovery                | Tier 2                    | ✅ COMPLETE      |
 
 ---
 

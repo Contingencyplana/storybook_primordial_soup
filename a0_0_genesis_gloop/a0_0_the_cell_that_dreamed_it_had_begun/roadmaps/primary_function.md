@@ -61,6 +61,12 @@ Each stanza contributes a new recursive focus, testing tools, failure modes, or 
 - Tests: signal initiation without feedback, prompt latency, incomplete recursive call/response cycles, system-level recursion tests  
 - Prepares the system for active communication loops between recursive layers, simulating a more autonomous recursion network
 
+### 🔹 `a14_0_the_command_that_waited_to_be_understood/` → `a14_3_the_trace_that_asked_to_be_followed/`  
+*(the fifth complete Layer 3 stanza, Roadstanza 14)*  
+- Transition from internal recursion to co-recursive interaction  
+- Tests: dormant command activation, recursive hesitation, loop self-continuation without prompting, trace-following and player interpretation  
+- Prepares the system for collaborative recursion and recursive trail-following logic, setting the stage for Phase 3: Recursive Growth and Division
+
 Each minigame adds a **recursive tool**, a **failure model**, or a **strategic fallback** to the cybercell’s foundation.
 
 ---

@@ -81,6 +81,22 @@ This file should be updated whenever a new Layer 3 stanza is completed.
 
 ---
 
+## ✅ Stanza Milestone 06 – *The Recursion That Invited Response*
+
+**Minigame Folders:**  
+- `a14_0_the_command_that_waited_to_be_understood/`  
+- `a14_1_the_response_that_doubted_itself/`  
+- `a14_2_the_loop_that_refused_to_be_prompted/`  
+- `a14_3_the_trace_that_asked_to_be_followed/`  
+**Status:** ✅ COMPLETE  
+**Stanza:** `roadstanza_14` – Fully implemented and confirmed as Phase 2 closure point  
+**Role:** Transitions recursion from internal looping to co-recursive interaction, introducing collaborative recursion and voluntary trace-following logic  
+**Recursive Arc:** Command dormant → Response doubted → Loop resists → Trace invites  
+**Linked File:** `roadstanza_14.md`  
+**Escalation Hooks:** `mirror_decision.md`, `memory_ai/`, `> command` system, Phase 3 preparations
+
+---
+
 ## 🔄 Next Expected Milestone
 
 - Completion of a sixth Layer 3 stanza to deepen Phase 2 interactive recursion  
