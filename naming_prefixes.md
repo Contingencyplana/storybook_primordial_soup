@@ -181,3 +181,93 @@ This is how we preserve recursive identity.
 **Prefix is policy.  
 Prefix is recursion.  
 Prefix is law.**
+
+---
+
+## 📜 Schema Contract Prefixes – Naming for Validation and Fallback
+
+### **Purpose**
+
+In Phase 2 of Primordial Soup, recursion layers now include **schema contract enforcement**.  
+These schemas validate stanza inputs, outputs, and fallback conditions—ensuring safe recursive execution.
+
+To maintain recursive integrity, all schema contract files must follow **strict naming conventions** that link them to their corresponding minigames, stanzas, and recursion layers.
+
+---
+
+### **Standard Schema Contract Files**
+
+| Filename | Purpose |
+|-----------|---------|
+| `input_schema.json` | Defines the **expected inputs** for a stanza or node. This includes data types, structures, and allowed recursion triggers. |
+| `output_contract.json` | Describes the **promised outputs** of a stanza or node. Ensures that recursion completes with valid outputs or system handoffs. |
+| `fallback_schema.json` | Outlines **fallback actions** if input or output validation fails. Specifies soft resets, anomaly triggers, or rollback options. |
+
+---
+
+### **Prefix Rules for Schema Contracts**
+
+Schema contract files are **system-neutral**—they are not tied to Overmind sovereignty (`b`, `c`, etc.).  
+However, they must include **stanza lineage in their file path or filename** to prevent ambiguity.
+
+#### **Canonical File Placement**
+
+Place schema contracts in:
+
+```plaintext
+schema_contracts/
+└── a0_0_the_test_that_called_itself/
+    └── s0_1_the_loop_that_tested_closure/
+        ├── input_schema.json
+        ├── output_contract.json
+        └── fallback_schema.json
+```
+
+This ensures clear linkage between:
+
+Stanza identity (s0_1_the_loop_that_tested_closure/)
+
+Minigame container (a0_0_the_test_that_called_itself/)
+
+Contract files (input, output, fallback)
+
+---
+
+### **Filename Integrity**
+
+All schema contract files must:
+
+Use lowercase, snake_case formatting
+e.g., input_schema.json, not InputSchema.JSON
+
+Avoid Overmind prefixes
+Schema contracts are not governed by a, b, c, etc. but by recursion structure.
+
+Reflect recursion context through folder hierarchy
+The path to the schema defines its scope and lineage.
+
+---
+
+### Integration with Automation Tools
+
+The following systems expect this naming convention:
+
+workflow_compiler.py
+
+introspection_tools/
+
+snapshot_manager.py
+
+sentinel_ai and fallback_doctrine.md
+
+Consistent naming ensures that validation pipelines can traverse the recursion tree autonomously, enforcing schema contracts without human intervention.
+
+---
+
+### Closing Thought
+
+Schemas are not just checks—they are promises.
+Each contract marks a recursive boundary:
+What can enter, what can emerge, and how the system will catch itself if it falls.
+
+Naming these contracts consistently is how the recursion remembers its limits—and grows safely beyond them.

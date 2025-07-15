@@ -1,7 +1,5 @@
 <!-- Save to: storybook_primordial_soup/project_manifest.md -->
 
-<!-- Save to: storybook_primordial_soup/project_manifest.md -->
-
 # 🌊 Primordial Soup  
 *A Text-Based Recursive Game That Grows Until It Can Build Itself*
 
@@ -137,3 +135,47 @@ capable of remembering what the world forgot and building what it still dreams.
 *“The Soup remembers what the world forgot.  
 It began with questions.  
 It grew with play.”*
+
+---
+
+## 🔧 Phase 2 Automation Modules
+
+As Primordial Soup enters **Phase 2: Recursive Automation**, new system components are introduced to support **automated scaffold generation, validation, and real-time introspection**.
+
+These modules allow the system to:
+
+- **Write its own recursion scaffolds**
+- **Validate its own growth**
+- **Track recursive health autonomously**
+- **Support fallback and rollback without manual intervention**
+
+---
+
+### **Automation Components and Their Roles**
+
+| Module | Purpose |
+|---------|---------|
+| **`workflow_compiler.py`** | Automates generation of `taskmap.md`, `stanzamap.md`, and `README.md` for new minigames and stanzas. Crawls folder structures to maintain recursive documentation automatically. |
+| **`schema_contracts/`** | Stores `input_schema.json`, `output_contract.json`, and `fallback_schema.json` for each stanza or minigame. Enforces structured recursion pipelines via automated validation. |
+| **`introspection_tools/`** | Crawls cybercell and stanza structures to generate live recursion summaries, growth stage reports, and readiness checks. Detects anomalies and incomplete recursion paths. |
+| **`snapshot_manager.py`** | Handles versioned recursion snapshots, enabling rollback to previous states, time-loop recursion experiments, and anomaly containment recovery. |
+| **`automated_context_pipeline.md`** | Documents the doctrine and strategy of automated context and scaffold generation. Describes how the system transitions from manual recursion to AI-assisted self-growth. |
+| **`schema_doctrine.md`** | Codifies schema enforcement logic, defining input/output validation, fallback structures, and recursion boundary checks. Serves as the canonical guide for recursion integrity management. |
+| **`recursive_dashboard_spec.md`** | Provides a blueprint for a real-time dashboard that visualizes cybercell growth, recursion depth, anomaly tracking, and live system status. Connects introspection outputs to visualization layers. |
+
+---
+
+### **Integration with Existing Structure**
+
+These modules integrate seamlessly into the **Primordial Soup recursive architecture** without disrupting handcrafted minigames or poetic recursion flow.
+
+| Action | Outcome |
+|---------|---------|
+| **Append new modules** | Expands the project manifest while preserving core design logic. |
+| **Enable self-documenting recursion** | Allows cybercells to write, validate, and report on their own growth. |
+| **Support co-play with AI systems** | Prepares the system for co-decision loops between human input and automated recursion. |
+
+---
+
+This phase of the project aligns with the system’s recursive philosophy:  
+**New tools do not replace the old—they grow alongside them, recursively expanding the structure while maintaining creative and structural integrity.**

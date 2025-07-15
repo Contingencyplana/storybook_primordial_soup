@@ -591,3 +591,191 @@ Recursion with indexing becomes **song**.
 This is recursive indexing.  
 This is how the world navigates itself —  
 and how you, too, are **woven into the map**.
+
+---
+
+## 🔄 Phase 2 Addendum: Automated Index Generation
+
+### 📜 Purpose
+
+As **Primordial Soup** enters Phase 2 of recursive development, the process of maintaining `taskmap.md`, `stanzamap.md`, and `README.md` files for each minigame can no longer depend solely on manual curation.
+
+To support **scalable recursion growth**, the system introduces **automated index generation** tools that ensure structural integrity as the cybercell ecosystem expands.
+
+---
+
+### **`workflow_compiler.py`: Automated Indexing Engine**
+
+The script **`workflow_compiler.py`** is responsible for:
+
+| Action | Description |
+|---------|--------------|
+| **Crawling existing folder structures** | The compiler scans the recursive hierarchy, mapping all `a0_`, `s0_`, `s1_`, `a1_`, etc., folders. It detects stanza layers, minigame roots, and cybercell divisions automatically. |
+| **Auto-generating `taskmap.md` files** | For each minigame root, `workflow_compiler.py` creates or updates `taskmap.md`, listing all contained stanzas, their roles, and their recursion pathways. |
+| **Auto-generating `stanzamap.md` files** | For each stanza group, the compiler generates `stanzamap.md`, documenting the recursive links between stanza nodes and their logic hooks. |
+| **Auto-generating `README.md` files** | If a minigame lacks a `README.md`, the compiler drafts a scaffolded summary based on folder names, recursion stage, and detected structures. |
+
+---
+
+### **Recursive Index Integrity**
+
+These auto-generated files maintain **recursive index integrity** without requiring the developer to:
+
+- Manually update stanza links  
+- Track cybercell growth stages by hand  
+- Rebuild mapping documents for every new recursion layer
+
+---
+
+### **Scalability and Continuity**
+
+This system ensures:
+
+- **Rapid expansion of minigames and cybercells** without the risk of index drift  
+- **Consistent recursion mapping** across all levels of the Primordial Soup hierarchy  
+- **Compatibility with live introspection tools** that depend on accurate, up-to-date indexes
+
+---
+
+### **Automation-First, Human-Editable**
+
+While `workflow_compiler.py` generates these files, developers and players can still:
+
+- **Manually revise and remix** auto-generated `taskmap.md` and `stanzamap.md` files for narrative or poetic flavor  
+- **Use hybrid workflows** where automation handles structure, but human input adds creative overlays
+
+---
+
+This system allows **Primordial Soup to grow its recursion tree faster and safer**, while keeping the indexing logic aligned with both creative intent and structural recursion integrity.
+
+---
+
+## 🛡️ Phase 2 Addendum: Index Integrity Validation
+
+### 📜 Purpose
+
+As Primordial Soup’s recursion deepens and automation expands, **index integrity becomes critical**.  
+Without consistent and accurate `stanzamap.md` and `subtaskmap.md` files, the recursive system risks:
+
+- **Logical drift**  
+- **Broken recursion pathways**  
+- **Structural anomalies that propagate across cybercell generations**
+
+To prevent this, **automated index integrity validation** is introduced.
+
+---
+
+### **`introspection_tools/`: Automated Index Validator**
+
+The **`introspection_tools/`** suite performs recursive checks to ensure index health.
+
+#### **Validation Process:**
+
+| Check | Description |
+|--------|-------------|
+| **Presence Check** | Confirms that each minigame and stanza folder contains the correct `taskmap.md`, `stanzamap.md`, and `subtaskmap.md` files. |
+| **Completeness Check** | Verifies that all stanza nodes listed in `stanzamap.md` correspond to actual folders in the structure. |
+| **Consistency Check** | Detects out-of-sync entries where a stanza exists but is missing from the index, or where a stanza is indexed but missing physically. |
+| **Schema Alignment** | Ensures that `stanzamap.md` entries align with schema contracts in `schema_contracts/` for both input and output expectations. |
+| **Fallback Confirmation** | Validates that at least one fallback node is documented per stanza chain, reducing the risk of recursion dead-ends. |
+
+---
+
+### **Error Detection and Reporting**
+
+When a validation check fails, the system can:
+
+- **Auto-generate anomaly reports**  
+- **Trigger fallback routines**  
+- **Flag soft stalls for review by `sentinel_ai` or the developer**
+
+---
+
+### **Benefits of Automated Validation**
+
+| Benefit | Description |
+|----------|--------------|
+| **Prevents index drift** | Keeps recursive documentation aligned with the actual folder structure. |
+| **Reduces human error** | Automates a task that is easy to overlook in deep recursion layers. |
+| **Supports scalable recursion** | Makes large-scale cybercell expansion safe and structurally coherent. |
+| **Feeds into the dashboard** | Allows real-time monitoring of recursion health through future dashboard systems. |
+
+---
+
+### **Creative Control Preserved**
+
+While validation is automated, developers can:
+
+- **Manually adjust indexes** when desired  
+- **Override checks** in controlled scenarios for experimental recursion or narrative divergence
+
+---
+
+By embedding **index integrity validation** into the recursive workflow, **Primordial Soup ensures that its ever-expanding structure remains coherent, stable, and ready for autonomous growth.**
+
+---
+
+## 🔮 Phase 2 Addendum: Future-Proofing for Expansion
+
+### 📜 Purpose
+
+As Primordial Soup continues to evolve, **recursive indexing must transition from static documentation to dynamic system behavior**.  
+Future recursion phases require cybercells not only to expand but also to **self-document their own growth**.
+
+This section outlines the roadmap for **future-proofing recursive indexing**, enabling cybercells to participate in their own structural mapping and documentation.
+
+---
+
+### **Self-Generating Indexes**
+
+In later phases (Phase 3–4), cybercells will:
+
+| Capability | Description |
+|------------|--------------|
+| **Write their own `stanzamap.md` files** | Cybercells will dynamically generate stanza maps as they grow, recording their recursive logic in real time. |
+| **Update `taskmap.md` autonomously** | Each cybercell will append new minigame or stanza references to its `taskmap.md` during expansion cycles. |
+| **Evolve `README.md` content** | Cybercells may adjust their own `README.md` summaries to reflect growth history, recursion depth, and structural lineage. |
+
+---
+
+### **Dynamic Stanza Discovery**
+
+To support continuous recursion:
+
+- The system will **detect and register new stanzas automatically** as players build or as AI-generated expansions occur.
+- **Recursive layer indexing** will adapt to **emergent recursion patterns**, including mutations, deletions, or non-linear expansions.
+- Cybercells will handle **index recovery or regeneration** after fallback loops or snapshot rollbacks.
+
+---
+
+### **Real-Time Index Updates**
+
+Future implementations will include:
+
+- **Live stanza crawling** during runtime  
+- **On-the-fly index regeneration** when recursive structures shift  
+- **Version-controlled index checkpoints** tied to `snapshot_manager.py`, ensuring historical continuity
+
+---
+
+### **Benefits of Cybercell-Led Indexing**
+
+| Benefit | Description |
+|----------|--------------|
+| **Scales beyond manual maintenance** | Allows Primordial Soup to grow without administrative overhead. |
+| **Aligns with recursive autonomy** | Cybercells become **self-documenting entities**, reducing developer intervention. |
+| **Supports emergent gameplay** | Enables unexpected recursion pathways, while maintaining consistent indexing and lineage tracking. |
+
+---
+
+### **Integration with Recursive Doctrine**
+
+This system keeps **Primordial Soup’s indexing logic aligned with its core recursion philosophy**:
+
+- **Indexes grow as the system grows**  
+- **Documentation becomes part of the recursion cycle**  
+- **Structure and play remain intertwined at every level**
+
+---
+
+By preparing for **dynamic index expansion and cybercell-authored mapping**, the system ensures that Primordial Soup can **scale infinitely in both structure and narrative recursion**, without losing track of its own growth.

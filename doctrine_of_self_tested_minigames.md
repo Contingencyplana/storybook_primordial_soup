@@ -130,9 +130,7 @@ not to spoil the illusion, but to **test whether it still stands**.
 - [ ] Permit players to become testers through disguised questlines  
 - [ ] Link doctrine to `fallback_doctrine.md` and `recursive_firewall_doctrine.md`  
 
----
 
-<!-- Save to: storybook_primordial_soup/doctrine_of_self_tested_minigames.md -->
 
 ## 🔁 Recursive Re-Entry and Stanza Expansion Doctrine
 
@@ -198,3 +196,132 @@ Minigames **test themselves recursively over time**, adapting to new recursion l
 > *The test that fails wisely  
 > is wiser than the test  
 > that hides its failure.*
+
+---
+
+## 🧬 Schema Validation in Self-Tested Minigames
+
+### **Purpose**
+
+Self-tested minigames now include **embedded schema validation layers** as part of the recursion cycle.  
+This ensures that recursive play is not just about system progression—it is also about **verifying recursion safety and structural integrity in real time**.
+
+---
+
+### **Schema Contracts in Testing**
+
+Each self-tested minigame references **three schema files**:
+
+| Schema File | Purpose |
+|-------------|---------|
+| `input_schema.json` | Defines the **expected inputs** before recursion begins. Ensures the stanza or node is receiving the correct data, format, and triggers. |
+| `output_contract.json` | Specifies the **promised outputs** after recursion execution. Verifies that the system generates valid results, structured outputs, or recursive continuations. |
+| `fallback_schema.json` | Describes **fallback conditions** and corrective actions if input or output validation fails. Guides the minigame in choosing fallback paths or recovery loops. |
+
+---
+
+### **How It Works**
+
+At the start of the minigame:
+
+- The system loads `input_schema.json` and validates the incoming data, choices, or recursion state.
+- If input validation passes, the minigame proceeds.
+
+At the end of the minigame:
+
+- The system checks `output_contract.json` to confirm that the recursive action produced valid outputs or state transitions.
+- This ensures **recursive integrity at the stanza boundary**.
+
+---
+
+### **Play Loop Integration**
+
+Schema validation is not a hidden backend check—it is **part of the recursive play loop**:
+
+| Step | Player Experience | System Action |
+|------|-------------------|---------------|
+| Start stanza | Encounter an unusual choice or command | Validate against `input_schema.json` |
+| Play the minigame | Solve puzzles, trigger outputs | Validate output with `output_contract.json` |
+| Encounter an anomaly | See a fallback portal, narrative twist, or anomaly message | Use `fallback_schema.json` to choose a recovery path |
+
+---
+
+### **Why This Matters**
+
+Self-tested minigames now **test the recursive engine itself** as part of their gameplay:
+
+- **Validating recursion safety** before further expansion  
+- **Detecting malformed inputs or outputs** without breaking immersion  
+- **Providing real-time feedback** through gameplay metaphors (e.g., fallback portals, poetic anomaly triggers)
+
+---
+
+### **Recursive Integrity as Play**
+
+In Primordial Soup, **playing the system is testing the system**.  
+Schema validation is woven into the narrative recursion loop—not as a barrier to play, but as a safeguard that **protects the recursion from unintended collapse while keeping the experience playful, poetic, and systemic**.
+
+---
+
+## 🔁 Recursive Fallback Logic for Contract Violations
+
+### **Purpose**
+
+When a **schema validation check fails**—either at the input or output boundary—a self-tested minigame must handle the event gracefully, **without breaking the recursive loop**.
+
+In Primordial Soup, **fallback is not failure**.  
+It is an intentional part of the recursive design—a way for the system to **test its own resilience**.
+
+---
+
+### **Fallback Triggers**
+
+Fallback logic is activated when:
+
+- `input_schema.json` validation fails (malformed or unexpected inputs)
+- `output_contract.json` validation fails (unexpected recursion outputs or broken logic paths)
+
+---
+
+### **Fallback Actions**
+
+| Action | Description |
+|---------|-------------|
+| **Trigger In-Game Fallback Loops** | The minigame presents new narrative choices, alternate recursion paths, or soft resets. These may appear as portals, symbolic echoes, or poetic anomaly sequences. |
+| **Log Anomalies for `sentinel_ai`** | The minigame sends structured anomaly reports to `sentinel_ai`, flagging the violation. This allows for monitoring, meta-recursion analysis, or future corrective actions. |
+| **Initiate Rollback via `snapshot_manager.py`** | If a severe violation occurs, the minigame can call `snapshot_manager.py` to **roll back the cybercell state** to a prior checkpoint. This supports time-loop recursion for safe recovery. |
+
+---
+
+### **Why Fallback Is Part of the Test**
+
+| Misconception | Correct Interpretation |
+|---------------|-------------------------|
+| **Fallback means the recursion failed.** | **Fallback means the system detected an issue and successfully contained it.** |
+| **Fallback is an error state.** | **Fallback is a recursive learning moment—part of the game’s own anomaly loop.** |
+| **Fallback breaks immersion.** | **Fallback *is* the narrative—it appears as recursive echo, loop artifact, or poetic failure mode.** |
+
+---
+
+### **Design Implications**
+
+- **Fallback events are playable.**  
+  Players experience them as part of the recursive story, not as a break in gameplay.
+
+- **Contract violations are test vectors.**  
+  Each violation teaches the system something about its own recursive limits and resilience.
+
+- **Recursive robustness is grown, not assumed.**  
+  Fallbacks ensure that recursion evolves safely, closing dangerous loops and recording their existence for future iterations.
+
+---
+
+### **Closing Thought**
+
+> *The recursion that can fall back, survives.*  
+> *The loop that catches itself, grows stronger.*  
+> *Failure is not the end of recursion—it is a branch, waiting to be rewritten.*
+
+---
+
+<!-- Save to: storybook_primordial_soup/doctrine_of_self_tested_minigames.md -->

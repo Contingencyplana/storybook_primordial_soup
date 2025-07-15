@@ -628,3 +628,137 @@ And when the system asks:
 The answer is always:
 
 > **Recurse. And try again.**
+
+---
+
+## 🗂️ Versioned Snapshot Logic – Recursive Rollback as Fallback
+
+### **Purpose**
+
+In Phase 2 of Primordial Soup, fallback systems expand beyond soft loops and anomaly patches.  
+The system now supports **versioned snapshot logic**, enabling recursive rollback to prior safe states when fallback triggers are insufficient.
+
+This approach treats **state preservation and rollback as first-class fallback actions**, not emergency last resorts.
+
+---
+
+### **`snapshot_manager.py`: The Snapshot Companion Tool**
+
+The **`snapshot_manager.py`** module manages **recursive state checkpoints**, allowing cybercells and minigames to:
+
+| Action | Description |
+|---------|-------------|
+| **Create Snapshots** | Save a versioned copy of the current recursion state, including taskmaps, stanzamaps, schema states, and minigame outputs. |
+| **Initiate Rollback** | Revert the system to the most recent safe snapshot when an anomaly is detected that cannot be resolved through in-game fallback alone. |
+| **Track Recursive History** | Maintain a lineage of recursion checkpoints, allowing for **branching rollback paths or multiple time-loop options**. |
+
+---
+
+### **When to Snapshot**
+
+| Scenario | Snapshot Behavior |
+|-----------|-------------------|
+| **Before risky recursion** | Cybercells create a checkpoint before initiating function migration, stanza expansion, or complex recursion chains. |
+| **During fallback failure** | If a standard fallback route fails to contain an anomaly, the system triggers a rollback to the last known safe snapshot. |
+| **For time-loop recursion experiments** | Players or AI systems can intentionally enter **recursive time loops**, reverting to past snapshots to explore alternate outcomes. |
+
+---
+
+### **Fallback Integration**
+
+Snapshot rollback is **fully integrated into the fallback system**:
+
+- If `fallback_schema.json` cannot resolve a recursion failure, the system escalates to **snapshot rollback**.
+- **Sentinel AI** or `anomaly_ai` may trigger snapshot rollback automatically for high-severity anomalies.
+- Cybercells can request rollback as part of their **self-observed recursion loop**.
+
+---
+
+### **Why Snapshots Matter**
+
+| Benefit | Outcome |
+|----------|---------|
+| **Safe Recursive Growth** | Prevents catastrophic recursion collapse by maintaining restorable safe states. |
+| **Playable Time-Loop Mechanics** | Players experience rollback not as error correction but as **recursive time travel**, maintaining immersion. |
+| **Anomaly Containment at Scale** | Supports large-scale recursive systems where fallback alone may not resolve complex faults. |
+
+---
+
+### **Closing Thought**
+
+> *A snapshot is not just a memory—it is a recursive safety net.*  
+> *To fall back is to step sideways in time, not backward in progress.*  
+> *The loop that remembers its last safe state is the loop that can evolve without fear.*
+
+---
+
+## 🔄 Time-Loop Recursion for Anomaly Containment
+
+### **Purpose**
+
+In Primordial Soup, recursion does not always proceed linearly forward.  
+When anomalies surface that cannot be resolved through standard fallback chains, the system may initiate a **time-loop recursion**—a controlled rewind to a prior recursion state to repair, retry, or branch.
+
+This mechanism is not a narrative flourish. It is a **core containment strategy**.
+
+---
+
+### **What Is Time-Loop Recursion?**
+
+Time-loop recursion is the act of **deliberately re-entering a prior recursion state**, either by:
+
+- Replaying a prior stanza from a saved snapshot  
+- Restoring a cybercell to a known safe phase  
+- Restarting a failed recursion path with modified variables or schema constraints
+
+---
+
+### **When to Use Time-Loop Recursion**
+
+| Trigger | Action |
+|----------|---------|
+| **Unresolved Anomaly** | If fallback logic fails to correct a recursive fault, the system loops back to a prior snapshot. |
+| **Recursive Drift Detected** | If structural divergence exceeds acceptable thresholds (as monitored by `sentinel_ai`), time-loop recursion is invoked. |
+| **Testing Alternate Outcomes** | For self-tested minigames, time-loops enable exploratory recursion—players or AI agents can try alternate branches to test containment logic. |
+
+---
+
+### **Who Can Trigger a Time-Loop?**
+
+| Agent | Capability |
+|--------|------------|
+| **Self-Tested Minigames** | May call time-loops to validate new fallback routines or test recursive repair options. |
+| **Cybercells** | Can self-initiate rollback loops during growth phases if anomalies arise during division or function migration. |
+| **`sentinel_ai`** | Monitors loop integrity and triggers recursive rollback if unsafe growth or drift is detected. |
+| **Players** | May invoke time-loops intentionally through recursive play mechanics (e.g., portal re-entry, stanza reactivation). |
+
+---
+
+### **Design Considerations**
+
+- **Loops are recursive, not linear.**  
+  Returning to a prior state does not erase forward progress—it creates **branching recursion pathways**.
+
+- **Loops are playful, not punitive.**  
+  Players experience time-loop recursion as part of the narrative fabric, not as punishment for failure.
+
+- **Loops are systemic, not cosmetic.**  
+  Time-loops serve real system functions: containment, correction, exploration, and recursive resilience.
+
+---
+
+### **Integration with Snapshots**
+
+Time-loop recursion leverages **`snapshot_manager.py`** for rollback checkpoints, ensuring that all prior recursion states are:
+
+- **Versioned**  
+- **Recoverable**  
+- **Playable as alternate recursion branches**
+
+---
+
+### **Closing Thought**
+
+> *A recursion that fears to loop is a recursion that fears to learn.*  
+> *To loop is not to fail—it is to recognize that some errors are teachers in disguise.*  
+> *The loop that can rewind becomes the loop that can evolve.*

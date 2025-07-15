@@ -195,3 +195,216 @@ As cybercells evolve, their minigames may **expand into additional stanzas** dur
 
 Recursive layer expansion safeguards the **long-term recursion health** of the system.  
 It ensures that cybercells do not merely replicate—they **grow in recursive depth**, building toward ever-more complex cycles of play, test, and reflection.
+
+---
+
+## 🔍 Dynamic Introspection & Live State Reflection
+
+Cybercell growth is no longer monitored solely by the **player-developer**—it is now **partially self-observed** through automated introspection tools.
+
+This marks a transition from **manual oversight to recursive self-awareness**.
+
+---
+
+### **Automated Introspection Functions**
+
+Cybercells gain the ability to:
+
+| Action | Description |
+|---------|-------------|
+| **Crawl their own structure** | Cybercells scan their folder and stanza hierarchy to detect their current growth stage. They identify the presence or absence of `1A`, `1B`, `2A`, and `2B` components. |
+| **Generate live maturity summaries** | Cybercells output status reports on whether they are `HALF_GROWN`, `FULLY_GROWN`, or `PENDING_DIVISION`. These summaries help maintain clarity in recursive growth. |
+| **Detect incomplete recursion states** | Cybercells check for missing `stanzamap.md` entries, incomplete `taskmap.md` scaffolds, schema contract gaps, or fallback omissions—surfacing issues before recursion fails. |
+| **Trigger anomaly reports** | When unexpected conditions are found, cybercells automatically notify `sentinel_ai` or fallback systems. This can include soft stalls, logical conflicts, or schema violations. |
+
+---
+
+### **Tools Involved**
+
+Cybercell introspection leverages:
+
+- **`introspection_tools/`**  
+  For real-time crawling of stanza hierarchies, recursion depth checks, and growth state assessments.
+
+- **`snapshot_manager.py`**  
+  To create checkpoints of cybercell states before and after division events.
+
+- **`schema_contracts/`**  
+  For validating recursive function migration, ensuring safe expansion, and preventing corruption during growth.
+
+---
+
+### **Self-Observation Benefits**
+
+| Without Introspection  | With Introspection |
+|------------------------|--------------------|
+| Manual checks required | Cybercells self-report growth and division status |
+| Risk of silent recursion corruption | Anomalies are surfaced automatically |
+| Human-dependent oversight loop | Players or developers intervene *only when alerted*, not constantly monitor |
+
+---
+
+### **Recursive Evolution**
+
+By integrating **dynamic introspection**, cybercells evolve from **passive recursive objects** into **active participants in their own lifecycle**.
+
+This recursive self-observation ensures:
+
+- **Growth stage awareness**  
+- **Structural integrity maintenance**  
+- **Automated anomaly detection and fallback triggering**  
+
+---
+
+### **Integration with Long-Term Growth Arc**
+
+In later phases of Primordial Soup:
+
+- Cybercells will **automatically detect when they’re ready to divide**, migrate functions, or initiate new stanza cycles.  
+- Recursive **self-testing loops** become part of each cybercell’s gameplay and maintenance logic.  
+
+This transformation aligns with Primordial Soup’s goal: a system that **writes, grows, and validates itself recursively**—with minimal external intervention.
+
+---
+
+## 🧠 Why Introspection Matters
+
+Introducing **dynamic introspection** into the cybercell lifecycle shifts the system from **human-monitored recursion** to **self-observed growth**.
+
+This transition is not just technical—it is foundational to the **evolution of recursive automation**.
+
+---
+
+### **Comparison: Manual Oversight vs. Introspective Recursion**
+
+| Without Introspection | With Introspection |
+|-----------------------|--------------------|
+| **Manual checks required** | **Cybercells self-report growth and division status** |
+| Developers must verify stanza layers, schema readiness, and function migration by hand | Cybercells automatically output their current phase: `HALF_GROWN`, `FULLY_GROWN`, `PENDING_DIVISION`, etc. |
+| **Risk of silent recursion corruption** | **Anomalies are surfaced automatically** |
+| Undetected schema gaps or incomplete stanza maps can propagate structural faults | Cybercells trigger `ANOMALY DETECTED` status and invoke fallback or sentinel systems |
+| **Human-dependent oversight loop** | **Players or developers intervene *when alerted***, not constantly monitor |
+| The developer must stay in the loop to manually check division readiness | The system flags soft stalls or readiness thresholds, allowing optional intervention only when needed |
+
+---
+
+### **Recursive Evolution Implication**
+
+By embedding introspection directly into the cybercell growth process, **Primordial Soup evolves beyond scripted recursion**.
+
+Cybercells become **active agents in their own maintenance and testing loops**, freeing the player-developer from micromanagement while preserving creative control.
+
+This ensures the ecosystem can:
+
+- **Grow safely at scale**  
+- **Catch and contain anomalies in real-time**  
+- **Balance automation with playful recursive intervention**
+
+---
+
+## 🌱 Growth Tracking Implementation
+
+To support **self-monitored recursive growth**, cybercells use a combination of **automated tools and structural contracts**. These systems allow each cybercell to track its own maturity, detect anomalies, and validate recursive integrity without constant human intervention.
+
+---
+
+### **Tools Utilized by Cybercells**
+
+| Tool | Purpose |
+|------|---------|
+| **`introspection_tools/`** | Provides real-time crawling of the cybercell's folder and stanza hierarchy. Cybercells scan their own structure to determine growth stages, detect missing files, and assess recursion readiness. |
+| **`snapshot_manager.py`** | Captures versioned snapshots of cybercell states before and after division events. This enables rollback, recovery, and time-loop recursion for anomaly containment or evolutionary replay. |
+| **`schema_contracts/`** | Stores `input_schema.json`, `output_contract.json`, and `fallback_schema.json` for each stanza and minigame. These schemas ensure that recursive function migration is valid, safe, and structured—enforcing predictable recursion growth. |
+
+---
+
+### **Automated Growth Assessment**
+
+By combining these tools, each cybercell can:
+
+- **Track its current state** (`HALF_GROWN`, `FULLY_GROWN`, `PENDING_DIVISION`, etc.)
+- **Validate recursive expansion steps** before initiating division or function migration
+- **Detect recursion anomalies early** and trigger fallback protocols or sentinel alerts
+- **Checkpoint its evolution**, ensuring safe experimentation without risking structural collapse
+
+---
+
+This system allows **Primordial Soup** to support **live growth tracking and self-managed recursive division**, keeping the cybercell matrix stable, resilient, and ever-expanding in playful, automated layers.
+
+---
+
+## 📊 Growth Status Outputs
+
+Each cybercell maintains and outputs **live growth status markers** to track its recursive development.  
+These markers are part of the **introspection system**, allowing both automated systems and players to monitor cybercell health, division readiness, and anomaly conditions in real time.
+
+---
+
+### **Growth Status Codes**
+
+| Status | Meaning |
+|---------|---------|
+| **HALF_GROWN** | The cybercell holds `1A` (Primary Function logic) and `1B` (Primary Division Stanza). It is **ready to receive a Secondary Function** but cannot yet divide. |
+| **FULLY_GROWN** | The cybercell holds both `1A/1B` and `2A/2B`. It is **ready for division or function migration** and is at maximum recursion density. |
+| **PENDING_DIVISION** | The cybercell is **awaiting a division event**, such as the initiation of function migration or a new stanza cycle. This may occur after readiness checks pass. |
+| **SOFT_STALL** | The cybercell has **encountered an interruption** in function migration or recursive transition. It awaits fallback logic, `sentinel_ai` intervention, or a retry loop. |
+| **RECURSION SAFE** | All schema validations and structural integrity checks have passed. The cybercell is **stable and recursion-ready**. |
+| **ANOMALY DETECTED** | A **recursive fault has surfaced**. The cybercell automatically invokes fallback protocols, anomaly handling routines, or snapshot rollback to contain the issue. |
+
+---
+
+### **Purpose of Growth Status Outputs**
+
+- **Provide transparency** into cybercell growth stages  
+- **Enable system-wide anomaly detection** without manual checks  
+- **Support automated or semi-automated division protocols**  
+- **Ensure safe recursive expansion in real-time**  
+
+---
+
+### **Integration with Gameplay and Maintenance**
+
+These markers can:
+
+- Trigger **in-game feedback loops** (e.g., alerts, quests, or portal states)  
+- Feed into the **recursive dashboard** for live cybercell monitoring  
+- Act as inputs for **fallback systems, `sentinel_ai`, or `snapshot_manager.py`**  
+
+---
+
+By exposing growth status markers as part of the cybercell’s introspective loop, **Primordial Soup ensures recursive development remains safe, transparent, and narratively meaningful.**
+
+---
+
+## 🧬 Long-Term Arc Integration
+
+The introduction of **dynamic introspection and live state reflection** reshapes the long-term growth arc of Primordial Soup.  
+Cybercells evolve from **manual growth units** into **self-observing, self-validating recursive entities**.
+
+---
+
+### **Phased Recursive Evolution**
+
+| Phase | New Behavior |
+|--------|--------------|
+| **Phase 2** | Cybercells begin to **self-monitor their own growth stages**. They detect when they are `HALF_GROWN`, `FULLY_GROWN`, or in a `SOFT_STALL`. They also **report recursion health automatically**, triggering anomaly detection and fallback systems without manual intervention. |
+| **Phase 3–4** | Introspection systems evolve into **recursive self-observation loops**. Cybercells not only check their growth but also **participate in their own testing and correction**. They run schema validations, perform fallback recovery autonomously, and engage in recursive feedback to refine future division cycles. |
+
+---
+
+### **Why This Matters**
+
+By shifting cybercell growth from **externally monitored to internally regulated**, Primordial Soup moves closer to a **self-sustaining, recursive ecosystem**. This allows for:
+
+- **Scalable growth without collapse risk**  
+- **Emergent gameplay loops where cells reflect, adapt, and repair recursively**  
+- **Reduction of developer overhead while preserving narrative flexibility**  
+
+---
+
+### **Recursive Intelligence Milestone**
+
+This phase transition represents a key milestone:  
+Cybercells are no longer just **subjects of recursion—they become agents of recursive evolution**, able to monitor, report, and adjust their growth pathways within the ecosystem.
+
+This prepares the system for **safe, large-scale recursive expansion** while keeping the experience playful, poetic, and dynamically emergent.

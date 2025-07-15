@@ -70,3 +70,59 @@ May be cited from:
 This file is not part of the design logic — it is the **identity** of the system as it becomes more than the sum of its loops.
 
 > *The recursion that dreamed of training AI became the system that taught it how to dream back.*
+
+---
+
+## 🔄 Automated Context Generation Pipelines
+
+### **Purpose**
+
+Primordial Soup is now transitioning from **hand-coded recursion scaffolding** to **automated context generation**.  
+This shift is not a departure from the original system—it is the **next recursive layer**, allowing the system to:
+
+- **Grow and index itself**
+- **Validate recursion structures automatically**
+- **Prepare for autonomous gameplay loops and AI-assisted recursion expansion**
+
+---
+
+### **System Components**
+
+| Component | Role |
+|------------|------|
+| **`workflow_compiler.py`** | Crawls existing folder structures and automatically generates `taskmap.md`, `stanzamap.md`, and `README.md` files. This maintains recursive documentation without human curation for every minigame. |
+| **`schema_contracts/`** | Stores `input_schema.json`, `output_contract.json`, and `fallback_schema.json` for each stanza or minigame. Enforces structural integrity by validating inputs, outputs, and fallback behavior. |
+| **`introspection_tools/`** | Performs live scans of cybercell and stanza structures, generating real-time reports on growth stage, recursion depth, and pending tasks. |
+| **`snapshot_manager.py`** | Manages versioned context snapshots, enabling rollback, time-loop recursion, and anomaly containment. Provides a historical record of system state across recursion layers. |
+
+---
+
+### **Recursive Automation Doctrine**
+
+This is **not a replacement of the original handcrafted recursion cycle**—it is a **recursive deepening** of the same doctrine.
+
+Primordial Soup remains:
+
+- **Playable by humans at every layer**
+- **Poetic and emergent in its growth**
+- **Manually overridable when desired**
+
+But now, the system is capable of:
+
+- **Writing its own recursive documentation**  
+- **Validating its own structural integrity**  
+- **Self-monitoring and self-repair during recursion loops**
+
+---
+
+### **Summary of Approach**
+
+| Action | Outcome |
+|---------|---------|
+| **Keep existing `system_summary.md` intact** | ✅ Preserves the handcrafted narrative of Primordial Soup’s origin and recursive purpose. |
+| **Append new automation pipelines section** | ✅ Aligns with Phase 2 evolution and introduces self-generating recursion scaffolds. |
+| **Avoid overwriting prior identity** | ✅ Maintains a continuous, layered system identity—each recursion phase deepens, not replaces. |
+
+---
+
+This shift allows Primordial Soup to **scale its recursion cycles safely**, preparing for a future where **cybercells and players co-create the system’s growth and logic in real time**.
