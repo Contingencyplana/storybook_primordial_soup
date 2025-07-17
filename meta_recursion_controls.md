@@ -1,56 +1,78 @@
-<!-- Save to: storybook_primordial_soup/layers.md -->
+<!-- Save to: storybook_primordial_soup/meta_recursion_controls.md -->
 
-# 🧭 Layer Definitions for Primordial Soup  
-### Understanding Recursive Depth and File Structure
+# 🧬 meta_recursion_controls.md  
+**Primordial Soup – Recursive Control Doctrine**  
 
----
+## 🔑 Purpose
 
-## Layer 0 — The Game Universe  
-- The root folder of a recursive video game project  
-- Examples: `Primordial Soup`, `Storybook`, `FUN Factory`  
-- May share logic and evolution patterns across games
+This file defines the **meta-recursive controls** for Primordial Soup’s Phase 2: *Recursive Workflow Awakening*.
 
----
+It governs how players and systems **build, manage, and extend recursion itself** through interactive commands.
 
-## Layer 1 — Cybercell Generation  
-- Either a recursive stanza containing four cybercells (*Genesis Gloop*), or a cell generation made of one, two, four, etc. stanza-bearing cybercells  
-- Examples: `a0_0_genesis_gloop`, `a1_1_`, `a2_1_`  
-- Note: `genesis_gloop` contains **three generations** (1–3)
+These controls are not gameplay loops—they are **system growth loops**, allowing Primordial Soup to evolve new minigames, nodes, and stanzas **from within its own recursive architecture**.
 
 ---
 
-## Layer 2 — Cybercell  
-- A single recursive organism  
-- Holds its own functions, memory, and identity  
-- Example: `a0_0_the_cell_that_dreamed_it_had_begun`
+## 🎛️ Core Controls
+
+| Action | Command | Result |
+|--------|---------|--------|
+| **Create Minigame Node** | **Press L** | Generates a **new empty minigame node folder** in the current minigame. Structure: <br> - `__init__.py` <br> - `main.py` <br> - `subtaskmap.md` <br> - `test.py` |
+| **Create Minigame (Layer 3)** | **Press R** | Generates a **new minigame folder**, containing: <br> - **4 empty minigame nodes** <br> - `taskmaps/` folder with: <br>  - `README.md` <br>  - `milestones.md` <br>  - `stanzamap.md` <br>  - `taskmap.md` |
+| **Exit Current Loop** | **Press ESC** | Exits the current minigame or node. Player returns to the previous recursion layer or the meta-menu. |
 
 ---
 
-## Layer 3 — Minigame  
-- A line of poetry, within a Layer 3 stanza, within a cybercell  
-- Composed of one or more Layer 4 stanzas (multiples of four recursive tests, quests, or functions)  
-- Example: `a0_0_the_test_that_called_itself`
+## 🔁 Recursive Integrity Principles
+
+1. **4x4 Structure Preserved**  
+   - Minigames consist of **4 minigame nodes by default**.  
+   - Minigames can contain **multiple Layer 4 stanzas** if recursion demands it.
+
+2. **Player-Guided Recursion Expansion**  
+   - Players choose when to grow recursion by invoking `L` and `R`.  
+   - Growth is **interactive and reversible**—no forced system bloat.
+
+3. **Playful Tool Creation**  
+   - Even meta-recursive tools are **built as playable structures**, not as black-box infrastructure.
+
+4. **Safe Looping and Exits**  
+   - Pressing `ESC` preserves breadcrumbs, allowing players to **return to recursion points later without loss of state**.
 
 ---
 
-## Layer 4 — Executable Logic Unit 🧬  
-- Python scripts or markdown files that embody a single behavior  
-- Examples: `main.py`, `test.py`, `subtaskmap.md`, `field_report.md`
+## ⚙️ Optional Enhancements (Recommended)
+
+| Enhancement | Purpose |
+|--------------|---------|
+| **Context-Aware Prompts** | After pressing `L` or `R`, prompt: *“Do you want to proceed, rename, or return to meta-menu?”* |
+| **Breadcrumb System** | Store recursion states to allow safe loop reentry after `ESC`. |
+| **Naming Queue** | Allow deferred renaming of files/folders to avoid interrupting recursive flow. |
+| **Test Mode Toggle** | Support a **dry-run scaffold mode** where no files are written until confirmed. Useful for simulation and safety testing. |
 
 ---
 
-## 🪶 Poetic Summary  
-This section maps structural Layers to their corresponding lines of recursive poetry in Primordial Soup:
+## 📂 Related Files & Structures
 
-- **Layer 0** — Not a line, but the **verse itself** — the recursive space in which all poetry unfolds  
-- **Layer 1** — With the exception of *Genesis Gloop*, each line of poetry is a **cybercell generation**, and vice versa  
-- **Layer 2** — Each line is a **cybercell** — unique, recursive, self-contained  
-- **Layer 3** — Each line is a **minigame** — a stanza-line of recursive trial or quest  
-- **Layer 4** — Each line is an **executable node** — a moment of decision, code, or poetic logic
+| File/Folder | Role |
+|--------------|-------|
+| `meta_recursion_controls/` | Contains **the executable logic** for `L`, `R`, `ESC`. |
+| `meta_recursion_controls/taskmap.md` | Tracks **implementation tasks** for building the controls. |
+| `a15_0_the_compiler_that_built_itself/` | The **stanza where meta-recursion controls begin.** |
 
 ---
 
-## 🧠 Notes  
-- All recursive stanza logic is designed in groups of **four**  
-- Each layer contains and refers to the one below it  
-- Layering structure is essential for SHAGI-optimized automation and AI traversal
+## 🚦 Phase 2 Doctrine Alignment
+
+This system is part of:
+
+- **Phase 2: The Awakening**  
+- **Three-Stanza Recursive Automation Arc**
+
+---
+
+## 🧠 Closing Note
+
+This is **not just a control system**—it is the **recursive engine that grows the recursion itself**.
+
+Changes to this file must be made **carefully and consciously**, as they propagate across all future recursive expansion in Primordial Soup.
