@@ -23,6 +23,26 @@ These controls are not gameplay loops—they are **system growth loops**, allowi
 
 ---
 
+## 🧭 Input Model: Recursive Control Scheme
+
+Primordial Soup uses a **hybrid input system** to balance simplicity with recursive complexity:
+
+| Control Type | Use Case | Why? |
+|--------------|----------|------|
+| **L / R / ESC (Single-Key Commands)** | **Core, straightforward actions:** <br> - `L` → Create minigame node <br> - `R` → Create minigame <br> - `ESC` → Exit or return | ✅ Fast, intuitive, low-friction controls for simple, high-frequency actions. |
+| **Numbered Choices (1, 2, 3, 4, …)** | **Branching or selection actions:** <br> - Picking from multiple stanzas or nodes <br> - Choosing rollback points or snapshots <br> - Selecting generated outputs | ✅ Scales gracefully when recursion presents **more than 3–4 options**, preventing control overload and preserving clarity. |
+
+### **Why Use Both?**
+
+| Reason | Benefit |
+|--------|---------|
+| **Keeps Simple Actions Simple** | Use `L`, `R`, `ESC` for **the most common recursive growth actions**. |
+| **Avoids UI Clutter** | Single-key inputs prevent menu bloat for **high-frequency recursion tasks**. |
+| **Handles Complex Branching Gracefully** | Numbered lists provide clarity when recursion presents **large decision trees or reflection choices**. |
+| **Matches Recursive Patterns** | Recursion naturally evolves from **simple loops to branching structures**—this input model reflects that growth. |
+
+---
+
 ## 🔁 Recursive Integrity Principles
 
 1. **4x4 Structure Preserved**  
@@ -56,7 +76,7 @@ These controls are not gameplay loops—they are **system growth loops**, allowi
 
 | File/Folder | Role |
 |--------------|-------|
-| `meta_recursion_controls/` | Contains **the executable logic** for `L`, `R`, `ESC`. |
+| `meta_recursion_controls/` | Contains **the executable logic** for `L`, `R`, `ESC` and numbered options. |
 | `meta_recursion_controls/taskmap.md` | Tracks **implementation tasks** for building the controls. |
 | `a15_0_the_compiler_that_built_itself/` | The **stanza where meta-recursion controls begin.** |
 
