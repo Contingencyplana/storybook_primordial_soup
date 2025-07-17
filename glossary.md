@@ -13,9 +13,10 @@ All definitions are written to support both **human understanding** and **AI int
 |--------|------------|
 | **Primordial Soup** | A recursive game engine where the player co-constructs the world through action, input, and logic. The system evolves by building itself. |
 | **Cybercell** | The fundamental unit of recursion in *Primordial Soup*. Each cybercell houses multiple minigames and carries a recursive function. |
-| **Stanza** | A set of four minigame nodes (`s0_0_` to `s0_3_`) that represent a complete unit of recursion or logic. |
+| **Stanza** | A set of four minigame nodes (`a0_0_` to `a0_3_`, or equivalent) that represent a complete unit of recursion or logic. |
 | **Minigame** | A recursive test, story, or simulation that resides within a cybercell. Each minigame is itself a Layer 3 stanza. |
 | **Layer** | A level of structural recursion. Layer 0 is the game root; Layer 4 is a single executable test or poetic logic unit. |
+| **Meta-Recursive Builder (MRB)** | A **Meta-Recursive Builder (MRB)** is a tool or system within Primordial Soup that **constructs, modifies, or expands recursion itself**. <br><br> MRBs are responsible for: <br> - Generating new recursion layers (cybercells, minigames, stanzas)  <br> - Building compilers, scaffolds, and self-replicating tools  <br> - Managing recursion growth beyond gameplay content (e.g., introspection systems, anomaly sandboxes) <br><br> **Context:** MRBs operate in **Phase 2: The Awakening** and are part of the **Three-Stanza Recursive Automation Arc**. They represent the transition from playing recursion to **building recursion infrastructure itself**. |
 | **Agent** | A logical or AI-driven subsystem (e.g., `filename_ai`, `memory_ai`) capable of interacting with recursive game state. |
 | **Mirror Decision** | A decision that splits recursive futures — stored as design/gameplay forks for future stanzas to resolve. |
 | **Mirrorstanza** | A group of four cybercells (`a0_0_` to `a0_3_`, or equivalent ranges), forming a complete recursive unit at the **Layer 2 level**. Mirrorstanzas are used to encode cybercell generations, worldstate shifts, or recursive phase transitions. Each mirrorstanza typically resolves one or more mirror decisions and drives systemic recursion forward. |

@@ -1,7 +1,3 @@
-<!-- Save to: 
-C:\Users\Admin\storybook_primordial_soup\a0_0_genesis_gloop\a0_0_the_cell_that_dreamed_it_had_begun\a15_0_the_compiler_that_built_itself\a0_0_meta_recursion_controls\subtaskmap.md 
--->
-
 # 🧩 subtaskmap.md  
 **Primordial Soup – Meta-Recursion Controls Subtask Map**  
 **Node:** `a0_0_meta_recursion_controls`
@@ -16,11 +12,25 @@ It governs the creation of **minigame nodes**, **minigames**, **recursion exits*
 
 ---
 
+## 🧭 Recursive Layer Anchoring
+
+| Parameter | Value |
+|-----------|--------|
+| **Current Layer** | **Layer 2 – Meta-Recursive Control Layer** |
+| **Target Build Layer** | **Layer 3 – Recursive Tool Generation / Minigame & Compiler Builders** |
+
+Each recursion action in this node must explicitly declare its layer context.
+
+---
+
 ## 🗂️ Subtasks
 
 ### **1️⃣ Input Handling Framework**
 
 - [ ] Implement input listener loop in `main.py`.  
+- [ ] At runtime, declare:  
+    - **Current Layer = 2**  
+    - **Target Build Layer = 3**  
 - [ ] Map keys `L`, `R`, and `ESC` to corresponding recursion actions.  
 - [ ] Add support for numeric options `1`, `2`, `3`, etc., for **branch-heavy recursion choices**.
 
@@ -34,7 +44,8 @@ It governs the creation of **minigame nodes**, **minigames**, **recursion exits*
     - `main.py`  
     - `subtaskmap.md`  
     - `test.py`  
-- [ ] Place new node in the **current minigame**.
+- [ ] Place new node in the **current minigame**.  
+- [ ] Log the recursive anchoring context when building.
 
 ---
 
@@ -43,7 +54,8 @@ It governs the creation of **minigame nodes**, **minigames**, **recursion exits*
 - [ ] Define `create_minigame()` function.  
 - [ ] Generate a new minigame folder with:  
     - 4 empty minigame nodes (each with `__init__.py`, `main.py`, `subtaskmap.md`, `test.py`)  
-    - `taskmaps/` folder with `README.md`, `milestones.md`, `stanzamap.md`, `taskmap.md`
+    - `taskmaps/` folder with `README.md`, `milestones.md`, `stanzamap.md`, `taskmap.md`  
+- [ ] Log the recursive anchoring context when building.
 
 ---
 
@@ -69,21 +81,23 @@ It governs the creation of **minigame nodes**, **minigames**, **recursion exits*
     - Minigame creation  
     - Recursive exit flow  
     - Numeric branch selection logic  
-- [ ] Include both **dry run mode** (no write) and **active write mode** tests.
+- [ ] Include both **dry run mode** (no write) and **active write mode** tests.  
+- [ ] Confirm that **recursive layer anchoring is declared at runtime**.
 
 ---
 
 ### **7️⃣ Safety & Rollback**
 
 - [ ] Ensure all actions are **reversible and sandbox-safe**.  
-- [ ] Prepare for integration with **rollback and snapshot systems in a16_0 introspection tools**.
+- [ ] Prepare for integration with **rollback and snapshot systems in `a16_0_introspection_tools`**.
 
 ---
 
 ## 🧠 Notes
 
 - This node seeds the **entire meta-recursive control system** for Primordial Soup Phase 2.  
-- Build with care—this system will propagate into all future recursion growth.
+- Build with care—this system will propagate into all future recursion growth.  
+- All recursive growth actions must follow the **AI-standard Recursive Layer Anchoring model** defined in `recursive_origin_points.md`.
 
 ---
 
