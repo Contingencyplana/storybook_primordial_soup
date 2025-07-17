@@ -16,10 +16,10 @@ It documents recursive failures, delayed signals, paradoxical fallbacks, and log
 
 | Line | Folder Name                                 | Status     | Summary                                                           |
 |------|----------------------------------------------|------------|-------------------------------------------------------------------|
-| s2_0 | `a2_0_the_assertion_that_unmade_itself`      | ✅ Passed   | Recursion contradicts its own base case. Truth collapses inward. |
-| s2_1 | `a2_1_the_loop_that_refused_to_close`        | ✅ Passed   | Loop spins forward but never resolves. Closure withheld.          |
-| s2_2 | `a2_2_the_trace_that_returned_too_late`      | ✅ Passed   | Signal returns after context has faded. Delay invalidates truth.  |
-| s2_3 | `a2_3_the_fallback_that_caused_the_failure`  | ✅ Passed   | Protective fallback misfires, becoming the trigger for failure.   |
+| a2_0 | `a2_0_the_assertion_that_unmade_itself`      | ✅ Passed   | Recursion contradicts its own base case. Truth collapses inward. |
+| a2_1 | `a2_1_the_loop_that_refused_to_close`        | ✅ Passed   | Loop spins forward but never resolves. Closure withheld.          |
+| a2_2 | `a2_2_the_trace_that_returned_too_late`      | ✅ Passed   | Signal returns after context has faded. Delay invalidates truth.  |
+| a2_3 | `a2_3_the_fallback_that_caused_the_failure`  | ✅ Passed   | Protective fallback misfires, becoming the trigger for failure.   |
 
 ---
 
@@ -44,4 +44,4 @@ It documents recursive failures, delayed signals, paradoxical fallbacks, and log
 ---
 
 ## ✅ Status: Complete  
-All four stanza lines passed. Stanza `s2` is sealed.
+All four stanza lines passed. Stanza `a2` is sealed.

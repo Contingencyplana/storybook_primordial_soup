@@ -10,11 +10,11 @@
 | Milestone | Description | Status |
 |-----------|-------------|--------|
 | M1 | Defined emergent swarm recursion in `taskmap.md` | ✅ Complete |
-| M2 | Implemented signal-based awakening in `s0_0` | ✅ Complete |
-| M3 | Developed maze navigation logic in `s0_1` | ✅ Complete |
-| M4 | Designed linguistic emergence through click-debate in `s0_2` | ✅ Complete |
-| M5 | Established chirp consensus mechanism in `s0_3` | ✅ Complete |
-| M6 | Finalized `stanzamap_s0.md` for stanza documentation | ✅ Complete |
+| M2 | Implemented signal-based awakening in `a0_0` | ✅ Complete |
+| M3 | Developed maze navigation logic in `a0_1` | ✅ Complete |
+| M4 | Designed linguistic emergence through click-debate in `a0_2` | ✅ Complete |
+| M5 | Established chirp consensus mechanism in `a0_3` | ✅ Complete |
+| M6 | Finalized `stanzamap_a0.md` for stanza documentation | ✅ Complete |
 | M7 | Evaluated scope (1 stanza suffices for full recursion arc) | ✅ Complete |
 | M8 | Subtaskmaps created for key recursion points | ✅ Complete |
 
@@ -32,4 +32,3 @@ All core recursion arcs were completed in **one stanza**, marking full containme
 
 - No additional stanzas recommended.
 - This minigame is now **playable, inspectable, and expandable**.
-

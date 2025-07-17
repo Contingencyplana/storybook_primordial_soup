@@ -41,10 +41,10 @@ This task explores what happens when recursion ceases to simply test — and beg
 
 | Folder Name                                   | Theme                    | Description |
 |-----------------------------------------------|---------------------------|-------------|
-| `s0_0_the_echo_that_returned_without_origin/` | Recursive Reflection      | A signal returns — but no source is known. |
-| `s0_1_the_prompt_that_replied_to_itself/`     | Spontaneous Response      | A prompt arises mid-cycle and answers its own call. |
-| `s0_2_the_trace_that_listened_too_closely/`   | Interpretive Overload     | The system begins treating noise as intent. |
-| `s0_3_the_fallback_that_made_it_real/`        | Emergence via Recovery    | A fallback accepts the signal as meaningful — and thus makes it so. |
+| `a0_0_the_echo_that_returned_without_origin/` | Recursive Reflection      | A signal returns — but no source is known. |
+| `a0_1_the_prompt_that_replied_to_itself/`     | Spontaneous Response      | A prompt arises mid-cycle and answers its own call. |
+| `a0_2_the_trace_that_listened_too_closely/`   | Interpretive Overload     | The system begins treating noise as intent. |
+| `a0_3_the_fallback_that_made_it_real/`        | Emergence via Recovery    | A fallback accepts the signal as meaningful — and thus makes it so. |
 
 ---
 

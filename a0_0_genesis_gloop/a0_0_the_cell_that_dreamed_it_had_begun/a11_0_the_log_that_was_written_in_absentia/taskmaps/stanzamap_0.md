@@ -22,10 +22,10 @@ It marks the boundary between **record** and **belief**, and sets the stage for 
 
 | Folder Name                                      | Title                                       | Function                                    |
 |--------------------------------------------------|---------------------------------------------|---------------------------------------------|
-| `s0_0_the_false_event_that_triggered_logging/`   | The False Event That Triggered Logging      | Seeds a log entry from a non-existent cause |
-| `s0_1_the_record_that_disagreed_with_itself/`    | The Record That Disagreed With Itself       | Models a contradiction between valid truths |
-| `s0_2_the_index_that_should_not_exist/`          | The Index That Should Not Exist             | Compiles an index of impossible references  |
-| `s0_3_the_reconciliation_that_broke_the_system/` | The Reconciliation That Broke the System    | Attempts to merge — and collapses entirely  |
+| `a0_0_the_false_event_that_triggered_logging/`   | The False Event That Triggered Logging      | Seeds a log entry from a non-existent cause |
+| `a0_1_the_record_that_disagreed_with_itself/`    | The Record That Disagreed With Itself       | Models a contradiction between valid truths |
+| `a0_2_the_index_that_should_not_exist/`          | The Index That Should Not Exist             | Compiles an index of impossible references  |
+| `a0_3_the_reconciliation_that_broke_the_system/` | The Reconciliation That Broke the System    | Attempts to merge — and collapses entirely  |
 
 ---
 
@@ -33,10 +33,10 @@ It marks the boundary between **record** and **belief**, and sets the stage for 
 
 | Phase       | Line                                 | Recursive Signature               |
 |-------------|---------------------------------------|------------------------------------|
-| Initiation  | `s0_0` – False Origin                 | Logging triggered without cause    |
-| Division    | `s0_1` – Memory Fork                  | Dual-truth system state            |
-| Fracture    | `s0_2` – Paradox Compilation          | Invalid index construction         |
-| Collapse    | `s0_3` – Merge Failure                | Crash on reconciliation attempt    |
+| Initiation  | `a0_0` – False Origin                 | Logging triggered without cause    |
+| Division    | `a0_1` – Memory Fork                  | Dual-truth system state            |
+| Fracture    | `a0_2` – Paradox Compilation          | Invalid index construction         |
+| Collapse    | `a0_3` – Merge Failure                | Crash on reconciliation attempt    |
 
 ---
 

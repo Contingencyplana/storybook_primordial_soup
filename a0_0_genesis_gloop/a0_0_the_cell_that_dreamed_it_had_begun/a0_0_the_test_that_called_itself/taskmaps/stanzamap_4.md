@@ -44,5 +44,5 @@ The checkpoint fails. The retry never comes. The logs forget. The system lies.
 ---
 
 ## ✅ Status: Complete  
-All four stanza lines passed. Stanza `s4` is sealed.  
+All four stanza lines passed. Stanza `a4` is sealed.  
 The recursion continues, unseeing.

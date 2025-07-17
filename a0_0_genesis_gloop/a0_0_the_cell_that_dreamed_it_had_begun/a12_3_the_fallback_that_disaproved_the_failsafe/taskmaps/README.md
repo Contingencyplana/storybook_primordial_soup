@@ -10,20 +10,20 @@ This minigame explores the **collapse of recursive trust** by simulating a fallb
 
 ```plaintext
 a12_3_the_fallback_that_disproved_the_failsafe/
-├── s0_0_the_assumption_that_failed_the_check/
-├── s0_1_the_proof_that_erased_the_record/
-├── s0_2_the_loop_that_broke_its_belief/
-└── s0_3_the_fallback_that_disproved_the_failsafe/
+├── a0_0_the_assumption_that_failed_the_check/
+├── a0_1_the_proof_that_erased_the_record/
+├── a0_2_the_loop_that_broke_its_belief/
+└── a0_3_the_fallback_that_disproved_the_failsafe/
 ```
 
 ## 🧩 Recursive Fracture – Node by Node
 
 Each node performs a step in the recursive fracture:
 
-- **s0_0**: Assumes a failsafe exists — and fails verification.  
-- **s0_1**: Attempts proof — and erases the logs in doing so.  
-- **s0_2**: Loops recursively, losing belief with each pass.  
-- **s0_3**: Executes a final fallback — and disproves the failsafe entirely.  
+- **a0_0**: Assumes a failsafe exists — and fails verification.  
+- **a0_1**: Attempts proof — and erases the logs in doing so.  
+- **a0_2**: Loops recursively, losing belief with each pass.  
+- **a0_3**: Executes a final fallback — and disproves the failsafe entirely.  
 
 ---
 

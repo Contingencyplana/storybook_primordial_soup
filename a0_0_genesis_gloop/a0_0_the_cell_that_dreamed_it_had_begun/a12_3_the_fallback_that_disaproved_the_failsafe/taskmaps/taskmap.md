@@ -47,17 +47,17 @@ The player must navigate this paradox.
 
 ```plaintext
 a12_3_the_fallback_that_disproved_the_failsafe/
-├── s0_0_the_assumption_that_failed_the_check/
-├── s0_1_the_proof_that_erased_the_record/
-├── s0_2_the_loop_that_broke_its_belief/
-└── s0_3_the_fallback_that_disproved_the_failsafe/
+├── a0_0_the_assumption_that_failed_the_check/
+├── a0_1_the_proof_that_erased_the_record/
+├── a0_2_the_loop_that_broke_its_belief/
+└── a0_3_the_fallback_that_disproved_the_failsafe/
 ```
 
 Each line deepens the recursive fracture:
-- **s0_0** assumes a safety check will pass
-- **s0_1** discovers that confirming safety erases its record
-- **s0_2** loops back in disbelief, breaking its trust
-- **s0_3** completes the loop — by disproving the failsafe itself
+- **a0_0** assumes a safety check will pass
+- **a0_1** discovers that confirming safety erases its record
+- **a0_2** loops back in disbelief, breaking its trust
+- **a0_3** completes the loop — by disproving the failsafe itself
 
 ---
 

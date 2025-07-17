@@ -26,7 +26,7 @@ The player never speaks — and the system listens anyway.
 | File                | Description |
 |---------------------|-------------|
 | `taskmap.md`        | Core definition of the minigame’s purpose, linked system, and stanza roles |
-| `stanzamap_s0.md`   | Poetic and structural breakdown of the first (and only) stanza |
+| `stanzamap_0.md`    | Poetic and structural breakdown of the first (and only) stanza |
 | `milestones.md`     | Logs key recursive development checkpoints and completion status |
 
 ---

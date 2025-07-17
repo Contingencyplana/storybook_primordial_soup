@@ -24,10 +24,10 @@ It is the most introspective and destabilizing minigame of the first Primary Fun
 
 | Stanza | Title                                       | Recursive Role                            |
 |--------|---------------------------------------------|-------------------------------------------|
-| `s0_0` | The False Event That Triggered Logging      | System logs an event that never occurred  |
-| `s0_1` | The Record That Disagreed With Itself       | Dual-truth memory state creates fracture  |
-| `s0_2` | The Index That Should Not Exist             | Impossible memory references are compiled |
-| `s0_3` | The Reconciliation That Broke the System    | System attempts repair — and fails        |
+| `a0_0` | The False Event That Triggered Logging      | System logs an event that never occurred  |
+| `a0_1` | The Record That Disagreed With Itself       | Dual-truth memory state creates fracture  |
+| `a0_2` | The Index That Should Not Exist             | Impossible memory references are compiled |
+| `a0_3` | The Reconciliation That Broke the System    | System attempts repair — and fails        |
 
 ---
 

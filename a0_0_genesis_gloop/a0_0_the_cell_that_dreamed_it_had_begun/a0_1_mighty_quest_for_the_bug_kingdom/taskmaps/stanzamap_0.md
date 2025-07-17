@@ -10,12 +10,12 @@ It begins beneath the mycelial crust — and ends in a unified chirp.
 
 ## 📜 Stanza Index: s0_*
 
-| Folder Name                           | Recursive Theme             | Description                                               |
-|--------------------------------------|-----------------------------|-----------------------------------------------------------|
-| `s0_0_the_call_that_woke_the_bug_king`        | Awakening                  | A signal strong enough stirs the Bug King from slumber.  |
-| `s0_1_the_trail_that_led_through_mush`        | Navigation & Confusion     | The court begins to move through spore-fogged pathways.  |
-| `s0_2_the_court_that_argued_in_clicks`        | Diplomacy & Emergent Logic | The insect nobles cannot agree — they click in dissent.  |
-| `s0_3_the_chirp_that_bound_the_realm`         | Resolution & Unification   | A single chirp pattern is adopted — binding the swarm.   |
+| Folder Name                                   | Recursive Theme            | Description                                              |
+|-----------------------------------------------|----------------------------|----------------------------------------------------------|
+| `a0_0_the_call_that_woke_the_bug_king`        | Awakening                  | A signal strong enough stirs the Bug King from slumber.  |
+| `a0_1_the_trail_that_led_through_mush`        | Navigation & Confusion     | The court begins to move through spore-fogged pathways.  |
+| `a0_2_the_court_that_argued_in_clicks`        | Diplomacy & Emergent Logic | The insect nobles cannot agree — they click in dissent.  |
+| `a0_3_the_chirp_that_bound_the_realm`         | Resolution & Unification   | A single chirp pattern is adopted — binding the swarm.   |
 
 ---
 
@@ -47,7 +47,7 @@ This stanza lays the groundwork for:
 a0_1_mighty_quest_for_the_bug_kingdom/
 ├── taskmaps/
 │   └── stanzamap_s0.md      # (this file)
-├── s0_0_the_call_that_woke_the_bug_king/
-├── s0_1_the_trail_that_led_through_mush/
-├── s0_2_the_court_that_argued_in_clicks/
-└── s0_3_the_chirp_that_bound_the_realm/
+├── a0_0_the_call_that_woke_the_bug_king/
+├── a0_1_the_trail_that_led_through_mush/
+├── a0_2_the_court_that_argued_in_clicks/
+└── a0_3_the_chirp_that_bound_the_realm/

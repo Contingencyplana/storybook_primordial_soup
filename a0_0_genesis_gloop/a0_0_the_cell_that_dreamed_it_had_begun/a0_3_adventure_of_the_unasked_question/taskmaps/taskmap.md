@@ -29,10 +29,10 @@ This adventure is quiet, recursive, and tragic: an ode to readiness unmet.
 ```text
 
 a0_3_adventure_of_the_unasked_question/
-├── s0_0_the_input_that_was_never_given/
-├── s0_1_the_check_that_expected_a_signal/
-├── s0_2_the_branch_that_was_never_chosen/
-├── s0_3_the_return_that_waited_in_vain/
+├── a0_0_the_input_that_was_never_given/
+├── a0_1_the_check_that_expected_a_signal/
+├── a0_2_the_branch_that_was_never_chosen/
+├── a0_3_the_return_that_waited_in_vain/
 └── taskmaps/
     ├── taskmap.md
     ├── stanzamap_s0.md
@@ -46,10 +46,10 @@ a0_3_adventure_of_the_unasked_question/
 
 | Node Folder                              | Role                         | Description |
 |------------------------------------------|------------------------------|-------------|
-| `s0_0_the_input_that_was_never_given`    | Absence Root                 | The system initializes but never receives what it's waiting for. |
-| `s0_1_the_check_that_expected_a_signal`  | Faulty Assumption Handler    | A check that fires regardless, assuming the signal has arrived. |
-| `s0_2_the_branch_that_was_never_chosen`  | Dormant Logic Path           | A conditional branch coded for—but never triggered. |
-| `s0_3_the_return_that_waited_in_vain`    | Unmet Callback               | A return handler that endlessly waits for a condition that won’t come. |
+| `a0_0_the_input_that_was_never_given`    | Absence Root                 | The system initializes but never receives what it's waiting for. |
+| `a0_1_the_check_that_expected_a_signal`  | Faulty Assumption Handler    | A check that fires regardless, assuming the signal has arrived. |
+| `a0_2_the_branch_that_was_never_chosen`  | Dormant Logic Path           | A conditional branch coded for—but never triggered. |
+| `a0_3_the_return_that_waited_in_vain`    | Unmet Callback               | A return handler that endlessly waits for a condition that won’t come. |
 
 ---
 
@@ -61,4 +61,3 @@ a0_3_adventure_of_the_unasked_question/
 - If successful, this minigame could link to future sentinel escalation in `quarantine_ai/` or a dream-layer drift into `memory_ai/`.
 
 ---
-

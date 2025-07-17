@@ -31,8 +31,8 @@ The `test.py` file may:
 - Log results as a **Chirp Log** or **Bug Court Transcript**
 
 Additional stanza functions:
-- Some stanza lines simulate **courtroom deliberation** through click-pattern voting (`s0_2_*`)
-- Others bind swarm intent into a **shared recursive signal** (`s0_3_*`)
+- Some stanza lines simulate **courtroom deliberation** through click-pattern voting (`a0_2_*`)
+- Others bind swarm intent into a **shared recursive signal** (`a0_3_*`)
 
 ---
 
@@ -70,19 +70,20 @@ a0_1_mighty_quest_for_the_bug_kingdom/
 ├── taskmaps/
 │   ├── taskmap.md
 │   ├── stanzamap_s0.md
-├── s0_0_the_call_that_woke_the_bug_king/
+├── a0_0_the_call_that_woke_the_bug_king/
 │   ├── main.py
 │   ├── test.py
 │   └── subtaskmap.md
-├── s0_1_the_trail_that_led_through_mush/
+├── a0_1_the_trail_that_led_through_mush/
 │   ├── main.py
 │   ├── test.py
 │   └── subtaskmap.md
-├── s0_2_the_court_that_argued_in_clicks/
+├── a0_2_the_court_that_argued_in_clicks/
 │   ├── main.py
 │   ├── test.py
 │   └── subtaskmap.md
-├── s0_3_the_chirp_that_bound_the_realm/
+├── a0_3_the_chirp_that_bound_the_realm/
 │   ├── main.py
 │   ├── test.py
 │   └── subtaskmap.md
+```

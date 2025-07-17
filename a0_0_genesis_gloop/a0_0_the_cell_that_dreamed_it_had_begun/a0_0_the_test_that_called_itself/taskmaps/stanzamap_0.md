@@ -23,10 +23,10 @@ Each stanza line is a self-contained **Y-node** in the recursive world of Primor
 
 | Line | Folder | Title | Summary |
 |------|--------|-------|---------|
-| `s0_0` | `s0_0_the_assertion_of_first_contact` | First input check | Establishes signal recognition and invocation. |
-| `s0_1` | `s0_1_the_loop_that_tested_closure` | Loop entry + repeat logic | Tests for closure or infinite looping conditions. |
-| `s0_2` | `s0_2_the_trace_that_returned_wrong` | Data integrity validator | Checks return path and signal trace accuracy. |
-| `s0_3` | `s0_3_the_fallback_that_caught_the_signal` | Fail-safe reentry | Catches failed logic and routes to safe recovery. |
+| `a0_0` | `a0_0_the_assertion_of_first_contact` | First input check | Establishes signal recognition and invocation. |
+| `a0_1` | `a0_1_the_loop_that_tested_closure` | Loop entry + repeat logic | Tests for closure or infinite looping conditions. |
+| `a0_2` | `a0_2_the_trace_that_returned_wrong` | Data integrity validator | Checks return path and signal trace accuracy. |
+| `a0_3` | `a0_3_the_fallback_that_caught_the_signal` | Fail-safe reentry | Catches failed logic and routes to safe recovery. |
 
 ---
 
@@ -35,15 +35,15 @@ Each stanza line is a self-contained **Y-node** in the recursive world of Primor
 - All nodes can be entered manually or programmatically via `test.py`.
 - Each node simulates battlefield decisions (`L`, `R`, `Escape`) or internal logic tests.
 - If a node **fails**, fallback behavior is:
-  - Either handled internally (e.g. `s0_3`)
+  - Either handled internally (e.g. `a0_3`)
   - Or returned as a failure report (`❌` logic response).
 
 ---
 
 ## 🧠 Fallback Logic
 
-- `s0_3` acts as the safety catch for upstream failures.
-- Test scripts may simulate fallbacks to `s0_3` if:
+- `a0_3` acts as the safety catch for upstream failures.
+- Test scripts may simulate fallbacks to `a0_3` if:
   - `main.py` is missing,
   - `evaluate()` returns a broken state,
   - `test.py` encounters unexpected inputs.
@@ -62,7 +62,7 @@ Each stanza line is a self-contained **Y-node** in the recursive world of Primor
 ## 🔗 Forward Hook
 
 Next stanza begins with:  
-`📁 s1_0_the_checkpoint_that_missed_the_mark`  
+`📁 a1_0_the_checkpoint_that_missed_the_mark`  
 Which moves from emergence to **diagnosis and deeper pattern recognition**.
 
 ---

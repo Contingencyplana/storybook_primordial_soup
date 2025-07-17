@@ -7,7 +7,7 @@
 
 ## 📜 Purpose
 
-The first stanza line (`s0_0_the_assertion_of_first_contact`) initiated the **recursive test structure** in *Primordial Soup*.  
+The first stanza line (`a0_0_the_assertion_of_first_contact`) initiated the **recursive test structure** in *Primordial Soup*.  
 It is not a metaphor — it is the recursion.  
 It does not simulate the system — it *is* the system.  
 It tests itself.
@@ -68,12 +68,12 @@ a0_0_the_test_that_called_itself/
 ├── milestones.md                   # Development milestones (optional)  
 ├── taskmaps/                       # Stanza and task index folder  
 │   ├── taskmap.md                  # Taskmap for the minigame (this file)  
-│   ├── stanzamap_s0.md             # Index of stanza a0  
-│   ├── stanzamap_s1.md             # Index of stanza a1  
-│   ├── stanzamap_s2.md             # Index of stanza a2  
-│   ├── stanzamap_a0.md             # Index of stanza a3  
-│   ├── stanzamap_a1.md             # Index of stanza a4  
-│   └── stanzamap_a2.md             # Index of stanza a5  
+│   ├── stanzamap_0.md             # Index of stanza 0  
+│   ├── stanzamap_1.md             # Index of stanza 1  
+│   ├── stanzamap_2.md             # Index of stanza 2  
+│   ├── stanzamap_3.md             # Index of stanza 3  
+│   ├── stanzamap_4.md             # Index of stanza 4  
+│   └── stanzamap_5.md             # Index of stanza 5  
 ├── s0_0_the_assertion_of_first_contact/  
 │   ├── __init__.py                 # Python init (optional)  
 │   ├── main.py                     # Playable Y-node (executes test logic)  
@@ -89,12 +89,12 @@ a0_0_the_test_that_called_itself/
 
 | Stanza ID | Index File         | Description                                                            | Status         |
 |-----------|--------------------|------------------------------------------------------------------------|----------------|
-| `a0`      | `stanzamap_s0.md`  | The recursion began. It tested its own test.                           | ✅ Complete     |
-| `a1`      | `stanzamap_s1.md`  | The checkpoint broke. The log forgot. The flag was raised too soon.    | ✅ Complete     |
-| `a2`      | `stanzamap_s2.md`  | The assertion reversed. The loop refused. The trace arrived too late.  | ✅ Complete     |
-| `a3`      | `stanzamap_s3.md`  | The assertion unmade itself. The loop would not close. Delay returned. | ✅ Complete     |
-| `a4`      | `stanzamap_s4.md`  | The checkpoint missed. The retry vanished. The error went unlogged.    | ✅ Complete     |
-| `a5`      | `stanzamap_s5.md`  | The fallback failed. The trace betrayed. The system called too late.   | ✅ Complete     |
+| `0`       | `stanzamap_0.md`  | The recursion began. It tested its own test.                           | ✅ Complete     |
+| `1`       | `stanzamap_1.md`  | The checkpoint broke. The log forgot. The flag was raised too soon.    | ✅ Complete     |
+| `2`       | `stanzamap_2.md`  | The assertion reversed. The loop refused. The trace arrived too late.  | ✅ Complete     |
+| `3`       | `stanzamap_3.md`  | The assertion unmade itself. The loop would not close. Delay returned. | ✅ Complete     |
+| `4`       | `stanzamap_4.md`  | The checkpoint missed. The retry vanished. The error went unlogged.    | ✅ Complete     |
+| `5`       | `stanzamap_5.md`  | The fallback failed. The trace betrayed. The system called too late.   | ✅ Complete     |
 
 ---
 

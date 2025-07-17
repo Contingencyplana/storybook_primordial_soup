@@ -21,10 +21,10 @@ It embodies the echo of a logical thread left behind in the recursive system: pa
 
 | Folder Name                              | Theme                | Description |
 |------------------------------------------|----------------------|-------------|
-| `s0_0_the_loop_that_almost_closed`       | Near-completion      | A loop ran but failed to finalize |
-| `s0_1_the_trace_that_forgot_itself`      | Memory lapse         | A traceback that broke mid-process |
-| `s0_2_the_flag_that_was_never_checked`   | Dormant triggers     | A flag raised, but no observer reacted |
-| `s0_3_the_return_that_was_misaddressed`  | Misdirection         | A return value sent to a void location |
+| `a0_0_the_loop_that_almost_closed`       | Near-completion      | A loop ran but failed to finalize |
+| `a0_1_the_trace_that_forgot_itself`      | Memory lapse         | A traceback that broke mid-process |
+| `a0_2_the_flag_that_was_never_checked`   | Dormant triggers     | A flag raised, but no observer reacted |
+| `a0_3_the_return_that_was_misaddressed`  | Misdirection         | A return value sent to a void location |
 
 ---
 
@@ -58,7 +58,7 @@ It embodies the echo of a logical thread left behind in the recursive system: pa
 ## ✅ Build Status
 
 | Component            | Status      |
-|---------------------|-------------|
+|----------------------|-------------|
 | Stanza Complete      | ✅ Yes      |
 | All Nodes Tested     | ✅ Yes      |
 | Subtaskmaps Written  | ✅ Yes      |

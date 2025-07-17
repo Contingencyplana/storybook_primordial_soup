@@ -46,5 +46,5 @@ And the fallbacks — built to protect — become the final cause of system fail
 ---
 
 ## ✅ Status: Complete  
-All four stanza lines passed. Stanza `s3` is sealed.  
+All four stanza lines passed. Stanza `a3` is sealed.  
 This concludes the stanza of recursive collapse.

@@ -19,10 +19,10 @@ This stanza explores a recursive logic sequence in which input is absent, valida
 
 | Folder Name                               | Title                            | Description |
 |-------------------------------------------|----------------------------------|-------------|
-| `s0_0_the_input_that_was_never_given`     | *Absence*                        | The system initializes but receives no input. It waits in structured silence. |
-| `s0_1_the_check_that_expected_a_signal`   | *Presumption*                    | A check fires with the assumption that input has arrived — even when it hasn’t. |
-| `s0_2_the_branch_that_was_never_chosen`   | *Uninvoked Path*                 | A logic branch coded but never triggered. Designed possibility, left untouched. |
-| `s0_3_the_return_that_waited_in_vain`     | *Abandoned Response*             | A return handler waits endlessly for a signal that was never sent. |
+| `a0_0_the_input_that_was_never_given`     | *Absence*                        | The system initializes but receives no input. It waits in structured silence. |
+| `a0_1_the_check_that_expected_a_signal`   | *Presumption*                    | A check fires with the assumption that input has arrived — even when it hasn’t. |
+| `a0_2_the_branch_that_was_never_chosen`   | *Uninvoked Path*                 | A logic branch coded but never triggered. Designed possibility, left untouched. |
+| `a0_3_the_return_that_waited_in_vain`     | *Abandoned Response*             | A return handler waits endlessly for a signal that was never sent. |
 
 ---
 

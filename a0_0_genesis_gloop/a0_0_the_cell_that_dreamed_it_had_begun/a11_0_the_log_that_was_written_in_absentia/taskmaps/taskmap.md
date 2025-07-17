@@ -40,10 +40,10 @@ This minigame encodes recursive failure by design — not to be avoided, but to 
 ```text
 
 a11_0_the_log_that_was_written_in_absentia/
-├── s0_0_the_false_event_that_triggered_logging/
-├── s0_1_the_record_that_disagreed_with_itself/
-├── s0_2_the_index_that_should_not_exist/
-└── s0_3_the_reconciliation_that_broke_the_system/
+├── a0_0_the_false_event_that_triggered_logging/
+├── a0_1_the_record_that_disagreed_with_itself/
+├── a0_2_the_index_that_should_not_exist/
+└── a0_3_the_reconciliation_that_broke_the_system/
 
 ```
 
@@ -53,10 +53,10 @@ a11_0_the_log_that_was_written_in_absentia/
 
 | Stanza Folder                                 | Recursive Role                  | Escalation Trigger |
 |-----------------------------------------------|----------------------------------|---------------------|
-| `s0_0_the_false_event_that_triggered_logging` | Fabricated log from non-event    | `escalation_flag: True` |
-| `s0_1_the_record_that_disagreed_with_itself`  | Dual-truth memory fork           | Conflict detected   |
-| `s0_2_the_index_that_should_not_exist`        | Impossible enumeration structure | `paradox_level: HIGH` |
-| `s0_3_the_reconciliation_that_broke_the_system` | Merge failure, system crash     | `ValueError` raised |
+| `a0_0_the_false_event_that_triggered_logging` | Fabricated log from non-event    | `escalation_flag: True` |
+| `a0_1_the_record_that_disagreed_with_itself`  | Dual-truth memory fork           | Conflict detected   |
+| `a0_2_the_index_that_should_not_exist`        | Impossible enumeration structure | `paradox_level: HIGH` |
+| `a0_3_the_reconciliation_that_broke_the_system` | Merge failure, system crash     | `ValueError` raised |
 
 ---
 

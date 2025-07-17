@@ -31,7 +31,7 @@ a0_1_mighty_quest_for_the_bug_kingdom/
 │   ├── README.md        # (this file)
 │   ├── milestones.md
 │   └── stanzamap_s0.md
-├── s0_0_the_call_that_woke_the_bug_king/
-├── s0_1_the_trail_that_led_through_mush/
-├── s0_2_the_court_that_argued_in_clicks/
-└── s0_3_the_chirp_that_bound_the_realm/
+├── a0_0_the_call_that_woke_the_bug_king/
+├── a0_1_the_trail_that_led_through_mush/
+├── a0_2_the_court_that_argued_in_clicks/
+└── a0_3_the_chirp_that_bound_the_realm/

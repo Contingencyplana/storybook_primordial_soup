@@ -51,10 +51,10 @@ a11_3_the_moment_that_thinks_it_recurred_before/
 ├── init.py
 ├── taskmaps/
 │ └── taskmap.md
-├── s0_0_the_first_echo_that_felt_like_the_second/
-├── s0_1_the_choice_that_predated_its_trigger/
-├── s0_2_the_log_that_copied_itself_twice/
-└── s0_3_the_outcome_that_forgot_to_begin/
+├── a0_0_the_first_echo_that_felt_like_the_second/
+├── a0_1_the_choice_that_predated_its_trigger/
+├── a0_2_the_log_that_copied_itself_twice/
+└── a0_3_the_outcome_that_forgot_to_begin/
 ```
 
 ---

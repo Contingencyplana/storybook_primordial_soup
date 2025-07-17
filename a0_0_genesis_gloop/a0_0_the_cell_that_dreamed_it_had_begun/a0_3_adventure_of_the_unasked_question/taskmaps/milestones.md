@@ -9,19 +9,19 @@ The minigame explores how systems behave when structured around *absence* — of
 
 ## ✅ Milestone – First Stanza Complete
 
-**Stanza:** `s0` – *The Silence That Waited for a Question*  
+**Stanza:** `a0` – *The Silence That Waited for a Question*  
 **Status:** ✅ Fully implemented and tested
 
 | Node Folder                              | Status   | Description |
 |------------------------------------------|----------|-------------|
-| `s0_0_the_input_that_was_never_given`    | ✅ Pass  | Simulates system readiness with no input |
-| `s0_1_the_check_that_expected_a_signal`  | ✅ Pass  | Tests presumption logic and type-based failure |
-| `s0_2_the_branch_that_was_never_chosen`  | ✅ Pass  | Models dormant, uninvoked conditional logic |
-| `s0_3_the_return_that_waited_in_vain`    | ✅ Pass  | Waits endlessly for an absent return-triggering signal |
+| `a0_0_the_input_that_was_never_given`    | ✅ Pass  | Simulates system readiness with no input |
+| `a0_1_the_check_that_expected_a_signal`  | ✅ Pass  | Tests presumption logic and type-based failure |
+| `a0_2_the_branch_that_was_never_chosen`  | ✅ Pass  | Models dormant, uninvoked conditional logic |
+| `a0_3_the_return_that_waited_in_vain`    | ✅ Pass  | Waits endlessly for an absent return-triggering signal |
 
 All `main.py` and `test.py` files pass cleanly.  
 All `subtaskmap.md` files written and reflect recursive roles.  
-`taskmap.md` and `stanzamap_s0.md` finalized.
+`taskmap.md` and `stanzamap_0.md` finalized.
 
 ---
 

@@ -12,10 +12,10 @@ It was the **first minigame** in the first cybercell of *Primordial Soup*, built
 | File | Purpose |
 |------|---------|
 | `taskmap.md` | Master index of stanza lines (Layer 4 folders) and their linked tasks |
-| `stanzamap_s0.md` | Maps the poetic and structural logic of the first stanza |
+| `stanzamap_a0.md` | Maps the poetic and structural logic of the first stanza |
 | `milestones.md` | Tracks development milestones, playability status, and recursion results |
 | `README.md` | Explains this folder’s function and its importance within the broader cybercell |
-| *(future)* `stanzamap_s1.md`, etc. | Will be added as new stanzas are layered or extended |
+| *(future)* `stanzamap_a1.md`, etc. | Will be added as new stanzas are layered or extended |
 
 ---
 

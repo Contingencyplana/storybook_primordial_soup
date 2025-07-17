@@ -16,12 +16,12 @@ This stanza is not about resilience. It is about recursion’s failure to contai
 
 ## 📂 Stanza Lines
 
-| Line  | Folder Name                                       | Status     | Summary                                                                 |
-|-------|----------------------------------------------------|------------|-------------------------------------------------------------------------|
-| a5_0  | `a5_0_the_fallback_that_failed`                    | ✅ Passed   | A fallback mechanism activates — but fails catastrophically.            |
-| a5_1  | `a5_1_the_trace_that_betrayed_the_test`            | ✅ Passed   | The system trusts a corrupted trace — and draws false conclusions.      |
+| Line  | Folder Name                                            | Status      | Summary                                                                |
+|-------|--------------------------------------------------------|-------------|------------------------------------------------------------------------|
+| a5_0  | `a5_0_the_fallback_that_failed`                        | ✅ Passed   | A fallback mechanism activates — but fails catastrophically.            |
+| a5_1  | `a5_1_the_trace_that_betrayed_the_test`                | ✅ Passed   | The system trusts a corrupted trace — and draws false conclusions.      |
 | a5_2  | `a5_2_the_function_that_should_never_have_been_called` | ✅ Passed   | A forbidden recursive call is made, violating logic integrity.          |
-| a5_3  | `a5_3_the_system_that_called_too_late`             | ✅ Passed   | Recovery is triggered, but all useful context is already lost.          |
+| a5_3  | `a5_3_the_system_that_called_too_late`                 | ✅ Passed   | Recovery is triggered, but all useful context is already lost.          |
 
 ---
 
@@ -45,4 +45,4 @@ but now **irreversible**.
 ---
 
 ## ✅ Status: Complete  
-Stanza `s5` has executed all four recursive nodes and marks the end of the minigame’s self-validation arc.
+Stanza `a5` has executed all four recursive nodes and marks the end of the minigame’s self-validation arc.

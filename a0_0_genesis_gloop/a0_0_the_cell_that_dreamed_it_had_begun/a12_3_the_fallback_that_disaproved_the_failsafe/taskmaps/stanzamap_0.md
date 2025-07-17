@@ -22,10 +22,10 @@ Together, these four nodes form the system’s first full confrontation with the
 
 | Node Folder                                      | Recursive Theme               | Function                                       |
 |--------------------------------------------------|-------------------------------|------------------------------------------------|
-| `s0_0_the_assumption_that_failed_the_check/`     | False confidence              | Assumes failsafe exists, but can’t confirm it  |
-| `s0_1_the_proof_that_erased_the_record/`         | Destructive validation        | Proves the failsafe — and destroys the logs    |
-| `s0_2_the_loop_that_broke_its_belief/`           | Recursive collapse of trust   | Tries to recover, loses belief with every loop |
-| `s0_3_the_fallback_that_disproved_the_failsafe/` | Self-negating recovery        | Final fallback disproves the failsafe itself   |
+| `a0_0_the_assumption_that_failed_the_check/`     | False confidence              | Assumes failsafe exists, but can’t confirm it  |
+| `a0_1_the_proof_that_erased_the_record/`         | Destructive validation        | Proves the failsafe — and destroys the logs    |
+| `a0_2_the_loop_that_broke_its_belief/`           | Recursive collapse of trust   | Tries to recover, loses belief with every loop |
+| `a0_3_the_fallback_that_disproved_the_failsafe/` | Self-negating recovery        | Final fallback disproves the failsafe itself   |
 
 ---
 

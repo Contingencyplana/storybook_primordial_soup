@@ -16,10 +16,10 @@ It tracks stanza line logic, test results, poetic framing, and recursive flow be
 
 | Line | Folder Name                                 | Status     | Summary                                                      |
 |------|----------------------------------------------|------------|--------------------------------------------------------------|
-| s1_0 | `s1_0_the_checkpoint_that_missed_the_mark`   | ✅ Passed   | Validates signal readiness. Fails on missing or malformed keys. |
-| s1_1 | `s1_1_the_logfile_that_forgot_its_past`      | ✅ Passed   | Parses memory trails. Recovers from gaps and silent entries. |
-| s1_2 | `s1_2_the_flag_that_was_raised_too_early`    | ✅ Passed   | Verifies flag timing. Detects premature or uninitialized triggers. |
-| s1_3 | `s1_3_the_function_that_called_itself_wrong` | ✅ Passed   | Probes recursive anomalies. Logs trails of self-misreference. |
+| a1_0 | `a1_0_the_checkpoint_that_missed_the_mark`   | ✅ Passed   | Validates signal readiness. Fails on missing or malformed keys. |
+| a1_1 | `a1_1_the_logfile_that_forgot_its_past`      | ✅ Passed   | Parses memory trails. Recovers from gaps and silent entries. |
+| a1_2 | `a1_2_the_flag_that_was_raised_too_early`    | ✅ Passed   | Verifies flag timing. Detects premature or uninitialized triggers. |
+| a1_3 | `a1_3_the_function_that_called_itself_wrong` | ✅ Passed   | Probes recursive anomalies. Logs trails of self-misreference. |
 
 ---
 
@@ -36,10 +36,10 @@ It tracks stanza line logic, test results, poetic framing, and recursive flow be
 
 ## 🌀 Fallbacks & Forward Paths
 
-No explicit fallbacks or portal branches were invoked within stanza `s1`.  
+No explicit fallbacks or portal branches were invoked within stanza `a1`.  
 It likely hands off to the **next recursion stanza** or transitions control to the **minigame spine**.
 
 ---
 
 ## ✅ Status: Complete  
-Stanza `s1` has been fully tested and validated. All logic paths resolved without error.
+Stanza `a1` has been fully tested and validated. All logic paths resolved without error.

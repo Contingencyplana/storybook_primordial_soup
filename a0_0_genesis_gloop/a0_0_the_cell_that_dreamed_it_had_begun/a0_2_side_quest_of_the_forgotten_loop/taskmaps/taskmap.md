@@ -26,12 +26,12 @@ This minigame simulates a side path — possibly ignored by the player — but r
 
 Each stanza line corresponds to a different flavor of partial recursion or abandoned branch:
 
-| Folder Name                             | Theme               | Description |
+| Folder Name                            | Theme                | Description |
 |----------------------------------------|----------------------|-------------|
-| `s0_0_the_loop_that_almost_closed`     | Near-completion      | A loop that ran but never reached its own closure condition |
-| `s0_1_the_trace_that_forgot_itself`    | Memory lapse         | A traceback that dropped context mid-run |
-| `s0_2_the_flag_that_was_never_checked` | Dormant triggers     | A flag raised, but no process remained to observe it |
-| `s0_3_the_return_that_was_misaddressed`| Misdirection         | A return signal sent to a now-defunct parent or wrong location |
+| `a0_0_the_loop_that_almost_closed`     | Near-completion      | A loop that ran but never reached its own closure condition |
+| `a0_1_the_trace_that_forgot_itself`    | Memory lapse         | A traceback that dropped context mid-run |
+| `a0_2_the_flag_that_was_never_checked` | Dormant triggers     | A flag raised, but no process remained to observe it |
+| `a0_3_the_return_that_was_misaddressed`| Misdirection         | A return signal sent to a now-defunct parent or wrong location |
 
 ---
 
@@ -64,7 +64,7 @@ and to wonder whether some part of the system still *remembers* them.
 ## ✅ Status
 
 | Component            | Status       |
-|---------------------|--------------|
+|----------------------|--------------|
 | Stanza Defined       | ✅ Complete  |
 | All Nodes Tested     | ✅ Yes       |
 | Subtaskmaps Written  | ✅ Yes       |

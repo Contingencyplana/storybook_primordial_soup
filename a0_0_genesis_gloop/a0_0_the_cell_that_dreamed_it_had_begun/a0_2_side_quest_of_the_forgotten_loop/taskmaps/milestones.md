@@ -10,7 +10,7 @@ Each entry marks the completion of a stanza line or major development step in th
 
 ## ✅ Milestone Log
 
-### ✅ [Complete] – s0_0_the_loop_that_almost_closed
+### ✅ [Complete] – a0_0_the_loop_that_almost_closed
 *Initial node where the loop logic began but never completed. Represents near-closure.*
 
 **Status:** ✅ Complete  
@@ -22,7 +22,7 @@ Each entry marks the completion of a stanza line or major development step in th
 
 ---
 
-### ✅ [Complete] – s0_1_the_trace_that_forgot_itself
+### ✅ [Complete] – a0_1_the_trace_that_forgot_itself
 *A traceback that lost its memory mid-chain, unable to trace itself back to origin.*
 
 **Status:** ✅ Complete  
@@ -34,7 +34,7 @@ Each entry marks the completion of a stanza line or major development step in th
 
 ---
 
-### ✅ [Complete] – s0_2_the_flag_that_was_never_checked
+### ✅ [Complete] – a0_2_the_flag_that_was_never_checked
 *A system flag was raised, but no observer was left to acknowledge it.*
 
 **Status:** ✅ Complete  
@@ -46,7 +46,7 @@ Each entry marks the completion of a stanza line or major development step in th
 
 ---
 
-### ✅ [Complete] – s0_3_the_return_that_was_misaddressed
+### ✅ [Complete] – a0_3_the_return_that_was_misaddressed
 *A return signal formed correctly but was routed to a nonexistent recipient.*
 
 **Status:** ✅ Complete  
