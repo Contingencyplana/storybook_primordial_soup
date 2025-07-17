@@ -16,10 +16,10 @@ where the player begins to **co-author recursion paths** by choosing how to resp
 
 | **Folder Name** | **Recursive Theme** | **Description** |
 |----------------|----------------------|-----------------|
-| `s0_0_the_trace_that_repeated_itself/` | Recursive Echo | The system emits a familiar trace repeatedly, testing player recognition of loop patterns. |
-| `s0_1_the_pattern_that_waited_to_be_seen/` | Hidden Pattern | An intentional anomaly is introduced into the loop output. The player must detect the deviation. |
-| `s0_2_the_loop_that_left_a_trail/` | Trail of Loops | The system leaves breadcrumb-like trail markers, allowing the player to choose how to interact with recursive memory. |
-| `s0_3_the_following_that_became_the_path/` | Co-Recursive Following | The player's decision to follow, branch, or close the loop defines the next recursion pathway—**following becomes the recursion.** |
+| `a0_0_the_trace_that_repeated_itself/` | Recursive Echo | The system emits a familiar trace repeatedly, testing player recognition of loop patterns. |
+| `a0_1_the_pattern_that_waited_to_be_seen/` | Hidden Pattern | An intentional anomaly is introduced into the loop output. The player must detect the deviation. |
+| `a0_2_the_loop_that_left_a_trail/` | Trail of Loops | The system leaves breadcrumb-like trail markers, allowing the player to choose how to interact with recursive memory. |
+| `a0_3_the_following_that_became_the_path/` | Co-Recursive Following | The player's decision to follow, branch, or close the loop defines the next recursion pathway—**following becomes the recursion.** |
 
 ---
 
@@ -35,13 +35,13 @@ where the player begins to **co-author recursion paths** by choosing how to resp
 ## 🔄 Recursive Progression Flow
 
 ```plaintext
-[s0_0] → Recognize the echo pattern  
+[a0_0] → Recognize the echo pattern  
    ↓  
-[s0_1] → Detect the hidden anomaly in the loop  
+[a0_1] → Detect the hidden anomaly in the loop  
    ↓  
-[s0_2] → Choose how to interact with the recursion trail  
+[a0_2] → Choose how to interact with the recursion trail  
    ↓  
-[s0_3] → Decide: follow, branch, or close the recursion path  
+[a0_3] → Decide: follow, branch, or close the recursion path  
 ```
 
 ## 🗝️ Stanza Unlocks

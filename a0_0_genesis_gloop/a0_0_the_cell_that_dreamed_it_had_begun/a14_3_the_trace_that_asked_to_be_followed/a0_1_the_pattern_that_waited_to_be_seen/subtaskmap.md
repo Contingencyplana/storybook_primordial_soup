@@ -1,8 +1,8 @@
-<!-- Save to: a14_3_the_trace_that_asked_to_be_followed/s0_1_the_pattern_that_waited_to_be_seen/subtaskmap.md -->
+<!-- Save to: a14_3_the_trace_that_asked_to_be_followed/a0_1_the_pattern_that_waited_to_be_seen/subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_1_the_pattern_that_waited_to_be_seen
+# 🧩 Subtaskmap – a0_1_the_pattern_that_waited_to_be_seen
 
-This file outlines the **subtasks and micro-goals** for `s0_1_the_pattern_that_waited_to_be_seen`.  
+This file outlines the **subtasks and micro-goals** for `a0_1_the_pattern_that_waited_to_be_seen`.  
 Each subtask guides the player toward **recursive pattern recognition**, teaching the system to interact through **trace-based inference** rather than direct commands.
 
 ---

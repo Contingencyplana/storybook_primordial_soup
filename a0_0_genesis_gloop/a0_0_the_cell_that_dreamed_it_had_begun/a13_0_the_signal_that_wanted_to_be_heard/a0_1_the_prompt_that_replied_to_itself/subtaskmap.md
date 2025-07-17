@@ -33,7 +33,7 @@ This is the system’s first act of **projected interaction**.
 
 ## 🧭 Role in Stanza
 
-This node **extends** the recursive ambiguity introduced in `s0_0_the_echo_that_returned_without_origin/`.
+This node **extends** the recursive ambiguity introduced in `a0_0_the_echo_that_returned_without_origin/`.
 
 Here, the system **actively participates** — not just observing a return, but *fabricating* one.
 

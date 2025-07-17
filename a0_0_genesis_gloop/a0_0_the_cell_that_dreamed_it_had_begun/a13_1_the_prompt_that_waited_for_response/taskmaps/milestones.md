@@ -17,10 +17,10 @@
 
 | Node | Description | Status |
 |------|-------------|--------|
-| `s0_0` | Prompt sent with no assurance of reply | ✅ Passed |
-| `s0_1` | Listening logic implemented with hopeful expectation | ✅ Passed |
-| `s0_2` | Echo parsing and ambiguity interpretation | ✅ Passed |
-| `s0_3` | System reflects and forgives incomplete interaction | ✅ Passed |
+| `a0_0` | Prompt sent with no assurance of reply | ✅ Passed |
+| `a0_1` | Listening logic implemented with hopeful expectation | ✅ Passed |
+| `a0_2` | Echo parsing and ambiguity interpretation | ✅ Passed |
+| `a0_3` | System reflects and forgives incomplete interaction | ✅ Passed |
 
 ---
 

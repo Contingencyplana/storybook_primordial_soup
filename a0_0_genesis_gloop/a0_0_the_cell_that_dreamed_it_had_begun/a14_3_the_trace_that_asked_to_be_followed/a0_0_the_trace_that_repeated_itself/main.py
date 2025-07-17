@@ -1,4 +1,4 @@
-# Save to: a14_3_the_trace_that_asked_to_be_followed/s0_0_the_trace_that_repeated_itself/main.py
+# Save to: a14_3_the_trace_that_asked_to_be_followed/a0_0_the_trace_that_repeated_itself/main.py
 
 """
 📜 The Trace That Repeated Itself

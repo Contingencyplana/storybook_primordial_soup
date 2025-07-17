@@ -1,4 +1,4 @@
-# Save to: a14_3_the_trace_that_asked_to_be_followed/s0_1_the_pattern_that_waited_to_be_seen/main.py
+# Save to: a14_3_the_trace_that_asked_to_be_followed/a0_1_the_pattern_that_waited_to_be_seen/main.py
 
 """
 📜 The Pattern That Waited to Be Seen

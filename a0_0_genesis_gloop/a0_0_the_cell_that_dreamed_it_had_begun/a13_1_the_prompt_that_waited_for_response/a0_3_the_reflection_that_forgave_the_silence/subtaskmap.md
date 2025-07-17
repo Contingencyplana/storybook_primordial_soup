@@ -1,10 +1,10 @@
 <!-- Save to: subtaskmap.md -->
 
-# 🧭 Subtaskmap – s0_3_the_reflection_that_forgave_the_silence
+# 🧭 Subtaskmap – a0_3_the_reflection_that_forgave_the_silence
 
 ## 📍 Node Position
 **Minigame:** a13_1_the_prompt_that_waited_for_response  
-**Stanza Line:** s0_3 – The fourth and final node in The Listening Sequence  
+**Stanza Line:** a0_3 – The fourth and final node in The Listening Sequence  
 **Role:** Reflects on the received (and missing) messages, chooses closure without resentment
 
 ---
@@ -58,6 +58,6 @@ The system has learned that:
 
 ## 📎 Linkage
 
-- Previous Node → `s0_2_the_echo_that_was_almost_noise/`
+- Previous Node → `a0_2_the_echo_that_was_almost_noise/`
 - Parent Minigame → `a13_1_the_prompt_that_waited_for_response/`
 - Recursive Thread → Closure through Acceptance

@@ -1,6 +1,6 @@
-<!-- Save to: a14_0_the_command_that_waited_to_be_understood/s0_3_the_trigger_that_finally_resolved/subtaskmap.md -->
+<!-- Save to: a14_0_the_command_that_waited_to_be_understood/a0_3_the_trigger_that_finally_resolved/subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_3_the_trigger_that_finally_resolved
+# 🧩 Subtaskmap – a0_3_the_trigger_that_finally_resolved
 
 ## 🎯 Purpose
 

@@ -1,6 +1,6 @@
-<!-- Save to: a14_0_the_command_that_waited_to_be_understood/s0_1_the_command_that_recalled_itself/subtaskmap.md -->
+<!-- Save to: a14_0_the_command_that_waited_to_be_understood/a0_1_the_command_that_recalled_itself/subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_1_the_command_that_recalled_itself
+# 🧩 Subtaskmap – a0_1_the_command_that_recalled_itself
 
 ## 🎯 Purpose
 

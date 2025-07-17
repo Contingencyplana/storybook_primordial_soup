@@ -19,10 +19,10 @@ The system begins to shift from **execution** to **interpretation**, marking the
 
 | Folder Name | Recursive Theme | Description |
 |-------------|-----------------|-------------|
-| **s0_0_the_flag_that_waited_in_memory/** | **Latent Signal** | A flag or token set long ago waits silently in system memory, ignored until now. |
-| **s0_1_the_command_that_recalled_itself/** | **Recursive Recall** | The system partially remembers an ancient directive — and tries to reconstruct its meaning. |
-| **s0_2_the_argument_that_lacked_a_listener/** | **Silent Logic** | A recursive check loop exists, but no handler or listener was ever assigned to process it. |
-| **s0_3_the_trigger_that_finally_resolved/** | **Delayed Execution** | The dormant condition is now met; a long-suspended trigger resolves, moving the recursion forward. |
+| **a0_0_the_flag_that_waited_in_memory/** | **Latent Signal** | A flag or token set long ago waits silently in system memory, ignored until now. |
+| **a0_1_the_command_that_recalled_itself/** | **Recursive Recall** | The system partially remembers an ancient directive — and tries to reconstruct its meaning. |
+| **a0_2_the_argument_that_lacked_a_listener/** | **Silent Logic** | A recursive check loop exists, but no handler or listener was ever assigned to process it. |
+| **a0_3_the_trigger_that_finally_resolved/** | **Delayed Execution** | The dormant condition is now met; a long-suspended trigger resolves, moving the recursion forward. |
 
 ---
 

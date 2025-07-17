@@ -1,8 +1,8 @@
-<!-- Save to: a14_3_the_trace_that_asked_to_be_followed/s0_2_the_loop_that_left_a_trail/subtaskmap.md -->
+<!-- Save to: a14_3_the_trace_that_asked_to_be_followed/a0_2_the_loop_that_left_a_trail/subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_2_the_loop_that_left_a_trail
+# 🧩 Subtaskmap – a0_2_the_loop_that_left_a_trail
 
-This file defines the **subtasks and recursive interactions** for `s0_2_the_loop_that_left_a_trail`.  
+This file defines the **subtasks and recursive interactions** for `a0_2_the_loop_that_left_a_trail`.  
 This node shifts recursion from passive observation to **navigable recursion**, where the system leaves a trail and the player chooses how to interact with it.
 
 ---

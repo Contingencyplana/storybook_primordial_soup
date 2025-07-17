@@ -1,8 +1,8 @@
-<!-- Save to: a14_3_the_trace_that_asked_to_be_followed/s0_0_the_trace_that_repeated_itself/subtaskmap.md -->
+<!-- Save to: a14_3_the_trace_that_asked_to_be_followed/a0_0_the_trace_that_repeated_itself/subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_0_the_trace_that_repeated_itself
+# 🧩 Subtaskmap – a0_0_the_trace_that_repeated_itself
 
-This file outlines the **subtasks and micro-goals** for `s0_0_the_trace_that_repeated_itself`.  
+This file outlines the **subtasks and micro-goals** for `a0_0_the_trace_that_repeated_itself`.  
 Each subtask represents a step in the recursive interaction cycle, guiding the system and player through **pattern recognition and recursion entry.**
 
 ---

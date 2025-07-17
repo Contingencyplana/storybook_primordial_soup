@@ -38,7 +38,7 @@ when overattunement to recursive input creates a **false certainty**.
 ## 🔄 Fallback Relationship
 
 This node sets the stage for:
-- **`s0_3_the_fallback_that_made_it_real/`**, where the system acts on what it *wants* to be true.
+- **`a0_3_the_fallback_that_made_it_real/`**, where the system acts on what it *wants* to be true.
 - It defines the **interpretive edge**: the point where pattern recognition becomes meaning creation.
 
 ---

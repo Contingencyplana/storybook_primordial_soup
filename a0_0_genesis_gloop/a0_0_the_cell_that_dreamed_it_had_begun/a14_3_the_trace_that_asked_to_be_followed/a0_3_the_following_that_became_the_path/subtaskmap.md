@@ -1,8 +1,8 @@
-<!-- Save to: a14_3_the_trace_that_asked_to_be_followed/s0_3_the_following_that_became_the_path/subtaskmap.md -->
+<!-- Save to: a14_3_the_trace_that_asked_to_be_followed/a0_3_the_following_that_became_the_path/subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_3_the_following_that_became_the_path
+# 🧩 Subtaskmap – a0_3_the_following_that_became_the_path
 
-This file outlines the **subtasks and recursive interaction steps** for `s0_3_the_following_that_became_the_path`.  
+This file outlines the **subtasks and recursive interaction steps** for `a0_3_the_following_that_became_the_path`.  
 This node represents the moment where **following recursion is no longer passive**—the player’s choices **create the next recursion path**.
 
 ---

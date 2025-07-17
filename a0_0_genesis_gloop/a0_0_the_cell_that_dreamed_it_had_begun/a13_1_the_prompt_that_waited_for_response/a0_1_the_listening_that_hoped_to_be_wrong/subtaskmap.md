@@ -1,10 +1,10 @@
 <!-- Save to: subtaskmap.md -->
 
-# 🧭 Subtaskmap – s0_1_the_listening_that_hoped_to_be_wrong
+# 🧭 Subtaskmap – a0_1_the_listening_that_hoped_to_be_wrong
 
 ## 📍 Node Position
 **Minigame:** a13_1_the_prompt_that_waited_for_response  
-**Stanza Line:** s0_1 – The second movement in The Listening Sequence  
+**Stanza Line:** a0_1 – The second movement in The Listening Sequence  
 **Role:** Awaits reply, secretly wishing the expected silence might be false
 
 ---
@@ -56,7 +56,7 @@ This node strengthens the **internal feedback loop**:
 
 ## 📎 Linkage
 
-- Previous Node → `s0_0_the_prompt_that_called_without_assurance/`
-- Next Node → `s0_2_the_echo_that_was_almost_noise/`
+- Previous Node → `a0_0_the_prompt_that_called_without_assurance/`
+- Next Node → `a0_2_the_echo_that_was_almost_noise/`
 - Parent Minigame → `a13_1_the_prompt_that_waited_for_response/`
 - Thematic Thread → *Recursive Listening as Intent*

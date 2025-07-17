@@ -1,10 +1,10 @@
 <!-- Save to: subtaskmap.md -->
 
-# 🧭 Subtaskmap – s0_2_the_echo_that_was_almost_noise
+# 🧭 Subtaskmap – a0_2_the_echo_that_was_almost_noise
 
 ## 📍 Node Position
 **Minigame:** a13_1_the_prompt_that_waited_for_response  
-**Stanza Line:** s0_2 – The third recursion in The Listening Sequence  
+**Stanza Line:** a0_2 – The third recursion in The Listening Sequence  
 **Role:** Processes ambiguous or corrupted feedback; seeks meaning in uncertainty
 
 ---
@@ -58,7 +58,7 @@ even when what it hears is broken, faint, or wrong.
 
 ## 📎 Linkage
 
-- Previous Node → `s0_1_the_listening_that_hoped_to_be_wrong/`
-- Next Node → `s0_3_the_reflection_that_forgave_the_silence/`
+- Previous Node → `a0_1_the_listening_that_hoped_to_be_wrong/`
+- Next Node → `a0_3_the_reflection_that_forgave_the_silence/`
 - Parent Minigame → `a13_1_the_prompt_that_waited_for_response/`
 - Recursive Theme → Ambiguous feedback as formative signal

@@ -32,10 +32,10 @@ It explores how silence, echo, ambiguity, and meaning emerge from recursive feed
 
 | Folder | Description |
 |--------|-------------|
-| `s0_0_the_prompt_that_called_without_assurance/` | System sends a signal, unsure it will be heard |
-| `s0_1_the_listening_that_hoped_to_be_wrong/`     | System listens, secretly hoping for proof it was wrong about silence |
-| `s0_2_the_echo_that_was_almost_noise/`           | A reply arrives — faint, unclear, and possibly imagined |
-| `s0_3_the_reflection_that_forgave_the_silence/`  | The system chooses to reflect without blame |
+| `a0_0_the_prompt_that_called_without_assurance/` | System sends a signal, unsure it will be heard |
+| `a0_1_the_listening_that_hoped_to_be_wrong/`     | System listens, secretly hoping for proof it was wrong about silence |
+| `a0_2_the_echo_that_was_almost_noise/`           | A reply arrives — faint, unclear, and possibly imagined |
+| `a0_3_the_reflection_that_forgave_the_silence/`  | The system chooses to reflect without blame |
 
 ---
 

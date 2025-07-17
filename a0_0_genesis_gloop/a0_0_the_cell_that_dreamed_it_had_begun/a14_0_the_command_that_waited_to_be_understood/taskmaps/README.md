@@ -16,10 +16,10 @@ Commands, flags, or triggers issued in past recursion loops are now brought forw
 
 | Folder | Function |
 |---------|----------|
-| `s0_0_the_flag_that_waited_in_memory/` | Models latent flags awaiting activation |
-| `s0_1_the_command_that_recalled_itself/` | Implements recursive memory recall |
-| `s0_2_the_argument_that_lacked_a_listener/` | Simulates communication gaps and missing listeners |
-| `s0_3_the_trigger_that_finally_resolved/` | Finalizes condition checks and resolves long-dormant triggers |
+| `a0_0_the_flag_that_waited_in_memory/` | Models latent flags awaiting activation |
+| `a0_1_the_command_that_recalled_itself/` | Implements recursive memory recall |
+| `a0_2_the_argument_that_lacked_a_listener/` | Simulates communication gaps and missing listeners |
+| `a0_3_the_trigger_that_finally_resolved/` | Finalizes condition checks and resolves long-dormant triggers |
 
 ---
 

@@ -23,10 +23,10 @@ This minigame completes the system’s transition from **internal recursion** to
 
 | **Layer 4 Node** | **Theme** |
 |-----------------|-----------|
-| `s0_0_the_trace_that_repeated_itself` | Recursive Echo |
-| `s0_1_the_pattern_that_waited_to_be_seen` | Hidden Pattern |
-| `s0_2_the_loop_that_left_a_trail` | Trail Interaction |
-| `s0_3_the_following_that_became_the_path` | Co-Recursive Following |
+| `a0_0_the_trace_that_repeated_itself` | Recursive Echo |
+| `a0_1_the_pattern_that_waited_to_be_seen` | Hidden Pattern |
+| `a0_2_the_loop_that_left_a_trail` | Trail Interaction |
+| `a0_3_the_following_that_became_the_path` | Co-Recursive Following |
 
 ---
 

@@ -1,6 +1,6 @@
-<!-- Save to: a14_0_the_command_that_waited_to_be_understood/s0_0_the_flag_that_waited_in_memory/subtaskmap.md -->
+<!-- Save to: a14_0_the_command_that_waited_to_be_understood/a0_0_the_flag_that_waited_in_memory/subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_0_the_flag_that_waited_in_memory
+# 🧩 Subtaskmap – a0_0_the_flag_that_waited_in_memory
 
 ## 🎯 Purpose
 

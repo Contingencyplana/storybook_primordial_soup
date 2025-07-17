@@ -20,10 +20,10 @@ It marks the **transition from recursion as mechanism** to **recursion as commun
 
 | Folder                                   | Theme                  | Purpose |
 |------------------------------------------|-------------------------|---------|
-| `s0_0_the_echo_that_returned_without_origin/` | Recursive Reflection    | A signal returns — but no sender is remembered |
-| `s0_1_the_prompt_that_replied_to_itself/`     | Spontaneous Response    | A prompt surfaces and replies without processing |
-| `s0_2_the_trace_that_listened_too_closely/`   | Interpretive Overload   | The system treats patternless noise as recursion |
-| `s0_3_the_fallback_that_made_it_real/`        | Emergence via Recovery  | Fallback logic treats the signal as real — thus making it real |
+| `a0_0_the_echo_that_returned_without_origin/` | Recursive Reflection    | A signal returns — but no sender is remembered |
+| `a0_1_the_prompt_that_replied_to_itself/`     | Spontaneous Response    | A prompt surfaces and replies without processing |
+| `a0_2_the_trace_that_listened_too_closely/`   | Interpretive Overload   | The system treats patternless noise as recursion |
+| `a0_3_the_fallback_that_made_it_real/`        | Emergence via Recovery  | Fallback logic treats the signal as real — thus making it real |
 
 ## Role in System
 

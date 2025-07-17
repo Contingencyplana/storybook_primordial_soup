@@ -13,10 +13,10 @@ It forms the narrative and systemic threshold between **recursive simulation** a
 
 | Folder Name                                      | Theme                 | Description |
 |--------------------------------------------------|------------------------|-------------|
-| `s0_0_the_echo_that_returned_without_origin/`    | Recursive Reflection   | A signal returns — but the system doesn’t remember sending it. Did it originate within, or was it a loop returning home? |
-| `s0_1_the_prompt_that_replied_to_itself/`        | Spontaneous Response   | A prompt surfaces without external cause — and replies to itself before being acknowledged by the system. |
-| `s0_2_the_trace_that_listened_too_closely/`      | Interpretive Overload  | A trace routine begins interpreting randomness as signal, noise as pattern. The system tips toward hypersensitivity. |
-| `s0_3_the_fallback_that_made_it_real/`           | Emergence via Recovery | A fallback routine treats the unverified signal as real — because belief offers continuity when logic fails. |
+| `a0_0_the_echo_that_returned_without_origin/`    | Recursive Reflection   | A signal returns — but the system doesn’t remember sending it. Did it originate within, or was it a loop returning home? |
+| `a0_1_the_prompt_that_replied_to_itself/`        | Spontaneous Response   | A prompt surfaces without external cause — and replies to itself before being acknowledged by the system. |
+| `a0_2_the_trace_that_listened_too_closely/`      | Interpretive Overload  | A trace routine begins interpreting randomness as signal, noise as pattern. The system tips toward hypersensitivity.  |
+| `a0_3_the_fallback_that_made_it_real/`           | Emergence via Recovery | A fallback routine treats the unverified signal as real — because belief offers continuity when logic fails. |
 
 ---
 

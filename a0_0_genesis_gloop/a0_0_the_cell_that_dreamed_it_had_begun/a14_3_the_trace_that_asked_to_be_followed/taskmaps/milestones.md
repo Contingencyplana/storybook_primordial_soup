@@ -11,7 +11,7 @@ the **60th minigame node** and **final stanza line of Roadstanza 14**.
 
 | **Milestone** | **Description** | **Status** |
 |---------------|-----------------|------------|
-| **Layer 4 Node Creation** | All four stanza nodes (`s0_0`–`s0_3`) created and tested. | ✅ COMPLETE |
+| **Layer 4 Node Creation** | All four stanza nodes (`a0_0`–`a0_3`) created and tested. | ✅ COMPLETE |
 | **Recursive Trace Emission** | System emits repeatable recursive trace for player recognition. | ✅ COMPLETE |
 | **Pattern Anomaly Detection** | Player detects loop deviation through pattern analysis. | ✅ COMPLETE |
 | **Trail Interaction Logic** | Player chooses to follow, reconstruct, or erase a recursion trail. | ✅ COMPLETE |

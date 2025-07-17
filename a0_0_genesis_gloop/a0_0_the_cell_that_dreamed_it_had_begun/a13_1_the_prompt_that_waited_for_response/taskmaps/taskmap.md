@@ -52,10 +52,10 @@ All are valid — but each directs the system differently.
 a13_1_the_prompt_that_waited_for_response/
 ├── taskmaps/
 │ └── taskmap.md
-├── s0_0_the_prompt_that_called_without_assurance/
-├── s0_1_the_listening_that_hoped_to_be_wrong/
-├── s0_2_the_echo_that_was_almost_noise/
-└── s0_3_the_reflection_that_forgave_the_silence/
+├── a0_0_the_prompt_that_called_without_assurance/
+├── a0_1_the_listening_that_hoped_to_be_wrong/
+├── a0_2_the_echo_that_was_almost_noise/
+└── a0_3_the_reflection_that_forgave_the_silence/
 ```
 
 ---
@@ -77,10 +77,10 @@ It defines:
 
 | Node | Test Focus |
 |------|------------|
-| `s0_0` | Does the prompt recognize its own intent? |
-| `s0_1` | Can silence be interpreted as non-error? |
-| `s0_2` | Is feedback processed recursively, even if malformed? |
-| `s0_3` | Does the system respond with patience, aggression, or transformation? |
+| `a0_0` | Does the prompt recognize its own intent? |
+| `a0_1` | Can silence be interpreted as non-error? |
+| `a0_2` | Is feedback processed recursively, even if malformed? |
+| `a0_3` | Does the system respond with patience, aggression, or transformation? |
 
 ---
 
