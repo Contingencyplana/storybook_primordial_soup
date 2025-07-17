@@ -8,7 +8,7 @@ It begins beneath the mycelial crust — and ends in a unified chirp.
 
 ---
 
-## 📜 Stanza Index: s0_*
+## 📜 Stanza Index: a0_*
 
 | Folder Name                                   | Recursive Theme            | Description                                              |
 |-----------------------------------------------|----------------------------|----------------------------------------------------------|
@@ -51,3 +51,4 @@ a0_1_mighty_quest_for_the_bug_kingdom/
 ├── a0_1_the_trail_that_led_through_mush/
 ├── a0_2_the_court_that_argued_in_clicks/
 └── a0_3_the_chirp_that_bound_the_realm/
+```

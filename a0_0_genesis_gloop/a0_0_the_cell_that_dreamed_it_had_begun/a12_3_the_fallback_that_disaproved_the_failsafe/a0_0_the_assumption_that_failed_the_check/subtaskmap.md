@@ -1,6 +1,6 @@
 <!-- Save to: subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_0_the_assumption_that_failed_the_check
+# 🧩 Subtaskmap – a0_0_the_assumption_that_failed_the_check
 
 ## 🎯 Purpose
 
@@ -52,7 +52,7 @@ Each outcome prepares the system for the paradoxical spiral in the next node.
 
 This node sets up the recursive failure explored in:
 
-- `s0_1_the_proof_that_erased_the_record`  
+- `a0_1_the_proof_that_erased_the_record`  
   Where the system's act of **proving** safety destroys the evidence it needs to validate itself.
 
 ---

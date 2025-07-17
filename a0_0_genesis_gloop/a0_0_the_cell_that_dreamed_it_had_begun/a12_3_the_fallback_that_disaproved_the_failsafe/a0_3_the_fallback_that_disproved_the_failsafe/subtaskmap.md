@@ -1,6 +1,6 @@
 <!-- Save to: subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_3_the_fallback_that_disproved_the_failsafe
+# 🧩 Subtaskmap – a0_3_the_fallback_that_disproved_the_failsafe
 
 ## 🎯 Purpose
 
@@ -52,12 +52,12 @@ The test suite simulates:
 ## 🔄 Recursive Link
 
 Closes the loop opened by:
-- `s0_0` — the **assumption** that failed  
-- `s0_1` — the **proof** that erased itself  
-- `s0_2` — the **loop** that lost trust
+- `a0_0` — the **assumption** that failed  
+- `a0_1` — the **proof** that erased itself  
+- `a0_2` — the **loop** that lost trust
 
 And culminates in:
-- `s0_3` — the **fallback** that disproves the origin entirely
+- `a0_3` — the **fallback** that disproves the origin entirely
 
 ---
 

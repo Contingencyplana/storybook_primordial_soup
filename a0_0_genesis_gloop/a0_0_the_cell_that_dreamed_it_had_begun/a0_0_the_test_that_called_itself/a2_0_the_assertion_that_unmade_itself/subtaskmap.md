@@ -2,7 +2,7 @@
 
 # 📍 Subtaskmap – a2_0_the_assertion_that_unmade_itself
 
-This stanza line performs recursive *negation*. Where the origin line (`s0_0_the_assertion_of_first_contact`) boldly asserted the system’s emergence, this line reverses that impulse — unmaking the premise, doubting the recursion, and severing clean closure.
+This stanza line performs recursive *negation*. Where the origin line (`a0_0_the_assertion_of_first_contact`) boldly asserted the system’s emergence, this line reverses that impulse — unmaking the premise, doubting the recursion, and severing clean closure.
 
 ---
 
@@ -35,7 +35,7 @@ This stanza line performs recursive *negation*. Where the origin line (`s0_0_the
 ## 🛠️ Implementation Notes
 
 - `main.py` should:
-  - Intentionally reverse successful flags set by `s0_0`.
+  - Intentionally reverse successful flags set by `a0_0`.
   - Set flags like `assertion_invalidated = True`.
 - `test.py` should:
   - Expect falsification and validate system resilience post-negation.
@@ -62,3 +62,4 @@ a2_0_the_assertion_that_unmade_itself/
 ├── main.py       # Executes the negation logic
 ├── test.py       # Validates rejection and fallback flow
 └── subtaskmap.md # This file
+```

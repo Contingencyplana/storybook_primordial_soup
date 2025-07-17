@@ -45,8 +45,8 @@ The goal is not to correct the player, but to allow the system to reflect meanin
 
 ## 🔗 Possible Follow-On Nodes
 
-- `s0_1_the_loop_that_forgot_to_listen` – responds to ignored input.
-- `s0_2_the_response_that_was_already_waiting` – anticipates a reply before the question arrives.
-- `s0_3_the silence_that_answered_itself` – explores recursive response to no response.
+- `a0_1_the_loop_that_forgot_to_listen` – responds to ignored input.
+- `a0_2_the_response_that_was_already_waiting` – anticipates a reply before the question arrives.
+- `a0_3_the silence_that_answered_itself` – explores recursive response to no response.
 
 ---

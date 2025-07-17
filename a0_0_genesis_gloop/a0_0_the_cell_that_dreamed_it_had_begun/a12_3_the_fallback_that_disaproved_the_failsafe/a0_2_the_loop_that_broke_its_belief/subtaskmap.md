@@ -1,12 +1,12 @@
 <!-- Save to: subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_2_the_loop_that_broke_its_belief
+# 🧩 Subtaskmap – a0_2_the_loop_that_broke_its_belief
 
 ## 🎯 Purpose
 
 This node represents the **recursive collapse of trust**.
 
-It follows the paradox established in `s0_1` — where proof erased its own record —  
+It follows the paradox established in `a0_1` — where proof erased its own record —  
 by simulating a **recovery loop** that becomes increasingly unstable with each iteration.
 
 Each loop begins with hope. Each failure subtracts belief.  
@@ -48,8 +48,8 @@ The test suite simulates:
 ## 🔄 Recursive Link
 
 This node connects:
-- **The contradiction in proof (s0_1)** → to  
-- **The final negation of recovery itself (s0_3)**
+- **The contradiction in proof (a0_1)** → to  
+- **The final negation of recovery itself (a0_3)**
 
 It is the moment the system loses trust in recursion.
 

@@ -1,6 +1,6 @@
 <!-- Save to: subtaskmap.md -->
 
-# 🧩 Subtaskmap – s0_1_the_proof_that_erased_the_record
+# 🧩 Subtaskmap – a0_1_the_proof_that_erased_the_record
 
 ## 🎯 Purpose
 
@@ -48,8 +48,8 @@ The test suite simulates:
 
 ## 🔄 Recursive Link
 
-This node connects the **confident assumption** of `s0_0`  
-to the **doubting spiral** of `s0_2`, where belief is broken through repetition.
+This node connects the **confident assumption** of `a0_0`  
+to the **doubting spiral** of `a0_2`, where belief is broken through repetition.
 
 The contradiction here becomes the seed for **recursive instability**.
 

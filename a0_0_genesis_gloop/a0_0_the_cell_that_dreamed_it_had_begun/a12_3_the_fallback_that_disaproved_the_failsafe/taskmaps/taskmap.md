@@ -78,11 +78,11 @@ The system must now choose:
 
 ## 📎 Related Concepts
 
-| Related Minigame                         | Conceptual Link                     |
-|------------------------------------------|-------------------------------------|
-| `a0_3_adventure_of_the_unasked_question` | Fallbacks on unknown input          |
-| `a11_0_the_log_that_was_written_in_absentia` | Recursive logging contradictions |
-| `a12_1_the_trace_that_omitted_itself`   | Evidence removal as recursive error |
+| Related Minigame                             | Conceptual Link                     |
+|----------------------------------------------|-------------------------------------|
+| `a0_3_adventure_of_the_unasked_question`     | Fallbacks on unknown input          |
+| `a11_0_the_log_that_was_written_in_absentia` | Recursive logging contradictions    |
+| `a12_1_the_trace_that_omitted_itself`        | Evidence removal as recursive error |
 
 ---
 

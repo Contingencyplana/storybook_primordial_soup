@@ -74,7 +74,7 @@ a0_0_the_test_that_called_itself/
 │   ├── stanzamap_3.md             # Index of stanza 3  
 │   ├── stanzamap_4.md             # Index of stanza 4  
 │   └── stanzamap_5.md             # Index of stanza 5  
-├── s0_0_the_assertion_of_first_contact/  
+├── a0_0_the_assertion_of_first_contact/  
 │   ├── __init__.py                 # Python init (optional)  
 │   ├── main.py                     # Playable Y-node (executes test logic)  
 │   ├── subtaskmap.md               # Line-specific notes (optional)  

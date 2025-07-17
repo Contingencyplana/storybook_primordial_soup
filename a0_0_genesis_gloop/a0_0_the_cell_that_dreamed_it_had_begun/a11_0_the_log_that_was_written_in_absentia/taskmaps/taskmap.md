@@ -51,12 +51,12 @@ a11_0_the_log_that_was_written_in_absentia/
 
 ## 🧪 Stanza Node Map
 
-| Stanza Folder                                 | Recursive Role                  | Escalation Trigger |
-|-----------------------------------------------|----------------------------------|---------------------|
-| `a0_0_the_false_event_that_triggered_logging` | Fabricated log from non-event    | `escalation_flag: True` |
-| `a0_1_the_record_that_disagreed_with_itself`  | Dual-truth memory fork           | Conflict detected   |
-| `a0_2_the_index_that_should_not_exist`        | Impossible enumeration structure | `paradox_level: HIGH` |
-| `a0_3_the_reconciliation_that_broke_the_system` | Merge failure, system crash     | `ValueError` raised |
+| Stanza Folder                                   | Recursive Role                   | Escalation Trigger      |
+|-------------------------------------------------|----------------------------------|-------------------------|
+| `a0_0_the_false_event_that_triggered_logging`   | Fabricated log from non-event    | `escalation_flag: True` |
+| `a0_1_the_record_that_disagreed_with_itself`    | Dual-truth memory fork           | Conflict detected       |
+| `a0_2_the_index_that_should_not_exist`          | Impossible enumeration structure | `paradox_level: HIGH`   |
+| `a0_3_the_reconciliation_that_broke_the_system` | Merge failure, system crash      | `ValueError` raised     |
 
 ---
 
