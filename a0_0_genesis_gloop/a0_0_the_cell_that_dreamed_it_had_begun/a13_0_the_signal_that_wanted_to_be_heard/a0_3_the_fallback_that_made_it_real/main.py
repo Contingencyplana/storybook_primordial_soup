@@ -1,4 +1,4 @@
-# s0_3_the_fallback_that_made_it_real/main.py
+# a0_3_the_fallback_that_made_it_real/main.py
 
 def validate_signal(signal: str) -> bool:
     """

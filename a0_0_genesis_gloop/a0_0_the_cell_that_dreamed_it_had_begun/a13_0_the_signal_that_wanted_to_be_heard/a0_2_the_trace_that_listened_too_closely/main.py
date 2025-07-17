@@ -1,4 +1,4 @@
-# s0_2_the_trace_that_listened_too_closely/main.py
+# a0_2_the_trace_that_listened_too_closely/main.py
 
 import random
 

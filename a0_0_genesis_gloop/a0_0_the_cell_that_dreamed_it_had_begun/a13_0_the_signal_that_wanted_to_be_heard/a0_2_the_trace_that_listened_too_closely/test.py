@@ -1,4 +1,4 @@
-# s0_2_the_trace_that_listened_too_closely/test.py
+# a0_2_the_trace_that_listened_too_closely/test.py
 
 import unittest
 from main import interpret_stream
