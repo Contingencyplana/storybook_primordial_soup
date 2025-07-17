@@ -22,7 +22,7 @@ It tests the system’s ability to detect whether a communication path is comple
 
 ## 🔁 Thematic Echoes
 
-- Builds on `s0_1_the_command_that_recalled_itself` but adds the condition of **listener dependency**.
+- Builds on `a0_1_the_command_that_recalled_itself` but adds the condition of **listener dependency**.
 - Reflects the real-world recursive challenge of **dangling logic**, where events await external resolution.
 
 ## 🛠️ Implementation Notes
