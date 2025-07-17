@@ -28,10 +28,10 @@ This stanza contains four recursive stanza nodes, each representing a different 
 
 | Node Folder                              | Role                         | Description |
 |------------------------------------------|------------------------------|-------------|
-| `s0_0_the_input_that_was_never_given`    | Absence Root                 | The system initializes, but no input is received. |
-| `s0_1_the_check_that_expected_a_signal`  | Faulty Assumption Handler    | A validation path fires on the assumption of a signal. |
-| `s0_2_the_branch_that_was_never_chosen`  | Dormant Logic Path           | A coded branch that never executes. |
-| `s0_3_the_return_that_waited_in_vain`    | Unmet Callback               | A return handler waits indefinitely, never triggered. |
+| `a0_0_the_input_that_was_never_given`    | Absence Root                 | The system initializes, but no input is received. |
+| `a0_1_the_check_that_expected_a_signal`  | Faulty Assumption Handler    | A validation path fires on the assumption of a signal. |
+| `a0_2_the_branch_that_was_never_chosen`  | Dormant Logic Path           | A coded branch that never executes. |
+| `a0_3_the_return_that_waited_in_vain`    | Unmet Callback               | A return handler waits indefinitely, never triggered. |
 
 ---
 
