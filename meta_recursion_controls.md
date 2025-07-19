@@ -128,6 +128,50 @@ Primordial Soup’s **meta-recursive controls** evolve through **three distinct 
 
 ---
 
+## 🧩 Current Implementation: `a15_0_the_compiler_that_built_itself`
+
+The current active stanza for meta-recursive controls is:
+
+```plaintext
+a15_0_the_compiler_that_built_itself/
+```
+
+This stanza is implemented as **4 Layer 4 stanzas (16 nodes)** using the **Tiny Step Method**.
+
+| Stanza | Purpose |
+|--------|---------|
+| **Stanza 1 – Core Builders** | Add minigame nodes, init files, main files, subtaskmaps |
+| **Stanza 2 – Test, Compile, Reflect** | Add test files, link meta-recursion controls, create snapshot anchors |
+| **Stanza 3 – Orchestration & Safety** | Orchestrate tiny steps, prepare recursive crawlers, add anomaly placeholders |
+| **Stanza 4 – Expansion Hooks & Closure** | Prepare cross-system growth (Storybook / FUN Factory ports), finalize checkpoints |
+
+---
+
+## 🧬 Expansion Readiness
+
+This system explicitly prepares for:
+
+- **FUN Factory integration:**  
+  `a3_1_create_placeholder_for_fun_factory_port/`
+
+- **Storybook integration:**  
+  `a3_2_create_placeholder_for_storybook_port/`
+
+- **Recursive rollback & anomaly protocols:**  
+  `a4_3_reserved_for_anomaly_protocols/`
+
+---
+
+## 🗒️ Why This Matters
+
+| Purpose | Benefit |
+|---------|---------|
+| **Links Doctrine to Implementation** | Makes this file a **living guide**, not an abstract theory document |
+| **Prevents Drift** | Ensures future builders understand the **current recursion build state** |
+| **Sets Up Phase 3 Hooks Clearly** | Cross-system recursion and anomaly handling are **explicitly documented** |
+
+---
+
 ## 🧠 Closing Note
 
 This is **not just a control system**—it is the **recursive engine that grows the recursion itself**.
