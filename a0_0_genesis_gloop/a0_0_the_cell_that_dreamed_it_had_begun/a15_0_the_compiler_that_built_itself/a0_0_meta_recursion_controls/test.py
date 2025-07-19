@@ -3,23 +3,46 @@
 # Layer 4 Node: a0_0_meta_recursion_controls  
 
 import unittest
+import os
+import shutil
 from unittest.mock import patch
-import sys
-
-# Import functions from main.py (assuming same directory)
 import main
 
 class TestMetaRecursionControls(unittest.TestCase):
 
+    def setUp(self):
+        self.test_dir = 'test_output'
+        os.makedirs(self.test_dir, exist_ok=True)
+        self.original_cwd = os.getcwd()
+        os.chdir(self.test_dir)
+
+    def tearDown(self):
+        os.chdir(self.original_cwd)
+        shutil.rmtree(self.test_dir)
+
     def test_create_minigame_node(self):
-        with patch('builtins.print') as mock_print:
+        with patch('builtins.input', return_value='test_node'):
             main.create_minigame_node()
-            mock_print.assert_called_with("[L] Create Minigame Node: Function called (placeholder).")
+            self.assertTrue(os.path.isdir('test_node'))
+            expected_files = ['__init__.py', 'main.py', 'subtaskmap.md', 'test.py']
+            for file in expected_files:
+                self.assertTrue(os.path.isfile(os.path.join('test_node', file)))
 
     def test_create_minigame(self):
-        with patch('builtins.print') as mock_print:
+        with patch('builtins.input', return_value='test_minigame'):
             main.create_minigame()
-            mock_print.assert_called_with("[R] Create Minigame: Function called (placeholder).")
+            self.assertTrue(os.path.isdir('test_minigame'))
+            for i in range(4):
+                node_dir = os.path.join('test_minigame', f'a0_{i}')
+                self.assertTrue(os.path.isdir(node_dir))
+                expected_files = ['__init__.py', 'main.py', 'subtaskmap.md', 'test.py']
+                for file in expected_files:
+                    self.assertTrue(os.path.isfile(os.path.join(node_dir, file)))
+            taskmaps_dir = os.path.join('test_minigame', 'taskmaps')
+            self.assertTrue(os.path.isdir(taskmaps_dir))
+            taskmap_files = ['README.md', 'milestones.md', 'stanzamap.md', 'taskmap.md']
+            for file in taskmap_files:
+                self.assertTrue(os.path.isfile(os.path.join(taskmaps_dir, file)))
 
     def test_exit_to_previous_layer(self):
         with self.assertRaises(SystemExit):
@@ -29,7 +52,6 @@ class TestMetaRecursionControls(unittest.TestCase):
         options = ["Option A", "Option B", "Option C"]
         with patch('builtins.input', side_effect=['2']), patch('builtins.print') as mock_print:
             main.select_from_branch_options(options)
-            # Check for correct selection message
             mock_print.assert_any_call("Branch 2 selected: Option B")
 
     def test_select_from_branch_options_invalid_then_valid(self):
