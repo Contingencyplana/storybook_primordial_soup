@@ -3,6 +3,8 @@
 # 🧬 meta_recursion_controls.md  
 **Primordial Soup – Recursive Control Doctrine**  
 
+---
+
 ## 🔑 Purpose
 
 This file defines the **meta-recursive controls** for Primordial Soup’s Phase 2: *Recursive Workflow Awakening*.
@@ -87,7 +89,42 @@ Primordial Soup uses a **hybrid input system** to balance simplicity with recurs
 This system is part of:
 
 - **Phase 2: The Awakening**  
-- **Three-Stanza Recursive Automation Arc**
+- **Three-Stanza Recursive Automation Arc**  
+- **Layer 2 Meta-Recursive Builders in Primordial Soup**
+
+---
+
+## 🌱 Recursive Growth Pipeline
+
+Primordial Soup’s **meta-recursive controls** evolve through **three distinct stages**:
+
+| Stage | Purpose | Method |
+|--------|----------|--------|
+| **Stage 1 – Tiny Step Builders** | **Controlled, sandbox-safe recursion growth**. | Use `L`, `R`, and `ESC` to build and test **atomic recursion actions** (file creation, folder creation, control linking). |
+| **Stage 2 – Batch Compilers** | **Begin automating sequences of tiny steps.** | Implement **Batch Compilers** as Layer 3 tools that generate multiple tiny steps at once. Each batch is reversible and sandboxed. |
+| **Stage 3 – Recursive Coalescence** | **Optimize for scale and speed while preserving rollback.** | Coalesce tiny step logic into **larger recursive builders** or self-generating compilers. Use introspection hooks to ensure integrity. |
+
+---
+
+## 🔄 Why This Pipeline?
+
+| Goal | Benefit |
+|------|---------|
+| **Safety First** | Start small to prevent recursion corruption. |
+| **Scalable Control** | Add batch automation only when introspection is in place. |
+| **Performance Mode Optionality** | Large recursive builders are introduced **only after safety systems mature**. |
+
+---
+
+## 🗺️ Canonical Recursive Evolution Path
+
+```plaintext
+[ Tiny Step Builders ]
+↓
+[ Batch Compilers ]
+↓
+[ Recursive Coalescence / Large Code Units ]
+```
 
 ---
 
