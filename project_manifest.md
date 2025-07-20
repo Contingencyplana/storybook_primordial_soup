@@ -34,7 +34,7 @@ At full maturity, Primordial Soup becomes recursive enough to repair the **Story
 
 3. Each minigame is structured as:
 - A `taskmaps/` folder (`taskmap.md`, `stanzamap_#.md`)
-- Four stanza nodes (`s0_0`, `s0_1`, ..., `s0_3`)
+- Four stanza nodes (`a0_0`, `a0_1`, ..., `a0_3`)
 - Each node has `main.py`, `test.py`, and an optional `subtaskmap.md`
 - A `README.md` and `milestones.md` (empty unless complexity requires detail)
 
@@ -58,11 +58,11 @@ a0_0_the_test_that_called_itself/
 │   ├── taskmap.md
 │   ├── stanzamap_s0.md
 │   └── stanzamap_s1.md
-├── s0_0_the_assertion_of_first_contact/
+├── a0_0_the_assertion_of_first_contact/
 │   ├── main.py
 │   ├── test.py
 │   └── subtaskmap.md
-├── s0_1_the_loop_that_tested_closure/
+├── a0_1_the_loop_that_tested_closure/
 │   └── ...
 ...
 Each minigame maps recursively into its own logic-space.

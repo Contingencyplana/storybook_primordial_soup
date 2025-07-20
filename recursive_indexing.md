@@ -99,7 +99,7 @@ Each layer above:
 
 ### 🧠 Layered Recursion in Action
 
-> When a player runs `main.py` inside `s0_2_the_trace_that_returned_wrong`,  
+> When a player runs `main.py` inside `a0_2_the_trace_that_returned_wrong`,  
 > they are triggering Layer 4 inside a Layer 3 minigame,  
 > inside a Layer 2 cybercell,  
 > inside a Layer 1 generation,  

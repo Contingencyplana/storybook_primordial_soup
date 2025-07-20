@@ -92,8 +92,8 @@ Future UI versions may render the full **stanza network as a constellation** —
 To preserve future clarity and automation alignment:
 
 - Use **lowercase + underscores** for all folders and files  
-  (e.g., `s0_0_the_assertion_of_first_contact`)
-- Maintain **recursive stanza numbering** (e.g., `s0_0`, `s0_1`, `s1_0`)
+  (e.g., `a0_0_the_assertion_of_first_contact`)
+- Maintain **recursive stanza numbering** (e.g., `a0_0`, `a0_1`, `a1_0`)
 - Keep stanza lines in groups of 4 (unless poetically overridden)
 - Use `taskmaps/` to store all `taskmap.md` and `stanzamap_#.md` files
 - Store global indexes in Layer 0 or Layer 3 folders:  

@@ -22,7 +22,7 @@ The dashboard will serve as the **primary introspection layer**, giving develope
 | **Objective** | **Description** |
 |---------------|-----------------|
 | **Visualize Recursion Depth** | Show live depth of each cybercell and its minigames. |
-| **Display Stanza Maps** | Render active stanza lines (`s0_0` to `s0_3`, `a15_0` to `a15_3`, etc.). |
+| **Display Stanza Maps** | Render active stanza lines (`a0_0` to `a0_3`, `a15_0` to `a15_3`, etc.). |
 | **Monitor Anomalies** | Show real-time anomaly alerts from `anomaly_log.md` and fallback triggers. |
 | **Track Snapshots** | Visualize the `snapshot_manager.py` snapshot history and rollback events. |
 | **Schema Compliance Health** | Report current pass/fail status for all `schema_contracts/` validations. |
@@ -44,7 +44,7 @@ The dashboard will serve as the **primary introspection layer**, giving develope
 ### **2️⃣ Stanza Visualization**
 
 - Show stanza lines horizontally:  
-  `s0_0` → `s0_1` → `s0_2` → `s0_3`  
+  `a0_0` → `a0_1` → `a0_2` → `a0_3`  
 - Indicate current execution point with active highlights.
 - Support multi-layer recursion display.
 

@@ -217,7 +217,7 @@ Place schema contracts in:
 ```plaintext
 schema_contracts/
 └── a0_0_the_test_that_called_itself/
-    └── s0_1_the_loop_that_tested_closure/
+    └── a0_1_the_loop_that_tested_closure/
         ├── input_schema.json
         ├── output_contract.json
         └── fallback_schema.json
@@ -225,7 +225,7 @@ schema_contracts/
 
 This ensures clear linkage between:
 
-Stanza identity (s0_1_the_loop_that_tested_closure/)
+Stanza identity (a0_1_the_loop_that_tested_closure/)
 
 Minigame container (a0_0_the_test_that_called_itself/)
 
