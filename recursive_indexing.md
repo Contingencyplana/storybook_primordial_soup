@@ -610,7 +610,7 @@ The script **`workflow_compiler.py`** is responsible for:
 
 | Action | Description |
 |---------|--------------|
-| **Crawling existing folder structures** | The compiler scans the recursive hierarchy, mapping all `a0_`, `s0_`, `a1_`, `a1_`, etc., folders. It detects stanza layers, minigame roots, and cybercell divisions automatically. |
+| **Crawling existing folder structures** | The compiler scans the recursive hierarchy, mapping all `a0_`, `a0_`, `a1_`, `a1_`, etc., folders. It detects stanza layers, minigame roots, and cybercell divisions automatically. |
 | **Auto-generating `taskmap.md` files** | For each minigame root, `workflow_compiler.py` creates or updates `taskmap.md`, listing all contained stanzas, their roles, and their recursion pathways. |
 | **Auto-generating `stanzamap.md` files** | For each stanza group, the compiler generates `stanzamap.md`, documenting the recursive links between stanza nodes and their logic hooks. |
 | **Auto-generating `README.md` files** | If a minigame lacks a `README.md`, the compiler drafts a scaffolded summary based on folder names, recursion stage, and detected structures. |

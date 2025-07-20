@@ -47,7 +47,7 @@ For each new stanza (`sX_0_...` to `sX_3_...`):
 3. **Test**
    - From terminal or CLI:
      ```bash
-     cd path/to/a0_0_the_test_that_called_itself/s0_0_the_line_that_...
+     cd path/to/a0_0_the_test_that_called_itself/a0_0_the_line_that_...
      python test.py
      ```
    - Confirm: ✅ All tests pass or fallback triggers are handled
@@ -84,21 +84,21 @@ a0_0_the_test_that_called_itself/
 │   ├── taskmap.md
 │   ├── stanzamap_s0.md
 │   └── stanzamap_s1.md
-├── s0_0_the_assertion_of_first_contact/
+├── a0_0_the_assertion_of_first_contact/
 │   ├── __init__.py
 │   ├── main.py
 │   ├── test.py
 │   └── subtaskmap.md
-├── s0_1_the_loop_that_tested_closure/
+├── a0_1_the_loop_that_tested_closure/
 │   ├── __init__.py
 │   ├── main.py
 │   ├── test.py
 │   └── subtaskmap.md
-├── s0_2_the_trace_that_returned_wrong/
+├── a0_2_the_trace_that_returned_wrong/
 │   └── ...
-├── s0_3_the_fallback_that_caught_the_signal/
+├── a0_3_the_fallback_that_caught_the_signal/
 │   └── ...
-├── s1_0_the_checkpoint_that_missed_the_mark/
+├── a1_0_the_checkpoint_that_missed_the_mark/
 │   └── ...
 
 ```
@@ -156,7 +156,7 @@ A dedicated script—**`workflow_compiler.py`**—handles automated scaffold gen
 
 - **Detects new minigames, stanzas, and nodes**
     - Identifies which scaffolds are missing or incomplete
-    - Recognizes standard naming conventions (e.g., `a0_0_`, `s0_0_`, `s1_0_`)
+    - Recognizes standard naming conventions (e.g., `a0_0_`, `a0_0_`, `a1_0_`)
 
 - **Auto-generates key workflow files**
     - Creates `taskmap.md` for the minigame if absent
@@ -229,7 +229,7 @@ Example:
     "format": "JSON object with 'message' and 'recursion_depth' keys"
   },
   "fallback_schema": {
-    "if_input_missing": "invoke s0_3_the_fallback_that_caught_the_signal",
+    "if_input_missing": "invoke a0_3_the_fallback_that_caught_the_signal",
     "if_output_invalid": "loop back to prior stanza and retry"
   }
 }
