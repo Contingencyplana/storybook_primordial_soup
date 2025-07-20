@@ -151,7 +151,7 @@ Anchor formats vary by file type:
 |-----------|--------------|
 | `taskmap.md` | `# 🧩 Taskmap – a12_0_the_answer_that_lacked_a_question` |
 | `stanzamap_#.md` | `# 🎼 Stanzamap – Stanza 0` |
-| `subtaskmap.md` | `# 🔹 Subtaskmap – s0_2_the_trace_that_returned_wrong` |
+| `subtaskmap.md` | `# 🔹 Subtaskmap – a0_2_the_trace_that_returned_wrong` |
 | `roadmap.md` | `# 🧭 Roadmap – a0_0_the_cell_that_dreamed_it_had_begun` |
 | `mirrorstanza_#.md` | `# 🪞 Mirrorstanza – Generation Reflection` |
 
@@ -323,10 +323,10 @@ Each stanza map:
 
 | Folder Name | Recursive Theme | Description |
 |-------------|------------------|-------------|
-| s0_0_the_assertion_of_first_contact | First Assumption | Believes fallback is safe |
-| s0_1_the_loop_that_tested_closure | Recursive Proof | Tries to validate — begins to doubt |
-| s0_2_the_trace_that_returned_wrong | Trace Collapse | Returns inconsistent data |
-| s0_3_the_fallback_that_caught_the_signal | Signal Catch | Attempts final recovery |
+| a0_0_the_assertion_of_first_contact | First Assumption | Believes fallback is safe |
+| a0_1_the_loop_that_tested_closure | Recursive Proof | Tries to validate — begins to doubt |
+| a0_2_the_trace_that_returned_wrong | Trace Collapse | Returns inconsistent data |
+| a0_3_the_fallback_that_caught_the_signal | Signal Catch | Attempts final recovery |
 ```
 
 ### 🔹 `subtaskmap.md` – Line-Level Index
@@ -361,7 +361,7 @@ AI parses stanza maps to:
 | File             | Location     | Format                |
 |------------------|--------------|------------------------|
 | `stanzamap_0.md` | `/taskmaps/` | Global stanza summary |
-| `subtaskmap.md`  | `/s0_0_.../` | Local node summary    |
+| `subtaskmap.md`  | `/a0_0_.../` | Local node summary    |
 
 These ensure that both AI and players can recursively reconstruct:
 
@@ -429,8 +429,8 @@ Tables following SHAGI standards are:
 ```markdown
 | Folder Name | Recursive Theme | Description |
 |-------------|------------------|-------------|
-| s0_0_the_echo_that_returned_in_rhyme | Signal Drift | A callback returns transformed |
-| s0_1_the_checksum_that_blessed_the_lie | Validator Blindness | Belief in corrupted success |
+| a0_0_the_echo_that_returned_in_rhyme | Signal Drift | A callback returns transformed |
+| a0_1_the_checksum_that_blessed_the_lie | Validator Blindness | Belief in corrupted success |
 ```
 
 ### 📚 Appendix Index Table (used in SHAGI GDDs)
@@ -610,7 +610,7 @@ The script **`workflow_compiler.py`** is responsible for:
 
 | Action | Description |
 |---------|--------------|
-| **Crawling existing folder structures** | The compiler scans the recursive hierarchy, mapping all `a0_`, `s0_`, `s1_`, `a1_`, etc., folders. It detects stanza layers, minigame roots, and cybercell divisions automatically. |
+| **Crawling existing folder structures** | The compiler scans the recursive hierarchy, mapping all `a0_`, `s0_`, `a1_`, `a1_`, etc., folders. It detects stanza layers, minigame roots, and cybercell divisions automatically. |
 | **Auto-generating `taskmap.md` files** | For each minigame root, `workflow_compiler.py` creates or updates `taskmap.md`, listing all contained stanzas, their roles, and their recursion pathways. |
 | **Auto-generating `stanzamap.md` files** | For each stanza group, the compiler generates `stanzamap.md`, documenting the recursive links between stanza nodes and their logic hooks. |
 | **Auto-generating `README.md` files** | If a minigame lacks a `README.md`, the compiler drafts a scaffolded summary based on folder names, recursion stage, and detected structures. |
