@@ -9,7 +9,8 @@ from main import add_empty_minigame_node
 
 class TestAddEmptyMinigameNode(unittest.TestCase):
     """
-    Tests the a0_0_add_empty_minigame_node module to ensure correct folder and file scaffolding.
+    Tests the a0_0_add_empty_minigame_node module to ensure correct folder and file scaffolding
+    and that recursive signals are properly generated.
     """
 
     def setUp(self):
@@ -25,7 +26,7 @@ class TestAddEmptyMinigameNode(unittest.TestCase):
         """
         Test that the empty minigame node is created with the correct structure and placeholders.
         """
-        result = add_empty_minigame_node(self.test_dir, self.minigame_name)
+        result = add_empty_minigame_node(self.test_dir, self.minigame_name, trigger_indexing=True)
 
         # Check status
         self.assertEqual(result["status"], "success")
@@ -56,6 +57,25 @@ class TestAddEmptyMinigameNode(unittest.TestCase):
         self.assertEqual(trace["minigame"], self.minigame_name)
         self.assertIn("paths_created", trace)
         self.assertIn("timestamp", trace)
+
+        # Check that the indexing signal is present and correct
+        indexing_signal = trace.get("indexing_signal")
+        self.assertIsNotNone(indexing_signal, "Indexing signal was not triggered.")
+        self.assertEqual(indexing_signal["event"], "trigger_indexing")
+        self.assertEqual(indexing_signal["minigame_created"], self.minigame_name)
+
+    def test_prevent_duplicate_creation(self):
+        """
+        Test that trying to create the same minigame twice returns an error.
+        """
+        # First creation should succeed
+        first_result = add_empty_minigame_node(self.test_dir, self.minigame_name)
+
+        # Second creation should fail due to existing folder
+        second_result = add_empty_minigame_node(self.test_dir, self.minigame_name)
+
+        self.assertEqual(second_result["status"], "error")
+        self.assertIn("already exists", second_result["message"])
 
 if __name__ == "__main__":
     unittest.main()
