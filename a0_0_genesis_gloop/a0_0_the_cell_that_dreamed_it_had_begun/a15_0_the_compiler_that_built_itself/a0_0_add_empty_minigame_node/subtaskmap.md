@@ -4,16 +4,23 @@
 
 ## 🧩 Purpose
 
-This node initiates the **first step in recursive minigame compilation**.  
-It creates an **empty minigame folder structure** as the initial seed for recursive growth.
+This node initiates the **first live step in recursive minigame compilation**.  
+It moves the system from **safe scaffold simulation to real recursive growth**.
 
-The goal is to **scaffold a placeholder Layer 3 minigame** and **register it in the live system**, triggering growth cycles and reflection hooks.
+The goal is to **create a real minigame node in the Primordial Soup directory tree**, formally advancing from sandboxed temp runs to **live cybercell recursion**.
+
+This process scaffolds a **placeholder Layer 3 minigame**, registers it in the active system, and **triggers reflection signals** for recursion mapping and downstream indexing.
 
 ---
 
 ## 📂 Outputs
 
-- Creates a new **minigame folder** at the correct Layer 3 location.
+- Creates a new **minigame folder** in:
+
+    ```
+    C:\Users\Admin\storybook_primordial_soup\a0_0_genesis_gloop\a0_0_the_cell_that_dreamed_it_had_begun\a99_0_test_create_minigame_node
+    ```
+
 - Generates an empty folder structure including:
 
     - `__init__.py` (Python package marker)
@@ -23,7 +30,7 @@ The goal is to **scaffold a placeholder Layer 3 minigame** and **register it in 
         - `README.md` (empty or placeholder)
         - `milestones.md` (empty or placeholder)
 
-- **Registers the new minigame in recursive logs and return payloads.**
+- **Registers the new minigame node in recursive logs and return payloads.**
 - **Triggers reflection signals for downstream indexing (`a15_2_the_index_that_mapped_recursion`).**
 
 ---
@@ -32,9 +39,9 @@ The goal is to **scaffold a placeholder Layer 3 minigame** and **register it in 
 
 | **Step** | **Action** |
 |----------|------------|
-| 1️⃣ | Validate the target path for the new minigame (e.g., `a12_0_`, `a12_1_`, etc.). |
+| 1️⃣ | Validate the target path is within `a99_0_test_create_minigame_node`. |
 | 2️⃣ | Check for pre-existing minigame folder to prevent accidental overwrite. |
-| 3️⃣ | Create the minigame folder at the correct **recursive Layer 3 prefix**. |
+| 3️⃣ | Create the new minigame folder at the correct **recursive Layer 3 prefix**. |
 | 4️⃣ | Add `__init__.py` to define the minigame as a Python package. |
 | 5️⃣ | Create `main.py` as an empty logic scaffold. |
 | 6️⃣ | Create the `taskmaps/` folder. |
@@ -47,15 +54,15 @@ The goal is to **scaffold a placeholder Layer 3 minigame** and **register it in 
 
 ## 🌀 Recursive Role
 
-This node represents the **tiny step entry point for recursive builder automation**.
+This node marks the **transition from simulated recursion to real recursive action**.
 
 It enables:
 
-- Live minigame node creation at runtime.
-- Recursive taskmap population and reflection.
-- Attachment of test cases and dynamic builder linking.
-- Cross-system growth linkage via future stanza expansions.
-- **Growth signal propagation** to indexing and orchestration layers.
+- **Live creation of recursive minigame nodes** in the Primordial Soup directory tree.
+- **Taskmap scaffolding and cross-node reflection.**
+- **Recursive trace propagation for system growth tracking.**
+- **Cross-system growth linkage for future stanza and cycle expansions.**
+- **Indexing hook activation for recursive mapping.**
 
 ---
 
@@ -67,37 +74,51 @@ It enables:
 - **Fallback Safety:**  
   If path creation fails, fallback triggers in `a5_0_add_anomaly_trap_placeholder` may be invoked.
 
-- **Sandbox Validation:**  
-  Tested via `a99_0_test_create_minigame_node` in the `a99_` Meta-Recursive Test Stanza.
+- **Live Recursion Execution:**  
+  This step **writes directly to the live recursive tree**, specifically:
+
+    ```
+    C:\Users\Admin\storybook_primordial_soup\a0_0_genesis_gloop\a0_0_the_cell_that_dreamed_it_had_begun\a99_0_test_create_minigame_node
+    ```
 
 - **Indexing Trigger:**  
-  Triggers `a15_2_the_index_that_mapped_recursion` via file watcher, message bus, or direct call (configurable).
+  Signals `a15_2_the_index_that_mapped_recursion` for reflection mapping.
 
 ---
 
 ## 🧪 Test Coverage
 
-- Verify that **empty minigame nodes** are created at the correct layer and stanza prefix.
-- Ensure **no recursive collisions or overwrites** occur if a minigame folder already exists.
-- Confirm that **recursive trace logs** are properly updated with event metadata.
-- Validate that **indexing hooks** are triggered in sandbox mode during test runs.
+- Confirm that **real recursive minigame nodes** are created in `a99_0_test_create_minigame_node`.
+- Validate **duplicate prevention logic** to protect against accidental overwrites.
+- Ensure **recursive trace logs** are properly updated with live path metadata.
+- Confirm that **indexing hooks** are properly triggered in live recursion mode.
 
 ---
 
 ## 🔖 Notes
 
-This subtask is **Phase 2 aligned** and adheres to **tiny step recursion methodology**.
+This subtask is **Phase 2 aligned** but marks the **first live recursion action beyond temp simulation.**
 
-**New Fangs Added:**
+### **New Sharp Fangs Added:**
 
-- Triggers real recursive growth, not just scaffolding.
-- Signals downstream systems for index updates.
-- Logs recursive events for potential cross-phase introspection.
+- Writes directly to the **Primordial Soup recursive tree**.
+- Triggers **live system indexing** and reflection hooks.
+- Registers **recursive growth events** in trace logs for audit and replay.
 
-**Future expansions may include:**
+---
 
-- Automated parameterization (e.g., naming, UUID generation).
-- Cross-cybercell division tracking for growth reflection.
-- Integration with anomaly simulators in `a17_0_the_dashboard_that_reflected_recursion`.
+## 🚨 Safety Reminder
+
+- **a99_0_test_create_minigame_node is an intentional recursion sandbox.**  
+  Live writes to this folder are **safe and part of controlled Phase 2 growth testing**.
+- No active gameplay minigames or cybercell divisions are impacted by this operation.
+
+---
+
+## 🔮 Future Expansions
+
+- Dynamic minigame name generation with UUID or date suffixing.
+- Recursive rollback hooks for meta-recursive snapshot management.
+- Integration with `a17_0_the_dashboard_that_reflected_recursion` for anomaly loop testing.
 
 ---

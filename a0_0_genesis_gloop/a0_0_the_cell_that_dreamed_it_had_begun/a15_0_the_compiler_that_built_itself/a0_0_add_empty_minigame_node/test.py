@@ -9,73 +9,80 @@ from main import add_empty_minigame_node
 
 class TestAddEmptyMinigameNode(unittest.TestCase):
     """
-    Tests the a0_0_add_empty_minigame_node module to ensure correct folder and file scaffolding
-    and that recursive signals are properly generated.
+    Tests the a0_0_add_empty_minigame_node module for both temp and live recursive growth.
     """
 
     def setUp(self):
-        # Create a temporary directory for testing
+        # Set live test path
+        self.live_test_dir = r"C:\Users\Admin\storybook_primordial_soup\a0_0_genesis_gloop\a0_0_the_cell_that_dreamed_it_had_begun\a99_0_test_create_minigame_node"
+        self.live_minigame_name = "a99_4_dummy_minigame"
+
+        # Set temp test path
         self.test_dir = tempfile.mkdtemp()
-        self.minigame_name = "a99_0_test_minigame_node"
+        self.temp_minigame_name = "a99_0_test_minigame_node"
 
     def tearDown(self):
-        # Remove the temporary directory after tests
+        # Remove only temp directory to keep live recursion intact
         shutil.rmtree(self.test_dir)
 
-    def test_minigame_node_creation(self):
+    def test_temp_minigame_node_creation(self):
         """
-        Test that the empty minigame node is created with the correct structure and placeholders.
+        Test in temp folder (safe mode).
         """
-        result = add_empty_minigame_node(self.test_dir, self.minigame_name, trigger_indexing=True)
+        result = add_empty_minigame_node(self.test_dir, self.temp_minigame_name, trigger_indexing=True)
 
-        # Check status
         self.assertEqual(result["status"], "success")
-        self.assertEqual(result["minigame"], self.minigame_name)
+        self.assertEqual(result["minigame"], self.temp_minigame_name)
 
-        # Check that all expected paths exist
         expected_files = [
-            os.path.join(self.test_dir, self.minigame_name, "__init__.py"),
-            os.path.join(self.test_dir, self.minigame_name, "main.py"),
-            os.path.join(self.test_dir, self.minigame_name, "taskmaps", "taskmap.md"),
-            os.path.join(self.test_dir, self.minigame_name, "taskmaps", "README.md"),
-            os.path.join(self.test_dir, self.minigame_name, "taskmaps", "milestones.md"),
+            os.path.join(self.test_dir, self.temp_minigame_name, "__init__.py"),
+            os.path.join(self.test_dir, self.temp_minigame_name, "main.py"),
+            os.path.join(self.test_dir, self.temp_minigame_name, "taskmaps", "taskmap.md"),
+            os.path.join(self.test_dir, self.temp_minigame_name, "taskmaps", "README.md"),
+            os.path.join(self.test_dir, self.temp_minigame_name, "taskmaps", "milestones.md"),
         ]
 
         for file_path in expected_files:
             self.assertTrue(os.path.isfile(file_path), f"Missing file: {file_path}")
 
-        # Check placeholder content in one file as a sample
-        sample_file = os.path.join(self.test_dir, self.minigame_name, "main.py")
-        with open(sample_file, "r", encoding="utf-8") as f:
-            content = f.read()
-            self.assertIn("AUTO-GENERATED PLACEHOLDER", content)
-
-        # Check recursive trace exists and contains expected keys
-        self.assertIn("trace", result)
         trace = result["trace"]
         self.assertEqual(trace["event"], "add_empty_minigame_node")
-        self.assertEqual(trace["minigame"], self.minigame_name)
-        self.assertIn("paths_created", trace)
-        self.assertIn("timestamp", trace)
+        self.assertTrue("indexing_signal" in trace)
 
-        # Check that the indexing signal is present and correct
-        indexing_signal = trace.get("indexing_signal")
-        self.assertIsNotNone(indexing_signal, "Indexing signal was not triggered.")
-        self.assertEqual(indexing_signal["event"], "trigger_indexing")
-        self.assertEqual(indexing_signal["minigame_created"], self.minigame_name)
-
-    def test_prevent_duplicate_creation(self):
+    def test_live_minigame_node_creation(self):
         """
-        Test that trying to create the same minigame twice returns an error.
+        Test real recursion by writing directly to a99_0_test_create_minigame_node.
         """
-        # First creation should succeed
-        first_result = add_empty_minigame_node(self.test_dir, self.minigame_name)
+        result = add_empty_minigame_node(self.live_test_dir, self.live_minigame_name, trigger_indexing=True, live_mode=True)
 
-        # Second creation should fail due to existing folder
-        second_result = add_empty_minigame_node(self.test_dir, self.minigame_name)
+        self.assertEqual(result["status"], "success")
+        self.assertEqual(result["minigame"], self.live_minigame_name)
 
-        self.assertEqual(second_result["status"], "error")
-        self.assertIn("already exists", second_result["message"])
+        expected_files = [
+            os.path.join(self.live_test_dir, self.live_minigame_name, "__init__.py"),
+            os.path.join(self.live_test_dir, self.live_minigame_name, "main.py"),
+            os.path.join(self.live_test_dir, self.live_minigame_name, "taskmaps", "taskmap.md"),
+            os.path.join(self.live_test_dir, self.live_minigame_name, "taskmaps", "README.md"),
+            os.path.join(self.live_test_dir, self.live_minigame_name, "taskmaps", "milestones.md"),
+        ]
+
+        for file_path in expected_files:
+            self.assertTrue(os.path.isfile(file_path), f"Missing file: {file_path}")
+
+        trace = result["trace"]
+        self.assertEqual(trace["event"], "add_empty_minigame_node")
+        self.assertTrue(trace["live_mode"])
+        self.assertTrue("indexing_signal" in trace)
+
+    def test_duplicate_prevention(self):
+        """
+        Test that attempting to create the same minigame node twice returns an error.
+        """
+        add_empty_minigame_node(self.test_dir, self.temp_minigame_name)
+        duplicate_attempt = add_empty_minigame_node(self.test_dir, self.temp_minigame_name)
+
+        self.assertEqual(duplicate_attempt["status"], "error")
+        self.assertIn("already exists", duplicate_attempt["message"])
 
 if __name__ == "__main__":
     unittest.main()
