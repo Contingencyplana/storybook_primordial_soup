@@ -14,4 +14,5 @@ Each node represents a **single tiny compiler step** responsible for automating 
 
 - ✅ `a0_0_add_empty_minigame_node` – Completed, tested, and confirmed to create an empty minigame node folder.
 - ✅ `a0_1_add_empty_init_file` – Completed, tested, and confirmed to create `__init__.py` with graceful fallback logic.
+- ✅ `a0_2_add_empty_main_file` – Completed, tested, and confirmed to create `main.py` with accurate fallback and trace logic.
 
