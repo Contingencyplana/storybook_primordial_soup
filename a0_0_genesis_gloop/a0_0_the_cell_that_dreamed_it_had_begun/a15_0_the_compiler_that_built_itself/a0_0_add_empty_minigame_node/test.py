@@ -56,5 +56,4 @@ if __name__ == "__main__":
             print("📂 Test folder left intact for review.")
             break
         else:
-            print("\U0001f504 Reset flag detected. Test folder cleared before testing.")
-
+            print("🌀 Invalid choice. Please enter 'L' to leave it intact or 'R' to remove it.")
