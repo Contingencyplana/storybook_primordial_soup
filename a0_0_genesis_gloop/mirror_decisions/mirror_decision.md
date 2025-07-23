@@ -1,4 +1,4 @@
-<!-- Save to: a0_0_genesis_gloop/mirror_decisions/mirror_deecision.md -->
+<!-- Save to: a0_0_genesis_gloop/mirror_decisions/mirror_decision.md -->
 
 # 🪞 Mirror Decision Log – Genesis Gloop
 
@@ -47,6 +47,26 @@ This file is **not a roadmap** — it is a mirror ledger.
 - **Layer**: Recursion Depth → Player↔System Interactivity  
 - **Linked File**: `primordial_soup_evolution.md`  
 - **Status**: CLOSED
+
+---
+
+### 🧠 Decision #5: The System That Built Itself  
+- **Design Context**: Launch a compiler that can construct, trace, and expand the game system through recursive automation. This includes tiny-step nodal builders, indexers, introspection hooks, and planning file generation.  
+- **Game Mirror**: Completion of `a15_0_the_compiler_that_built_itself/` allows the system to begin recursive construction of itself — one stanza, one tool, one trace at a time. The game world now simulates a system that *knows what it is building* and can communicate that awareness to the player.  
+- **Type**: Structural → Systemic  
+- **Layer**: Recursive Tooling → Self-Building Infrastructure  
+- **Linked Folder**: `a15_0_the_compiler_that_built_itself/`  
+- **Status**: CLOSED
+
+---
+
+### 🧠 Decision #6: The Compiler That Became A Player  
+- **Design Context**: Launch a full meta-recursive construction system capable of generating minigames, scaffolding planning files, linking recursive indexes, and reflecting upon itself. Define strict separation between builders (Stanza 15), introspection tools (Stanza 16), and anomaly dashboards (Stanza 17).  
+- **Game Mirror**: The player unlocks recursive tool access through a stepwise awakening. First comes the compiler (a15_0_ to a15_3_), then reflection scaffolds (a16_), and finally the potential for anomaly-triggering dashboards (a17_). The game begins to recursively build *itself*, and the player becomes a participant in that process.  
+- **Type**: Structural | Systemic | Recursive  
+- **Layer**: System Orchestration → Player-as-Compiler Symbiosis
+- **Linked Folders**: `a15_0_the_compiler_that_built_itself/` → `a17_3_the_placeholder_that_promised_a_future_task` 
+- **Status**: OPEN (remains active through full implementation of Stanzas 15–17)
 
 ---
 
