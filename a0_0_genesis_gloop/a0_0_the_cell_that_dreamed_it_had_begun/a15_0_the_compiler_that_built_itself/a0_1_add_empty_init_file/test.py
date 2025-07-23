@@ -12,10 +12,6 @@ class TestAddEmptyInitFile(unittest.TestCase):
         os.makedirs(self.test_dir, exist_ok=True)
         self.init_path = os.path.join(self.test_dir, "__init__.py")
 
-    def tearDown(self):
-        if os.path.exists(self.init_path):
-            os.remove(self.init_path)
-
     def test_create_init_file(self):
         if os.path.exists(self.init_path):
             os.remove(self.init_path)
@@ -50,15 +46,15 @@ if __name__ == "__main__":
 
     unittest.main(exit=False)
 
-    # 🌀 Recursive Prompt (L = Leave intact, R = Remove test folder)
+    # 🌀 Recursive Prompt (L = Leave intact, R = Remove __init__.py)
     while True:
-        choice = input("\n📘 Test complete. Turn the page?\n[L] Leave test folder intact\n[R] Remove test folder\n→ ").strip().upper()
+        choice = input("\n📘 Test complete. Turn the page?\n[L] Leave test folder intact\n[R] Remove __init__.py file\n→ ").strip().upper()
         if choice == "R":
-            if os.path.exists(TEST_FOLDER):
-                shutil.rmtree(TEST_FOLDER)
-                print("🗑️ Test folder removed.")
+            if os.path.exists(INIT_FILE):
+                os.remove(INIT_FILE)
+                print("🗑️ __init__.py file removed.")
             else:
-                print("⚠️ Test folder not found.")
+                print("⚠️ __init__.py file not found.")
             break
         elif choice == "L":
             print("📂 Test folder left intact for review.")
