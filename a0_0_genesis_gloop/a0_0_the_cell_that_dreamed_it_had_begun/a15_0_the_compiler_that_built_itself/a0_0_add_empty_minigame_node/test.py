@@ -33,14 +33,19 @@ if __name__ == "__main__":
     unittest.main(exit=False)
 
     # 🌀 Recursive Prompt (L = Leave intact, R = Remove test folder)
-    choice = input("\n📘 Test complete. Turn the page?\n[L] Leave test folder intact\n[R] Remove test folder\n→ ").strip().upper()
-
-    if choice == "R":
-        test_path = r"C:\Users\Admin\storybook_primordial_soup\a0_0_genesis_gloop\a0_0_the_cell_that_dreamed_it_had_begun\a99_0_test_create_minigame_node\a0_0_test_minigame_node"
-        if os.path.exists(test_path):
-            shutil.rmtree(test_path)
-            print("🗑️ Test folder removed.")
+    test_path = r"C:\Users\Admin\storybook_primordial_soup\a0_0_genesis_gloop\a0_0_the_cell_that_dreamed_it_had_begun\a99_0_test_create_minigame_node\a0_0_test_minigame_node"
+    
+    while True:
+        choice = input("\n📘 Test complete. Turn the page?\n[L] Leave test folder intact\n[R] Remove test folder\n→ ").strip().upper()
+        if choice == "R":
+            if os.path.exists(test_path):
+                shutil.rmtree(test_path)
+                print("🗑️ Test folder removed.")
+            else:
+                print("⚠️ Test folder not found.")
+            break
+        elif choice == "L":
+            print("📂 Test folder left intact for review.")
+            break
         else:
-            print("⚠️ Test folder not found.")
-    else:
-        print("📂 Test folder left intact for review.")
+            print("🌀 Invalid choice. Please enter 'L' to leave it intact or 'R' to remove it.")
