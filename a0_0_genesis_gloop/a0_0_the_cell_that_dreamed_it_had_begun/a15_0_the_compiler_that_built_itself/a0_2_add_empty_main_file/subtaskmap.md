@@ -21,29 +21,6 @@ This file is a placeholder for future node logic and execution entrypoints.
     └── 📄 main.py
 ```
 
-<!-- Save to: a15_0_the_compiler_that_built_itself\a0_2_add_empty_main_file\subtaskmap.md -->
-
-# 🔹 Subtaskmap – a0_2_add_empty_main_file
-
-## 🧩 Purpose
-
-This node performs the **third tiny step** in recursive minigame node construction.
-
-It creates an empty `main.py` file inside the specified minigame node folder.  
-This file is a placeholder for future node logic and execution entrypoints.
-
----
-
-## 📂 Outputs
-
-- Creates an empty `main.py` file in the specified minigame node folder.
-
-```plaintext
-📁 a99_0_test_create_minigame_node/
-└── 📁 a0_0_test_minigame_node/
-    └── 📄 main.py
-```
-
 ---
 
 ## 🔧 Actions
