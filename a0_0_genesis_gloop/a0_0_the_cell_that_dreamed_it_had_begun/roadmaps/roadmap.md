@@ -94,10 +94,10 @@ To ensure recursive integrity and safe cybercellular expansion, the following La
 
 | Stanza Range        | Minigames | Purpose                            | System           |
 |---------------------|-----------|------------------------------------|------------------|
-| `a27_0_`–`a31_4_`   | 20        | Containment of Post-Division Drift | `quarantine_ai/` |
-| `a32_0_`–`a33_4_`   | 8         | Growth Validation & Edge Detection | `sentinel_ai/`   |
-| `a34_0_`–`a35_4_`   | 8         | Oversight of Division Logic        | `high_command/`  |
-| `a36_0_`–`a36_4_`   | 4         | Future-Facing Containment          | `high_command/`  |
+| `a51_0_`–`a55_4_`   | 20        | Containment of Post-Division Drift | `quarantine_ai/` |
+| `a56_0_`–`a57_4_`   | 8         | Growth Validation & Edge Detection | `sentinel_ai/`   |
+| `a58_0_`–`a59_4_`   | 8         | Oversight of Division Logic        | `high_command/`  |
+| `a60_0_`–`a60_4_`   | 4         | Future-Facing Containment          | `high_command/`  |
 
 This zoning ensures both recursive anomaly detection *and* safe cybercellular proliferation are structurally supported by the same recursive safety net.
 
