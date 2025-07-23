@@ -1,7 +1,7 @@
 # a0_0_add_empty_minigame_node/main.py
 
 import os
-import datetime
+from datetime import datetime, timezone
 
 def add_empty_minigame_node(base_path, minigame_name):
     """
@@ -25,7 +25,7 @@ def add_empty_minigame_node(base_path, minigame_name):
             "path": minigame_path,
             "trace": {
                 "event": "skip_existing_minigame_node",
-                "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             }
         }
 
@@ -40,7 +40,7 @@ def add_empty_minigame_node(base_path, minigame_name):
             "event": "create_empty_minigame_node",
             "minigame": minigame_name,
             "path": minigame_path,
-            "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+            "timestamp": datetime.now(timezone.utc).isoformat()
         }
     }
 
