@@ -1,7 +1,7 @@
 # a0_1_add_empty_init_file/main.py
 
 import os
-import datetime
+from datetime import datetime, timezone
 
 def add_empty_init_file(minigame_node_path):
     """
@@ -23,9 +23,11 @@ def add_empty_init_file(minigame_node_path):
             "path": init_file_path,
             "trace": {
                 "event": "skip_existing_init",
-                "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+                "timestamp": datetime.now(timezone.utc).isoformat()
             }
         }
+
+    print(f"🛠️ Creating __init__.py at: {init_file_path}")  # Temporary debug output
 
     with open(init_file_path, "w", encoding="utf-8") as f:
         f.write("# Package initializer for minigame node\n")
@@ -36,7 +38,7 @@ def add_empty_init_file(minigame_node_path):
         "path": init_file_path,
         "trace": {
             "event": "create_init_file",
-            "timestamp": datetime.datetime.now(datetime.UTC).isoformat()
+            "timestamp": datetime.now(timezone.utc).isoformat()
         }
     }
 
