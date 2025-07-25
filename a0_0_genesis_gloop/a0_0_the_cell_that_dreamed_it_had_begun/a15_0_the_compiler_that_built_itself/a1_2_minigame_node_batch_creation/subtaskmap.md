@@ -8,14 +8,14 @@ This node acts as the **Node Constructor Hand**, orchestrating the batch creatio
 
 ## 🧩 Recursive Finger Calls
 
-| Step | Node Called                            | Role                                               |
-|------|----------------------------------------|----------------------------------------------------|
-| 1    | `a0_0_add_empty_minigame_node`         | Create the empty minigame node folder              |
-| 2    | `a0_1_add_empty_init_file`             | Insert `__init__.py` inside the node folder        |
-| 3    | `a0_2_add_empty_main_file`             | Add `main.py` to the node                          |
-| 4    | `a0_3_add_empty_subtaskmap_file`       | Add an empty `subtaskmap.md` scaffold              |
-| 5    | `a1_0_add_empty_test_file`             | Add `test.py` to the node                          |
-| 6    | `a1_1_link_nodal_meta_recursion_controls` | Add meta-recursive linkage files or headers    |
+| Step | Node Called                               | Role                                               |
+|------|-------------------------------------------|----------------------------------------------------|
+| 1    | `a0_0_add_empty_minigame_node`            | Create the empty minigame node folder              |
+| 2    | `a0_1_add_empty_init_file`                | Insert `__init__.py` inside the node folder        |
+| 3    | `a0_2_add_empty_main_file`                | Add `main.py` to the node                          |
+| 4    | `a0_3_add_empty_subtaskmap_file`          | Add an empty `subtaskmap.md` scaffold              |
+| 5    | `a1_0_add_empty_test_file`                | Add `test.py` to the node                          |
+| 6    | `a1_1_link_nodal_meta_recursion_controls` | Add meta-recursive linkage files or headers        |
 
 ---
 
@@ -69,6 +69,9 @@ Upon successful execution, this node produces:
 
 - 🖐️ `a3_2_taskmaps_batch_creation`  
   Builds the planning scaffold (`taskmaps/`) alongside this node constructor.
+
+- 🧠 `a4_2_link_minigame_meta_recursion_controls`  
+  Higher-order integration node that validates, links, and registers the minigame scaffold within the recursive system.
 
 - 🧠 `a99_2_test_create_minigame`  
   Higher-order orchestrator that invokes both hands and validates full recursive cohesion.
