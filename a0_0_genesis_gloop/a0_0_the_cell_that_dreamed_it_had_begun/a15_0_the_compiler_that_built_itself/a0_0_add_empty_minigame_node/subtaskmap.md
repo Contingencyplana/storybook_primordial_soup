@@ -1,30 +1,29 @@
-<!-- Save to: a15_0_the_compiler_that_built_itself\a1_0_add_empty_test_file\subtaskmap.md -->
+<!-- Save to: a15_0_the_compiler_that_built_itself\a0_0_add_empty_minigame_node\subtaskmap.md -->
 
-# 🔹 Subtaskmap – a1_0_add_empty_test_file
+# 🔹 Subtaskmap – a0_0_add_empty_minigame_node
 
 ## 🧩 Purpose
 
-This node performs the **fifth tiny step** in recursive minigame node construction.
+This node performs the **first tiny step** in recursive minigame node construction.
 
-It adds an empty `test.py` file to a target minigame node folder, completing the basic Layer 4 testing scaffold.
+It creates the outermost folder of a minigame node using a nested path, ensuring all intermediate folders are created if needed.
 
-The file will be a placeholder only, containing no logic or test assertions.
+The folder is empty by design — it is the seed of recursion, from which all other node scaffolds will grow.
 
 ---
 
 ## 📂 Outputs
 
-- Creates an empty `test.py` file in the specified minigame node folder.
+- Creates the outer minigame node folder at a recursive nested path.
 
-Supports nested paths. For example:
+Example:
 
 ```plaintext
 📁 a99_0_test_create_minigame_node/
 └── 📁 a0_0_test_minigame_node/
-    └── 📄 test.py
 ```
 
-*Note: Folder depth is not restricted — this node can target any valid recursive path.*
+> **Note:** Intermediate folders (like `a99_0_test_create_minigame_node`) are created automatically.
 
 ---
 
@@ -32,58 +31,62 @@ Supports nested paths. For example:
 
 | **Step** | **Action** |
 |----------|------------|
-| 1️⃣ | Verify that the target minigame folder exists. |
-| 2️⃣ | Check if `test.py` already exists — prevent overwrite unless explicitly requested. |
-| 3️⃣ | Create an empty `test.py` file containing a single placeholder comment. |
-| 4️⃣ | Return a structured trace log confirming the file creation or reason for skipping. |
+| 1️⃣ | Accept a nested folder path (e.g., `a99_0/.../a0_0_...`) as input. |
+| 2️⃣ | Create all missing parent folders if they don’t exist. |
+| 3️⃣ | Check if the final target node folder already exists — prevent overwrite. |
+| 4️⃣ | If not, create the folder and return a structured trace. |
+| 5️⃣ | If it exists, return a trace with `"status": "skipped"`. |
 
 ---
 
 ## 🌀 Recursive Role
 
-This node concludes the initial nodal scaffolding arc.  
-It enables:
+This node begins the **Tiny Step Compiler Loop**. It is the root constructor for all Layer 4 scaffolds.
 
-- Safe test integration scaffolds for future test node builders.  
-- Uniform test structure across all Layer 4 nodes.  
-- Controlled expansion into recursive test doctrine in later phases.  
+By handling nested path creation and validating existence, it ensures:
+
+- Minigame nodes are safe to build without collisions  
+- Higher-order builders can assume a consistent folder base  
+- All subsequent node steps have a guaranteed location  
 
 ---
 
 ## ⚙️ System Integration
 
 - **Nodal Sequence:**  
-  Follows `a0_3_add_empty_subtaskmap_file`.  
-  Precedes taskmaps and orchestration builders.
+  This node comes **first** in the compiler loop. It must succeed before any others run.
 
 - **Meta-Recursive Compiler:**  
-  Can be called by `workflow_compiler.py` or triggered manually in development.
+  Used by `workflow_compiler.py`, `main.py` in orchestration nodes, or manually in development testing.
 
 - **Fallback Safety:**  
-  If `test.py` already exists, it will return a warning in the trace rather than overwrite it.
+  Folder creation is idempotent. If the folder already exists, the node will exit cleanly and log a `skip_existing_minigame_node` trace.
 
 - **Path Compatibility:**  
-  Fully supports nested node paths (e.g., `a99_1/.../a0_0_test_minigame_node`).
+  ✅ Fully supports nested paths and automatic creation of intermediate directories.
 
 ---
 
 ## 🧪 Test Coverage
 
-- Confirm that `test.py` is created only if it does not already exist.  
-- Ensure placeholder contents match expected safe placeholder comment.  
-- Validate that the return trace includes:
-  - File creation status  
-  - Target path  
-  - Timestamp  
+Tests for this node will:
+
+- Confirm a new node folder is created if it doesn’t exist  
+- Confirm that re-running skips creation with `"status": "skipped"`  
+- Ensure proper handling of deeply nested target paths  
+- Validate the structure of the returned trace dictionary:  
+  - `status` field  
+  - `message` summary  
+  - `timestamp` in UTC  
+  - `event`: either `create_empty_minigame_node` or `skip_existing_minigame_node`  
 
 ---
 
 ## 🔖 Notes
 
-This subtask aligns with **Tiny Step Recursion Doctrine** and **Phase 2 automation safety policies**.
+This step lays the **foundational recursion anchor** for every minigame node.
 
-Later stages may extend this file with:
+Future layers will rely on this seed to expand safely.  
+It represents the **primordial node shell** — the silent ancestor from which structure emerges.
 
-- Schema-linked test scaffolds  
-- Runtime sanity checks  
-- Patchpoint flags for test automation  
+Supports both canonical and test minigames equally (e.g., `a12_3/...`, `a99_0/...`, etc.).
