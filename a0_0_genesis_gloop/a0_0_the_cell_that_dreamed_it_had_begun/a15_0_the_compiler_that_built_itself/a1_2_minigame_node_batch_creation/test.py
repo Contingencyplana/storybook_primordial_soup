@@ -1,9 +1,27 @@
+"""
+🧪 test.py – a1_2_minigame_node_batch_creation
+
+📘 Purpose:
+This test verifies the correct output of main.py by checking the expected folder and file structure of
+a generated minigame node (default: a99_0_test_minigame_node).
+
+It ensures the following files were created:
+- __init__.py
+- main.py
+- test.py
+- subtaskmap.md
+
+This test serves as the validation harness for a1_2_minigame_node_batch_creation and ensures scaffolding
+logic remains reliable during recursive system evolution.
+"""
+
+
 import os
 from pathlib import Path
 
 # Test configuration
 target_node = "a99_0_test_minigame_node"
-project_root = Path(__file__).resolve().parents[3]
+project_root = Path(__file__).resolve().parents[4]
 minigame_path = project_root / "a0_0_genesis_gloop" / "a0_0_the_cell_that_dreamed_it_had_begun" / target_node
 
 expected_files = [

@@ -1,3 +1,20 @@
+"""
+🧠 main.py – a1_2_minigame_node_batch_creation
+
+📘 Purpose:
+This script acts as the Node Constructor Hand, dynamically invoking six recursive builder nodes ("fingers")
+to create a fully scaffolded Layer 4 minigame node folder.
+
+It accepts a target node name via CLI (e.g., a99_0_test_minigame_node), validates the format, and then calls
+each finger script in order:
+1. Creates the folder
+2. Adds all required base files
+3. Injects meta-recursive controls
+
+This is part of the automation logic in a15_0_the_compiler_that_built_itself and is called directly or
+indirectly by higher-order orchestrators.
+"""
+
 import sys
 import re
 import subprocess
