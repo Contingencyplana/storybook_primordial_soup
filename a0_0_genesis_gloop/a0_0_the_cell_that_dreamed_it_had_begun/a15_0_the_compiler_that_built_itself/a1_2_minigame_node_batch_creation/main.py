@@ -16,8 +16,8 @@ from pathlib import Path
 
 # Constants
 FOLDER_PATTERN = re.compile(r"^a\d+_\d+_[a-z0-9_]+$")  # Only validate final folder name
-BASE_PATH = Path(__file__).resolve().parents[3]
-STANZA_FOLDER = BASE_PATH / "a0_0_genesis_gloop" / "a0_0_the_cell_that_dreamed_it_had_begun"
+STANZA_FOLDER = Path(__file__).resolve().parents[2]  # Corrected: one level up from a15_0
+
 FINGER_NODES = [
     "a0_0_add_empty_minigame_node",
     "a0_1_add_empty_init_file",
