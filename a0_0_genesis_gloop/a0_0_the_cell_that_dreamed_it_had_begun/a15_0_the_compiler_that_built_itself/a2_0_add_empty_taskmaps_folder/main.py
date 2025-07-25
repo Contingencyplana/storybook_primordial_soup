@@ -3,23 +3,22 @@
 import os
 from datetime import datetime, timezone
 
-def add_empty_taskmaps_folder(minigame_path):
+def add_empty_taskmaps_folder(stanza_folder_path):
     """
-    Creates an empty taskmaps/ folder inside the specified minigame node folder.
+    Creates an empty taskmaps/ folder at the stanza (minigame) level.
 
     Args:
-        minigame_path (str): The path to the target minigame node directory.
+        stanza_folder_path (str): The path to the Layer 3 minigame folder.
 
     Returns:
         dict: Confirmation with status, trace metadata, and path info.
     """
-    taskmaps_path = os.path.join(minigame_path, "taskmaps")
+    taskmaps_path = os.path.join(stanza_folder_path, "taskmaps")
 
-    # Safety check — don't overwrite existing folder
     if os.path.exists(taskmaps_path):
         return {
             "status": "skipped",
-            "message": f"taskmaps/ folder already exists in: {minigame_path}",
+            "message": f"taskmaps/ folder already exists in: {stanza_folder_path}",
             "path": taskmaps_path,
             "trace": {
                 "event": "skip_existing_taskmaps_folder",
@@ -27,12 +26,11 @@ def add_empty_taskmaps_folder(minigame_path):
             }
         }
 
-    # Create empty taskmaps/ folder
     os.makedirs(taskmaps_path, exist_ok=True)
 
     return {
         "status": "success",
-        "message": f"Created taskmaps/ folder in: {minigame_path}",
+        "message": f"Created taskmaps/ folder in: {stanza_folder_path}",
         "path": taskmaps_path,
         "trace": {
             "event": "create_empty_taskmaps_folder",
@@ -41,4 +39,4 @@ def add_empty_taskmaps_folder(minigame_path):
         }
     }
 
-# Note: This function can be invoked by test.py or a meta-recursive builder.
+# Note: This function should be invoked at the minigame level, not from within a stanza folder.
