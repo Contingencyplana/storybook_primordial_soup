@@ -1,55 +1,60 @@
 # a0_1_add_empty_init_file/main.py
 
-import os
+"""
+🧠 main.py – a0_1_add_empty_init_file
+
+📘 Purpose:
+Adds an empty __init__.py file to the specified minigame node folder.
+Supports nested path input and verifies folder existence before creation.
+
+This ensures all nodes are importable as Python packages.
+"""
+
+from pathlib import Path
 from datetime import datetime, timezone
 
-def add_empty_init_file(minigame_node_path):
+def add_empty_init_file(target_node_path):
     """
-    Creates an empty __init__.py file in the given minigame node folder.
-    Skips creation if the file already exists. Returns an error if the folder does not exist.
+    Adds an empty __init__.py file to a minigame node folder.
 
     Args:
-        minigame_node_path (str): The path to the target minigame node folder.
+        target_node_path (str or Path): Path to the minigame node (can be nested).
 
     Returns:
-        dict: Structured response with status, path, and trace metadata.
+        dict: Structured trace metadata with status and path.
     """
-    # Check if the target folder exists
-    if not os.path.exists(minigame_node_path):
+    path = Path(target_node_path)
+    init_path = path / "__init__.py"
+
+    if not path.exists():
         return {
             "status": "error",
-            "message": "Target minigame node folder does not exist.",
-            "path": minigame_node_path,
+            "message": "Target folder does not exist.",
+            "path": str(path),
             "trace": {
                 "event": "missing_minigame_node_folder",
                 "timestamp": datetime.now(timezone.utc).isoformat()
             }
         }
 
-    init_file_path = os.path.join(minigame_node_path, "__init__.py")
-
-    # Skip if file already exists
-    if os.path.exists(init_file_path):
+    if init_path.exists():
         return {
             "status": "skipped",
             "message": "__init__.py already exists.",
-            "path": init_file_path,
+            "path": str(init_path),
             "trace": {
                 "event": "skip_existing_init",
                 "timestamp": datetime.now(timezone.utc).isoformat()
             }
         }
 
-    # Create the file
-    print(f"🛠️ Creating __init__.py at: {init_file_path}")
-
-    with open(init_file_path, "w", encoding="utf-8") as f:
-        f.write("# Package initializer for minigame node\n")
+    print(f"🛠️ Creating __init__.py at: {init_path}")
+    init_path.write_text("# Package initializer for minigame node\n", encoding="utf-8")
 
     return {
         "status": "success",
         "message": "Created __init__.py",
-        "path": init_file_path,
+        "path": str(init_path),
         "trace": {
             "event": "create_init_file",
             "timestamp": datetime.now(timezone.utc).isoformat()
