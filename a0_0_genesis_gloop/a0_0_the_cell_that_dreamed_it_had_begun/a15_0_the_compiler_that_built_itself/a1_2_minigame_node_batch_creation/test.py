@@ -20,7 +20,7 @@ import os
 from pathlib import Path
 
 # Test configuration
-target_node = "a99_0_test_minigame_node"
+target_node = "a99_0_test_create_minigame_node/a0_0_test_minigame_node"
 project_root = Path(__file__).resolve().parents[4]
 minigame_path = project_root / "a0_0_genesis_gloop" / "a0_0_the_cell_that_dreamed_it_had_begun" / target_node
 
