@@ -10,7 +10,7 @@ Each node represents a **single tiny compiler step** responsible for automating 
 
 ---
 
-## 🧱 Stanza 0 – Nodal Builders (Initial Pass)
+## 🧱 Stanza 0 – Nodal Scaffold Builders (Initial Pass)
 
 - ✅ `a0_0_add_empty_minigame_node` – Completed, tested, and confirmed to create an empty minigame node folder.  
 - ✅ `a0_1_add_empty_init_file` – Completed, tested, and confirmed to create `__init__.py` with graceful fallback logic.  
