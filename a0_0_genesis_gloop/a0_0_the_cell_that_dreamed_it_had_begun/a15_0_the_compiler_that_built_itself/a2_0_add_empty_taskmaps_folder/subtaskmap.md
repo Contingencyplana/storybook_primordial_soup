@@ -6,7 +6,9 @@
 
 This node performs the **ninth tiny step** in recursive minigame construction.
 
-It creates a completely empty `taskmaps/` folder inside the target minigame node, providing the foundation for future planning and scaffolding logic.
+It creates a completely empty `taskmaps/` folder inside the **Layer 3 minigame folder**, not within individual stanza nodes.
+
+This folder provides the foundation for future planning and scaffolding logic across one or more stanzas.
 
 No files are added — only the folder itself.
 
@@ -14,23 +16,23 @@ No files are added — only the folder itself.
 
 ## 📂 Outputs
 
-- Creates a new, empty `taskmaps/` folder in the specified minigame node folder.
+- Creates a new, empty `taskmaps/` folder in the specified minigame folder.
 
 ```plaintext
 📁 a99_0_test_create_minigame_node/
+├── 📁 taskmaps/
 └── 📁 a0_0_test_minigame_node/
-    └── 📁 taskmaps/
 ```
 
 ## 🔧 Actions
 
 | **Step** | **Action** |
 |----------|------------|
-| 1️⃣ | Verify that the target minigame node exists. |
+| 1️⃣ | Verify that the target minigame folder exists. |
 | 2️⃣ | Check if the `taskmaps/` folder already exists. |
 | 3️⃣ | If not, create a new empty `taskmaps/` folder. |
 | 4️⃣ | Return a structured trace confirming creation or reason for skipping. |
-| 5️⃣ | Prompt the player to decide whether to leave or remove the folder (L/R/Invalid). |
+| 5️⃣ | Prompt the player to decide whether to leave or remove the folder (`L`/`R`/Invalid). |
 
 ---
 
