@@ -16,11 +16,17 @@ The file will be a placeholder only, containing no logic or test assertions.
 
 - Creates an empty `test.py` file in the specified minigame node folder.
 
+Supports nested paths. For example:
+
 ```plaintext
 📁 a99_0_test_create_minigame_node/
 └── 📁 a0_0_test_minigame_node/
     └── 📄 test.py
 ```
+
+*Note: Folder depth is not restricted — this node can target any valid recursive path.*
+
+---
 
 ## 🔧 Actions
 
@@ -55,6 +61,9 @@ It enables:
 
 - **Fallback Safety:**  
   If `test.py` already exists, it will return a warning in the trace rather than overwrite it.
+
+- **Path Compatibility:**  
+  Fully supports nested node paths (e.g., `a99_1/.../a0_0_test_minigame_node`).
 
 ---
 

@@ -1,47 +1,62 @@
 # a0_0_add_empty_minigame_node/main.py
 
+"""
+🧠 main.py – a0_0_add_empty_minigame_node
+
+📘 Purpose:
+Creates an empty minigame node folder, with support for nested subpaths.
+
+It ensures the target folder does not already exist, creates any required intermediate folders,
+and returns a traceable result for use in higher-order automation.
+
+Input can be a deeply nested relative path like:
+  a99_0_test_create_minigame_node/a0_0_test_minigame_node
+"""
+
 import os
+from pathlib import Path
 from datetime import datetime, timezone
 
-def add_empty_minigame_node(base_path, minigame_name):
+def add_empty_minigame_node(target_node_path):
     """
-    Creates an empty minigame folder at the specified base path.
-    No files or internals — only the outer node folder.
+    Creates an empty minigame node folder at the specified relative path.
 
     Args:
-        base_path (str): The parent directory where the minigame folder will be created.
-        minigame_name (str): The name of the new minigame node folder (e.g., a0_0_test_minigame_node)
+        target_node_path (str or Path): Nested path to the new node folder.
 
     Returns:
-        dict: Confirmation with status, trace metadata, and path info.
+        dict: Status and trace metadata.
     """
-    minigame_path = os.path.join(base_path, minigame_name)
+    path = Path(target_node_path)
 
-    # Safety check — don't overwrite existing folder
-    if os.path.exists(minigame_path):
+    # Create intermediate folders if needed
+    path.parent.mkdir(parents=True, exist_ok=True)
+
+    # Abort if node already exists
+    if path.exists():
         return {
             "status": "skipped",
-            "message": f"Minigame node '{minigame_name}' already exists.",
-            "path": minigame_path,
+            "message": f"Minigame node already exists: {path}",
+            "path": str(path),
             "trace": {
                 "event": "skip_existing_minigame_node",
                 "timestamp": datetime.now(timezone.utc).isoformat()
             }
         }
 
-    # Create empty minigame node folder
-    os.makedirs(minigame_path, exist_ok=True)
+    # Create node folder
+    path.mkdir()
 
     return {
         "status": "success",
-        "message": f"Created minigame node: {minigame_name}",
-        "path": minigame_path,
+        "message": f"Created minigame node: {path.name}",
+        "path": str(path),
         "trace": {
             "event": "create_empty_minigame_node",
-            "minigame": minigame_name,
-            "path": minigame_path,
+            "minigame": path.name,
+            "path": str(path),
             "timestamp": datetime.now(timezone.utc).isoformat()
         }
     }
 
-# Note: No __main__ block — this function is designed to be imported or invoked by the workflow compiler.
+# No __main__ block – this module is imported by orchestrators.
