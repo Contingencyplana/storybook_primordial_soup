@@ -3,7 +3,7 @@
 
 📘 Purpose:
 This test verifies the correct output of main.py by checking the expected folder and file structure of
-a generated minigame node (default: a99_0_test_minigame_node).
+a generated minigame node inside a test minigame (default: a99_0_test_create_minigame_node/a0_0_test_minigame_node).
 
 It ensures the following files were created:
 - __init__.py
@@ -15,14 +15,12 @@ This test serves as the validation harness for a1_2_minigame_node_batch_creation
 logic remains reliable during recursive system evolution.
 """
 
-
-import os
 from pathlib import Path
 
-# Test configuration
-target_node = "a99_0_test_create_minigame_node/a0_0_test_minigame_node"
+# Configuration
+target_path_str = "a99_0_test_create_minigame_node/a0_0_test_minigame_node"
 project_root = Path(__file__).resolve().parents[4]
-minigame_path = project_root / "a0_0_genesis_gloop" / "a0_0_the_cell_that_dreamed_it_had_begun" / target_node
+minigame_path = project_root / "a0_0_genesis_gloop" / "a0_0_the_cell_that_dreamed_it_had_begun" / Path(target_path_str)
 
 expected_files = [
     "__init__.py",

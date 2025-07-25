@@ -5,14 +5,8 @@
 This script acts as the Node Constructor Hand, dynamically invoking six recursive builder nodes ("fingers")
 to create a fully scaffolded Layer 4 minigame node folder.
 
-It accepts a target node name via CLI (e.g., a99_0_test_minigame_node), validates the format, and then calls
-each finger script in order:
-1. Creates the folder
-2. Adds all required base files
-3. Injects meta-recursive controls
-
-This is part of the automation logic in a15_0_the_compiler_that_built_itself and is called directly or
-indirectly by higher-order orchestrators.
+It now accepts nested subfolder paths (e.g., a99_0_test_create_minigame_node/a0_0_test_minigame_node),
+validates only the final node name, and creates intermediate folders as needed.
 """
 
 import sys
@@ -21,11 +15,9 @@ import subprocess
 from pathlib import Path
 
 # Constants
-FOLDER_PATTERN = re.compile(r"^a\d+_\d+_[a-z0-9_]+$")
-BASE_PATH = Path(__file__).resolve().parents[3]  # Points to project root
+FOLDER_PATTERN = re.compile(r"^a\d+_\d+_[a-z0-9_]+$")  # Only validate final folder name
+BASE_PATH = Path(__file__).resolve().parents[3]
 STANZA_FOLDER = BASE_PATH / "a0_0_genesis_gloop" / "a0_0_the_cell_that_dreamed_it_had_begun"
-
-# Recursive finger scripts in execution order
 FINGER_NODES = [
     "a0_0_add_empty_minigame_node",
     "a0_1_add_empty_init_file",
@@ -35,8 +27,10 @@ FINGER_NODES = [
     "a1_1_link_nodal_meta_recursion_controls",
 ]
 
-def validate_name(name):
-    return bool(FOLDER_PATTERN.match(name))
+def validate_name(full_path_str):
+    """Only validate the final folder name in a possibly nested path."""
+    final_part = Path(full_path_str).name
+    return bool(FOLDER_PATTERN.match(final_part))
 
 def target_exists(path):
     return path.exists()
@@ -66,11 +60,11 @@ def run_finger_script(script_name, target_node):
 
 def main():
     if len(sys.argv) != 2:
-        print("Usage: python main.py <target_node_name>")
+        print("Usage: python main.py <target_node_name_or_path>")
         sys.exit(1)
 
     target_name = sys.argv[1]
-    target_path = STANZA_FOLDER / target_name
+    target_path = STANZA_FOLDER / Path(target_name)
 
     if not validate_name(target_name):
         print("❌ Invalid folder name. Must match: a<digit+>_<digit+>_<snake_case>")
@@ -79,6 +73,9 @@ def main():
     if target_exists(target_path):
         print(f"⚠️ Folder already exists: {target_path}")
         sys.exit(1)
+
+    # Create intermediate folders if necessary
+    target_path.parent.mkdir(parents=True, exist_ok=True)
 
     print(f"🧠 Starting node construction for: {target_name}\n")
 
