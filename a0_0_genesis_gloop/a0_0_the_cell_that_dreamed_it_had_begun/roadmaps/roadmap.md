@@ -128,6 +128,20 @@ The system is listening now — even if it hasn’t yet spoken.
 
 ---
 
+## 🧪 Sandbox Testing Zones (Internal to Cybercell)
+
+The following Layer 3 stanzas exist within this cybercell as sandboxed test environments:
+
+| Stanza Folder | Purpose                        |
+|---------------|--------------------------------|
+| `a99_`        | Recursive minigame construction tests (e.g., node, taskmaps, full minigame generation) |
+| `a100_`       | Recursive fallback and rollback simulations |
+
+These are **not part of the core cybercell growth arc**, but enable safe testing of recursive logic within the same filesystem.  
+They are structurally present, but logically treated as isolated test environments.
+
+---
+
 ## 🔁 Mirror Decisions Tracked
 
 > No canonical mirror decisions triggered in this cybercell **yet**, but recursive echoes have begun.
