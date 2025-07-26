@@ -2,47 +2,43 @@
 
 import os
 import sys
+import shutil
 import unittest
+from pathlib import Path
 from main import add_empty_subtaskmap_file
 
 class TestAddEmptySubtaskmapFile(unittest.TestCase):
     def setUp(self):
-        self.test_dir = r"C:\Users\Admin\storybook_primordial_soup\a0_0_genesis_gloop\a0_0_the_cell_that_dreamed_it_had_begun\a99_0_test_create_minigame_node\a0_0_test_minigame_node"
-        os.makedirs(self.test_dir, exist_ok=True)
-        self.subtaskmap_path = os.path.join(self.test_dir, "subtaskmap.md")
+        self.project_root = Path(__file__).resolve().parents[4]
+        self.test_node = self.project_root / "a0_0_genesis_gloop" / "a0_0_the_cell_that_dreamed_it_had_begun" / "a99_0_test_create_minigame_node" / "a0_0_test_minigame_node"
+        self.subtaskmap_path = self.test_node / "subtaskmap.md"
+        self.test_node.mkdir(parents=True, exist_ok=True)
 
     def test_create_subtaskmap(self):
-        if os.path.exists(self.subtaskmap_path):
-            os.remove(self.subtaskmap_path)
+        if self.subtaskmap_path.exists():
+            self.subtaskmap_path.unlink()
 
-        result = add_empty_subtaskmap_file(self.test_dir)
-
+        result = add_empty_subtaskmap_file(self.test_node)
         self.assertEqual(result["status"], "success")
-        self.assertTrue(os.path.isfile(self.subtaskmap_path))
-        with open(self.subtaskmap_path, "r", encoding="utf-8") as f:
-            self.assertIn("<!-- Subtaskmap placeholder", f.read())
+        self.assertTrue(self.subtaskmap_path.exists())
+        content = self.subtaskmap_path.read_text(encoding="utf-8")
+        self.assertIn("<!-- Subtaskmap placeholder", content)
         self.assertEqual(result["trace"]["event"], "create_subtaskmap")
 
     def test_skip_existing_subtaskmap(self):
-        with open(self.subtaskmap_path, "w", encoding="utf-8") as f:
-            f.write("<!-- Preexisting content -->")
-
-        result = add_empty_subtaskmap_file(self.test_dir)
-
+        self.subtaskmap_path.write_text("<!-- Preexisting content -->", encoding="utf-8")
+        result = add_empty_subtaskmap_file(self.test_node)
         self.assertEqual(result["status"], "skipped")
         self.assertIn("already exists", result["message"])
         self.assertEqual(result["trace"]["event"], "skip_existing_subtaskmap")
 
 if __name__ == "__main__":
-    TEST_FILE = os.path.join(
-        r"C:\Users\Admin\storybook_primordial_soup\a0_0_genesis_gloop\a0_0_the_cell_that_dreamed_it_had_begun\a99_0_test_create_minigame_node\a0_0_test_minigame_node",
-        "subtaskmap.md"
-    )
+    TEST_FILE = Path(__file__).resolve().parents[4] / "a0_0_genesis_gloop" / "a0_0_the_cell_that_dreamed_it_had_begun" / "a99_0_test_create_minigame_node" / "a0_0_test_minigame_node" / "subtaskmap.md"
 
     if "--reset" in sys.argv:
         sys.argv.remove("--reset")
-        if os.path.exists(TEST_FILE):
-            os.remove(TEST_FILE)
+        if TEST_FILE.exists():
+            TEST_FILE.unlink()
             print("🔄 Reset flag detected. subtaskmap.md file cleared before testing.")
 
     unittest.main(exit=False)
@@ -50,8 +46,8 @@ if __name__ == "__main__":
     while True:
         choice = input("\n📘 Test complete. Turn the page?\n[L] Leave test folder intact\n[R] Remove subtaskmap.md file\n→ ").strip().upper()
         if choice == "R":
-            if os.path.exists(TEST_FILE):
-                os.remove(TEST_FILE)
+            if TEST_FILE.exists():
+                TEST_FILE.unlink()
                 print("🗑️ subtaskmap.md file removed.")
             else:
                 print("⚠️ subtaskmap.md file not found.")
