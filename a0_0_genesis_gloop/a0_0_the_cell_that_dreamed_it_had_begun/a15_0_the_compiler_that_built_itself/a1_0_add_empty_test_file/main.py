@@ -1,54 +1,48 @@
 # a1_0_add_empty_test_file/main.py
 
-import os
+from pathlib import Path
 from datetime import datetime, timezone
 
-def add_empty_test_file(minigame_node_path):
+def add_empty_test_file(target_node):
     """
     Creates an empty test.py file in the given minigame node folder.
-    Skips creation if the file already exists. Returns an error if the folder does not exist.
+    Skips creation if the file already exists. Creates any missing parent folders.
 
     Args:
-        minigame_node_path (str): The path to the target minigame node folder.
+        target_node (str or Path): Path to the minigame node (can be nested).
 
     Returns:
-        dict: Structured response with status, path, and trace metadata.
+        dict: Status dictionary with trace metadata.
     """
-    if not os.path.exists(minigame_node_path):
-        return {
-            "status": "error",
-            "message": "Target minigame node folder does not exist.",
-            "path": minigame_node_path,
-            "trace": {
-                "event": "missing_minigame_node_folder",
-                "timestamp": datetime.now(timezone.utc).isoformat()
-            }
-        }
+    node_path = Path(target_node)
+    node_path.mkdir(parents=True, exist_ok=True)
 
-    test_file_path = os.path.join(minigame_node_path, "test.py")
+    test_file = node_path / "test.py"
 
-    if os.path.exists(test_file_path):
+    if test_file.exists():
         return {
             "status": "skipped",
             "message": "test.py already exists.",
-            "path": test_file_path,
+            "path": str(test_file),
             "trace": {
                 "event": "skip_existing_test",
                 "timestamp": datetime.now(timezone.utc).isoformat()
             }
         }
 
-    print(f"🛠️ Creating test.py at: {test_file_path}")
+    print(f"🛠️ Creating test.py at: {test_file}")
 
-    with open(test_file_path, "w", encoding="utf-8") as f:
-        f.write("# Placeholder test file for minigame node\n")
-        f.write("def test_placeholder():\n")
-        f.write("    assert True  # Replace with actual tests\n")
+    test_file.write_text(
+        "# Placeholder test file for minigame node\n"
+        "def test_placeholder():\n"
+        "    assert True  # Replace with actual tests\n",
+        encoding="utf-8"
+    )
 
     return {
         "status": "success",
         "message": "Created test.py",
-        "path": test_file_path,
+        "path": str(test_file),
         "trace": {
             "event": "create_test_file",
             "timestamp": datetime.now(timezone.utc).isoformat()
