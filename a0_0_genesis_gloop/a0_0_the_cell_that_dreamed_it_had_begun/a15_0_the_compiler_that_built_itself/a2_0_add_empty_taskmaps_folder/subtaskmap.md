@@ -6,7 +6,7 @@
 
 This node performs the **ninth tiny step** in recursive minigame construction.
 
-It creates a completely empty `taskmaps/` folder inside the **Layer 3 minigame folder**, not within individual stanza nodes.
+It creates a completely empty `taskmaps/` folder inside the **Layer 3 minigame folder**, not within individual Layer 4 node folders.
 
 This folder provides the foundation for future planning and scaffolding logic across one or more stanzas.
 
@@ -19,9 +19,8 @@ No files are added — only the folder itself.
 - Creates a new, empty `taskmaps/` folder in the specified minigame folder.
 
 ```plaintext
-📁 a99_0_test_create_minigame_node/
+📁 a99_1_test_create_taskmaps/
 ├── 📁 taskmaps/
-└── 📁 a0_0_test_minigame_node/
 ```
 
 ## 🔧 Actions
@@ -32,7 +31,7 @@ No files are added — only the folder itself.
 | 2️⃣ | Check if the `taskmaps/` folder already exists. |
 | 3️⃣ | If not, create a new empty `taskmaps/` folder. |
 | 4️⃣ | Return a structured trace confirming creation or reason for skipping. |
-| 5️⃣ | Prompt the player to decide whether to leave or remove the folder (`L`/`R`/Invalid). |
+| 5️⃣ | Prompt the player to decide whether to leave or remove the folder (`"L"` / `"R"` / `"Invalid"`). |
 
 ---
 
@@ -66,13 +65,13 @@ It enables:
 
 - Confirm that `taskmaps/` is created only if it does not already exist.  
 - Validate that the return trace includes:
-  - Folder status (`added` or `skipped`)  
+  - Folder status (`success` or `skipped`)  
   - Target path  
   - Event type  
   - Timestamp  
 - Provide an interactive post-test prompt:
-  - Press `L` → leave folder intact.  
-  - Press `R` → delete the `taskmaps/` folder.  
+  - Press `"L"` → leave folder intact.  
+  - Press `"R"` → delete the `taskmaps/` folder.  
   - Other → prompt for a valid choice again.
 
 ---
