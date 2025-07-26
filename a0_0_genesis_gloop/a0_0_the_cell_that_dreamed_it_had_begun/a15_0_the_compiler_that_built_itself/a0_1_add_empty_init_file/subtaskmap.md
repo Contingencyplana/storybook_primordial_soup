@@ -9,17 +9,25 @@ This node performs the **second tiny step** in recursive minigame node construct
 It adds an empty `__init__.py` file inside the specified minigame node folder.  
 This marks the folder as a Python package and enables recursive imports.
 
+Supports nested paths — target folders may reside anywhere in the recursive hierarchy.
+
 ---
 
 ## 📂 Outputs
 
 - Creates an empty `__init__.py` file in the specified minigame node folder.
 
+Example:
+
 ```plaintext
 📁 a99_0_test_create_minigame_node/
 └── 📁 a0_0_test_minigame_node/
     └── 📄 __init__.py
 ```
+
+Note: This works for deeply nested paths — all parent directories must already exist.
+
+---
 
 ## 🔧 Actions
 
@@ -34,8 +42,15 @@ This marks the folder as a Python package and enables recursive imports.
 
 ## 🌀 Recursive Role
 
-This node enables all downstream minigame builders to treat the node folder as an importable module.  
-It lays the groundwork for future compiler and test integrations.
+This node enables all downstream builders to treat the minigame node as a Python module.  
+It is a structural prerequisite for:
+
+- Logic injection  
+- Task orchestration  
+- Recursive testing  
+- Meta-indexing  
+
+It is the first traceable indicator of recursive import capability within the node.
 
 ---
 
@@ -45,29 +60,35 @@ It lays the groundwork for future compiler and test integrations.
 Follows `a0_0_add_empty_minigame_node`.  
 Precedes `a0_2_add_empty_main_file`.
 
-**Meta-Recursive Compiler:**  
-This node is triggered early in the nodal sequence to enable logic injection later.
+**Meta-Recursive Compiler Role:**  
+Used early in the build pipeline to support downstream file injection.
 
 **Fallback Safety:**  
-If `__init__.py` already exists, this task will skip with trace confirmation.
+If `__init__.py` already exists, the node logs a `skip_existing_init` trace.
+
+**Path Compatibility:**  
+Accepts both string and `Path` inputs.  
+✅ Fully supports nested and sandboxed test paths.
 
 ---
 
 ## 🧪 Test Coverage
 
-- Ensure the file is created only if it does not exist.  
-- Confirm placeholder content is correct (`# Package initializer for minigame node`).  
-- Validate returned trace includes:
-  - File creation status  
-  - Path confirmation  
-  - Timestamp  
-  - Event type: `create_init_file` or `skip_existing_init`
+- Confirm the file is created only if it does not exist.  
+- Validate placeholder content: `# Package initializer for minigame node`  
+- Return trace must include:
+  - **Status** (`success` or `skipped`)  
+  - **Full target path**  
+  - **UTC timestamp**  
+  - **Event type** (`create_init_file` or `skip_existing_init`)
 
 ---
 
 ## 🔖 Notes
 
-This node conforms to the **Tiny Step Recursion Doctrine**.  
-It serves as both a functional enabler and a structural checkpoint for the recursive node lifecycle.
+This node conforms to the **Tiny Step Recursion Doctrine**.
 
-Future builders may use this as a dependency for advanced recursion triggers or fallback indexing logic.
+It is a structural checkpoint and a symbolic initializer —  
+the moment recursion becomes *executable*.  
+Without this file, Python modules cannot traverse or test into the node.  
+Future compiler logic, fallback layers, and test harnesses will depend on its presence.
