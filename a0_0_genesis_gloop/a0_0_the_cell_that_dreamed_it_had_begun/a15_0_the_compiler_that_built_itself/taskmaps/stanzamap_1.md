@@ -9,7 +9,7 @@ It transitions the system from raw node creation to **meta-awareness**, enabling
 
 All active nodes now support **nested path inputs**, preparing the system for sandboxed builders, higher-order tools, and recursive overlays.
 
-Two additional slots are reserved as placeholders to preserve structural completeness and support future nodal variants.
+One final slot is reserved as a placeholder to preserve structural completeness and support future nodal variants.
 
 ---
 
@@ -19,7 +19,7 @@ Two additional slots are reserved as placeholders to preserve structural complet
 |-------------|------|
 | `a1_0_add_empty_test_file/` | Adds `test.py` to node, finalizing the self-testable scaffold. |
 | `a1_1_link_nodal_meta_recursion_controls/` | Registers all builder nodes in `meta_recursion_controls.md`, forming a runtime tool index. |
-| `a1_2_placeholder/` | Placeholder to maintain recursive stanza shape. |
+| `a1_2_minigame_node_batch_creation/` | Orchestrates batch construction of Layer 4 node using all six builder "fingers". |
 | `a1_3_placeholder/` | Reserved slot for future tooling or node variants. |
 
 ---
@@ -43,7 +43,8 @@ a1_0 → a1_1 → a1_2 → a1_3
 
 - `a1_0` finalizes the node scaffold with `test.py`, ensuring self-test readiness.  
 - `a1_1` formalizes nodal existence in the compiler’s discoverable meta-structure.  
-- `a1_2` and `a1_3` preserve structural symmetry and indexing rhythm for future phases.  
+- `a1_2` automates recursive node creation via batch orchestration.  
+- `a1_3` remains reserved for future symmetry and extensibility.  
 
 ---
 
@@ -72,14 +73,17 @@ With this stanza complete, the compiler:
 - `a1_1_link_nodal_meta_recursion_controls/`  
   Verified across reset cycles, duplication handling, trace metadata logging, and runtime index regeneration.  
 
-- `a1_2` and `a1_3`  
-  Structural placeholders — excluded from execution, validated by recursive stanzamap and milestone presence.  
+- `a1_2_minigame_node_batch_creation/`  
+  Validated through dynamic CLI invocation. Successfully triggers all six builder nodes, creates nested folders, generates all expected files, and aborts on existing targets.
+
+- `a1_3_placeholder/`  
+  Structural placeholder — excluded from execution, validated by recursive indexing logic and symmetry rules.  
 
 ---
 
 ### 📘 Notes
 
-This stanza ensures the **compiler can track itself recursively**.  
+This stanza ensures the **compiler can track and construct itself recursively**.  
 It prepares the foundation for **Phase 3**: recursive orchestration, stanza introspection, and meta-contract enforcement.
 
 By explicitly reserving placeholder nodes, the system retains its **recursive rhythm**  

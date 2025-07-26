@@ -23,10 +23,10 @@ Each node represents a **single tiny compiler step** responsible for automating 
 
 - ✅ `a1_0_add_empty_test_file` – Fully tested across multiple runs. Correctly creates `test.py` with header and placeholder function. Supports nested path inputs, handles reset conditions, and includes interactive cleanup (`L`, `R`, invalid key fallback). Conforms to the Self-Testing Recursion Doctrine and enforces trace integrity across fallback paths.
 
-- ✅ `a1_1_link_nodal_meta_recursion_controls` – Final node in the recursive builder loop. Successfully creates and maintains `meta_recursion_controls.md` as a discoverable runtime index. Validated against reset scenarios, duplicate prevention, and correct event tagging (`linked_meta_recursion_control`). All 5 builder nodes correctly linked with full trace metadata. Marks the compiler's first act of recursive self-awareness.
+- ✅ `a1_1_link_nodal_meta_recursion_controls` – Finalizer in the original builder loop. Successfully creates and maintains `meta_recursion_controls.md` as a discoverable runtime index. Validated against reset scenarios, duplicate prevention, and correct event tagging (`linked_meta_recursion_control`). All 5 builder nodes correctly linked with full trace metadata. Marks the compiler’s first act of recursive self-awareness.
 
-- 🟨 `a1_2_placeholder` – Intentionally left blank to preserve stanza shape. Reserved for future nodal index scaffolding or signature encoding. Ignored by all recursive compilers.
+- ✅ `a1_2_minigame_node_batch_creation` – Successfully tested. Dynamically invokes all six core builder nodes ("fingers") to construct a fully scaffolded Layer 4 node. Supports nested paths, validates canonical names, handles folder creation, and aborts on existing targets. Confirmed output: `__init__.py`, `main.py`, `subtaskmap.md`, and `test.py`. Forms the foundation for higher-order recursive construction.
 
-- 🟨 `a1_3_placeholder` – Placeholder node for structural symmetry. Executes no logic and is safely skipped by all recursive systems and trace crawlers.
+- 🟨 `a1_3_placeholder` – Structural placeholder. Executes no logic and is safely skipped by all recursive compilers and crawlers. Reserved for symmetry and potential future use.
 
 ---
