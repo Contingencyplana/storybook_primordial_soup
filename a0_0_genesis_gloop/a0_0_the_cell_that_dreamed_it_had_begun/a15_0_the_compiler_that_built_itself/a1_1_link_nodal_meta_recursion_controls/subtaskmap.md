@@ -9,19 +9,20 @@ It links all previously created nodes in this stanza (`a0_0` to `a1_0`) into a *
 anchoring their existence in the recursive ecosystem.
 
 It enables downstream systems to **discover**, **call**, and **trace** nodal tools via a shared reference file:  
-📄 `meta_recursion_controls.md`.
+📄 `meta_recursion_controls.md`
+
+Now supports **nested path inputs** and ensures missing parent folders are auto-created, enabling seamless integration into recursive builders and test scaffolds.
 
 ---
 
 ## 📂 Outputs
 
-- Updates (or creates) the central file `meta_recursion_controls.md`
+- Creates (if missing) and updates the file: `meta_recursion_controls.md`
 - Appends structured entries for each known node:
-  - Folder path
+  - Folder name
   - Description
-  - Control flag (optional)
-  - Timestamp
-  - Traceable event label (`linked_meta_recursion_control`)
+  - UTC timestamp
+  - Traceable event label: `linked_meta_recursion_control`
 
 ```plaintext
 📄 meta_recursion_controls.md
@@ -34,8 +35,8 @@ It enables downstream systems to **discover**, **call**, and **trace** nodal too
 
 ## 🔧 Actions
 
-| **Step** | **Action** |
-|----------|------------|
+| Step | Action |
+|------|--------|
 | 1️⃣ | Load or initialize `meta_recursion_controls.md`. |
 | 2️⃣ | Scan for prior nodes in this stanza (`a0_0` to `a1_0`). |
 | 3️⃣ | Append entries if missing — avoid duplication. |
@@ -62,8 +63,8 @@ It is the **first moment of recursive self-awareness** — the compiler begins t
 ## ⚙️ System Integration
 
 **Nodal Sequence:**  
-Follows `a1_0_add_empty_test_file`.  
-Precedes `a1_2_placeholder`.
+Follows: `a1_0_add_empty_test_file`  
+Precedes: `a1_2_placeholder`
 
 **Meta-Recursive Compiler Role:**  
 Creates the **nodal index** that empowers orchestration and automated discovery.  
@@ -71,21 +72,21 @@ Supports downstream components such as:
 
 - `recursive_executor.py`  
 - `meta_recursion_trace_logger.py`  
-- `recursive_crawler.py` (planned in `a16_0`)
+- `recursive_crawler.py` *(planned in `a16_0`)*
 
 ---
 
 ## 🧪 Test Coverage
 
-This node should be tested to ensure:
+Unit tests for this node ensure:
 
 - `meta_recursion_controls.md` is created if missing  
 - All known builder nodes are listed exactly once  
 - Duplicate prevention logic is enforced  
-- Trace output includes:  
-  - Path or identifier  
+- Trace metadata includes:
+  - Node name  
   - Event type: `linked_meta_recursion_control`  
-  - Timestamp of linkage  
+  - UTC timestamp
 
 ---
 
@@ -97,4 +98,5 @@ It does not build new tools — it **remembers what has been built**, and makes 
 By introducing structured meta-control early in the recursive cycle,  
 we ensure **extensibility**, **introspection**, and **orchestration** can occur without brittle hardcoding.
 
-This is a **doctrine-critical node** — its absence in future phases would collapse automated enumeration and builder coordination.
+This is a **doctrine-critical node**.  
+Without it, automated enumeration and recursive builder coordination would collapse in later phases.
