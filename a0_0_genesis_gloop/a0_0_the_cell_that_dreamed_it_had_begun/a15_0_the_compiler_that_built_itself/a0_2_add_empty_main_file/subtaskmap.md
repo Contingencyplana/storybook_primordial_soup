@@ -9,11 +9,13 @@ This node performs the **third tiny step** in recursive minigame node constructi
 It creates an empty `main.py` file inside the specified minigame node folder.  
 This file is a placeholder for future node logic and execution entrypoints.
 
+> ✅ Note: Intermediate folders must already exist before this node runs.
+
 ---
 
 ## 📂 Outputs
 
-- Creates an empty `main.py` file in the specified minigame node folder.
+- Adds an empty `main.py` file to the target minigame node folder.
 
 ```plaintext
 📁 a99_0_test_create_minigame_node/
@@ -36,41 +38,57 @@ This file is a placeholder for future node logic and execution entrypoints.
 
 ## 🌀 Recursive Role
 
-This node ensures every minigame node has a valid `main.py` entrypoint for downstream orchestration, testing, or execution logic.  
-It allows builder logic to inject functionality later while preserving recursive predictability now.
+This node ensures every minigame node has a valid `main.py` entrypoint.  
+It supports recursive orchestration, test harness injection, or manual execution.
+
+This entrypoint becomes the **runtime shell** into which higher-level logic may later be injected, linked, or scheduled.
 
 ---
 
 ## ⚙️ System Integration
 
 **Nodal Sequence:**  
-Follows `a0_1_add_empty_init_file`.  
-Precedes `a0_3_add_empty_subtaskmap_file`.
+- Follows: `a0_1_add_empty_init_file`  
+- Precedes: `a0_3_add_empty_subtaskmap_file`
 
-**Meta-Recursive Compiler:**  
-This node establishes a stable base for logic injection by higher-level recursion builders.  
-Supports downstream tools like `recursive_executor.py`, `logic_injector.py`, and `linker.py`.
+**Meta-Recursive Compiler Role:**  
+- Used by `workflow_compiler.py` or `main.py` orchestrators.  
+- Enables compatibility with:
+  - `recursive_executor.py`  
+  - `logic_injector.py`  
+  - `linker.py`
 
 **Fallback Safety:**  
-If `main.py` already exists, this task will skip with trace confirmation.
+- Skips creation if `main.py` already exists.  
+- Logs a `skip_existing_main` event in the trace log.
+
+**Path Compatibility:**  
+- Fully supports sandboxed and nested minigame paths (e.g., `a99_0/.../a0_0_test_minigame_node`).
 
 ---
 
 ## 🧪 Test Coverage
 
-- Ensure the file is created only if it does not exist.  
-- Confirm placeholder content is correct (`# Main execution file for minigame node`).  
-- Validate returned trace includes:  
-  - File creation status  
-  - Path confirmation  
-  - Timestamp  
-  - Event type: `create_main_file` or `skip_existing_main`
+Tests confirm that:
+
+- The file is only created if it doesn’t already exist.  
+- The placeholder content matches:  
+  `# Main execution file for minigame node`  
+- The returned trace includes:
+  - `status` (success or skipped)  
+  - `path` to the file  
+  - `timestamp` (in UTC)  
+  - `event` (create_main_file or skip_existing_main)
 
 ---
 
 ## 🔖 Notes
 
-This node conforms to the **Tiny Step Recursion Doctrine**.  
-It serves as both an execution placeholder and a recursive dependency for orchestrators and validators.  
+This node adheres to the **Tiny Step Recursion Doctrine**.  
+It is not just a placeholder — it is the **formal execution anchor** for all recursive builders.
 
-Future compilers may choose to inject base logic, dynamic bootstraps, or checkpoint metadata into this file.
+Without this file, logic orchestrators cannot route signals, run stanzas, or inject behavioral code into a node.
+
+Its presence ensures every node in the system is **executable**, **traceable**, and **upgradeable**.
+
+```
