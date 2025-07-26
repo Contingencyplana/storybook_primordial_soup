@@ -16,7 +16,8 @@ Unlike `glossary.md`, this list is **minimalist and lookup-focused**, intended f
 ## 📖 Acronym List
 
 | Acronym | Meaning |
-|----------|---------|
+|--------|---------|
+| **CLI** | **Command-Line Interface** – A text-based interface used to interact with scripts, builders, and recursive tools in Primordial Soup. |
 | **ESC** | **Escape Command** – The action used to exit the current recursion loop or layer safely. |
 | **FF** | **FUN Factory** – The testing and containment version of recursion systems; often used for anomaly simulation. |
 | **IOB** | **Input-Output Branching** – The use of numeric options (1, 2, 3, etc.) to select from multiple recursive paths. |
