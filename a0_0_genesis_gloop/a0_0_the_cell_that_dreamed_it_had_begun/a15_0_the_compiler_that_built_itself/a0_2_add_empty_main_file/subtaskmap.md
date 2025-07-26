@@ -90,5 +90,3 @@ It is not just a placeholder — it is the **formal execution anchor** for all r
 Without this file, logic orchestrators cannot route signals, run stanzas, or inject behavioral code into a node.
 
 Its presence ensures every node in the system is **executable**, **traceable**, and **upgradeable**.
-
-```
