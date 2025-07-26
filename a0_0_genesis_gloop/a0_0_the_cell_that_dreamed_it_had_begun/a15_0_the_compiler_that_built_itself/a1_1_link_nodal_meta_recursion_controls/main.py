@@ -1,6 +1,6 @@
 # a1_1_link_nodal_meta_recursion_controls/main.py
 
-import os
+from pathlib import Path
 from datetime import datetime, timezone
 
 def link_meta_recursion_controls(node_entries, control_file_path):
@@ -10,34 +10,38 @@ def link_meta_recursion_controls(node_entries, control_file_path):
     Args:
         node_entries (list of dict): Each dict must contain:
             - name: str – the node folder name
-            - description: str – description of the node's purpose
-        control_file_path (str): Path to the meta_recursion_controls.md file
+            - description: str – short description of the node's role
+        control_file_path (str or Path): Path to the central .md file
 
     Returns:
-        dict: Summary including counts of added and skipped nodes, and full trace log
+        dict: Summary including counts of added and skipped entries, and full trace log
     """
-    added, skipped = 0, 0
-    trace_log = []
+    control_path = Path(control_file_path)
+    control_path.parent.mkdir(parents=True, exist_ok=True)
 
-    # Initialize or load existing content
-    if os.path.exists(control_file_path):
-        with open(control_file_path, "r", encoding="utf-8") as f:
-            existing_content = f.read()
+    if control_path.exists():
+        existing_content = control_path.read_text(encoding="utf-8")
     else:
-        existing_content = "# 📁 Meta-Recursion Controls\n\nThis file links all known builder nodes for orchestration, traceability, and indexing.\n\n---\n"
+        existing_content = (
+            "# 📁 Meta-Recursion Controls\n\n"
+            "This file links all known builder nodes for orchestration, traceability, and indexing.\n\n"
+            "---\n"
+        )
 
     updated_lines = existing_content.splitlines()
+    added, skipped = 0, 0
+    trace_log = []
 
     for entry in node_entries:
         node_name = entry["name"]
         if any(node_name in line for line in updated_lines):
-            skipped += 1
             trace_log.append({
                 "node": node_name,
                 "status": "skipped",
                 "event": "already_linked",
                 "timestamp": datetime.now(timezone.utc).isoformat()
             })
+            skipped += 1
             continue
 
         timestamp = datetime.now(timezone.utc).isoformat()
@@ -52,8 +56,7 @@ def link_meta_recursion_controls(node_entries, control_file_path):
         })
         added += 1
 
-    with open(control_file_path, "w", encoding="utf-8") as f:
-        f.write("\n".join(updated_lines) + "\n")
+    control_path.write_text("\n".join(updated_lines) + "\n", encoding="utf-8")
 
     return {
         "status": "completed",

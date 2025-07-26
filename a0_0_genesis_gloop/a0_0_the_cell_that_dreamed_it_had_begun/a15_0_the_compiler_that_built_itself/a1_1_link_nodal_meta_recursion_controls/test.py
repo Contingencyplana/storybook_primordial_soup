@@ -1,15 +1,17 @@
 # a1_1_link_nodal_meta_recursion_controls/test.py
 
-import os
-import sys
 import unittest
+from pathlib import Path
 from main import link_meta_recursion_controls
+import sys
 
 class TestLinkMetaRecursionControls(unittest.TestCase):
     def setUp(self):
-        self.control_file = r"C:\Users\Admin\storybook_primordial_soup\meta_recursion_controls.md"
-        if os.path.exists(self.control_file):
-            os.remove(self.control_file)
+        self.control_file = Path(
+            r"C:\Users\Admin\storybook_primordial_soup\meta_recursion_controls.md"
+        )
+        if self.control_file.exists():
+            self.control_file.unlink()
 
         self.sample_entries = [
             {"name": "a0_0_add_empty_minigame_node", "description": "Creates empty minigame node folder"},
@@ -28,17 +30,19 @@ class TestLinkMetaRecursionControls(unittest.TestCase):
         self.assertEqual(result2["added"], 0)
         self.assertEqual(result2["skipped"], 5)
 
-        self.assertTrue(os.path.exists(self.control_file))
-        with open(self.control_file, "r", encoding="utf-8") as f:
-            content = f.read()
+        self.assertTrue(self.control_file.exists())
+        content = self.control_file.read_text(encoding="utf-8")
         for entry in self.sample_entries:
             self.assertIn(entry["name"], content)
 
 if __name__ == "__main__":
     if "--reset" in sys.argv:
         sys.argv.remove("--reset")
-        reset_target = r"C:\Users\Admin\storybook_primordial_soup\meta_recursion_controls.md"
-        if os.path.exists(reset_target):
-            os.remove(reset_target)
+        reset_target = Path(
+            r"C:\Users\Admin\storybook_primordial_soup\meta_recursion_controls.md"
+        )
+        if reset_target.exists():
+            reset_target.unlink()
             print("🔄 Reset: meta_recursion_controls.md cleared.")
+
     unittest.main(exit=False)
