@@ -30,3 +30,12 @@ Each node represents a **single tiny compiler step** responsible for automating 
 - 🟨 `a1_3_placeholder` – Structural placeholder. Executes no logic and is safely skipped by all recursive compilers and crawlers. Reserved for symmetry and potential future use.
 
 ---
+
+## 🧱 Stanza 2 – Planning Folder Scaffold
+
+- ✅ `a2_0_add_empty_taskmaps_folder` – Successfully tested with multiple executions. Creates an empty `taskmaps/` folder within a Layer 3 minigame folder. Includes validation for existing folders, recursive-safe trace logging, and CLI-friendly cleanup (`L`/`R`). Conforms to the Taskmap Initialization Doctrine and enables safe planning zone seeding for future nodes.
+
+- ✅ `a2_1_add_empty_init_file` – Fully validated. Adds an `__init__.py` file to any planning or logic folder (e.g. `taskmaps/`). Script handles pre-existing files, nested paths, and generates structured trace logs with timestamp and event type. Interactive prompt supports recursive cleanup and validates player intent. Ensures compatibility with package-aware introspection systems and meta-recursive tooling.
+
+---
+
