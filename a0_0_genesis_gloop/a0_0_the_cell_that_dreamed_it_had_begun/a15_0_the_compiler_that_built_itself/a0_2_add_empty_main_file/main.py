@@ -64,3 +64,11 @@ def add_empty_main_file(minigame_node_path):
             "timestamp": datetime.now(timezone.utc).isoformat()
         }
     }
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) != 2:
+        print("❌ Usage: python main.py <target_node_path>")
+    else:
+        result = add_empty_main_file(sys.argv[1])
+        print(result)

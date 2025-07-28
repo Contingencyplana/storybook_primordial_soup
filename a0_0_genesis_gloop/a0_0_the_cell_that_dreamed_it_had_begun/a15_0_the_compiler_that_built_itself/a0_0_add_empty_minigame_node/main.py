@@ -15,6 +15,7 @@ It now fully resolves the path to ensure it writes to the correct target.
 from pathlib import Path
 from datetime import datetime, timezone
 
+
 def add_empty_minigame_node(target_node_path):
     """
     Creates an empty minigame node folder at the specified relative or absolute path.
@@ -52,4 +53,11 @@ def add_empty_minigame_node(target_node_path):
         }
     }
 
-# No __main__ block – this module is imported by orchestrators.
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) != 2:
+        print("❌ Usage: python main.py <target_node_path>")
+    else:
+        result = add_empty_minigame_node(sys.argv[1])
+        print(result)
+

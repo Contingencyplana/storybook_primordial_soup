@@ -23,7 +23,7 @@ def add_empty_init_file(target_node_path):
     Returns:
         dict: Structured trace metadata with status and path.
     """
-    path = Path(target_node_path).resolve()  # ✅ Ensures absolute path
+    path = Path(target_node_path).resolve()
     init_path = path / "__init__.py"
 
     if not path.exists():
@@ -60,3 +60,11 @@ def add_empty_init_file(target_node_path):
             "timestamp": datetime.now(timezone.utc).isoformat()
         }
     }
+
+if __name__ == "__main__":
+    import sys
+    if len(sys.argv) != 2:
+        print("❌ Usage: python main.py <target_node_path>")
+    else:
+        result = add_empty_init_file(sys.argv[1])
+        print(result)
