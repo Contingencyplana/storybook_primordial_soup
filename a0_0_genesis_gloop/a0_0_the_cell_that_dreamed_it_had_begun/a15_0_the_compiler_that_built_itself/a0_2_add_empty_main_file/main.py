@@ -17,12 +17,12 @@ def add_empty_main_file(minigame_node_path):
     Creates an empty main.py file in the specified minigame node folder.
 
     Args:
-        minigame_node_path (str or Path): Path to the minigame node folder.
+        minigame_node_path (str or Path): Path to the minigame node folder (absolute or relative).
 
     Returns:
         dict: Structured response with status, message, path, and trace metadata.
     """
-    path = Path(minigame_node_path)
+    path = Path(minigame_node_path).resolve()  # ✅ Resolve to ensure proper targeting
     main_file_path = path / "main.py"
 
     if not path.exists():

@@ -14,7 +14,7 @@ def add_empty_subtaskmap_file(minigame_node_path):
     Returns:
         dict: Structured response with status, path, and trace metadata.
     """
-    path = Path(minigame_node_path)
+    path = Path(minigame_node_path).resolve()  # ✅ Absolute path resolution
     subtaskmap_path = path / "subtaskmap.md"
 
     if not path.exists():

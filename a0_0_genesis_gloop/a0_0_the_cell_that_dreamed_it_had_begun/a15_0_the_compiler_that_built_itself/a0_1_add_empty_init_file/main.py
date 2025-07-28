@@ -18,12 +18,12 @@ def add_empty_init_file(target_node_path):
     Adds an empty __init__.py file to a minigame node folder.
 
     Args:
-        target_node_path (str or Path): Path to the minigame node (can be nested).
+        target_node_path (str or Path): Path to the minigame node (can be nested or absolute).
 
     Returns:
         dict: Structured trace metadata with status and path.
     """
-    path = Path(target_node_path)
+    path = Path(target_node_path).resolve()  # ✅ Resolved for safe existence check
     init_path = path / "__init__.py"
 
     if not path.exists():

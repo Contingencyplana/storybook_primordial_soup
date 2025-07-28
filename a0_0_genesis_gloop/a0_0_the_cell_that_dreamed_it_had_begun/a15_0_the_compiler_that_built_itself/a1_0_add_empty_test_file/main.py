@@ -14,7 +14,7 @@ def add_empty_test_file(target_node):
     Returns:
         dict: Status dictionary with trace metadata.
     """
-    node_path = Path(target_node)
+    node_path = Path(target_node).resolve()  # ✅ Ensure absolute targeting
     node_path.mkdir(parents=True, exist_ok=True)
 
     test_file = node_path / "test.py"

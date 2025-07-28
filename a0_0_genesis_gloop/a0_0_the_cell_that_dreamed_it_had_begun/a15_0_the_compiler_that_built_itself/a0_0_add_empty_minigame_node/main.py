@@ -9,25 +9,24 @@ Creates an empty minigame node folder, with support for nested subpaths.
 It ensures the target folder does not already exist, creates any required intermediate folders,
 and returns a traceable result for use in higher-order automation.
 
-Input can be a deeply nested relative path like:
+Input can be a deeply nested or absolute path like:
   a99_0_test_create_minigame_node/a0_0_test_minigame_node
 """
 
-import os
 from pathlib import Path
 from datetime import datetime, timezone
 
 def add_empty_minigame_node(target_node_path):
     """
-    Creates an empty minigame node folder at the specified relative path.
+    Creates an empty minigame node folder at the specified path.
 
     Args:
-        target_node_path (str or Path): Nested path to the new node folder.
+        target_node_path (str or Path): Nested or absolute path to the new node folder.
 
     Returns:
         dict: Status and trace metadata.
     """
-    path = Path(target_node_path)
+    path = Path(target_node_path).resolve()  # ✅ Resolve the full path
 
     # Create intermediate folders if needed
     path.parent.mkdir(parents=True, exist_ok=True)
