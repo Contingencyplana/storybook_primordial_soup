@@ -29,7 +29,8 @@ def add_empty_milestones_file(target_folder_path):
             }
         }
 
-    milestones_file.write_text("# 🧱 Milestone Log\n\nThis file tracks progression of minigame logic.\n")
+    content = "# 🧱 Milestone Log\n\nThis file tracks progression of minigame logic.\n"
+    milestones_file.write_text(content, encoding="utf-8")  # ✅ Force UTF-8 encoding
 
     return {
         "status": "success",
