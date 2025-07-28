@@ -15,8 +15,9 @@ def add_empty_test_file(target_node):
         dict: Status dictionary with trace metadata.
     """
     node_path = Path(target_node).resolve()  # ✅ Ensure absolute targeting
-    node_path.mkdir(parents=True, exist_ok=True)
+    print(f"📂 [DEBUG] Absolute target: {node_path}")  # Optional debug log
 
+    node_path.mkdir(parents=True, exist_ok=True)
     test_file = node_path / "test.py"
 
     if test_file.exists():

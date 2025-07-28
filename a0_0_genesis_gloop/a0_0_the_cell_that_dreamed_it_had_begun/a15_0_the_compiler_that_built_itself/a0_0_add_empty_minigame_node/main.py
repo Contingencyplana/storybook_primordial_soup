@@ -5,12 +5,11 @@
 
 📘 Purpose:
 Creates an empty minigame node folder, with support for nested subpaths.
+It now fully resolves the path to ensure it writes to the correct target.
 
-It ensures the target folder does not already exist, creates any required intermediate folders,
-and returns a traceable result for use in higher-order automation.
-
-Input can be a deeply nested or absolute path like:
-  a99_0_test_create_minigame_node/a0_0_test_minigame_node
+✅ Fixes:
+- Uses .resolve() for absolute targeting
+- Emits real-time print debug output for validation
 """
 
 from pathlib import Path
@@ -18,40 +17,35 @@ from datetime import datetime, timezone
 
 def add_empty_minigame_node(target_node_path):
     """
-    Creates an empty minigame node folder at the specified path.
+    Creates an empty minigame node folder at the specified relative or absolute path.
 
     Args:
-        target_node_path (str or Path): Nested or absolute path to the new node folder.
+        target_node_path (str or Path): Nested path to the new node folder.
 
     Returns:
         dict: Status and trace metadata.
     """
-    path = Path(target_node_path).resolve()  # ✅ Resolve the full path
+    path = Path(target_node_path).resolve()
+
+    print(f"📂 Targeting absolute path: {path}")
 
     # Create intermediate folders if needed
-    path.parent.mkdir(parents=True, exist_ok=True)
-
-    # Abort if node already exists
-    if path.exists():
-        return {
-            "status": "skipped",
-            "message": f"Minigame node already exists: {path}",
-            "path": str(path),
-            "trace": {
-                "event": "skip_existing_minigame_node",
-                "timestamp": datetime.now(timezone.utc).isoformat()
-            }
-        }
-
-    # Create node folder
-    path.mkdir()
+    if not path.exists():
+        path.mkdir(parents=True, exist_ok=True)
+        status = "success"
+        message = f"Created minigame node: {path.name}"
+        event = "create_empty_minigame_node"
+    else:
+        status = "skipped"
+        message = f"Minigame node already exists: {path}"
+        event = "skip_existing_minigame_node"
 
     return {
-        "status": "success",
-        "message": f"Created minigame node: {path.name}",
+        "status": status,
+        "message": message,
         "path": str(path),
         "trace": {
-            "event": "create_empty_minigame_node",
+            "event": event,
             "minigame": path.name,
             "path": str(path),
             "timestamp": datetime.now(timezone.utc).isoformat()

@@ -17,6 +17,8 @@ def add_empty_subtaskmap_file(minigame_node_path):
     path = Path(minigame_node_path).resolve()  # ✅ Absolute path resolution
     subtaskmap_path = path / "subtaskmap.md"
 
+    print(f"📂 [DEBUG] Absolute target: {path}")  # ✅ Optional debug line
+
     if not path.exists():
         return {
             "status": "error",
@@ -41,7 +43,10 @@ def add_empty_subtaskmap_file(minigame_node_path):
 
     print(f"🛠️ Creating subtaskmap.md at: {subtaskmap_path}")
 
-    subtaskmap_path.write_text("<!-- Subtaskmap placeholder for recursive node documentation -->\n", encoding="utf-8")
+    subtaskmap_path.write_text(
+        "<!-- Subtaskmap placeholder for recursive node documentation -->\n",
+        encoding="utf-8"
+    )
 
     return {
         "status": "success",

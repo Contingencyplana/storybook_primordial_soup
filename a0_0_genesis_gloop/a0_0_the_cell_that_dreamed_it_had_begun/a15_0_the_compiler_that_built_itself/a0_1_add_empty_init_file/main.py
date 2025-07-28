@@ -5,7 +5,7 @@
 
 📘 Purpose:
 Adds an empty __init__.py file to the specified minigame node folder.
-Supports nested path input and verifies folder existence before creation.
+Supports nested or absolute path input and verifies folder existence before creation.
 
 This ensures all nodes are importable as Python packages.
 """
@@ -23,13 +23,13 @@ def add_empty_init_file(target_node_path):
     Returns:
         dict: Structured trace metadata with status and path.
     """
-    path = Path(target_node_path).resolve()  # ✅ Resolved for safe existence check
+    path = Path(target_node_path).resolve()  # ✅ Ensures absolute path
     init_path = path / "__init__.py"
 
     if not path.exists():
         return {
             "status": "error",
-            "message": "Target folder does not exist.",
+            "message": f"Target folder does not exist: {path}",
             "path": str(path),
             "trace": {
                 "event": "missing_minigame_node_folder",
@@ -40,7 +40,7 @@ def add_empty_init_file(target_node_path):
     if init_path.exists():
         return {
             "status": "skipped",
-            "message": "__init__.py already exists.",
+            "message": f"__init__.py already exists at: {init_path}",
             "path": str(init_path),
             "trace": {
                 "event": "skip_existing_init",
@@ -53,7 +53,7 @@ def add_empty_init_file(target_node_path):
 
     return {
         "status": "success",
-        "message": "Created __init__.py",
+        "message": f"Created __init__.py at: {init_path}",
         "path": str(init_path),
         "trace": {
             "event": "create_init_file",

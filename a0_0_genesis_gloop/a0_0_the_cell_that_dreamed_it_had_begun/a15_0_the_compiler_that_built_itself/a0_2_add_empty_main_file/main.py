@@ -25,6 +25,8 @@ def add_empty_main_file(minigame_node_path):
     path = Path(minigame_node_path).resolve()  # ✅ Resolve to ensure proper targeting
     main_file_path = path / "main.py"
 
+    print(f"📂 [DEBUG] Absolute target: {path}")  # ✅ Optional debug line
+
     if not path.exists():
         return {
             "status": "error",
@@ -48,8 +50,10 @@ def add_empty_main_file(minigame_node_path):
         }
 
     print(f"🛠️ Creating main.py at: {main_file_path}")
-    with open(main_file_path, "w", encoding="utf-8") as f:
-        f.write("# Main execution file for minigame node\n")
+    main_file_path.write_text(
+        "# Main execution file for minigame node\n",
+        encoding="utf-8"
+    )
 
     return {
         "status": "success",
