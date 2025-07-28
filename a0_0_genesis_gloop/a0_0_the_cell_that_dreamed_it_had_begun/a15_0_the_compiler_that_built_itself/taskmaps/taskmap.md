@@ -35,27 +35,27 @@ This taskmap defines the meta-recursive scaffolding and builder automation for t
 | **Node** | **Purpose** |
 |----------|------------|
 | `a0_0` | Add empty minigame node |
-| `a0_1` | Add `__init__.py` for node |
-| `a0_2` | Add `main.py` for node |
-| `a0_3` | Add `subtaskmap.md` for node |
-| `a1_0` | Add `test.py` for node |
+| `a0_1` | Add `__init__.py` for minigame node |
+| `a0_2` | Add `main.py` for minigame node |
+| `a0_3` | Add `subtaskmap.md` for minigame node |
+| `a1_0` | Add `test.py` for minigame node |
 | `a1_1` | Link nodal meta-recursion controls |
-| `a1_2` | Placeholder for future nodal builder |
-| `a1_3` | Placeholder for future nodal builder |
+| `a1_2` | Minigame node batch creation |
+| `a1_3` | Placeholder |
 | `a2_0` | Add empty `taskmaps/` folder |
 | `a2_1` | Add `__init__.py` for taskmaps |
-| `a2_2` | Add `milestones.md` |
-| `a2_3` | Add `README.md` for taskmaps |
-| `a3_0` | Add `stanzamap.md` |
-| `a3_1` | Link taskmaps meta-recursion controls |
-| `a3_2` | Placeholder for future taskmaps builder |
-| `a3_3` | Placeholder for future taskmaps builder |
+| `a2_2` | Add `milestones.md` to taskmaps |
+| `a2_3` | Add `README.md` to taskmaps |
+| `a3_0` | Add `stanzamap.md` to taskmaps |
+| `a3_1` | Add `taskmap.md` to taskmaps |
+| `a3_2` | Link taskmaps meta-recursion controls |
+| `a3_3` | Taskmaps batch creation |
 | `a4_0` | Add minigame folder |
-| `a4_1` | Add `__init__.py` for minigame |
+| `a4_1` | Add `__init__.py` to minigame |
 | `a4_2` | Link minigame meta-recursion controls |
-| `a4_3` | Prepare recursive crawlers |
-| `a5_0` | Add anomaly trap placeholder |
-| `a5_1` | Placeholder |
+| `a4_3` | Minigame twinbatch creation |
+| `a5_0` | Prepare recursive crawlers |
+| `a5_1` | Add anomaly trap placeholder |
 | `a5_2` | Placeholder |
 | `a5_3` | Placeholder |
 | `a6_0` | Prepare for cross-system growth |
