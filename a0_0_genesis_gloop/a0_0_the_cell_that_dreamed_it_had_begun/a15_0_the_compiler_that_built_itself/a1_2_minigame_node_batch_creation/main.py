@@ -63,7 +63,12 @@ def main():
         sys.exit(1)
 
     target_name = sys.argv[1]
-    target_path = STANZA_FOLDER / Path(target_name)
+    target_path = (STANZA_FOLDER / Path(target_name)).resolve()
+
+    # ✅ Prevent recursion anomalies (e.g., stanza path duplication)
+    if STANZA_FOLDER not in target_path.parents:
+        print(f"❌ Target path is outside the stanza: {STANZA_FOLDER}")
+        sys.exit(1)
 
     if not validate_name(target_name):
         print("❌ Invalid folder name. Must match: a<digit+>_<digit+>_<snake_case>")
