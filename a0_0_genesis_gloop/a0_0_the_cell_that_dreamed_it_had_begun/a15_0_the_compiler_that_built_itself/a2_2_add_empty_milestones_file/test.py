@@ -34,13 +34,17 @@ class TestAddEmptyMilestonesFile(unittest.TestCase):
         self.assertEqual(result["trace"]["event"], "skip_existing_milestones_file")
 
 if __name__ == "__main__":
+    # ✅ Declare test path globally for both reset and cleanup logic
+    test_path = Path(
+        r"C:\Users\Admin\storybook_primordial_soup\a0_0_genesis_gloop"
+        r"\a0_0_the_cell_that_dreamed_it_had_begun\a99_1_test_create_taskmaps\taskmaps\milestones.md"
+    )
+
     if "--reset" in sys.argv:
         sys.argv.remove("--reset")
-        if Path.exists(Path(__file__).parent):
-            f = Path(__file__).parent / "taskmaps" / "milestones.md"
-            if f.exists():
-                f.unlink()
-                print("🔄 Reset flag detected. milestones.md removed before testing.")
+        if test_path.exists():
+            test_path.unlink()
+            print("🔄 Reset flag detected. milestones.md removed before testing.")
 
     unittest.main(exit=False)
 
@@ -50,8 +54,8 @@ if __name__ == "__main__":
         ).strip().upper()
 
         if choice == "R":
-            if f.exists():
-                f.unlink()
+            if test_path.exists():
+                test_path.unlink()
                 print("🗑️ milestones.md removed.")
             else:
                 print("⚠️ milestones.md not found.")
