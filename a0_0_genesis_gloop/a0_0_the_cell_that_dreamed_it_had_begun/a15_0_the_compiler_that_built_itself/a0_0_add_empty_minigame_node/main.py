@@ -28,7 +28,7 @@ def add_empty_minigame_node(target_node_path):
     """
     path = Path(target_node_path).resolve()
 
-    print(f"📂 Targeting absolute path: {path}")
+    print(f"[DEBUG] Targeting absolute path: {path}")
 
     # Create intermediate folders if needed
     if not path.exists():
