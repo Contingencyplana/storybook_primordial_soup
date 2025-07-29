@@ -48,7 +48,7 @@ def add_empty_init_file(target_node_path):
             }
         }
 
-    print(f"🛠️ Creating __init__.py at: {init_path}")
+    print(f"[DEBUG] Creating __init__.py at: {init_path}")
     init_path.write_text("# Package initializer for minigame node\n", encoding="utf-8")
 
     return {

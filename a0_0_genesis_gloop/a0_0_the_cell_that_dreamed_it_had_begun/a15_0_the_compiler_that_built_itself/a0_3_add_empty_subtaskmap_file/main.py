@@ -41,7 +41,7 @@ def add_empty_subtaskmap_file(minigame_node_path):
             }
         }
 
-    print(f"🛠️ Creating subtaskmap.md at: {subtaskmap_path}")
+    print(f"[INFO] Creating subtaskmap.md at: {subtaskmap_path}")
 
     subtaskmap_path.write_text(
         "<!-- Subtaskmap placeholder for recursive node documentation -->\n",

@@ -49,7 +49,7 @@ def add_empty_main_file(minigame_node_path):
             }
         }
 
-    print(f"🛠️ Creating main.py at: {main_file_path}")
+    print(f"[INFO] Creating main.py at: {main_file_path}")
     main_file_path.write_text(
         "# Main execution file for minigame node\n",
         encoding="utf-8"

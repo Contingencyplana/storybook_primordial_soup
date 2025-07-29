@@ -31,7 +31,7 @@ def add_empty_test_file(target_node):
             }
         }
 
-    print(f"🛠️ Creating test.py at: {test_file}")
+    print(f"[INFO] Creating test.py at: {test_file}")
 
     test_file.write_text(
         "# Placeholder test file for minigame node\n"
