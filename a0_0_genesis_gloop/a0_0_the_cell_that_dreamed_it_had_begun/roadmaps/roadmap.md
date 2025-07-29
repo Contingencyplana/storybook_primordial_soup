@@ -23,7 +23,7 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 | `a12_0_the_answer_that_lacked_a_question/`           | Premature resolution                       | Tier 2                     | ✅ COMPLETE      |
 | `a12_1_the_trace_that_omitted_itself/`               | Phantom trace manipulation                 | Tier 2                     | ✅ COMPLETE      |
 | `a12_2_the_loop_that_convinced_the_check/`           | Deceptive iteration                        | Tier 2                     | ✅ COMPLETE      |
-| `a12_3_the_fallback_that_disproved_the_failstate/`   | Recursive inversion failstate              | Tier 2                     | ✅ COMPLETE      |
+| `a12_3_the_fallback_that_disproved_the_failsafe/`    | Recursive inversion failstate              | Tier 2                     | ✅ COMPLETE      |
 | `a13_0_the_signal_that_wanted_to_be_heard/`          | Recursive broadcast initiation             | Tier 2                     | ✅ COMPLETE      |
 | `a13_1_the_prompt_that_waited_for_response/`         | Latent prompt handling                     | Tier 2                     | ✅ COMPLETE      |
 | `a13_2_the_answer_that_forgot_the_question/`         | Incomplete response recursion              | Tier 2                     | ✅ COMPLETE      |
@@ -46,8 +46,8 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 | `a17_3_the_placeholder_that_promised_a_future_task/` | Future recursion loop entry                | Tier 4 (Placeholder)       | ☐ RESERVED       |
 | `a18_0_` through `a19_4_/`                           | Placeholder space for staging Phase 2–3    | Tier 4 (Staging)           | ☐ RESERVED       |
 | `a20_0_the_pressure_that_warned_the_core/`           | Recursive load monitoring and relief       | Tier 4 (high_command)      | ☐ PLANNED        |
-| `a20_1_the_diagnostics_that_read_the_trace/`         | Writes trace_pressure.md and context maps  | Tier 4 (high_command)      | ☐ PLANNED        |
-| `a20_2_the_ritual_that_freed_the_memory/`            | Safe unload protocol for AI memory zones   | Tier 4 (high_command)      | ☐ PLANNED        |
+| `a20_1_the_ritual_that_freed_the_memory/`            | Safe unload protocol for AI memory zones   | Tier 4 (high_command)      | ☐ PLANNED        |
+| `a20_2_the_diagnostics_that_read_the_trace/`         | Writes trace_pressure.md and context maps  | Tier 4 (high_command)      | ☐ PLANNED        |
 | `a20_3_the_placeholder_that_promised_to_breathe/`    | Reserved for future memory rituals         | Tier 4 (high_command)      | ☐ RESERVED       |
 | `a21_0_the_commander_that_guided_the_compiler/`      | Oversees compiler stanza integrity         | Tier 4 (high_command)      | ☐ PLANNED        |
 | `a21_1_the_auditor_that_checked_the_output/`         | Verifies node outputs and documentation    | Tier 4 (high_command)      | ☐ PLANNED        |
