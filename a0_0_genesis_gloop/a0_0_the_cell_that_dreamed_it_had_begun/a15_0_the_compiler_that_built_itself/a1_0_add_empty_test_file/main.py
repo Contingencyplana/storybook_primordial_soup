@@ -3,19 +3,21 @@
 from pathlib import Path
 from datetime import datetime, timezone
 
-def add_empty_test_file(target_node):
+def add_empty_test_file(target_node_path):
     """
     Creates an empty test.py file in the given minigame node folder.
     Skips creation if the file already exists. Creates any missing parent folders.
 
     Args:
-        target_node (str or Path): Path to the minigame node (can be nested).
+        target_node_path (str or Path): Path to the minigame node (can be nested).
 
     Returns:
         dict: Status dictionary with trace metadata.
     """
-    node_path = Path(target_node).resolve()  # ✅ Ensure absolute targeting
-    print(f"📂 [DEBUG] Absolute target: {node_path}")  # Optional debug log
+    PROJECT_ROOT = Path(__file__).resolve().parents[5]
+    node_path = (PROJECT_ROOT / target_node_path).resolve()
+
+    print(f"[INFO] Absolute target: {node_path}")
 
     node_path.mkdir(parents=True, exist_ok=True)
     test_file = node_path / "test.py"

@@ -26,9 +26,10 @@ def add_empty_minigame_node(target_node_path):
     Returns:
         dict: Status and trace metadata.
     """
-    path = Path(target_node_path).resolve()
-
-    print(f"[DEBUG] Targeting absolute path: {path}")
+    PROJECT_ROOT = Path(__file__).resolve().parents[5]  # Adjust this level if needed
+    path = (PROJECT_ROOT / target_node_path).resolve()
+    
+    print(f"[INFO] Targeting absolute path: {path}")
 
     # Create intermediate folders if needed
     if not path.exists():
@@ -60,4 +61,3 @@ if __name__ == "__main__":
     else:
         result = add_empty_minigame_node(sys.argv[1])
         print(result)
-

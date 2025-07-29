@@ -23,7 +23,8 @@ def add_empty_init_file(target_node_path):
     Returns:
         dict: Structured trace metadata with status and path.
     """
-    path = Path(target_node_path).resolve()
+    PROJECT_ROOT = Path(__file__).resolve().parents[5]  # Adjust this level if needed
+    path = (PROJECT_ROOT / target_node_path).resolve()
     init_path = path / "__init__.py"
 
     if not path.exists():
@@ -48,7 +49,7 @@ def add_empty_init_file(target_node_path):
             }
         }
 
-    print(f"[DEBUG] Creating __init__.py at: {init_path}")
+    print(f"[INFO] Creating __init__.py at: {init_path}")
     init_path.write_text("# Package initializer for minigame node\n", encoding="utf-8")
 
     return {

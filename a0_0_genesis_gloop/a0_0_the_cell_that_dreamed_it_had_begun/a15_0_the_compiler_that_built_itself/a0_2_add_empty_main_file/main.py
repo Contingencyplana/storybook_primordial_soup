@@ -22,7 +22,8 @@ def add_empty_main_file(minigame_node_path):
     Returns:
         dict: Structured response with status, message, path, and trace metadata.
     """
-    path = Path(minigame_node_path).resolve()  # ✅ Resolve to ensure proper targeting
+    PROJECT_ROOT = Path(__file__).resolve().parents[5]  # Adjust this level if needed
+    path = (PROJECT_ROOT / minigame_node_path).resolve()
     main_file_path = path / "main.py"
 
     print(f"📂 [DEBUG] Absolute target: {path}")  # ✅ Optional debug line

@@ -3,21 +3,22 @@
 from pathlib import Path
 from datetime import datetime, timezone
 
-def add_empty_subtaskmap_file(minigame_node_path):
+def add_empty_subtaskmap_file(target_node_path):
     """
     Creates an empty subtaskmap.md file in the given minigame node folder.
     Skips creation if the file already exists. Returns an error if the folder does not exist.
 
     Args:
-        minigame_node_path (str or Path): The path to the target minigame node folder.
+        target_node_path (str or Path): The path to the target minigame node folder.
 
     Returns:
         dict: Structured response with status, path, and trace metadata.
     """
-    path = Path(minigame_node_path).resolve()  # ✅ Absolute path resolution
+    PROJECT_ROOT = Path(__file__).resolve().parents[5]
+    path = (PROJECT_ROOT / target_node_path).resolve()
     subtaskmap_path = path / "subtaskmap.md"
 
-    print(f"📂 [DEBUG] Absolute target: {path}")  # ✅ Optional debug line
+    print(f"[INFO] Absolute target: {path}")
 
     if not path.exists():
         return {
