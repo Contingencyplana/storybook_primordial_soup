@@ -10,28 +10,49 @@ It documents which minigames it contains, what tasks they are mapped to, and wha
 
 ## 🧩 Contained Minigames and Their Task Bindings
 
-| Minigame Folder                                    | Linked Task                               | Automation Tier           | Status           |
-|----------------------------------------------------|-------------------------------------------|---------------------------|------------------|
-| `a0_0_the_test_that_called_itself/`                | Very Basic Test Functionality             | Tier 1 (Manual)           | ✅ COMPLETE      |
-| `a0_1_mighty_quest_for_the_bug_kingdom/`           | Patch logic detection & anomaly surfacing | Tier 1 (Manual)           | ✅ COMPLETE      |
-| `a0_2_side_quest_of_the_forgotten_loop/`           | Loop recovery & reindexing                | Tier 1 (Manual)           | ✅ COMPLETE      |
-| `a0_3_adventure_of_the_unasked_question/`          | Quest stub generation                     | Tier 2 (Semi-Automated)   | ✅ COMPLETE      |
-| `a11_0_the_log_that_was_written_in_absentia/`      | False memory trace encoding               | Tier 2 (Manual + Feedback)| ✅ COMPLETE      |
-| `a11_1_the_signal_that_misremembered_itself/`      | Signal distortion                         | Tier 2                    | ✅ COMPLETE      |
-| `a11_2_the_path_that_thought_it_knew_you/`         | Identity misalignment                     | Tier 2                    | ✅ COMPLETE      |
-| `a11_3_the_moment_that_thinks_it_recurred_before/` | False recursion loop                      | Tier 2                    | ✅ COMPLETE      |
-| `a12_0_the_answer_that_lacked_a_question/`         | Premature resolution                      | Tier 2                    | ✅ COMPLETE      |
-| `a12_1_the_trace_that_omitted_itself/`             | Phantom trace manipulation                | Tier 2                    | ✅ COMPLETE      |
-| `a12_2_the_loop_that_convinced_the_check/`         | Deceptive iteration                       | Tier 2                    | ✅ COMPLETE      |
-| `a12_3_the_fallback_that_disproved_the_failstate/` | Recursive inversion failstate             | Tier 2                    | ✅ COMPLETE      |
-| `a13_0_the_signal_that_wanted_to_be_heard/`        | Recursive broadcast initiation            | Tier 2                    | ✅ COMPLETE      |
-| `a13_1_the_prompt_that_waited_for_response/`       | Latent prompt handling                    | Tier 2                    | ✅ COMPLETE      |
-| `a13_2_the_answer_that_forgot_the_question/`       | Incomplete response recursion             | Tier 2                    | ✅ COMPLETE      |
-| `a13_3_the_recursion_that_tested_the_system/`      | Recursive system integrity check          | Tier 2                    | ✅ COMPLETE      |
-| `a14_0_the_command_that_waited_to_be_understood/`  | Dormant command recursion                  | Tier 2                    | ✅ COMPLETE      |
-| `a14_1_the_response_that_doubted_itself/`          | Recursive hesitation and verification      | Tier 2                    | ✅ COMPLETE      |
-| `a14_2_the_loop_that_refused_to_be_prompted/`      | Passive loop recursion                     | Tier 2                    | ✅ COMPLETE      |
-| `a14_3_the_trace_that_asked_to_be_followed/`       | Co-recursive path discovery                | Tier 2                    | ✅ COMPLETE      |
+| Minigame Folder                                      | Linked Task                                | Automation Tier            | Status           |
+|------------------------------------------------------|--------------------------------------------|----------------------------|------------------|
+| `a0_0_the_test_that_called_itself/`                  | Very Basic Test Functionality              | Tier 1 (Manual)            | ✅ COMPLETE      |
+| `a0_1_mighty_quest_for_the_bug_kingdom/`             | Patch logic detection & anomaly surfacing  | Tier 1 (Manual)            | ✅ COMPLETE      |
+| `a0_2_side_quest_of_the_forgotten_loop/`             | Loop recovery & reindexing                 | Tier 1 (Manual)            | ✅ COMPLETE      |
+| `a0_3_adventure_of_the_unasked_question/`            | Quest stub generation                      | Tier 2 (Semi-Automated)    | ✅ COMPLETE      |
+| `a11_0_the_log_that_was_written_in_absentia/`        | False memory trace encoding                | Tier 2 (Manual + Feedback) | ✅ COMPLETE      |
+| `a11_1_the_signal_that_misremembered_itself/`        | Signal distortion                          | Tier 2                     | ✅ COMPLETE      |
+| `a11_2_the_path_that_thought_it_knew_you/`           | Identity misalignment                      | Tier 2                     | ✅ COMPLETE      |
+| `a11_3_the_moment_that_thinks_it_recurred_before/`   | False recursion loop                       | Tier 2                     | ✅ COMPLETE      |
+| `a12_0_the_answer_that_lacked_a_question/`           | Premature resolution                       | Tier 2                     | ✅ COMPLETE      |
+| `a12_1_the_trace_that_omitted_itself/`               | Phantom trace manipulation                 | Tier 2                     | ✅ COMPLETE      |
+| `a12_2_the_loop_that_convinced_the_check/`           | Deceptive iteration                        | Tier 2                     | ✅ COMPLETE      |
+| `a12_3_the_fallback_that_disproved_the_failstate/`   | Recursive inversion failstate              | Tier 2                     | ✅ COMPLETE      |
+| `a13_0_the_signal_that_wanted_to_be_heard/`          | Recursive broadcast initiation             | Tier 2                     | ✅ COMPLETE      |
+| `a13_1_the_prompt_that_waited_for_response/`         | Latent prompt handling                     | Tier 2                     | ✅ COMPLETE      |
+| `a13_2_the_answer_that_forgot_the_question/`         | Incomplete response recursion              | Tier 2                     | ✅ COMPLETE      |
+| `a13_3_the_recursion_that_tested_the_system/`        | Recursive system integrity check           | Tier 2                     | ✅ COMPLETE      |
+| `a14_0_the_command_that_waited_to_be_understood/`    | Dormant command recursion                  | Tier 2                     | ✅ COMPLETE      |
+| `a14_1_the_response_that_doubted_itself/`            | Recursive hesitation and verification      | Tier 2                     | ✅ COMPLETE      |
+| `a14_2_the_loop_that_refused_to_be_prompted/`        | Passive loop recursion                     | Tier 2                     | ✅ COMPLETE      |
+| `a14_3_the_trace_that_asked_to_be_followed/`         | Co-recursive path discovery                | Tier 2                     | ✅ COMPLETE      |
+| `a15_0_the_compiler_that_built_itself/`              | Meta-recursive node scaffolding (Phase 2)  | Tier 3 (Auto + Batch)      | 🛠️ IN PROGRESS   |
+| `a15_1_the_contract_that_enforced_shape/`            | Schema validation and contract enforcement | Tier 3 (Planned)           | ☐ PLANNED        |
+| `a15_2_the_index_that_mapped_recursion/`             | Automated mapping of recursive structure   | Tier 3 (Planned)           | ☐ PLANNED        |
+| `a15_3_the_readme_that_named_the_self/`              | Recursive bootstrapping of documentation   | Tier 3 (Planned)           | ☐ PLANNED        |
+| `a16_0_the_reflection_that_watched_it_grow/`         | Recursive growth crawler (Phase 3+)        | Tier 4 (Future Scope)      | ☐ RESERVED       |
+| `a16_1_the_state_that_understood_itself/`            | Introspective diagnostic logic             | Tier 4 (Future Scope)      | ☐ RESERVED       |
+| `a16_2_the_snapshot_that_could_be_reentered/`        | Rollback and reentry management            | Tier 4 (Future Scope)      | ☐ RESERVED       |
+| `a16_3_the_loop_that_contained_its_own_reboot/`      | Safe reentry fallback logic                | Tier 4 (Future Scope)      | ☐ RESERVED       |
+| `a17_0_the_dashboard_that_reflected_recursion/`      | Recursive dashboard system                 | Tier 4 (Placeholder)       | ☐ RESERVED       |
+| `a17_1_the_trigger_that_invited_anomaly/`            | Anomaly simulation triggers                | Tier 4 (Placeholder)       | ☐ RESERVED       |
+| `a17_2_the_rollback_that_tested_itself/`             | Recursive integrity test loops             | Tier 4 (Placeholder)       | ☐ RESERVED       |
+| `a17_3_the_placeholder_that_promised_a_future_task/` | Future recursion loop entry                | Tier 4 (Placeholder)       | ☐ RESERVED       |
+| `a18_0_` through `a19_4_/`                           | Placeholder space for staging Phase 2–3    | Tier 4 (Staging)           | ☐ RESERVED       |
+| `a20_0_the_pressure_that_warned_the_core/`           | Recursive load monitoring and relief       | Tier 4 (high_command)      | ☐ PLANNED        |
+| `a20_1_the_diagnostics_that_read_the_trace/`         | Writes trace_pressure.md and context maps  | Tier 4 (high_command)      | ☐ PLANNED        |
+| `a20_2_the_ritual_that_freed_the_memory/`            | Safe unload protocol for AI memory zones   | Tier 4 (high_command)      | ☐ PLANNED        |
+| `a20_3_the_placeholder_that_promised_to_breathe/`    | Reserved for future memory rituals         | Tier 4 (high_command)      | ☐ RESERVED       |
+| `a21_0_the_commander_that_guided_the_compiler/`      | Oversees compiler stanza integrity         | Tier 4 (high_command)      | ☐ PLANNED        |
+| `a21_1_the_auditor_that_checked_the_output/`         | Verifies node outputs and documentation    | Tier 4 (high_command)      | ☐ PLANNED        |
+| `a21_2_the_verifier_that_replayed_the_scripts/`      | Batch test of generated scripts            | Tier 4 (high_command)      | ☐ PLANNED        |
+| `a21_3_the_placeholder_that_promised_correction/`    | Reserved for future orchestration logic    | Tier 4 (high_command)      | ☐ RESERVED       |
 
 ---
 
