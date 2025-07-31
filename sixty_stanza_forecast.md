@@ -43,7 +43,7 @@ Each arc contains its own mirrored escalation hooks, AI activation triggers, and
 | `a14_0_` – `a24_4_`| Additional Primary Function (Phase 2+)       | 🔜 Planned |
 | `a60_0_` – `a119_4_`| Secondary Function (Division, Inheritance)   | 🔜 Planned |
 
-> Future arcs may adapt as recursion demands, but ~50 Layer 3 stanzas is the current baseline.
+> Future arcs may adapt as recursion demands, but ~60 Layer 3 stanzas is the current baseline.
 
 ---
 
