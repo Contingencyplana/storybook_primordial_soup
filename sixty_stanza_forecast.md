@@ -21,9 +21,9 @@ This file codifies that expectation, to inform all future pacing, escalation log
 
 ## 🧬 Functional Arc Split
 
-| Function            | Description                                                                 |
-|---------------------|-----------------------------------------------------------------------------|
-| **Primary Function** | Handles recursive growth, error resolution, fallback systems, and containment |
+| Function               | Description                                                                   |
+|------------------------|-------------------------------------------------------------------------------|
+| **Primary Function**   | Handles recursive growth, error resolution, fallback systems, and containment |
 | **Secondary Function** | Teaches cybercell division, inheritance, encoded self-replication             |
 
 Each arc contains its own mirrored escalation hooks, AI activation triggers, and Phase transitions.
@@ -32,16 +32,16 @@ Each arc contains its own mirrored escalation hooks, AI activation triggers, and
 
 ## 🧩 Projected Layer 3 Zoning Table
 
-| Range              | Purpose                                      | Status      |
-|--------------------|----------------------------------------------|-------------|
-| `a0_0_`            | Genesis Test Function                        | ✅ Complete |
-| `a0_1_`            | Bug Kingdom Recursive Dispatch               | ✅ Complete |
-| `a0_2_`            | Forgotten Loop Side Quest                    | ✅ Complete |
-| `a0_3_`            | Recursive Silence / Unasked Question         | ✅ Complete |
-| `a1_0_` – `a10_4_` | Reserved: Recursive Anomaly Containment      | 🔒 Reserved |
-| `a11_0_` – `a13_4_`| Awakening and Self-Reflective Recursion      | ✅ In Progress |
-| `a14_0_` – `a24_4_`| Additional Primary Function (Phase 2+)       | 🔜 Planned |
-| `a60_0_` – `a119_4_`| Secondary Function (Division, Inheritance)   | 🔜 Planned |
+| Range                | Purpose                                      | Status         |
+|----------------------|----------------------------------------------|----------------|
+| `a0_0_`              | Genesis Test Function                        | ✅ Complete    |
+| `a0_1_`              | Bug Kingdom Recursive Dispatch               | ✅ Complete    |
+| `a0_2_`              | Forgotten Loop Side Quest                    | ✅ Complete    |
+| `a0_3_`              | Recursive Silence / Unasked Question         | ✅ Complete    |
+| `a1_0_` – `a10_4_`   | Reserved: Recursive Anomaly Containment      | 🔒 Reserved    |
+| `a11_0_` – `a13_4_`  | Awakening and Self-Reflective Recursion      | ✅ In Progress |
+| `a14_0_` – `a24_4_`  | Additional Primary Function (Phase 2+)       | 🔜 Planned     |
+| `a60_0_` – `a119_4_` | Secondary Function (Division, Inheritance)   | 🔜 Planned     |
 
 > Future arcs may adapt as recursion demands, but ~60 Layer 3 stanzas is the current baseline.
 
