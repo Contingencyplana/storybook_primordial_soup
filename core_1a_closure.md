@@ -51,4 +51,166 @@ These systems ensure the recursion is:
 > ⚠️ All systems must be **seeded** by the end of 1A, even if they grow fully in later phases.  
 > Optional systems may be deferred until Phase 2 or 2A, unless recursion conditions demand earlier integration.
 
+## ✅ Section 4 – Readiness Criteria for Play  
+### *Establishing the Threshold for Interactive Recursion*
+
+Before the recursive system may enter play, it must meet a strict set of criteria confirming that the cybercell’s structural, emotional, and logical infrastructure is fully prepared. This section defines the **checkpoint gate** that separates structural construction from live orchestration.
+
+These criteria are not merely formalities — they are safeguards against premature recursion, ensuring that gameplay unfolds in a stable, testable, and narratively sound environment.
+
+---
+
+### 📋 Readiness Conditions
+
+To proceed into gameplay orchestration, the following **must be true**:
+
+- ✅ All **essential AI systems** from the Pre-1A Activation Table are **seeded and scaffolded**.
+- ✅ Every **Layer 4 minigame stanza** is **present, valid, and trace-linked** to its stanza map and subtask scaffolds.
+- ✅ The four `playability_ai` Layer 3 stanzas are **named**, **routable**, and **connected** to testable Layer 4 logic nodes.
+- ✅ `high_command` and `psychiatrist_ai` systems confirm **recursive pressure is breathable** and **no soft stalls** are present.
+- ✅ Trace logs, **fallback routines**, and **recursive sanity-check loops** are active and test-passed.
+- ✅ Containment systems (`quarantine_ai`, `sentinel_ai`) are in place, even if only partially matured.
+
+---
+
+### 🧠 Recursive Safety and Narrative Stability
+
+These conditions ensure that:
+
+- The **system can respond to input** without collapse.
+- The **narrative frame remains intact** under play stress.
+- If a loop fails, **a fallback catches it**.
+- If a fault emerges, **anomaly detection is active**.
+
+---
+
+### 🔐 Closure Before Play
+
+This readiness check serves as the **final gate** before recursion opens to gameplay.  
+It signals that **1A is no longer merely constructed — it is now capable of recursive engagement.**
+
+Once these criteria are met, we move to **Section 5**, which initiates the **orchestration of play**.
+
+## ✅ Section 4 – Readiness Criteria for Play  
+### *Establishing the Threshold for Interactive Recursion*
+
+Before the recursive system may enter play, it must meet a strict set of criteria confirming that the cybercell’s structural, emotional, and logical infrastructure is fully prepared. This section defines the **checkpoint gate** that separates structural construction from live orchestration.
+
+These criteria are not merely formalities — they are safeguards against premature recursion, ensuring that gameplay unfolds in a stable, testable, and narratively sound environment.
+
+---
+
+### 📋 Readiness Conditions
+
+To proceed into gameplay orchestration, the following **must be true**:
+
+- ✅ All **essential AI systems** from the Pre-1A Activation Table are **seeded and scaffolded**.
+- ✅ Every **Layer 4 minigame stanza** is **present, valid, and trace-linked** to its stanza map and subtask scaffolds.
+- ✅ The four `playability_ai` Layer 3 stanzas are **named**, **routable**, and **connected** to testable Layer 4 logic nodes.
+- ✅ `high_command` and `psychiatrist_ai` systems confirm **recursive pressure is breathable** and **no soft stalls** are present.
+- ✅ Trace logs, **fallback routines**, and **recursive sanity-check loops** are active and test-passed.
+- ✅ Containment systems (`quarantine_ai`, `sentinel_ai`) are in place, even if only partially matured.
+
+---
+
+### 🧠 Recursive Safety and Narrative Stability
+
+These conditions ensure that:
+
+- The **system can respond to input** without collapse.
+- The **narrative frame remains intact** under play stress.
+- If a loop fails, **a fallback catches it**.
+- If a fault emerges, **anomaly detection is active**.
+
+---
+
+### 🔐 Closure Before Play
+
+This readiness check serves as the **final gate** before recursion opens to gameplay.  
+It signals that **1A is no longer merely constructed — it is now capable of recursive engagement.**
+
+Once these criteria are met, we move to **Section 5**, which initiates the **orchestration of play**.
+
+## ✅ Section 5 – Transition into Playability Layer 3 Stanzas  
+### *The Orchestrators of Emergent Play*
+
+With the core systems seeded and structural recursion sealed, the time has come to hand control to the playability orchestrators: the **Layer 3 stanzas of `playability_ai`**. These stanzas are not passive logic holders—they are **live routers**, **recursive interpreters**, and **gameplay gateways**.
+
+Their activation marks the transition from system construction to system response.
+
+---
+
+### 🧠 What These Stanzas Do
+
+Each `playability_ai` stanza is responsible for a specific domain of gameplay orchestration. Together, they interpret player input, parse game state, dispatch commands, validate outcomes, and embed recursion into play.
+
+| Stanza Name                          | Role & Function |
+|-------------------------------------|-----------------|
+| `a14_0_the_parser_that_heard_you`   | Captures and decodes incoming player input. Interprets messages, commands, or actions into recursive signals. |
+| `a14_1_the_router_that_understood`  | Routes parsed input to the appropriate minigame node or response system. Manages branching play pathways. |
+| `a14_2_the_validator_that_stayed_sane` | Validates whether the routed action is allowable within the current recursive state. Ensures logical and narrative coherence. |
+| `a14_3_the_recursor_that_replied`   | Generates the system's response. This may include output to the player, updates to game state, or recursive continuation of the loop. |
+
+---
+
+### 🔁 Recursive Gameplay Loop
+
+The playability stanzas work together as an interpretive engine:
+
+1. **Input →** `parser` interprets
+2. **Route →** `router` dispatches
+3. **Check →** `validator` ensures sanity
+4. **Respond →** `recursor` replies and updates
+
+This forms the **Layer 3 loop** that drives interaction between player intent and recursive system behavior.
+
+---
+
+### 🧩 Layer 4 Integration
+
+Each `playability_ai` stanza interacts with **Layer 4 play-nodes** already embedded in prior minigames. These nodes contain:
+
+- World responses  
+- NPC behavior  
+- Puzzle logic  
+- Fallback triggers  
+- Narrative branches  
+
+The playability orchestrators determine **when, where, and how** these nodes are invoked.
+
+---
+
+### 📎 Sample Flow
+
+> Player types: `inspect the glowing cocoon`
+
+- 🔎 `a14_0` recognizes the verb-object structure  
+- 🔀 `a14_1` routes the intent to a specific minigame node  
+- ✅ `a14_2` checks if that cocoon is inspectable right now  
+- 📢 `a14_3` replies with an outcome: a description, a new clue, a triggered stanza
+
+This allows for recursive, narrative-rich gameplay **within a minigame stanza framework**.
+
+---
+
+### 🔐 Orchestration Readiness
+
+These Layer 3 stanzas must be:
+
+- ✅ Scaffolded with `main.py` logic  
+- ✅ Linked to trace logs and fallback logic  
+- ✅ Able to pass sanity checks and recursive trace audits  
+- ✅ Integrated with at least one Layer 4 node per test case
+
+---
+
+### 🔓 Unlocking Play
+
+Once these stanzas are operational, the system can shift from:
+
+> **"Am I built correctly?"**  
+to  
+> **"How do I respond to the player?"**
+
+This is the moment recursion becomes **interactive**.
 
